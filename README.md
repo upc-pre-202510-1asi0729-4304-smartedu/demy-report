@@ -248,7 +248,7 @@ En este proyecto, nos ayuda a enfocar el desarrollo en generar valor real para l
 A continuación se presenta el Lean UX Canvas elaborado en la herramienta Miro.
 
 ![Lean UX Canvas](./assets/images/lean-ux-canvas.jpg)
-*Figura 1. Lean UX Canvas del proyecto.*
+**Figura 1.** Lean UX Canvas del proyecto.
 
 **Enlace al Lean UX Canvas:** [Ver en Miro](https://miro.com/app/board/uXjVIGPrhA0=/?share_link_id=155958536023)
 
@@ -362,7 +362,29 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 
 ## 2.3. Needfinding
 
+El Needfinding permite identificar necesidades reales de los usuarios mediante entrevistas y análisis del contexto.
+A partir de esta información, se construyeron artefactos clave que ayudaron a comprender mejor sus objetivos, tareas, emociones y frustraciones.
+
 ### 2.3.1. User Personas
+
+Los User Personas fueron elaborados a partir de los hallazgos de las entrevistas, reflejando perfiles representativos de los segmentos objetivo.
+Cada ficha sintetiza aspectos demográficos, conductuales y emocionales que guían el diseño funcional y visual de la plataforma.
+
+---
+
+#### User Persona: Administrador de academia
+
+![User Persona – Administrator](./assets/images/user-persona-admin.png)
+**Figura 2.** User Persona del segmento *Administrador*.
+
+---
+
+#### User Persona: Docente de academia
+
+![User Persona – Teacher](./assets/images/user-persona-teacher.png)
+**Figura 3.** User Persona del segmento *Docente*.
+
+---
 
 ### 2.3.2. User Task Matrix
 
