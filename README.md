@@ -163,25 +163,19 @@ La plataforma web será utilizada diariamente por el personal de la academia. A 
 #### ¿Cómo lograremos alcanzar la correcta gestión de los procesos administrativos de la academia dentro de la plataforma?
 Mediante el diseño de módulos para cada funcionalidad clave que hemos identificado:
 
-- Módulo de matrícula con formularios guiados.
+- Módulo de matrícula.
 
-- Módulo de pagos con alertas automáticas de vencimientos.
+- Módulo de pagos.
 
-- Módulo de asistencia accesible para los docentes con visualización por grupo.
+- Módulo de asistencia.
 
-- Modulo de inventarios para la gestion de los  bienes de la academia.
-
-- Módulo de horarios que permite programar docentes, salones y materias.
-
-- Modulo de reportes asistencias y pagos.
+- Módulo de horarios.
 
 - Modulo de registro de alumnnos, profesores, secciones, aulas, sedes, etc.
 
 - Dashboard administrativo.
 
 #### How much (Cuánto)
-#### ¿Cuál es la magnitud del problema?
-A pesar de su importancia estratégica en el acceso a la universidad, muchas academias siguen operando sin herramientas adecuadas de gestión, lo que afecta su eficiencia operativa y su capacidad de brindar un servicio educativo de calidad.
 #### ¿Qué porcentaje del personal académico-administrativo se beneficiaría?
 Se estima que el sistema podría beneficiar directamente al 70% del personal de una academia promedio, incluyendo al menos 3 a 5 administrativos y entre 10 y 20 docentes, aunque todo esto dependeria del tamaño de la institución y las sedes que esta maneje.
 
@@ -206,9 +200,7 @@ Se estima que el sistema podría beneficiar directamente al 70% del personal de 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 ## 2.2. Entrevistas
-
 ### 2.2.1. Diseño de entrevistas
-
 ### 2.2.2. Registro de entrevistas
 
 ### 2.2.3. Análisis de entrevistas
