@@ -434,6 +434,14 @@ En primer lugar, el 100% de los entrevistados ocupa el cargo de coordinador admi
 ### 2.3.4. Empathy Mapping
 
 ### 2.3.5. As-Is Scenario Mapping
+Para elaborar el As-Is Scenario Mapping, como grupo es importante empatizar con nuestros futuros usuarios, buscando describir sus experiencias de forma que reflejaran sus pain points identificados en la seccion anterior .
+
+**As-Is Scenario Mapping Coordinador**
+![Image](assets/images/as-is-scenario-mapping-coordinator.png)
+
+**As-Is Scenario Mapping Teacher**
+![Image](assets/images/as-is-scenario-mapping-teacher.png)
+
 
 ## 2.4. Ubiquitous Language
 
