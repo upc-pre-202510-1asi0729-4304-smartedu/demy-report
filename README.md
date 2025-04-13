@@ -135,6 +135,51 @@
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
+#### What?
+#### ¿Cuál es el problema?
+El problema radica en la gestión desorganizada y manual de los procesos administrativos en academias educativas presenciales. Muchas de estas instituciones utilizan hojas de Excel, documentos físicos o plataformas no integradas, lo que genera el aumento de esfuerzo, pérdida de información, errores y una ineficiente administración de los recursos y tiempo.
+#### When (Cuando)
+#### ¿Cuándo sucede el problema?
+Este problema sucede de manera constante en el día a día de las academias, especialmente al inicio de ciclos academicos, al momento de inscribir alumnos, registrar asistencia, gestionar pagos, distribuir horarios y administrar recursos. La falta de automatización y centralización de procesos es una barrera persistente que afecta la eficiencia desde el primer contacto con el alumno hasta el cierre del periodo académico.
+#### Where (Dónde)
+#### ¿A dónde se dirige?
+La solución está dirigida a academias privadas de nivel escolar, preuniversitario o técnico que buscan mejorar su gestión interna mediante tecnología accesible, amigable y diseñada para sus flujos operativos reales.
+#### ¿Dónde surge el problema?
+Surge dentro de las academias presenciales que gestionan sus operaciones de forma tradicional en todo el país. Específicamente, el problema ocurre en las áreas administrativas, académicas y de coordinación de recursos.
+#### Who (Quién)
+#### ¿Quiénes están involucrados? ¿Quién lo utilizará?
+Los principales usuarios serán el personal administrativo (coordinadores) y los docentes (para el control de asistencia y gestión de clases)
+Estos perfiles utilizarán la plataforma para registrar matrículas, gestionar pagos, asignar horarios, monitorear asistencia, controlar inventarios, y obtener reportes para la toma de decisiones.
+#### Why (Por qué)
+#### ¿Cuál es la causa del problema?
+La causa del problema está en la falta de herramientas accesibles y especializadas que se adapten al contexto operativo de academias presenciales. Muchas instituciones no han adoptado soluciones tecnológicas por miedo al cambio, desconocimiento o falta de recursos, lo cual perpetúa el uso de métodos manuales que limitan su eficiencia y capacidad de crecimiento.
+
+### ¿Cuáles son las 2H?
+#### How (Cómo)
+#### ¿Cómo se utilizará el producto?
+La plataforma web será utilizada diariamente por el personal de la academia. A través de una interfaz amigable, podrán registrar matrículas, programar clases, marcar asistencia, ingresar pagos y gestionar inventario. Se podrá acceder desde computadoras o smartphones, permitiendo que los usuarios trabajen desde cualquier lugar con conexión a internet.
+#### ¿Cómo lograremos alcanzar la correcta gestión de los procesos administrativos de la academia dentro de la plataforma?
+Mediante el diseño de módulos para cada funcionalidad clave que hemos identificado:
+
+- Módulo de matrícula con formularios guiados.
+
+- Módulo de pagos con alertas automáticas de vencimientos.
+
+- Módulo de asistencia accesible para los docentes con visualización por grupo.
+
+- Modulo de inventarios para la gestion de los  bienes de la academia.
+
+- Módulo de horarios que permite programar docentes, salones y materias.
+
+- Modulo de reportes asistencias y pagos.
+
+- Modulo de registro de alumnnos, profesores, secciones, aulas, sedes, etc.
+
+- Dashboard administrativo.
+
+#### How much (Cuánto)
+#### ¿Qué porcentaje del personal académico-administrativo se beneficiaría?
+Se estima que el sistema podría beneficiar directamente al 70% del personal de una academia promedio, incluyendo al menos 3 a 5 administrativos y entre 10 y 20 docentes, aunque todo esto dependeria del tamaño de la institución y las sedes que esta maneje.
 
 ### 1.2.2. Lean UX Process
 
@@ -375,7 +420,9 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 | **Resumen**             | El entrevistado enseña en una academia preuniversitaria y usa Excel para registrar notas y asistencia, además de Google Forms en algunos casos. Si bien la comunicación con el personal administrativo es buena, ha experimentado dificultades al reprogramar clases debido a la baja asistencia en días especiales, por lo que realiza encuestas para reagendar. Considera fundamental contar con una herramienta centralizada que le permita registrar notas y asistencia de forma ordenada. Valora altamente que la plataforma sea intuitiva, visualmente simple y accesible desde su celular. También sugiere que padres o tutores puedan acceder a la información. Aunque no le interesa recibir alertas por notas o asistencia, considera clave recibir notificaciones por cambios de horario. Está dispuesto a aprender a usar nuevas herramientas si percibe una mejora real en su productividad. |
 
 ### 2.2.3. Análisis de entrevistas
+**Segmento de coordinadores de academias**
 
+En primer lugar, el 100% de los entrevistados ocupa el cargo de coordinador administrativo en una academia y se encuentra directamente involucrado en los procesos de matrícula, asistencia, pagos, horarios e ingresos/egresos. Asimismo, el 100% gestiona estos procesos de forma manual, utilizando principalmente hojas de cálculo en Excel, lo cual genera dificultades en la organización y control de la información. De igual manera, la totalidad de los entrevistados considera que los procesos administrativos actuales resultan tediosos y repetitivos, ya que deben realizarse constantemente sin el apoyo de un sistema automatizado. A su vez, el 100% de los entrevistados señala que existen errores y consecuencias debido a esta gestión manual, como la imposibilidad de verificar con precisión los pagos de los alumnos, olvidos en el registro de información, o dificultades para acceder rápidamente a datos solicitados por los padres de familia. Además, el 100% de los entrevistados expresa su interés en contar con una herramienta digital que les permita registrar alumnos, controlar pagos, gestionar ingresos y egresos, y llevar un mejor seguimiento de asistencias. También consideran fundamental que el sistema incluya alertas automáticas que les ayuden a recordar tareas o pagos pendientes, y coinciden en que prefieren una herramienta fácil de usar, que contenga solo las funciones necesarias, aunque uno de ellos (50%) considera que podría tener funciones variadas siempre que sea intuitiva. Finalmente, el 100% de los entrevistados está dispuesto a adoptar una nueva plataforma de gestión, reconociendo que ello traería consigo beneficios como una mejor organización, control financiero, y mayor eficiencia en los procesos administrativos, siendo el costo un factor a considerar para su implementación.
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
