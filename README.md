@@ -400,20 +400,20 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 
 ### 2.2.2. Registro de entrevistas
 
-#### Segmento: [Docente / Administrativo] - Entrevistado [N°]
+#### Segmento: Docente - Entrevistado 1
 
-| Atributo                | Detalle |
-|-------------------------|---------|
-| **Nombre**              | [Nombre completo del entrevistado] |
-| **Edad**                | [Edad] |
-| **Sexo**                | [Masculino / Femenino] |
-| **Distrito**            | [Distrito de residencia] |
-| **Ocupación**           | [Cargo o rol en la institución educativa] |
-| **Fecha de entrevista** | [Fecha] |
-| **Duración**            | [Minutos y segundos de duración del video] |
-| **Captura**             | ![Captura](./assets/screenshots/[nombre].jpg) |
-| **Video**               | [Ver en Microsoft Stream]([link]) |
-| **Resumen**             | [Redactar un resumen claro, en párrafo, que combine aspectos objetivos (herramientas, procesos, frecuencia de uso, dispositivos, coordinación con otros actores) y subjetivos (percepciones, dolores, expectativas, disposición a adoptar nuevas herramientas). Debe ser completo pero conciso, entre 8 y 12 líneas es ideal.] |
+| Atributo                | Detalle                                                                                                                                                                                                                                                                                                                        |
+|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre**              | Luis de la Cruz Herrera                                                                                                                                                                                                                                                                                                        |
+| **Edad**                | 25                                                                                                                                                                                                                                                                                                                             |
+| **Sexo**                | Maculino                                                                                                                                                                                                                                                                                                                       |
+| **Distrito**            | La Molina                                                                                                                                                                                                                                                                                                                      |
+| **Ocupación**           | Docente de Circulos de estudio en la universidad Agraria                                                                                                                                                                                                                                                                       |
+| **Fecha de entrevista** | 8 de abril del 2025                                                                                                                                                                                                                                                                                                            |
+| **Duración**            | 12:16 minutos                                                                                                                                                                                                                                                                                                                  |
+| **Captura**             | ![Captura](./assets/screenshots/interview-screenshot-teacher1.jpg)                                                                                                                                                                                                                                                             |
+| **Video**               | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EYqHy5GZWKpNpkI5YLn8a48B4EwLCsWONOY5sa038Y5flA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hOG6Ki)                                                                                                                                                                                                                                                                                              |
+| **Resumen**             | El entrevistado es un docente con experiencia en diversas academias y actualmente dicta clases en círculos de estudio en la UNALM. En su rutina diaria, enfrenta desafíos relacionados con la gestión manual de horarios pues usa herramientas como Excel, actividades que le consumen una gran cantidad de tiempo y afectan su eficiencia. Usa principalmente su laptop y su celular para organizarse, sin herramientas digitales especializadas, lo que le complica su trabajo. Al conocer la propuesta de nuestra startup, mostró una percepción positiva ante la posibilidad de contar con una herramienta que centralice y automatice estos procesos. Reconoce que una solución tecnológica podría mejorar su organización, reducir su carga administrativa y permitirle enfocarse más en la enseñanza. Se mostró dispuesto a adoptar nuevas herramientas que respondan a sus necesidades y faciliten su trabajo diario como docente, herramientas las cuales pueda usar desde su celular o su laptop. |
 
 #### Segmento: Docente - Entrevistado 2
 
