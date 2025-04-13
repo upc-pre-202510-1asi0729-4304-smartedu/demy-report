@@ -374,12 +374,18 @@ Cada ficha sintetiza aspectos demográficos, conductuales y emocionales que guí
 
 #### User Persona: Administrador de academia
 
+Coordinadora administrativa que necesita centralizar pagos, matrículas y horarios.
+Busca evitar errores, ahorrar tiempo y modernizar los procesos de su academia.
+
 ![User Persona – Administrator](./assets/images/user-persona-admin.png)
 **Figura 2.** User Persona del segmento *Administrador*.
 
 ---
 
 #### User Persona: Docente de academia
+
+Profesor joven que busca herramientas simples y accesibles para gestionar asistencia y horarios desde cualquier dispositivo, sin depender de su laptop.
+Valora la movilidad y odia perder tiempo con tareas repetitivas.
 
 ![User Persona – Teacher](./assets/images/user-persona-teacher.png)
 **Figura 3.** User Persona del segmento *Docente*.
