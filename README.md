@@ -525,9 +525,9 @@ Se elaboraron historias de usuario (US), técnicas (TS) y de sitio web estático
 | US07            | | | | |
 | US08            | | | | |
 | US09            | | | | |
-| US10            | | | | |
-| US11            | | | | |
-| US12            | | | | |
+| US10            | Registrar asistencia de estudiantes por clase        |Como usuario, quiero poder registrar la asistencia de los estudiantes, para tener un registro de los estudiantes que faltaron y los que asistieron. | Given el registro de asistencias esta disponible<br>When el usuario ingresa al registro de asistencias<br>When el usuario selecciona un estudiante<br>Then el sistema registra al estudiante como presente| EP03                      |
+| US11            | Consultar asistencia de un estudiantes en un periodo | Como usuario, quiero consultar la asistencia de un estudiante en el periodo escogido, para observar su desempeño en los cursos|Given el usuario está en la sección estudiantes<br>When el usuario selecciona a un estudiante<br>Then el sistema muestra la información del alumno<br>And la asistencia a sus clases<br>When el usuario observa la asistencia del estudiante con fecha| EP03                           |
+| US12            | Enviar alertas sobre inasistencias                   | Como usuario, quiero enviar alertas sobre inasistencias, para informar los demás usuarios sobre la cantidad de inasistencias que esta cometiendo un alumno| Given la alarma de asistencias está habilitada<br>When el usuario selecciona un alumno en su registro<br>Then el sistema le dará la opción de seleccionar información o alarma de inasistencia<br>When el usuario selecciona alarma de inasistencia<br>Then el sistema registra la alarma y informa a los demás usuarios sobre las faltas de un alumno|      EP03                      |
 | US13            | | | | |
 | US14            | | | | |
 | US15            | | | | |
