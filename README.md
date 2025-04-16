@@ -296,7 +296,7 @@ En este proyecto, nos ayuda a enfocar el desarrollo en generar valor real para l
 A continuación se presenta el Lean UX Canvas elaborado en la herramienta Miro.
 
 ![Lean UX Canvas](./assets/images/lean-ux-canvas.jpg)
-*Figura 1. Lean UX Canvas del proyecto.*
+**Figura 1.** Lean UX Canvas del proyecto.
 
 **Enlace al Lean UX Canvas:** [Ver en Miro](https://miro.com/app/board/uXjVIGPrhA0=/?share_link_id=155958536023)
 
@@ -428,7 +428,35 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 En primer lugar, el 100% de los entrevistados ocupa el cargo de coordinador administrativo en una academia y se encuentra directamente involucrado en los procesos de matrícula, asistencia, pagos, horarios e ingresos/egresos. Asimismo, el 100% gestiona estos procesos de forma manual, utilizando principalmente hojas de cálculo en Excel, lo cual genera dificultades en la organización y control de la información. De igual manera, la totalidad de los entrevistados considera que los procesos administrativos actuales resultan tediosos y repetitivos, ya que deben realizarse constantemente sin el apoyo de un sistema automatizado. A su vez, el 100% de los entrevistados señala que existen errores y consecuencias debido a esta gestión manual, como la imposibilidad de verificar con precisión los pagos de los alumnos, olvidos en el registro de información, o dificultades para acceder rápidamente a datos solicitados por los padres de familia. Además, el 100% de los entrevistados expresa su interés en contar con una herramienta digital que les permita registrar alumnos, controlar pagos, gestionar ingresos y egresos, y llevar un mejor seguimiento de asistencias. También consideran fundamental que el sistema incluya alertas automáticas que les ayuden a recordar tareas o pagos pendientes, y coinciden en que prefieren una herramienta fácil de usar, que contenga solo las funciones necesarias, aunque uno de ellos (50%) considera que podría tener funciones variadas siempre que sea intuitiva. Finalmente, el 100% de los entrevistados está dispuesto a adoptar una nueva plataforma de gestión, reconociendo que ello traería consigo beneficios como una mejor organización, control financiero, y mayor eficiencia en los procesos administrativos, siendo el costo un factor a considerar para su implementación.
 ## 2.3. Needfinding
 
+El Needfinding permite identificar necesidades reales de los usuarios mediante entrevistas y análisis del contexto.
+A partir de esta información, se construyeron artefactos clave que ayudaron a comprender mejor sus objetivos, tareas, emociones y frustraciones.
+
 ### 2.3.1. User Personas
+
+Los User Personas fueron elaborados a partir de los hallazgos de las entrevistas, reflejando perfiles representativos de los segmentos objetivo.
+Cada ficha sintetiza aspectos demográficos, conductuales y emocionales que guían el diseño funcional y visual de la plataforma.
+
+---
+
+#### User Persona: Administrador de academia
+
+Coordinadora administrativa que necesita centralizar pagos, matrículas y horarios.
+Busca evitar errores, ahorrar tiempo y modernizar los procesos de su academia.
+
+![User Persona – Administrator](./assets/images/user-persona-admin.png)
+**Figura 2.** User Persona del segmento *Administrador*.
+
+---
+
+#### User Persona: Docente de academia
+
+Profesor joven que busca herramientas simples y accesibles para gestionar asistencia y horarios desde cualquier dispositivo, sin depender de su laptop.
+Valora la movilidad y odia perder tiempo con tareas repetitivas.
+
+![User Persona – Teacher](./assets/images/user-persona-teacher.png)
+**Figura 3.** User Persona del segmento *Docente*.
+
+---
 
 ### 2.3.2. User Task Matrix
 
@@ -453,6 +481,55 @@ Para elaborar el As-Is Scenario Mapping, como grupo es importante empatizar con 
 ## 3.1. To-Be Scenario Mapping.
 
 ## 3.2. User Stories
+
+Se elaboraron historias de usuario (US), técnicas (TS) y de sitio web estático (LPS) para el sistema Demy, siguiendo buenas prácticas como INVEST. Estas historias reflejan necesidades reales de los usuarios y están organizadas por épicas, cada una con sus respectivos criterios de aceptación.
+
+| Epic / Story ID | Título                                         | Descripción                                                                                                         | Criterios de Aceptación                                                                                                                                                                                            | Relacionado con (Epic ID)  |
+|-----------------|------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
+| EP01            | Gestión de usuarios y autenticación            | Login, gestión de sesiones y control de acceso a funcionalidades según el rol del usuario.                          | — *(Epica, no aplica)*                                                                                                                                                                                             | —                          |
+| EP02            | Gestión de matrículas                          | Funcionalidades para registrar, editar y consultar matrículas de estudiantes.                                       | — *(Epica, no aplica)*                                                                                                                                                                                             | —                          |
+| EP03            | Control de asistencia y rendimiento            | Registro de asistencia por parte del docente y consulta del estado por parte del administrativo.                    | — *(Epica, no aplica)*                                                                                                                                                                                             | —                          |
+| EP04            | Gestión financiera y alertas de pago           | Control de pagos realizados por estudiantes, alertas de morosidad y registro básico de egresos.                     | — *(Epica, no aplica)*                                                                                                                                                                                             | —                          |
+| EP05            | Gestión de horarios y asignaciones             | Asignación y reprogramación de horarios, salones y docentes según disponibilidad o cambios imprevistos.             | — *(Epica, no aplica)*                                                                                                                                                                                             | —                          |
+| EP06            | Accesos desde Landing Page por segmento        | Redirecciones desde la landing page hacia vistas específicas según el tipo de visitante.                            | — *(Epica, no aplica)*                                                                                                                                                                                             | —                          |
+| EP07            | Servicios técnicos y APIs REST                 | Implementación y documentación de endpoints RESTful, configuración del backend y aspectos técnicos.                 | — *(Epica, no aplica)*                                                                                                                                                                                             | —                          |
+| US01            | Iniciar sesión como usuario del sistema        | Como usuario registrado, quiero iniciar sesión en el sistema, para acceder a mis funcionalidades según mi rol.      | Given el formulario de login está disponible<br>When el usuario ingresa credenciales válidas<br>Then se muestra la pantalla de inicio correspondiente a su rol<br>And se almacena un token de sesión válido        | EP01                       |
+| US02            | | | | |
+| US03            | | | | |
+| US04            | | | | |
+| US05            | | | | |
+| US06            | | | | |
+| US07            | | | | |
+| US08            | | | | |
+| US09            | | | | |
+| US10            | | | | |
+| US11            | | | | |
+| US12            | | | | |
+| US13            | | | | |
+| US14            | | | | |
+| US15            | | | | |
+| US16            | | | | |
+| US17            | | | | |
+| US18            | | | | |
+| US19            | | | | |
+| US20            | | | | |
+| US21            | | | | |
+| US22            | | | | |
+| LPS01           | | | | |
+| LPS02           | | | | |
+| LPS03           | | | | |
+| LPS04           | | | | |
+| LPS05           | | | | |
+| LPS06           | | | | |
+| LPS07           | | | | |
+| LPS08           | | | | |
+| LPS09           | | | | |
+| LPS10           | | | | |
+| TS01            | | | | |
+| TS02            | | | | |
+| TS03            | | | | |
+| TS04            | | | | |
+| TS05            | | | | |
 
 ## 3.3. Impact Mapping
 
