@@ -556,6 +556,8 @@ Se elaboraron historias de usuario (US), técnicas (TS) y de sitio web estático
 
 ## 3.3. Impact Mapping
 
+![ImpactMapping](./assets/images/impact-mapping.png)
+
 ## 3.4. Product Backlog
 
 # Capítulo IV: Product Design
