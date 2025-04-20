@@ -1,0 +1,70 @@
+@startuml EnrollmentManagementContext
+skinparam classAttributeIconSize 0
+title Enrollment Management Context
+
+package "Enrollment Management" {
+
+    class Student <<Entity>> {
+        - studentId: StudentId
+        - fullName: FullName
+        - email: Email
+    }
+
+    class Teacher <<Entity>> {
+        - teacherId: TeacherId
+        - fullName: FullName
+        - email: Email
+    }
+
+    class Course <<Entity>> {
+      - courseId: CourseId
+      - name: String
+      - description: String
+    }
+
+    class Enrollment <<Aggregate Root>> {
+      - enrollmentId: EnrollmentId
+      - student: Student
+      - course: Course
+      - teacher: Teacher
+      - period: AcademicPeriod
+      - status: EnrollmentStatus
+    }
+
+    enum EnrollmentStatus {
+      PENDING
+      ACTIVE
+      CANCELLED
+      COMPLETED
+    }
+
+    class FullName <<Value Object>> {
+      - firstName: String
+      - lastName: String
+    }
+
+    class Email <<Value Object>> {
+      - value: String
+    }
+
+    class AcademicPeriod <<Value Object>> {
+      - startDate: Date
+      - endDate: Date
+    }
+
+    ' Relaciones
+    Enrollment --> Student
+    Enrollment --> Teacher
+    Enrollment --> Course
+    Enrollment --> AcademicPeriod
+    Enrollment --> EnrollmentStatus
+
+    Student --> FullName
+    Student --> Email
+
+    Teacher --> FullName
+    Teacher --> Email
+
+}
+
+@enduml
