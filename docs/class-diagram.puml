@@ -1,70 +1,83 @@
-@startuml EnrollmentManagementContext
-skinparam classAttributeIconSize 0
-title Enrollment Management Context
+@startuml
+title classDiagramDemy
 
-package "Enrollment Management" {
+' ========= SHARED =========
 
-    class Student <<Entity>> {
-        - studentId: StudentId
+package "Shared Context" {
+    class StudentId <<Value Object>> {
+        - value: UUID
+        --
+        + toString(): String
+    }
+
+    class CourseId <<Value Object>> {
+        - value: UUID
+        --
+        + toString(): String
+    }
+
+    class EnrollmentId <<Value Object>> {
+        - value: UUID
+        --
+        + toString(): String
+    }
+
+    class FullName <<Value Object>> {
+        - firstName: String
+        - lastName: String
+    }
+
+    class Email <<Value Object>> {
+        - value: String
+    }
+
+    class AcademicPeriod <<Value Object>> {
+        - startDate: Date
+        - endDate: Date
+    }
+}
+
+' ========= ENROLLMENT CONTEXT =========
+package "Enrollment Management Context" {
+    entity Student <<Entity>> {
+        - id: StudentId
         - fullName: FullName
         - email: Email
     }
 
-    class Teacher <<Entity>> {
-        - teacherId: TeacherId
-        - fullName: FullName
-        - email: Email
-    }
-
-    class Course <<Entity>> {
-      - courseId: CourseId
-      - name: String
-      - description: String
+    entity Course <<Entity>> {
+        - id: CourseId
+        - name: String
+        - description: String
     }
 
     class Enrollment <<Aggregate Root>> {
-      - enrollmentId: EnrollmentId
-      - student: Student
-      - course: Course
-      - teacher: Teacher
-      - period: AcademicPeriod
-      - status: EnrollmentStatus
+        - id: EnrollmentId
+        - student: StudentId
+        - course: CourseId
+        - period: AcademicPeriod
+        - status: EnrollmentStatus
     }
 
     enum EnrollmentStatus {
       PENDING
-      ACTIVE
+      CONFIRMED
       CANCELLED
-      COMPLETED
     }
-
-    class FullName <<Value Object>> {
-      - firstName: String
-      - lastName: String
-    }
-
-    class Email <<Value Object>> {
-      - value: String
-    }
-
-    class AcademicPeriod <<Value Object>> {
-      - startDate: Date
-      - endDate: Date
-    }
-
-    ' Relaciones
-    Enrollment --> Student
-    Enrollment --> Teacher
-    Enrollment --> Course
-    Enrollment --> AcademicPeriod
-    Enrollment --> EnrollmentStatus
-
-    Student --> FullName
-    Student --> Email
-
-    Teacher --> FullName
-    Teacher --> Email
-
 }
+
+Enrollment "1" --> "1" StudentId
+Enrollment "1" --> "1" CourseId
+Enrollment "1" o--> "1" AcademicPeriod
+
+'Revisar
+Enrollment -> EnrollmentStatus
+
+Enrollment "1" ---> "1" EnrollmentId
+Student "1" --> "1" StudentId
+Student "1" --> "1" FullName
+Student "1" --> "1" Email
+Course "1" --> "1" CourseId
+
 
 @enduml
