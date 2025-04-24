@@ -1,0 +1,83 @@
+@startuml
+title classDiagramDemy
+
+' ========= SHARED =========
+
+package "Shared Context" {
+    class StudentId <<Value Object>> {
+        - value: UUID
+        --
+        + toString(): String
+    }
+
+    class CourseId <<Value Object>> {
+        - value: UUID
+        --
+        + toString(): String
+    }
+
+    class EnrollmentId <<Value Object>> {
+        - value: UUID
+        --
+        + toString(): String
+    }
+
+    class FullName <<Value Object>> {
+        - firstName: String
+        - lastName: String
+    }
+
+    class Email <<Value Object>> {
+        - value: String
+    }
+
+    class AcademicPeriod <<Value Object>> {
+        - startDate: Date
+        - endDate: Date
+    }
+}
+
+' ========= ENROLLMENT CONTEXT =========
+package "Enrollment Management Context" {
+    entity Student <<Entity>> {
+        - id: StudentId
+        - fullName: FullName
+        - email: Email
+    }
+
+    entity Course <<Entity>> {
+        - id: CourseId
+        - name: String
+        - description: String
+    }
+
+    class Enrollment <<Aggregate Root>> {
+        - id: EnrollmentId
+        - student: StudentId
+        - course: CourseId
+        - period: AcademicPeriod
+        - status: EnrollmentStatus
+    }
+
+    enum EnrollmentStatus {
+      PENDING
+      CONFIRMED
+      CANCELLED
+    }
+}
+
+Enrollment "1" --> "1" StudentId
+Enrollment "1" --> "1" CourseId
+Enrollment "1" o--> "1" AcademicPeriod
+
+'Revisar
+Enrollment -> EnrollmentStatus
+
+Enrollment "1" ---> "1" EnrollmentId
+Student "1" --> "1" StudentId
+Student "1" --> "1" FullName
+Student "1" --> "1" Email
+Course "1" --> "1" CourseId
+
+
+@enduml
