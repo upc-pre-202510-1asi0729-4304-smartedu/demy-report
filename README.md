@@ -615,6 +615,67 @@ Además, la navegación entre interfaces o vistas ha sido diseñada para ofrecer
 ### 5.1.2. Source Code Management
 
 ### 5.1.3. Source Code Style Guide & Conventions
+Con el fin de asegurar un código limpio, mantenible y coherente entre todos los miembros del equipo, se han adoptado las siguientes convenciones de estilo y nomenclatura. Todas las variables, funciones, clases, archivos y elementos seguirán una **nomenclatura en inglés**.
+
+**Nomeclantura General**
+
+- Se utilizará **inglés** como idioma único para nombres de variables, funciones, clases, comentarios y documentación.
+- Se evitarán abreviaciones innecesarias y nombres genéricos como `data1`, `temp`, `info`, etc.
+
+**HTML**
+Atributos en minúsculas y nombres de clase con **kebab-case** (`section-title`, `main-container`).
+- Estructura semántica clara: uso de etiquetas como `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`.
+- Sangría con 2 espacios.
+- Atributos ordenados de manera lógica: `id`, `class`, `type`, `name`, `placeholder`, `value`, `required`, etc.
+
+**CSS / Tailwind CSS**
+
+- Para clases personalizadas: usar **kebab-case**.
+- Se prioriza el uso de **Tailwind CSS** sobre CSS puro para la landing page.
+- Se agruparán clases de utilidad por orden lógico (layout -> spacing -> color -> typography).
+
+**Google TypeScript Style Guide**
+
+Basado en el [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html), se adoptan las siguientes reglas para mantener un código limpio y coherente:
+
+Nombres y sintaxis:
+- **camelCase** para variables, funciones y parámetros.
+- **PascalCase** para clases, interfaces, enums y tipos.
+- Constantes con `UPPER_CASE_WITH_UNDERSCORES` si son globales.
+
+Módulos y imports:
+- Preferir **imports explícitos y ordenados**: primero bibliotecas externas, luego internas.
+- Evitar `default exports`, usar siempre `export const` o `export class`.
+
+Tipado y declaraciones:
+- Siempre tipar explícitamente los parámetros y valores de retorno de funciones.
+- Evitar `any` excepto cuando sea estrictamente necesario.
+- Usar `readonly` para propiedades que no deben cambiarse.
+- Interfaces en lugar de `type` cuando sea posible.
+
+ Buenas prácticas:
+- Preferir `const` sobre `let`, y evitar `var`.
+- Evitar usar `this` fuera de clases.
+- No mezclar funciones y lógica en componentes — delegar a servicios.
+
+**Angular**
+
+Seguiremos las prácticas recomendadas por la [Angular Style Guide](https://angular.io/guide/styleguide) como:
+
+Componentes:
+- Nombres en **PascalCase** y con sufijo `Component` (ej. `UserCardComponent`).
+- Archivos HTML y CSS se mantienen separados (`templateUrl`, `styleUrls`).
+- Evitar lógica compleja en los templates: delegar a métodos o servicios.
+
+Buenas prácticas en general:
+- Evitar lógica de negocio en los componentes.
+- Usar `async` en el HTML en lugar de suscribirse manualmente.
+- Nombres de selectors en **kebab-case** (`app-user-card`).
+
+**Pruebas / Gherkin**
+
+En caso de usar Gherkin (para especificaciones o pruebas): <br>
+- Usaremos el formato Given When And Then
 
 ### 5.1.4. Software Deployment Configuration.
 
