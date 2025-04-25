@@ -161,20 +161,13 @@ La plataforma web será utilizada diariamente por el personal de la academia. A 
 #### ¿Cómo lograremos alcanzar la correcta gestión de los procesos administrativos de la academia dentro de la plataforma?
 Mediante el diseño de módulos para cada funcionalidad clave que hemos identificado:
 
->[!NOTE]
->Discutir los modulos con el equipo
-
 - Módulo de matrícula.
 
 - Módulo de pagos con alertas automáticas de vencimientos.
 
 - Módulo de asistencia accesible para los docentes con visualización por grupo.
 
-- Modulo de inventarios para la gestion de los  bienes de la academia.
-
 - Módulo de horarios que permite programar docentes, salones y materias.
-
-- Modulo de reportes asistencias y pagos.
 
 - Modulo de registro de alumnnos, profesores, secciones, aulas, sedes, etc.
 
