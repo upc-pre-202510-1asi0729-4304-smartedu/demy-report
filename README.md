@@ -743,11 +743,11 @@ Link del Trello: https://trello.com/invite/b/67ecba86096fa46ebe8a2926/ATTIfafb6c
 | LPS10      | Ver sitio en varios <br> idiomas <br> ( internacionalización)    | LPS10a         | Configurar sistema i18n               | Implementar soporte multilenguaje con <br> archivos JSON y función de cambio                                                        | 3                 | Salim       | Done                                                                        | 
 | LPS10      | Ver sitio en varios <br> idiomas <br> ( internacionalización)    | LPS10b         | Aplicar traducciones                  | Implementar las traducciones  de cada sección de <br> la landing page  en el formato JSON                                           | 1                 | Todos       | Done                                                                        | 
 
-### 5.2.1.4. Development Evidence for Sprint Review.
+#### 5.2.1.4. Development Evidence for Sprint Review.
 
-### 5.2.1.5 Execution Evidence for Sprint Review.
+#### 5.2.1.5 Execution Evidence for Sprint Review.
 
-### 5.2.1.6 Services Documentation Evidence for Sprint Review.
+#### 5.2.1.6 Services Documentation Evidence for Sprint Review.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 En esta sección, detallaremos todos los procesos necesarios para desplegar efectivamente nuestra landing page.
