@@ -958,6 +958,13 @@ Luego de iniciar sesión y acceder a "Mi organización", el profesor se dirige a
 
 ## 4.5. Web Applications Prototyping
 
+Esta sección tiene como objetivo describir los posibles flujos de usuario (User Flows) que se han diseñado para la aplicación web tanto en versión de escritorio como en dispositivos móviles. A través de prototipos interactivos, se pretende ilustrar los caminos de interacción del usuario, mostrando cómo los diferentes tipos de usuarios (dueño del taller, mecánico o cliente) navegan por la plataforma para realizar sus actividades.
+A continuación, se incluyen los enlaces a los videos explicativos que detallan los flujos de usuario correspondientes:
+
+Enlace para ver la explicación del prototipado de la aplicación web en versión de escritorio y version movil. [Web Applications Prototyping](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EUfY3Wr3CJNDjOBBF7zuK4oB099Oi_piBe5a_lgbVRFgDQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Jyza8b)
+
+Enlace para acceder al [Flujo en figma](https://www.figma.com/design/4EgUY0zqioRcsS9MNoPsJb/Prototyping?node-id=0-1&t=UsmyKCKlx8hSZYvH-1)
+
 ## 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Software Architecture Context Diagram
