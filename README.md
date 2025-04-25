@@ -1079,6 +1079,37 @@ Cuando le dé a la opción de Guardar se mostrará una pestaña que dice "La asi
 
 
 #### 5.2.1.3. Development Evidence for Sprint Review
+Con el sprint 1 se avanzó con la creación del landing page para Demy, que incluyo estas secciones: testimonials, pricing, landing-setup, hero-setup, hero-section, footer, faq, contact, benefits, about-us y about-product.
+
+
+| Repository                                               | Branch        | Commit ID                          | Commit Message                                                  | Commit Body | Committed On |
+|----------------------------------------------------------|---------------|------------------------------------|-----------------------------------------------------------------|-------------|--------------|
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page | landing-setup | f73c732a7987ebebe060709990adbd726ae24424 | chore: scaffold landing sections by LPS                         | —           | 19/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page | landing-setup | b2997546cd9d75ace064d9805a9012427acf2950 | feat: initialize landing page structure                         | —           | 19/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page | hero-section  | 9eef2f20454019cdcd977711037c3bb5f2aebe96 | feat: add hero section with i18n and layout structure           | —           | 19/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page | hero-section  | aaa7b7aac0a0e6cd11ed46d11448c782a90c955e | feat: add responsive navbar with i18n support and custom styles | —           | 19/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page | hero-section  | 7f7c33f2e0f65c14ecd0fb7c3bf946dcc1001d12 | merge: integrate feature/landing-setup into develop             | —           | 19/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page | footer        | 745c2605591465f0e60f1e718e6a9339edb58e7f | feat: add footer section to landing page                        | —           | 24/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page | faq           | a0a3e1d18f2d68c2466adc819ce0898c15285763 | feat: add faq section to landing page                           | —           | 19/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page | contact       | a60d3b95f2020d3cce110f09adfa60f66b0299ef | feat: add contact section to landing page                       | —           | 23/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page | benefits      | a37134a3e94bdcb00fc95ecbb8e28d7d41dc111a | fix: text of description1                                       | —           | 24/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page | benefits      | 826ef4030a2b5aa5b9047302fe0b818f84021b41 | fix: ubication of section benefits                              | —           | 23/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page | benefits      | e3e3694c110c88b35c300a0a07e205af9a4eead3 | feat: add section benefits with i18n                            | —           | 23/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page | about-us      | 777110de2a9b45727c4465ee39e9d8a539564b6f | fix: about-us titles                                            | —           | 24/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page | about-us      | 231a0a74c7bfda271eab18878e5799a95d65bbdd | fix: about-us and images                                        | —           | 24/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page | about-us      | a790880169897ff4de01f159784ce6925cc7cbc0 | feat: add about us section to landing page                      | —           | 22/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page | about-product | fa0c0b5a619f59809518ae810ea829692fc92930 | feat: add section about the product with i18n                   | —           | 23/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page | testimonials  | 0308fecafec842a6b3f4332996a1ef810ea59b2d | feat: add testimonial section to landing page                   | —           | 21/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page | pricing       | 8a729a4a72a0af32f6b3ef0826b14310c584010a | feat: add pricing section to landing page                       | —           | 20/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page | develop       | 67f699cabbec3637a87f97b42fdba420afbf4bcd | merge: integrate feature/hero-section into develop              | —           | 19/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page | develop       | 0548208bc1092477af10346ffa81f28e684d0b3a | merge: integrate feature/about-us into develop                  | —           | 24/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page | develop       | 62e427787908e559760908b0ff5dce19814386e9 | merge: integrate feature/about-product into develop             | —           | 24/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page | develop       | b279f7b4f36b90ef24354470b52cf24cc60b0fb4 | merge: integrate feature/benefits into develop                  | —           | 24/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page | develop       | 6480ddf1aa99b219a372a9ce7c7bc3558093b244 | merge: integrate feature/contact into develop                   |  —          | 24/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page | develop       | 262523ca233203a2ad3e22667d8a39215eb8b53b | merge: integrate feature/footer into develop                    | —           | 24/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page | develop       | f178a8acaec9cb74739481390bed9baeeeb64807 | merge: integrate feature/faq into develop                       | —           | 24/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page | develop       | b985b946035ade44b7e9701255ee50981a84d436 | merge: integrate feature/pricing into develop                   | —           | 24/04/2025   |
+
 
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review
 
