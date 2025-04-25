@@ -24,7 +24,7 @@ hs_err_pid*
 replay_pid*
 
 # Archivos y carpetas de JetBrains IDEs
-.idea/
+.idea
 *.iml
 
 # Archivos del sistema
