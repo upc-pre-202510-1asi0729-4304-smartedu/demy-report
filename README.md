@@ -750,7 +750,7 @@ Explicaremos cada proceso con detalle.
  Ahora procedemos a configurar el despliegue, colocando el Site Name y seleccionando el Team, también debemos escoger una rama que en este caso será la Main.
 ![Screenshot 5 del Deployment](./assets/screenshots/deployment-5.png)
 6. **Seguir configurando** <br>
- Seguimos configurando, pero esta vez seleccionando el "Publish directory" y "Functions directory", para finalmente darle a "Deploy demy-academy".
+ Seguimos configurando, pero esta vez seleccionando el "Publish directory" colocamos public, para finalmente darle a "Deploy demy-academy".
 ![Screenshot 6 del Deployment](./assets/screenshots/deployment-6.png)
 
 7. **Esperar el deploy**<br>
@@ -761,7 +761,7 @@ Explicaremos cada proceso con detalle.
  Ahora podemos observar que el deploy está listo y podremos ver el enlace de la web a la landing page recién desplegada.
 ![Screenshot 8 del Deployment](./assets/screenshots/deployment-8.png)
 
-Ahora con la Landing Page desplegada, cada vez que se realize un commit en la rama correspondiente, se actualizara automáticamente, de esta manera evitamos repetir los pasos. <br>
+Ahora con la Landing Page desplegada, cada vez que se realize un push en la rama correspondiente, se actualizara automáticamente, de esta manera evitamos repetir los pasos. <br>
 [Link de la Landing Page](https://demy-academy.netlify.app/)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
