@@ -2637,7 +2637,7 @@ Esto contribuirá a reducir la curva de aprendizaje y a mejorar la percepción d
 
 Enlace de los videos de las entrevistas para needfinding: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:f:/g/personal/u20201e843_upc_edu_pe/EhwhfGx_OFdBu7-XPK4vTsgBhmUXGhotfgopq1ffVoEavQ?e=RJFMih)
 
-Enlace del video de exposición TB1:
+Enlace del video de exposición TB1: https://www.canva.com/design/DAGlo0_gXkM/iQyv4lVmeKhZB5CtedaOGA/edit?utm_content=DAGlo0_gXkM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 Enlace del repositorio en Github: [Ver en Github](https://github.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report)
 
