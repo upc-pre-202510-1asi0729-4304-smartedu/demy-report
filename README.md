@@ -1034,8 +1034,16 @@ Este diagrama fue generado a partir del modelo de clases y ajustado a una repres
 
 ## Conclusiones y Recomendaciones
 
-## Video About-the-Team
+
 
 # Bibliografía
 
 # Anexos
+
+Enlace de los videos de las entrevistas para needfinding: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:f:/g/personal/u20201e843_upc_edu_pe/EhwhfGx_OFdBu7-XPK4vTsgBhmUXGhotfgopq1ffVoEavQ?e=RJFMih)
+
+Enlace del video de exposición TB1:
+
+Enlace del repositorio en Github: [Ver en Github](https://github.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report)
+
+Enlace a la landing page: [Abrir en el navegador](https://demy-academy.netlify.app/)
