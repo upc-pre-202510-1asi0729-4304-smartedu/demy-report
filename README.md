@@ -1,21 +1,24 @@
-<h1 style="text-align: center;"> Informe TB1 </h1>
-<h3 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h3>
+<h2 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h2>
 
-<img src="https://raw.githubusercontent.com/desarrollo-de-aplicaciones-open-source/project-open-source/refs/heads/main/assets/logos/upc_logo.png" alt="logo_upc" width="200px" style="display: block; margin-left: auto; margin-right: auto;">
+<div style="text-align: center;">
+  <img src="./assets/images/upc-logo.png" alt="UPC Logo">
+</div>
 
-<h5 style="text-align: center"> Ingeniería de Software </h5>
+<h4 style="text-align: center"> Ingeniería de Software </h4>
 
-<h5 style="text-align: center"> 1ASI0729 - Desarrollo de Aplicaciones Open Source </h5>
+<h4 style="text-align: center"> 1ASI0729 - Desarrollo de Aplicaciones Open Source </h4>
 
-<h5 style="text-align: center"> Seccíón: 4304  </h5>
+<h4 style="text-align: center"> Sección: 4304  </h4>
 
-<h5 style="text-align: center"> Docente: Efraín Ricardo Bautista Ubillús </h5>
+<h4 style="text-align: center"> Docente: Efraín Ricardo Bautista Ubillús </h4>
 
-<h5 style="text-align: center"> Startup: SmartEdu </h5>
+<h4 style="text-align: center;"> Informe del TB1 </h4>
 
-<h5 style="text-align: center"> Producto: Demy </h5>
+<h4 style="text-align: center"> Startup: SmartEdu </h4>
 
-<h2>Team members:</h2>
+<h4 style="text-align: center"> Producto: Demy </h4>
+
+<h2 style="text-align: center">Team members:</h2>
 
 | Código     | Nombre                             |
 |------------|------------------------------------|
@@ -116,13 +119,23 @@
 
 - [Conclusiones](#conclusiones)
     - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-    - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
-
-
 # Student Outcome
+
+El curso contribuye al cumplimiento del Student Outcome ABET:
+
+**ABET – EAC - Student Outcome 3:**
+
+**Criterio:** *Capacidad de comunicarse efectivamente con un rango de audiencias.*
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
+
+| Criterio específico                                                   | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|-----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Comunica oralmente con efectividad a diferentes rangos de audiencia   | Salim:<br>TB1: Participé guiando al equipo en ocasiones para tomar un rumbo claro y fomentar un espacio de coherencia y comunicación entre todos.<br><br>Diego:<br>TB1: Participé en las reuniones de trabajo apoyando al equipo y aportando ideas que se tuvieron en cuenta en el proceso de desarrollo.<br><br>Daniel:<br>TB1:En este primer entregable trabajé en conjunto con mi equipo para participar activamente en la toma de decisiones que nos permitió mejorar como grupo.<br><br>Rafael:<br>TB1: Mantuve una comunicación oral adecuada para comunicarme correctamente con mi equipo, además que recibía retroalimentación de mis compañeros para asegurar el correcto proceso de desarrollo.                                                                                                                                                                                                                                                                                                                                                                      | Consideramos que este criterio ha sido abordado satisfactoriamente, ya que tanto las presentaciones orales como las entrevistas jugaron un papel clave en mantener una comunicación efectiva dentro del equipo y con los involucrados. La asistencia constante a las reuniones, junto con una dinámica de retroalimentación continua, impulsó significativamente el progreso del proyecto. Consideramos que las opiniones capturadas en las entrevistas servirán en gran medida para alcanzar el propósito del proyecto.                                                                                                        |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | Salim:<br>TB1: Por lo general, comunicaba por nuestro grupo de WhatsApp los pendientes que habían, coordinábamos horarios para las reuniones, y avisaba sobre los cambios y actualizaciones realizadas.<br><br>Diego:<br>TB1: Trabajé junto a mis compañeros expresándome adecuadamente por los medios digitales (WhatsApp, Discord, etc) de forma asertiva para lograr una mejor comunicación entre los miembros.<br><br>Daniel:<br>TB1: En este primer entregable, fomenté el entorno colaborativo entre los integrantes para comunicarnos adecuadamente. Me permitieron expresarme libremente aportando ideas que fueron consideradas para el proyecto.<br><br>Rafael:<br>TB1: Trabajé en mi entorno colaborativo y pudimos crear un ambiente saludable donde pudimos expresar nuestras ideas y compartir nuestros distintos puntos de vista, lo que considero importante para el desarrollo de nuestras habilidades.<br><br>Paul:<br>TB1: Para este entregable, mantuve una comunicación constante con mi equipo por medio de entornos digitales de comunicación escrita.  | Creemos que hemos logrado un buen desempeño en este aspecto, ya que el trabajo constante en mejorar la comunicación escrita ha facilitado una colaboración fluida entre los integrantes del equipo, permitiendo una coordinación eficiente a lo largo de todas las etapas del proyecto. Un ejemplo evidente fue el uso de Trello, que nos permitió visualizar las tareas del sprint, distribuirlas adecuadamente y monitorear el avance en tiempo real. Asimismo, el uso de plataformas como GitHub para documentar procesos y realizar seguimientos ayudó a que todos estuviéramos al tanto de los logros, desafíos y metas.   |
 
 # Capítulo I: Introducción
 
@@ -309,7 +322,7 @@ Para competir eficazmente en el mercado de plataformas de gestión para academia
 
 *  Seguridad y confianza
    <br>
-   **Estrategia**:  Reducir la percepción de riesgo en torno a ciberseguridad, una amenaza para startups, generando confianza desde etapas tempranas.
+   **Estrategia**: Reducir la percepción de riesgo en torno a ciberseguridad, una amenaza para startups, generando confianza desde etapas tempranas.
    <br>
    **Táctica**:Contratar un servicio externo para auditorías de seguridad básicas.
 
@@ -404,20 +417,74 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 
 #### Segmento: Docente - Entrevistado 3
 
-| Atributo                | Detalle                                                                     |
-|-------------------------|-----------------------------------------------------------------------------|
-| **Nombre**              | Jeff Aylas Quispe Vergara                                                   |
-| **Edad**                | 25                                                                          |
-| **Sexo**                | Masculino                                                                   |
-| **Distrito**            | San Juan de Lurigancho                                                      |
-| **Ocupación**           | Docente en Academia ADUNI                                                   |
-| **Fecha de entrevista** | 11 de abril del 2025                                                        |
-| **Duración**            | 4:28 minutos                                                                |
-| **Captura**             | ![Captura](./assets/screenshots/interview-screenshot-teacher3.png)          |
-| **Video**               | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/personal/u20201e843_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201e843%5Fupc%5Fedu%5Fpe%2FDocuments%2FDemy%2FEntrevistas%2Fvideo%2Dentrevista%2Ddocente3%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E6dbf826d%2Dd312%2D4e22%2Dadea%2D45cb75a98def)                                                 |
+| Atributo                | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre**              | Jeff Aylas Quispe Vergara                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Edad**                | 25                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Sexo**                | Masculino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Distrito**            | San Juan de Lurigancho                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Ocupación**           | Docente en Academia ADUNI                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Fecha de entrevista** | 11 de abril del 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Duración**            | 4:28 minutos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Captura**             | ![Captura](./assets/screenshots/interview-screenshot-teacher3.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Video**               | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/personal/u20201e843_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201e843%5Fupc%5Fedu%5Fpe%2FDocuments%2FDemy%2FEntrevistas%2Fvideo%2Dentrevista%2Ddocente3%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E6dbf826d%2Dd312%2D4e22%2Dadea%2D45cb75a98def)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Resumen**             | El docente entrevistado, que además es estudiante, utiliza principalmente herramientas como hojas de Excel o cuadernos para registrar asistencia y notas, aunque reconoce que no siempre son prácticas ni eficientes. La coordinación con el personal administrativo se da por canales informales como WhatsApp o correo, lo que a veces genera demoras y falta de claridad. El acceso a la información de clases o alumnos no está centralizado, lo que le obliga a recurrir a sus apuntes o hacer consultas adicionales. Los cambios de aula o horario suelen comunicarse de manera improvisada, lo que puede causar confusión. Valora la posibilidad de contar con una herramienta digital que integre funciones clave como registro de asistencia, horarios, notas y observaciones, accesible desde cualquier dispositivo, especialmente el celular. Considera fundamental que la plataforma sea fácil de usar e intuitiva, ya que si es compleja, volvería a sus métodos tradicionales. Además, percibe como muy útil recibir alertas sobre incidencias o comportamientos irregulares. Está dispuesto a adoptar una nueva herramienta siempre que le facilite la gestión y no represente una carga adicional de aprendizaje. |
 
 ### 2.2.3. Análisis de entrevistas
+
+Las entrevistas se realizaron entre el 8 y el 11 de abril de 2025 a un total de seis participantes: tres docentes y tres administrativos/coordinadores de academias preuniversitarias en Lima e Ica.
+El objetivo fue entender sus contextos operativos, frustraciones actuales y validar hipótesis sobre posibles soluciones digitales.
+
+---
+
+#### Segmento: Docentes de academias
+
+**Total entrevistados:** 3  
+**Edades:** 21, 25, 25 años  
+**Distritos:** La Molina, Santa Anita, San Juan de Lurigancho  
+**Instituciones:** CEPRE Agraria, Círculos de estudio UNALM, Academia ADUNI  
+**Fechas:** 8 y 11 de abril de 2025
+
+##### Características objetivas
+- Usan Excel o Google Forms para registrar notas y asistencias: **3/3 (100%)**
+- Prefieren gestionar tareas desde celulares o laptops: **3/3 (100%)**
+- Los cambios de aula u horarios se gestionan por WhatsApp o encuestas improvisadas: **3/3 (100%)**
+- No utilizan plataformas centralizadas ni automatizadas: **3/3 (100%)**
+
+##### Características subjetivas
+- Encuentran incómodo el uso de Excel en celular: **2/3 (66%)**
+- Consideran que el trabajo administrativo les resta tiempo valioso de enseñanza: **3/3 (100%)**
+- Ven con buenos ojos una solución intuitiva y fácil de usar: **3/3 (100%)**
+- Quieren acceso a la plataforma desde múltiples dispositivos, especialmente celular: **3/3 (100%)**
+- Notificaciones de cambios de horario son altamente valoradas: **2/3 (66%)**
+- Disposición a adoptar nuevas herramientas si mejoran su productividad: **3/3 (100%)**
+
+---
+
+#### Segmento: Administrativos de academias
+
+**Total entrevistados:** 3  
+**Edades:** 28, 42, 58 años  
+**Distritos:** Ica (todos)  
+**Instituciones:** Enigmas, academias escolares particulares  
+**Fechas:** 9 de abril de 2025
+
+##### Características objetivas
+- Utilizan Excel y registros manuales para manejar pagos, matrículas, asistencia y horarios: **3/3 (100%)**
+- Consultan frecuentemente asistencia, notas y estado de pagos: **3/3 (100%)**
+- Dependen de múltiples hojas y archivos, dificultando la trazabilidad: **3/3 (100%)**
+
+##### Características subjetivas
+- Consideran sus métodos actuales ineficientes y repetitivos: **3/3 (100%)**
+- Señalan consecuencias negativas como pérdida de tiempo y mala atención a padres: **3/3 (100%)**
+- Alertas para pagos vencidos son altamente valoradas: **3/3 (100%)**
+- Desean funcionalidades como búsqueda rápida por nombre o DNI: **2/3 (66%)**
+- Esperan una solución intuitiva, accesible y asequible: **3/3 (100%)**
+- Disposición a adoptar nuevas plataformas si mejoran su gestión: **3/3 (100%)**
+
+---
+
+> Este análisis refleja claramente patrones de uso, frustraciones comunes y criterios clave que deben guiar el diseño del sistema. La coincidencia en prioridades entre ambos segmentos refuerza la necesidad de una plataforma centralizada, móvil, intuitiva y orientada a mejorar la eficiencia operativa diaria.
 
 ## 2.3. Needfinding
 
@@ -605,6 +672,7 @@ Para elaborar el Product Backlog se identificaron y priorizaron las funcionalida
 ### 4.1.1. General Style Guidelines
 
 ### 4.1.2. Web Style Guidelines
+
 En esta sección explicaremos y mostraremos de manera **referencial** las decisiones sobre los estándares visuales y de interacción aplicados a las interfaces web responsivas, desarrolladas con Angular y la biblioteca de componentes Angular Material
 <br>
 
@@ -623,6 +691,7 @@ Las decisiones tomadas buscan garantizar una experiencia de usuario coherente, a
 * **Forms**:Los formularios no pueden faltar en ninguna aplicación web, se usa tanto para el logueo de la app o rellenar cualquier campo de información necesario como el registro de una materia para tal periodo académico.<br>
   A continuación, se ilustra de manera referencial los form fields a implementar en la aplicación web sacado de la documentación oficial de Angular Material
 ![Ejemplo de formularios de la documentación de Angular Material](./assets/screenshots/form-angularmaterial-reference.png)
+
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
@@ -658,7 +727,7 @@ A continuación se detallan sus definiciones y las etiquetas específicas para l
   <title>Demy - La forma inteligente de gestionar tu academia</title>
   <meta name="description" content="Demy es una plataforma web que digitaliza la gestión académica de academias presenciales: matrículas, pagos, asistencia y más desde un solo lugar.">
   <meta name="keywords" content="gestión académica, software para academias, control de asistencia, matrícula online, pagos estudiantes, plataforma educativa">
-  <meta name="author" content="Demy Team>
+  <meta name="author" content="Demy Team">
 </head>
 ```
 
@@ -714,13 +783,216 @@ A continuación se detallan sus definiciones y las etiquetas específicas para l
 
 ## 4.7. Software Object-Oriented Design
 
+En esta sección se presenta el diseño estructural del sistema a través de diagramas de clases y un diccionario que documenta los atributos y métodos de cada clase definida.
+
 ### 4.7.1. Class Diagrams
+
+Esta sección presenta el diagrama de clases del sistema, modelado bajo principios de diseño orientado a objetos y alineado con los conceptos de Domain-Driven Design (DDD).
+Se representan las entidades clave, value objects, aggregates, así como las relaciones y los límites de contexto, reflejando la lógica del dominio identificada en el análisis previo.
+
+> FALTA PONER EL DIAGRAMA
 
 ### 4.7.2. Class Dictionary
 
+#### IAM Context
+
+**UserAccount**
+
+Representa una cuenta de usuario dentro del sistema, utilizada tanto por administradores como por docentes. Gestiona sus credenciales, el rol que desempeñan y el estado actual de la cuenta.
+
+| Attribute      | Type           | Description                                                  |
+|----------------|----------------|--------------------------------------------------------------|
+| id             | UserId         | Unique identifier for the user account                       |
+| fullName       | FullName       | Full name of the user                                        |
+| email          | Email          | Email address used to log into the system                    |
+| passwordHash   | String         | Encrypted password                                           |
+| role           | Role           | User role (ADMIN or TEACHER)                                 |
+| status         | AccountStatus  | Account status (ACTIVE, INACTIVE, or BLOCKED)                |
+
+#### Enrollment Management Context
+
+**Enrollment**
+
+Representa el registro de un estudiante en una academia durante un determinado periodo. Permite verificar la pertenencia, estado y realizar operaciones sobre la inscripción.
+
+| Attribute  | Type             | Description                                            |
+|------------|------------------|--------------------------------------------------------|
+| id         | UUID             | Unique identifier for the enrollment                   |
+| student    | StudentId        | Identifier of the student being enrolled               |
+| academy    | AcademyId        | Identifier of the academy where the enrollment is made |
+| status     | EnrollmentStatus | Status of the enrollment (ACTIVE or INACTIVE)          |
+
+**Student**
+
+Representa a un estudiante que puede ser matriculado en una academia. Contiene su información básica de identificación y contacto.
+
+| Attribute  | Type       | Description                              |
+|------------|------------|------------------------------------------|
+| id         | StudentId  | Unique identifier for the student        |
+| fullName   | FullName   | Full name of the student                 |
+| email      | Email      | Contact email address of the student     |
+
+**Academy**
+
+Representa una academia educativa. Está asociada a un usuario propietario y contiene los periodos académicos que definen el calendario escolar.
+
+| Attribute   | Type                     | Description                                     |
+|-------------|--------------------------|-------------------------------------------------|
+| id          | AcademyId                | Unique identifier for the academy               |
+| userId      | UserId                   | Identifier of the user who manages the academy  |
+| periods     | List<AcademicPeriod>     | List of academic periods defined by the academy |
+| academyName | String                   | Name of the academy                             |
+
+**AcademicPeriod**
+
+Representa un intervalo de tiempo en el que se desarrolla un ciclo académico. Es utilizado como valor dentro del contexto de una academia.
+
+| Attribute | Type | Description                  |
+|-----------|------|------------------------------|
+| startDate | Date | Start date of the period     |
+| endDate   | Date | End date of the period       |
+
+#### Scheduling Management Context
+
+**WeeklySchedule**
+
+Representa el horario semanal de una academia. Contiene las entradas programadas para cada día y permite gestionar agregados, actualizaciones y validaciones de disponibilidad horaria.
+
+| Attribute   | Type               | Description                                      |
+|-------------|--------------------|--------------------------------------------------|
+| id          | UUID               | Unique identifier for the weekly schedule        |
+| academyId   | AcademyId          | Identifier of the academy that owns the schedule |
+| entries     | List<Schedule>     | List of scheduled entries (classes)              |
+
+**Schedule**
+
+Define una entrada específica dentro del horario. Contiene la información sobre el curso, aula, horario y docente asignado.
+
+| Attribute   | Type          | Description                                  |
+|-------------|---------------|----------------------------------------------|
+| id          | ScheduleId    | Unique identifier for the schedule entry     |
+| dayOfWeek   | String        | Day of the week the class takes place        |
+| timeRange   | DateTimeRange | Start and end time for the scheduled session |
+| course      | Course        | Course being taught during this schedule     |
+| room        | Room          | Room where the class is held                 |
+| userId      | UserId        | Identifier of the teacher assigned           |
+
+**Course**
+
+Representa un curso que puede ser parte de un horario. Incluye nombre y una breve descripción del contenido del curso.
+
+| Attribute   | Type   | Description                      |
+|-------------|--------|----------------------------------|
+| name        | String | Name of the course               |
+| description | String | Short description of the course  |
+
+**Room**
+
+Define un ambiente físico o virtual donde se dicta una clase. Permite identificar el aula y conocer su capacidad.
+
+| Attribute | Type   | Description                          |
+|-----------|--------|--------------------------------------|
+| roomCode  | String | Code or identifier of the room       |
+| capacity  | int    | Maximum number of people allowed     |
+
+#### Attendance Management Context
+
+**ClassSession**
+
+Representa una sesión de clase específica, asociada a un horario previamente programado. Permite registrar la asistencia de los estudiantes y consultar sus estados individuales.
+
+| Attribute   | Type                     | Description                                                        |
+|-------------|--------------------------|--------------------------------------------------------------------|
+| id          | UUID                     | Unique identifier for the class session                            |
+| scheduleId  | ScheduleId               | Identifier of the related schedule                                 |
+| attendance  | List<AttendanceRecord>   | List of attendance records for this session                        |
+
+**AttendanceRecord**
+
+Representa el estado de asistencia de un estudiante en una sesión específica. Se trata de un objeto inmutable que forma parte de un registro más amplio.
+
+| Attribute  | Type             | Description                                        |
+|------------|------------------|----------------------------------------------------|
+| studentId  | StudentId        | Identifier of the student                          |
+| status     | AttendanceStatus | Attendance status (PRESENT, ABSENT, or JUSTIFIED)  |
+
+#### Subscription & Billing Context
+
+**Subscription**
+
+Representa la suscripción activa de una academia a un plan del sistema. Controla el estado de la suscripción y su vigencia.
+
+| Attribute   | Type               | Description                                                    |
+|-------------|--------------------|----------------------------------------------------------------|
+| id          | UUID               | Unique identifier for the subscription                         |
+| academyId   | AcademyId          | Identifier of the academy that owns the subscription           |
+| plan        | PlanId             | Identifier of the selected plan                                |
+| status      | SubscriptionStatus | Status of the subscription (ACTIVE, EXPIRED, TRIAL, CANCELLED) |
+| period      | DateRange          | Period of validity for the subscription                        |
+
+**Plan**
+
+Representa una oferta de suscripción disponible para academias. Define los límites del servicio según cada plan.
+
+| Attribute    | Type   | Description                                    |
+|--------------|--------|------------------------------------------------|
+| id           | UUID   | Unique identifier for the plan                 |
+| name         | String | Name of the subscription plan                  |
+| price        | Money  | Monthly cost of the plan                       |
+| maxStudents  | int    | Maximum number of students allowed in the plan |
+| maxTeachers  | int    | Maximum number of teachers allowed in the plan |
+
+**Invoice**
+
+Representa una factura generada a partir de una suscripción activa. Controla el estado del pago y la fecha de vencimiento.
+
+| Attribute        | Type           | Description                                  |
+|------------------|----------------|----------------------------------------------|
+| id               | UUID           | Unique identifier for the invoice            |
+| subscriptionId   | SubscriptionId | Identifier of the related subscription       |
+| amount           | Money          | Amount to be paid for the invoice            |
+| dueDate          | Date           | Due date of the invoice                      |
+| status           | PaymentStatus  | Payment status (PENDING, PAID, or OVERDUE)   |
+
+**Payment**
+
+Representa un pago realizado por una factura. Contiene detalles del momento, método y monto abonado.
+
+| Attribute  | Type       | Description                                          |
+|------------|------------|------------------------------------------------------|
+| invoiceId  | InvoiceId  | Identifier of the associated invoice                 |
+| paidAt     | DateTime   | Date and time when the payment was completed         |
+| method     | String     | Payment method used (e.g., credit card, transfer)    |
+| amount     | Money      | Amount paid                                          |
+
+**FinancialTransaction**
+
+Representa una transacción financiera entre dos partes. Se asocia directamente a un pago específico.
+
+| Attribute  | Type       | Description                                         |
+|------------|------------|-----------------------------------------------------|
+| id         | UUID       | Unique identifier for the transaction               |
+| source     | PartyType  | Party from which the money originated               |
+| target     | PartyType  | Party receiving the money                           |
+| type       | String     | Type of transaction (e.g., payment, refund)         |
+| concept    | String     | Description of the transaction purpose              |
+| date       | DateTime   | Date and time of the transaction                    |
+| reference  | String     | External or internal reference identifier           |
+| payment    | Payment    | Payment object associated with this transaction     |
+
 ## 4.8. Database Design
 
+Esta sección presenta el diseño de la base de datos del sistema, derivado del modelo orientado a objetos y los bounded contexts definidos bajo el enfoque de Domain-Driven Design (DDD).
+El objetivo es estructurar las entidades persistentes y sus relaciones para garantizar la integridad, escalabilidad y trazabilidad de los datos.
+
+Se optó por MySQL como sistema de gestión de bases de datos por su amplio soporte en la industria, facilidad de integración y buen rendimiento en aplicaciones web escalables.
+
 ### 4.8.1. Database Diagram
+
+A continuación se muestra el diagrama entidad-relación (ERD), que representa gráficamente las tablas de la base de datos, sus atributos principales y las relaciones existentes entre ellas.
+Este diagrama fue generado a partir del modelo de clases y ajustado a una representación relacional clara y normalizada.
+
+![Database Diagram](./assets/images/database-diagram.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
@@ -751,6 +1023,7 @@ A continuación se detallan sus definiciones y las etiquetas específicas para l
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
+En este primer sprint no se contempló la evidencia de documentación de servicios.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
@@ -759,10 +1032,42 @@ A continuación se detallan sus definiciones y las etiquetas específicas para l
 
 # Conclusiones
 
+En esta sección se presentan las principales conclusiones del equipo respecto al desarrollo del modelo de negocio digital, alineadas a los Problem Statements e hipótesis del proceso Lean UX.
+Se contrastan los hallazgos obtenidos con la implementación realizada durante este primer sprint.
+
 ## Conclusiones y Recomendaciones
 
-## Video About-the-Team
+### Conclusiones
+
+El equipo concluyó que las academias presenciales enfrentan serias limitaciones en su gestión administrativa diaria debido al uso de herramientas no integradas, como hojas de cálculo y documentos físicos.
+Nuestro producto busca abordar estas ineficiencias mediante funcionalidades como la automatización de matrículas, control de asistencia y pagos, así como la centralización de horarios y comunicación.
+Aunque aún no se ha realizado la validación con usuarios reales, el desarrollo de la Landing Page permite comunicar efectivamente el valor de la solución, siendo un primer paso clave para atraer y educar al segmento objetivo.
+
+Las hipótesis se consideran parcialmente validadas: se identificó un fuerte interés por una plataforma centralizada, con alertas y accesibilidad desde múltiples dispositivos, lo cual respalda funcionalidades como recordatorios de pago y visualización de horarios.
+Sin embargo, aún no se ha contrastado el comportamiento real de adopción o retención por parte de los usuarios, ya que la Web Application y la API aún no se han implementado.
+A pesar de ello, los entregables desarrollados hasta el momento están enfocados en facilitar la experiencia del usuario, así como la accesibilidad e internacionalización, y aportar claridad al modelo de negocio.
+
+Se recomienda priorizar en el siguiente sprint el desarrollo de la Web Application con las funcionalidades esenciales para usuarios administrativos y docentes, como la gestión de asistencia, matrícula y pagos.
+Asimismo, se sugiere integrar la arquitectura backend junto a la API RESTful para garantizar la escalabilidad de la solución.
+
+### Recomendaciones
+
+Es crucial preparar los escenarios de validación con usuarios reales a fin de ajustar la experiencia, identificar puntos de fricción y validar hipótesis críticas como la aceptación del sistema por parte de personal con poca experiencia tecnológica.
+
+Además, se recomienda mantener la coherencia visual y de navegación entre la Landing Page y la Web Application, e implementar métricas desde el inicio para medir adopción, retención y efectividad en la automatización de tareas administrativas.
+Estas acciones permitirán optimizar el roadmap del producto y acercarse de manera sostenida a los objetivos de negocio establecidos.
+
+Finalmente, se sugiere incorporar una sección de ayuda dentro del sistema con tutoriales breves y guías interactivas para facilitar la adopción por parte de usuarios con baja familiaridad tecnológica.
+Esto contribuirá a reducir la curva de aprendizaje y a mejorar la percepción de usabilidad desde los primeros usos.
 
 # Bibliografía
 
 # Anexos
+
+Enlace de los videos de las entrevistas para needfinding: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:f:/g/personal/u20201e843_upc_edu_pe/EhwhfGx_OFdBu7-XPK4vTsgBhmUXGhotfgopq1ffVoEavQ?e=RJFMih)
+
+Enlace del video de exposición TB1:
+
+Enlace del repositorio en Github: [Ver en Github](https://github.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report)
+
+Enlace a la landing page: [Abrir en el navegador](https://demy-academy.netlify.app/)
