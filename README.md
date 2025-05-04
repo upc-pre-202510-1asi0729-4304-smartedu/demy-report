@@ -48,7 +48,7 @@
 
 # Project Report Collaboration Insights
 
-Enlace para acceder al repositorio para el reporte del proyecto: [*Ver en GitHub*](https://github.com/upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page.git)
+Enlace para acceder al repositorio para el reporte del proyecto: [*Ver en GitHub*](https://github.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report)
 
 **TB1**
 <br>Para el desarrollo del TB1 cada participante del equipo realizo las siguientes tareas:
@@ -80,12 +80,12 @@ Las principales ramas del repositorio son las siguientes:
 
 - **main:** Rama principal que contiene la versión estable y consolidada del documento.
 - **develop:** Rama de integración utilizada para fusionar los cambios realizados en las ramas de características.
-- **feature/sprint1-daniel:** Rama utilizada por Daniel para el desarrollo de las tareas correspondientes al Sprint 1.
-- **feature/sprint1-diego:** Rama utilizada por Diego para el desarrollo de las tareas correspondientes al Sprint 1.
-- **feature/sprint1-paul:** Rama utilizada por Paul para el desarrollo de las tareas correspondientes al Sprint 1.
-- **feature/sprint1-rafael:** Rama utilizada por Rafael para el desarrollo de las tareas correspondientes al Sprint 1.
-- **feature/sprint1-salim:** Rama utilizada por Salim para el desarrollo de las tareas correspondientes al Sprint 1.
-- **release/1.0.0:** Rama creada para preparar versiones candidatas al reporte final, siguiendo *Semantic Versioning 2.0.0*. En esta rama se realizan ajustes finales como correcciones menores y revisiones antes de integrarla a `main`.
+- **feature/sprintX-daniel:** Rama utilizada por Daniel para el desarrollo de las tareas correspondientes a un determinado sprint.
+- **feature/sprintX-diego:** Rama utilizada por Diego para el desarrollo de las tareas correspondientes a un determinado sprint.
+- **feature/sprintX-paul:** Rama utilizada por Paul para el desarrollo de las tareas correspondientes a un determinado sprint.
+- **feature/sprintX-rafael:** Rama utilizada por Rafael para el desarrollo de las tareas correspondientes a un determinado sprint.
+- **feature/sprintX-salim:** Rama utilizada por Salim para el desarrollo de las tareas correspondientes a un determinado sprint.
+- **release/vX.X.X:** Rama creada para preparar versiones candidatas al reporte final, siguiendo *Semantic Versioning 2.0.0*. En esta rama se realizan ajustes finales como correcciones menores y revisiones antes de integrarla a `main`.
 - **hotfix/urgent-fix:** Rama utilizada para aplicar correcciones críticas directamente sobre `main`, asegurando la estabilidad de la versión publicada.
 
 <div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
@@ -442,7 +442,7 @@ En el análisis del segmento objetivo para Demy, hemos previsto que nuestros pri
 
 ### Profesores de academias preuniversitarias
 
-Según la revista Gan@Mas (24 de julio, 2014), sabemos que diversos docentes usan hasta el **29% de su tiempo en tareas administrativas**, las cuales no deberían estar ligadas a profesionales de la educación. La gran demanda en estas academias preuniversitarias no permite a los profesores dedicar su tiempo laboral a ejercer plenamente su labor de docente.
+Según la revista Gan@Mas(24 de julio,2014), sabemos que diversos docentes usan hasta el **29% de su tiempo en tareas administrativas**, las cuales no deberían estar ligadas a profesionales de la educación. La gran demanda en estas academias preuniversitarias no permite a los profesores dedicar su tiempo laboral a ejercer plenamente su labor de docente.
 
 - **Edad**: Buscamos profesores de cualquier edad
 - **Necesidad clave**: Reducir la carga administrativa y optimizar su tiempo para centrarse en la enseñanza y mejorar su eficiencia en las aulas.
@@ -642,9 +642,9 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Nombre**              | Luis de la Cruz Herrera                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | **Edad**                | 25                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Sexo**                | Maculino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Sexo**                | Masculino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | **Distrito**            | La Molina                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| **Ocupación**           | Docente de Circulos de estudio en la universidad Agraria                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Ocupación**           | Docente de Círculos de estudio en la universidad Agraria                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | **Fecha de entrevista** | 8 de abril del 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | **Duración**            | 12:16 minutos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | **Captura**             | ![Captura](./assets/screenshots/interview-screenshot-teacher1.jpg)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -662,7 +662,7 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 | **Ocupación**           | Docente en CEPRE Agraria                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | **Fecha de entrevista** | 08 de abril del 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Duración**            | 14:46 minutos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| **Captura**             | ![Captura](./assets/screenshots/interview-screenshot-teacher1.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Captura**             | ![Captura](./assets/screenshots/interview-screenshot-teacher2.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | **Video**               | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EWQAxTMJq4tJpIHJ90rbWfYBCZKPnkxth6JTmDrxSy7_1Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FIc2F9)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | **Resumen**             | El entrevistado enseña en una academia preuniversitaria y usa Excel para registrar notas y asistencia, además de Google Forms en algunos casos. Si bien la comunicación con el personal administrativo es buena, ha experimentado dificultades al reprogramar clases debido a la baja asistencia en días especiales, por lo que realiza encuestas para reagendar. Considera fundamental contar con una herramienta centralizada que le permita registrar notas y asistencia de forma ordenada. Valora altamente que la plataforma sea intuitiva, visualmente simple y accesible desde su celular. También sugiere que padres o tutores puedan acceder a la información. Aunque no le interesa recibir alertas por notas o asistencia, considera clave recibir notificaciones por cambios de horario. Está dispuesto a aprender a usar nuevas herramientas si percibe una mejora real en su productividad. |
 
@@ -830,6 +830,7 @@ Se elaboraron los Empathy Mapping para los dos User Personas: el Administrador d
 ---
 
 ### 2.3.5. As-Is Scenario Mapping
+
 Para elaborar el As-Is Scenario Mapping, como grupo es importante empatizar con nuestros futuros usuarios, buscando describir sus experiencias de forma que reflejaran sus pain points identificados en la seccion anterior .
 
 **As-Is Scenario Mapping Coordinador**
@@ -837,7 +838,6 @@ Para elaborar el As-Is Scenario Mapping, como grupo es importante empatizar con 
 
 **As-Is Scenario Mapping Teacher**
 ![Image](assets/images/as-is-scenario-mapping-teacher.png)
-
 
 ## 2.4. Ubiquitous Language
 
@@ -909,6 +909,7 @@ Notificación automática que recuerda tareas o eventos importantes, como vencim
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping.
+
 Para el desarrollo del To-be Scenario Mapping, el equipo planteó cómo mejorarían las actividades de los administradores y docentes tras implementar Demy. Este flujo proyectado soluciona los problemas detectados en el As-is Scenario, con procesos más ágiles, automatizados y centrados en una mejor gestión y comunicación.
 
 **To-Be Scenario Mapping Coordinator**
@@ -1051,6 +1052,7 @@ Para elaborar el Product Backlog se identificaron y priorizaron las funcionalida
 ## 4.1. Style Guidelines
 
 ### 4.1.1. General Style Guidelines
+
 La identidad visual de **Demy** ha sido diseñada para transmitir cercanía, confianza y profesionalismo, cualidades esenciales en una herramienta dirigida a academias educativas que buscan modernizar su gestión financiera y de pagos. El estilo visual se basa en principios de simplicidad, accesibilidad y consistencia, permitiendo que los usuarios, incluso aquellos con poca experiencia digital, puedan interactuar con facilidad tanto en la versión web como en móvil.
 
 ---
@@ -1159,6 +1161,7 @@ Vamos a usar diferentes sistemas de organización según el tipo de contenido qu
 - **Secuencial (Step-by-step):** Se usará cuando el contenido deba seguir un orden lógico para ser comprendido o completado.
 
 ### 4.2.2. Labeling Systems
+
 La interfaz de nuestra aplicación debe ser clara y fácil de usar, con palabras claves que sean conocidas por nuestros usuarios. Por esta razón, las etiquetas empleadas deben explicar de manera concisa su función en pocas palabras. Así, hemos creado etiquetas para la navegación principal en las dos versiones de nuestra aplicación web:
 
 ***Coordinador***
@@ -1230,6 +1233,7 @@ A continuación se detallan sus definiciones y las etiquetas específicas para l
 ```
 
 ### 4.2.4. Searching Systems
+
 A medida que se incrementa la cantidad de información almacenada en nuestra plataforma, resulta esencial brindar herramientas que ayuden a los usuarios a encontrar lo que necesitan de forma ágil y precisa. Para evitar que se sientan abrumados, hemos integrado diferentes mecanismos de búsqueda y filtrado que se adaptan a distintos contextos dentro del sistema.
 
 #### Búsqueda por palabra clave
@@ -1263,25 +1267,26 @@ Accesibilidad y Usabilidad: Hemos aplicado el "Responsive Design" que hace que l
 **Landing Page para Desktop Web Browser**
 
 A continuación, se muestra la landing page tal como se visualiza desde un navegador web en su versión para escritorio. Esta página incluye diversas secciones importantes para el usuario, donde se detallan los beneficios que ofrece el producto, las opciones de planes de pago, los perfiles del equipo de trabajo. Además, se incluye un apartado dedicado a resolver las preguntas frecuentes de los usuarios.
-![imagesWireframe1](./assets/images/images-wirefranes/landing-page-destop-web-browser-1.png)
-![imagesWireframe2](./assets/images/images-wirefranes/landing-page-destop-web-browser-2.png)
-![imagesWireframe3](./assets/images/images-wirefranes/landing-page-destop-web-browser-3.png)
-![imagesWireframe4](./assets/images/images-wirefranes/landing-page-destop-web-browser-4.png)
-![imagesWireframe5](./assets/images/images-wirefranes/landing-page-destop-web-browser-5.png)
-![imagesWireframe6](./assets/images/images-wirefranes/landing-page-destop-web-browser-6.png)
-![imagesWireframe7](./assets/images/images-wirefranes/landing-page-destop-web-browser-7.png)
-![imagesWireframe8](./assets/images/images-wirefranes/landing-page-destop-web-browser-8.png)
-![imagesWireframe9](./assets/images/images-wirefranes/landing-page-destop-web-browser-9.png)
-**Landing Page para Movil Web Browser**
+![imagesWireframe1](./assets/images/images-wireframes/landing-page-destop-web-browser-1.png)
+![imagesWireframe2](./assets/images/images-wireframes/landing-page-destop-web-browser-2.png)
+![imagesWireframe3](./assets/images/images-wireframes/landing-page-destop-web-browser-3.png)
+![imagesWireframe4](./assets/images/images-wireframes/landing-page-destop-web-browser-4.png)
+![imagesWireframe5](./assets/images/images-wireframes/landing-page-destop-web-browser-5.png)
+![imagesWireframe6](./assets/images/images-wireframes/landing-page-destop-web-browser-6.png)
+![imagesWireframe7](./assets/images/images-wireframes/landing-page-destop-web-browser-7.png)
+![imagesWireframe8](./assets/images/images-wireframes/landing-page-destop-web-browser-8.png)
+![imagesWireframe8](./assets/images/images-wireframes/landing-page-destop-web-browser-9.png)
+
+**Landing Page para Mobile Web Browser**
 
 A continuación, se muestra la landing page visualizada desde un navegador web en un dispositivo móvil. Esta versión contiene los mismos elementos que el diseño para escritorio, pero está adaptada a las dimensiones y características de los móviles.
 
-![imagesWireframe2.1](./assets/images/images-wirefranes/landing-page-movil-web-browser-1.png)
-![imagesWireframe2.2](./assets/images/images-wirefranes/landing-page-movil-web-browser-2.png)
-![imagesWireframe2.3](./assets/images/images-wirefranes/landing-page-movil-web-browser-3.png)
-
+![imagesWireframe2.1](./assets/images/images-wireframes/landing-page-movil-web-browser-1.png)
+![imagesWireframe2.2](./assets/images/images-wireframes/landing-page-movil-web-browser-2.png)
+![imagesWireframe2.3](./assets/images/images-wireframes/landing-page-movil-web-browser-3.png)
 
 ### 4.3.2. Landing Page Mock-up
+
 **Landing Page Mock-up Desktop Web Browser**
 
 El wireframe para desktop guió la disposición de los elementos, y el mock-up finaliza con los contenidos definidos. Se usaron los colores y tipografía del Style Guidelines para asegurar coherencia visual y una navegación clara, integrando principios de diseño inclusivo y accesibilidad.
@@ -1298,7 +1303,6 @@ El wireframe para desktop guió la disposición de los elementos, y el mock-up f
 <br>![Image](assets/images/landing-page-mockup/desktop-web-browser/footer.png)
 <br>
 
-
 **Landing Page Mock-up Mobile Web Browser**
 
 La versión mobile adaptó el diseño a pantallas pequeñas, priorizando los elementos más importantes. Se mantuvieron los mismos colores y tipografía del Style Guidelines, con un enfoque que optimiza la navegación táctil y garantiza accesibilidad.
@@ -1314,6 +1318,7 @@ La versión mobile adaptó el diseño a pantallas pequeñas, priorizando los ele
 ### 4.4.1. Web Applications Wireframes
 
 #### Web Application Wireframes para Desktop Web Browser
+
 **Selección tipo de usuario**
 Pantalla inicial de la aplicación web donde se solicita al visitante seleccionar su rol como "Administrador" o "Profesor", decisión fundamental que determinará el flujo de navegación y las funcionalidades disponibles según el tipo de usuario elegido.
 ![Wireframe-1](assets/images/wireframes-appweb/desktop/Selección-tipo-usuario.png)
@@ -1321,7 +1326,6 @@ Pantalla inicial de la aplicación web donde se solicita al visitante selecciona
 **Crear cuenta**  
 Pantalla donde el usuario, tras haber seleccionado el rol de "Administrador", accede a un formulario de registro en el que debe ingresar información obligatoria como nombres y apellidos, número de RUC, nombre de la academia, correo electrónico y contraseña, datos esenciales para crear una cuenta institucional y acceder a la plataforma como administrador.  
 ![Wireframe-2](assets/images/wireframes-appweb/desktop/Crear-cuenta.png)
-
 
 **Iniciar sesión**  
 Pantalla donde tanto administradores como profesores pueden ingresar, para acceder a la plataforma, permitiendo el ingreso seguro a sus respectivos espacios según el rol previamente registrado.  
@@ -1417,6 +1421,7 @@ Pantalla donde el profesor puede registrar la asistencia de los estudiantes en s
 ![Wireframe-20](assets/images/wireframes-appweb/desktop/Panel-control-vistaprofesor-lista-alumnos.png)
 
 #### Web Application Wireframes para Mobile Web Browser
+
 **Selección tipo de usuario**  
 Pantalla inicial donde se elige si se ingresará como "Administrador" o "Profesor", lo que define el acceso a funciones específicas.  
 ![Wireframe-1](assets/images/wireframes-appweb/mobile/seleccion-usuario.png)
@@ -1456,7 +1461,6 @@ Pantallas para crear nuevas aulas asignándolas a un periodo y código único.
 **Mi organización - Añadir Profesor (Administrador)**  
 Pantallas donde el administrador puede agregar nuevos profesores a la academia completando un formulario con nombre, correo electrónico y cursos o aulas asignadas.  
 ![Wireframe-20](assets/images/wireframes-appweb/mobile/añadir-profesor.png)
-
 
 **Panel de Control: Matrícula (Administrador)**  
 Pantalla para registrar alumnos a un aula con formulario de datos y confirmación.  
@@ -1498,8 +1502,11 @@ Pantalla donde el profesor ve el horario específico de cada aula en la que ense
 Pantalla para marcar asistencia de estudiantes y consultar sus registros anteriores.  
 ![Wireframe-19](assets/images/wireframes-appweb/mobile/asistencia-profesor.png)
 
-
 ### 4.4.2. Web Applications Wireflow Diagrams
+
+**Enlace al Lucidchart de los Web Application Wireflow 1:** https://lucid.app/lucidchart/dc62c656-47ca-4421-a712-0eedd29917aa/edit?invitationId=inv_bb16034b-1368-435e-be1c-228f3b1829f3
+
+**Enlace al Lucidchart de los Web Application Wireflow 2:** https://lucid.app/lucidchart/07532b98-64b8-4102-bb2e-31f6b078993d/edit?invitationId=inv_4f77558d-d2cb-4438-b08b-e320fc824638
 
 **User goal:** Registro de cuenta  
 **User persona:** Administrador de academia  
@@ -1685,8 +1692,11 @@ En las siguientes imágenes se muestra la pestaña del panel de "Asistencia", do
 ![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Profesores-Pagina/3-Asistencia/1Vista_profesor-Asistencia.png)
 
 Enlace para acceder al [Figma](https://www.figma.com/design/IBULvwLcn9jdOYaUj9JqsP/Mock-ups?node-id=101-2884&t=go5YlT5s8AHAzlLO-1)
+
 ### **Web Application mock-ups para Mobile Web Browser**
+
 #### **Mock-ups que tiene como usuario al administrador de la academia**
+
 En la imagen se muestra la pantalla de inicio de sesión de Demy, así como las opciones para rellenar sus datos, solo si el usuario ya tiene una cuenta creada con anterioridad.<br>
 ![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/1Registro/4Inicio_Sesion.png)
 
@@ -1764,7 +1774,6 @@ En la siguiente imagen se muestra la pestaña del panel de Finanzas, donde el ad
 En la siguiente imagen se muestra la pestaña del panel de Reportes de Finanzas, donde el administrador podrá observar el reporte general de las finanzas y aplicar filtros para generar un reporte más detallado.<br>
 ![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/8Finanzas/2Finanzas_Reporte.png)  
 ![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/8Finanzas/3Finanzas_Reporte_Filtros.png)
-
 
 #### **Mock-ups que tiene como usuario al profesor de la academia**
 **Panel de control - Mi Organización**  
@@ -1874,7 +1883,6 @@ Al seleccionar algún registro se verá en la parte de abajo la opción de "Elim
 Si se selecciona "Eliminar" se eliminará la matrícula del historial, caso contrario se devolverá al usuario a "Historial de Matrículas".
 ![imagesFlowDiagrams3](./assets/images/web_applications_user_flow_diagrams/Admin/5.Eliminar_Matricula.png)
 
-
 <br> 
 
 **UserGoal: Ver la información de alumnos en Demy**<br>    
@@ -1983,7 +1991,6 @@ Cuando el usuario ya haya terminado de pasar asistencia y registrado la asistenc
 Cuando le dé a la opción de Guardar se mostrará una pestaña que dice "La asistencia ha sido registrada exitosamente".
 ![imagesFlowDiagrams13](./assets/images/web_applications_user_flow_diagrams/Profesor/Guardar_Asitencia.png)
 
-
 ## 4.5. Web Applications Prototyping
 
 Esta sección tiene como objetivo describir los posibles flujos de usuario (User Flows) que se han diseñado para la aplicación web tanto en versión de escritorio como en dispositivos móviles. A través de prototipos interactivos, se pretende ilustrar los caminos de interacción del usuario, mostrando cómo los diferentes tipos de usuarios (dueño del taller, mecánico o cliente) navegan por la plataforma para realizar sus actividades.
@@ -1994,9 +2001,11 @@ Enlace para ver la explicación del prototipado de la aplicación web en versió
 Enlace para acceder al [Flujo en figma](https://www.figma.com/design/4EgUY0zqioRcsS9MNoPsJb/Prototyping?node-id=0-1&t=UsmyKCKlx8hSZYvH-1)
 
 ## 4.6. Domain-Driven Software Architecture
-En esta seccion se detallara la arquitectura basada en DDD para nuestra aplicacion frontEnd
+
+En esta sección se detallará la arquitectura basada en DDD para nuestra aplicación front-end.
 
 ### 4.6.1. Software Architecture Context Diagram
+
 Demy es una plataforma web diseñada específicamente para resolver los problemas administrativos que enfrentan las academias educativas. Tiene dos segmentos objetivos. El Coordinador es el usuario encargado de gestionar la academia. El Docente utiliza Demy para consultar los horarios y registrar la asistencia de los estudiantes.
 
 Además, Demy interactúa con dos sistemas externos: Microsoft Outlook, que se utiliza para enviar notificaciones por correo electrónico, y IoT Attendance, un sistema de IoT que recibe información sobre la asistencia de los docentes.
@@ -2004,32 +2013,37 @@ Además, Demy interactúa con dos sistemas externos: Microsoft Outlook, que se u
 ![Image](assets/domain-driven-software-architecture/SoftwareArchitectureContextDiagram.png)
 
 ### 4.6.2. Software Architecture Container Diagrams
+
 El Container Diagram de Demy muestra los principales contenedores del sistema y cómo interactúan entre sí. El sistema está conformado por una aplicación web de una sola página (SPA), una API RESTful y una base de datos monolitica. Los usuarios ingresan al sistema a través de una Landing Page, que los redirige a la SPA, donde se manejan tareas clave como el control de asistencia y la gestión de horarios. El sistema se comunica con la API de Demy, que consulta la base de datos para gestionar la información académica.
 <br> <br>
 ![Image](assets/domain-driven-software-architecture/SoftwareArchitectureContainerDiagrams.png)
 
 ### 4.6.3. Software Architecture Components Diagrams
+
 **Attendance Context**
 El flujo comienza con el AppComponent, que organiza la aplicación. El AttendanceRecordComponent registra la asistencia, y los datos se transforman a través del AttendanceService y AttendanceRecord.assembler. El AttendanceDashboardComponent muestra la asistencia, mientras que el ClassSessionComponent visualiza las sesiones de clase. Los datos se procesan y transforman en modelos y DTOs para ser mostrados en la interfaz de usuario.
 <br> <br>
 ![Image](assets/domain-driven-software-architecture/AttendanceComponents.png)
+
 **Enrollments Context**
 El flujo en este diagrama comienza con el AppComponent, que organiza la interfaz. El EnrollmentComponent gestiona las inscripciones y usa el EnrollmentApiService para obtener y actualizar datos del backend. De manera similar, el AcademyComponent maneja la información de academias y períodos académicos a través del AcademyApiService. Los datos se transforman en modelos de dominio mediante los Assemblers antes de ser utilizados en la aplicación. En resumen, los componentes interactúan con los servicios de backend, transformando y mostrando los datos relevantes.
 <br> <br>
 ![Image](assets/domain-driven-software-architecture/EnrollmentsComponents.png)
+
 **IAM Context**
 El flujo comienza con el AppComponent, que organiza la aplicación. El UserAccountComponent gestiona los detalles de la cuenta y el RoleManagementComponent maneja los roles. El LoginComponent se encarga del inicio de sesión, interactuando con el AuthenticationApiService para autenticar a los usuarios. El UserApiService actualiza los datos del usuario, comunicándose con el Demy API. Los datos se transforman con User.assembler y se estructuran en modelos como User.entity y User.response
 <br> <br>
 ![Image](assets/domain-driven-software-architecture/IAMComponents.png)
+
 **Scheduling Context**
 El flujo comienza con el AppComponent, que organiza la aplicación. El ScheduleManagementComponent gestiona los horarios semanales a través del WeeklyScheduleService, que transforma los datos con WeeklySchedule.assembler y los guarda en WeeklySchedule.entity. El ScheduleService maneja las entradas individuales de horarios, utilizando el SchedulingApiService para comunicarse con el backend, y transforma los datos con Schedule.assembler en Schedule.entity.
 <br> <br>
 ![Image](assets/domain-driven-software-architecture/SchedulingComponents.png)
+
 **Subscription and Billing Context**
 El flujo comienza con el AppComponent, que organiza la aplicación. El SubscriptionManagementComponent gestiona las suscripciones y usa el SubscriptionService para interactuar con la API. Los datos se transforman con Subscription.assembler y se estructuran en Subscription.entity. El PlanManagementComponent maneja los planes de suscripción, mientras que el InvoiceManagementComponent gestiona las facturas, utilizando servicios similares para procesar y estructurar los datos en Invoice.entity. El TransactionManagementComponent maneja las transacciones financieras, interactuando con el FinancialTransactionService y procesando los datos en FinancialTransaction.entity.
 <br> <br>
 ![Image](assets/domain-driven-software-architecture/SubscriptionBillingComponents.png)
-
 
 ## 4.7. Software Object-Oriented Design
 
@@ -2245,6 +2259,7 @@ Este diagrama fue generado a partir del modelo de clases y ajustado a una repres
 ![Database Diagram](./assets/images/database-diagram.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
+
 ## 5.1. Software Configuration Management
 
 ### 5.1.1. Software Development Environment Configuration
@@ -2388,6 +2403,7 @@ Para los mensajes de commit, se utilizará el estándar **Conventional Commits**
 - `chore`: tareas generales o mantenimiento
 
 ### 5.1.3. Source Code Style Guide & Conventions
+
 Con el fin de asegurar un código limpio, mantenible y coherente entre todos los miembros del equipo, se han adoptado las siguientes convenciones de estilo y nomenclatura. Todas las variables, funciones, clases, archivos y elementos seguirán una **nomenclatura en inglés**.
 
 **Nomenclature General**
@@ -2451,6 +2467,7 @@ En caso de usar Gherkin (para especificaciones o pruebas): <br>
 - Usaremos el formato Given When And Then
 
 ### 5.1.4. Software Deployment Configuration.
+
 En esta sección, detallaremos todos los procesos necesarios para desplegar efectivamente nuestra landing page.
 Explicaremos cada proceso con detalle.
 
@@ -2475,11 +2492,9 @@ Para el despliegue tuvimos que cumplir requisitos previos como tener una cuenta 
 6. **Seguir configurando** <br>
    Seguimos configurando, pero esta vez seleccionando el "Publish directory" colocamos public, para finalmente darle a "Deploy demy-academy".
    ![Screenshot 6 del Deployment](./assets/screenshots/deployment-6.png)
-
 7. **Esperar el deploy**<br>
    Aquí esperamos a que se termine de desplegar.
    ![Screenshot 7 del Deployment](./assets/screenshots/deployment-7.png)
-
 8. **Despliegue listo** <br>
    Ahora podemos observar que el deploy está listo y podremos ver el enlace de la web a la landing page recién desplegada.
    ![Screenshot 8 del Deployment](./assets/screenshots/deployment-8.png)
@@ -2492,6 +2507,7 @@ Ahora con la Landing Page desplegada, cada vez que se realize un push en la rama
 ### 5.2.1. Sprint 1
 
 #### 5.2.1.1. Sprint Planning 1
+
 A continuación se presentará el sprint planning para esta primera entrega, donde definimos que trabajo se va a realizar para el próximo sprint y cómo se va a lograr.
 
 | Sprint #                             | Sprint 1                                                                                                                                                                                                                                                                                                                                              |
@@ -2772,37 +2788,40 @@ Link del Trello: https://trello.com/invite/b/67ecba86096fa46ebe8a2926/ATTIfafb6c
 
 Con el sprint 1 se avanzó con la creación del landing page para Demy, que incluyo estas secciones: testimonials, pricing, landing-setup, hero-setup, hero-section, footer, faq, contact, benefits, about-us y about-product.
 
-| Repository                                              | Branch        | Commit ID                          | Commit Message                                                                            | Commit Body | Committed On |
-|---------------------------------------------------------|---------------|------------------------------------|-------------------------------------------------------------------------------------------|-------------|--------------|
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | landing-setup | 5a2ee1bbfcc3f69d5f356beac8cc236555cd4d97 | feat: initialize landing page structure                                                   | —           | 19/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | hero-section  | 9c44dc3a12a54e4941b9f3ef10a6fa586f06d543 | feat: add hero section with i18n and layout structure                                     | —           | 19/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | hero-section  | fd91bc89e114bf54989f4f38cbac3301dc1c16f0 | feat: add responsive navbar with i18n support and custom styles                           | —           | 19/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | hero-section  | 61ef07b40223ba87514f42d83fe662aa66e0d588 | Merge pull request #1 from upc-pre-202501-1asi0730-4364-smartedu/feature/landing-setup    | —           | 19/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | footer        | b46562380a03aaf9f5c9fec458429be79984452f | feat: add footer section to landing page                                                  | —           | 24/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | faq           | dc2dfb7eb9aa9fb932c3badc7cefedf1cb9611e8 | feat: add faq section to landing page                                                     | —           | 20/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | contact       | 46fe3d668f22deaf3e173fcdc1c72a168c5b6ea7 | feat: add contact section to landing page                                                 | —           | 23/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | benefits      | 38292e34eddd5b3e1a5e5a1e85df146bc5572170 | fix: text of description1                                                                 | —           | 24/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | benefits      | ddd4655d93a19765abbb60deb2cce6aff2623f92 | feat: add section benefits with i18n                                                      | —           | 23/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | about-us      | 15b9d86e70096fe4c91a51281a4b76e274d510f5 | fix: about-us titles                                                                      | —           | 24/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | about-us      | 595f8b4e20ad8784cde5a2ce77775d5727447b4a | fix: about-us and images                                                                  | —           | 24/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | about-us      | 332c8746a75f599ad218eb2fceac9192b75db0b6 | feat: add about us section to landing page                                                | —           | 22/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | about-product | 5f28a5099fa38f4d365f0379895250be2eb09e7a | feat: add section about-product with i18n                                                 | —           | 23/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | testiominals  | 71ac258bb28a0aa96c0456c702d2ffa6b2aaeb51 | feat: add testimonial section to landing page                                             | —           | 21/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | pricing       | 721b70cd2209084af90f626a86873f55fd6af493 | feat: add pricing section to landing page                                                 | —           | 24/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | ad5396ae1083080036733d5f0e2deab2149db48d | merge: integrate feature/hero-section into develop                                        | -           | 19/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | 5fa6f5db79bf9cd5cbb5b61a5bbc085f7711c60c | merge: integrate feature/landing-setup into develop                                       | -           | 24/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | c7e0a202b76410d74f3f63c0a172ba4ba1835869 | feat: add favicon and related icons using relative paths in head                          | -           | 24/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | 222bb02094067c46daf9b96be100037fc98ab650 | feat: add SEO and meta tags to head                                                       | -           | 24/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | 708b7500ba08650ab3271e1c4bdca605b498c8c5 | merge: integrate feature/pricing into develop                                             | -           | 24/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | 40523a7d3ac396c29d490b8910afed64a8aee0ea | merge: integrate feature/faq into develop                                                 | -           | 24/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | 58c946a7c3bd74284e7cb897aef6920a90c611d7 | merge: integrate feature/contact into develop                                             | -           | 24/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | 3e30addcc522d153c0451c19ec99e9c63e2c052c | merge: integrate feature/footer into develop                                              | -           | 24/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | 5e0a93812dda23408552c763b3a04f5bc8aae10d | merge: integrate feature/benefits into develop                                            | -           | 24/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | bac7b1576abfc39da8c790d0603a90434407e336 | merge: integrate feature/about-product into develop                                       | -           | 24/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | f3ace2358c46d7707d2403a40473b75e94f929a3 | merge: integrate feature/testimonials into develop                                        | -           | 24/04/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | f239f39a18c10bd85469d8038b14f3457fcc6a95 | merge: integrate feature/about-us into develop                                            | -           | 24/04/2025   |
+<div style="font-size:70%;">
 
-#### 5.2.1.5. Execution Evidence for Sprint Review
+| Repository                                                | Branch        | Commit ID                                | Commit Message                                                  | Commit Body | Committed On |
+|-----------------------------------------------------------|---------------|------------------------------------------|-----------------------------------------------------------------|-------------|--------------|
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page   | landing-setup | f73c732a7987ebebe060709990adbd726ae24424 | chore: scaffold landing sections by LPS                         | —           | 19/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page   | landing-setup | b2997546cd9d75ace064d9805a9012427acf2950 | feat: initialize landing page structure                         | —           | 19/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page   | hero-section  | 9eef2f20454019cdcd977711037c3bb5f2aebe96 | feat: add hero section with i18n and layout structure           | —           | 19/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page   | hero-section  | aaa7b7aac0a0e6cd11ed46d11448c782a90c955e | feat: add responsive navbar with i18n support and custom styles | —           | 19/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page   | hero-section  | 7f7c33f2e0f65c14ecd0fb7c3bf946dcc1001d12 | merge: integrate feature/landing-setup into develop             | —           | 19/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page   | footer        | 745c2605591465f0e60f1e718e6a9339edb58e7f | feat: add footer section to landing page                        | —           | 24/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page   | faq           | a0a3e1d18f2d68c2466adc819ce0898c15285763 | feat: add faq section to landing page                           | —           | 19/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page   | contact       | a60d3b95f2020d3cce110f09adfa60f66b0299ef | feat: add contact section to landing page                       | —           | 23/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page   | benefits      | a37134a3e94bdcb00fc95ecbb8e28d7d41dc111a | fix: text of description1                                       | —           | 24/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page   | benefits      | 826ef4030a2b5aa5b9047302fe0b818f84021b41 | fix: location of section benefits                               | —           | 23/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page   | benefits      | e3e3694c110c88b35c300a0a07e205af9a4eead3 | feat: add section benefits with i18n                            | —           | 23/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page   | about-us      | 777110de2a9b45727c4465ee39e9d8a539564b6f | fix: about-us titles                                            | —           | 24/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page   | about-us      | 231a0a74c7bfda271eab18878e5799a95d65bbdd | fix: about-us and images                                        | —           | 24/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page   | about-us      | a790880169897ff4de01f159784ce6925cc7cbc0 | feat: add about us section to landing page                      | —           | 22/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page   | about-product | fa0c0b5a619f59809518ae810ea829692fc92930 | feat: add section about the product with i18n                   | —           | 23/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page   | testimonials  | 0308fecafec842a6b3f4332996a1ef810ea59b2d | feat: add testimonial section to landing page                   | —           | 21/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page   | pricing       | 8a729a4a72a0af32f6b3ef0826b14310c584010a | feat: add pricing section to landing page                       | —           | 20/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page   | develop       | 67f699cabbec3637a87f97b42fdba420afbf4bcd | merge: integrate feature/hero-section into develop              | —           | 19/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page   | develop       | 0548208bc1092477af10346ffa81f28e684d0b3a | merge: integrate feature/about-us into develop                  | —           | 24/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page   | develop       | 62e427787908e559760908b0ff5dce19814386e9 | merge: integrate feature/about-product into develop             | —           | 24/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page   | develop       | b279f7b4f36b90ef24354470b52cf24cc60b0fb4 | merge: integrate feature/benefits into develop                  | —           | 24/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page   | develop       | 6480ddf1aa99b219a372a9ce7c7bc3558093b244 | merge: integrate feature/contact into develop                   |  —          | 24/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page   | develop       | 262523ca233203a2ad3e22667d8a39215eb8b53b | merge: integrate feature/footer into develop                    | —           | 24/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page   | develop       | f178a8acaec9cb74739481390bed9baeeeb64807 | merge: integrate feature/faq into develop                       | —           | 24/04/2025   |
+| upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page   | develop       | b985b946035ade44b7e9701255ee50981a84d436 | merge: integrate feature/pricing into develop                   | —           | 24/04/2025   |
+
+</div>
+
+#### 5.2.1.5. Execution Evidence for Sprint Review.
+
 En el Sprint 1 alcanzamos el desarrollo parcial de la implementación y despliegue del landing page, la cual muestra las diferentes secciones donde el usuario puede encontrar información relevante acerca del producto y del startup. A continuación, se muestran algunas evidencias:
 
 1. **Hero Section**: En esta sección el usuario podrá visualizar una breve descripción de Demy y un botón para comenzar a usarlo.
@@ -2815,19 +2834,16 @@ En el Sprint 1 alcanzamos el desarrollo parcial de la implementación y desplieg
    ![imagesExecutionEvidence](./assets/images/LandingPage/testimonials.png)
 5. **About Us**: En esta sección se verán los integrantes que conforman Demy.
    ![imagesExecutionEvidence](./assets/images/LandingPage/about-us.png)
-
 6. **Plans & Pricing**: En esta sección se mostrarán los 3 planes que ofrecemos como Demy y los beneficios de cada uno de estos.
    ![imagesExecutionEvidence](./assets/images/LandingPage/plans&pricing.png)
-
 7. **Contact**: En esta sección el usuario podrá ingresar sus datos para contactarse con los miembros de Demy.
    ![imagesExecutionEvidence](./assets/images/LandingPage/contact.png)
-
 8. **FAQs**: En esta sección se mostrarán las preguntas frecuentes sobre Demy y sus respectivas respuestas.
    ![imagesExecutionEvidence](./assets/images/LandingPage/faqs.png)
 9. **Footer**: En esta sección se mostrarán las secciones de la página y nuestras redes sociales.
    ![imagesExecutionEvidence](./assets/images/LandingPage/footer.png)
 
-Link de video de presentación sobre el Landing Page [VideoPresentacion](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EbGUPtmgEAJBvhH1xK76s3gBTQGoCg3cPYxXa1mHx1tljw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1Jg2NW)
+Link de video de presentación sobre la Landing Page [Video Presentación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EbNWdfKGQuBEuGvOgF0FLu8BkuSD2voCyDiuY2Un6Xb9Ug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fDUBDP)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -2835,7 +2851,7 @@ En este primer sprint no se contempló la evidencia de documentación de servici
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
-Para esta entrega del sprint 1, se desplegó nuestro Landing Page parcialmente completo.
+Para esta entrega del sprint 1, se desplegó nuestra landing page parcialmente completo.
 
 1. **Hero Section**: En esta sección el usuario podrá visualizar una breve descripción de Demy con texto que invite a usar la pagina y pueda ingresar a registrarse
    ![imagesExecutionEvidence](./assets/images/LandingPage/Hero_Section.png)
@@ -2843,26 +2859,24 @@ Para esta entrega del sprint 1, se desplegó nuestro Landing Page parcialmente c
    ![imagesExecutionEvidence](./assets/images/LandingPage/about_the_product.png)
 3. **Benefits**: En esta sección se describirán los beneficios que ofrece Demy frente a la competencia y como es mejor que usar herramientas antiguas como tablas de excel.
    ![imagesExecutionEvidence](./assets/images/LandingPage/benefits.png)
-4. **Testimonials**: En esta sección se mostrarán el testimonio de 3 usuarios y su calificacion.
+4. **Testimonials**: En esta sección se mostrarán el testimonio de 3 usuarios y su calificación.
    ![imagesExecutionEvidence](./assets/images/LandingPage/testimonials.png)
 5. **About Us**: En esta sección se verán los 5 integrantes que conforman Demy los nombres y quien es el team lider.
    ![imagesExecutionEvidence](./assets/images/LandingPage/about-us.png)
-
 6. **Plans & Pricing**: En esta sección se mostrarán los 3 planes que ofrecemos como Demy, los beneficios de cada uno de estos y el precio que tendra.
    ![imagesExecutionEvidence](./assets/images/LandingPage/plans&pricing.png)
-
 7. **Contact**: En esta sección el usuario podrá contactarse con los miembros de Demy rellenando sus datos y enviando un mensaje.
    ![imagesExecutionEvidence](./assets/images/LandingPage/contact.png)
-
 8. **FAQs**: En esta sección se mostrarán las preguntas frecuentes sobre Demy y abrir una seccion con las respuestas a las preguntas.
    ![imagesExecutionEvidence](./assets/images/LandingPage/faqs.png)
 9. **Footer**: En esta sección se mostrarán las secciones de la página y nuestras redes sociales.
    ![imagesExecutionEvidence](./assets/images/LandingPage/footer.png)
 
-Nuestro github del Landing page
-![imagesExecutionEvidence](./assets/images/LandingPage/git_aplicaciones_web.png)
+Nuestro repositorio en GitHub de la Landing page:
 
-Enlace para acceder al landing page: [Pagina](https://demy-smartedu.netlify.app/)
+![imagesExecutionEvidence](./assets/images/LandingPage/git_open_source.png)
+
+Enlace para acceder al landing page: [*Abrir en el navegador*](https://demy-academy.netlify.app/)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
@@ -2874,9 +2888,8 @@ Enlace para acceder al landing page: [Pagina](https://demy-smartedu.netlify.app/
 | Sulca Gonzales, Paúl Fernando      | plans & pricing,FAQs                    | 
 | Vilca Saboya, Diego Alejandro      | about-the-product,Benefits              |
 
-![imagesTeamCollaborations](./assets/images/Team_Collaboration_Insights_during_Sprint_Aplicaciones_web/Insight_commits.png)
-![imagesExecutionEvidence](./assets/images/Team_Collaboration_Insights_during_Sprint_Aplicaciones_web/Insight_contributors.png)
-
+![imagesTeamCollaborations](./assets/images/Team_Collaboration_Insights_during_Sprint_Open_source/Insight_commits.png)
+![imagesExecutionEvidence](./assets/images/Team_Collaboration_Insights_during_Sprint_Open_source/Insight_contributors.png)
 
 # Conclusiones
 
@@ -2914,7 +2927,7 @@ Esto contribuirá a reducir la curva de aprendizaje y a mejorar la percepción d
 
 Enlace de los videos de las entrevistas para needfinding: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:f:/g/personal/u20201e843_upc_edu_pe/EhwhfGx_OFdBu7-XPK4vTsgBhmUXGhotfgopq1ffVoEavQ?e=RJFMih)
 
-Enlace del video de exposición TB1: [Abrir](https://www.canva.com/design/DAGlo0_gXkM/iQyv4lVmeKhZB5CtedaOGA/edit?utm_content=DAGlo0_gXkM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+Enlace del video de exposición TB1: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/ESbzRCEthQVNrM6L4BuA1doBz8Vl_GXwLAFVuTiaa4_CnQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=T1XkRF)
 
 Enlace del repositorio en Github: [Ver en Github](https://github.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report)
 
