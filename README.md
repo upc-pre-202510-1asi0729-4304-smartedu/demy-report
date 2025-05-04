@@ -236,13 +236,13 @@ La startup **SmartEdu**, conformada por estudiantes de la carrera de Ingeniería
 
 ### 1.1.2. Perfiles de los integrantes del equipo
 
-| **Foto**                                   | **Nombre**                            | **Código** | **Carrera**            | **Resumen de Conocimientos Técnicos y Habilidades**                                                                                                          |
-|--------------------------------------------|---------------------------------------|------------|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Foto_Daniel](./assets/images/Daniel.jpg) | **Daniel Franco Crispin Ramos**       | U20221G120 | Ingeniería de Software | Conocimiento en bases de datos y gestión de proyectos. Experiencia en interfaces de usuario y soluciones para la administración educativa.                   |
-| ![Foto_Paul](./assets/images/Paul.png)     | **Paul Fernando Sulca Gonzales**      | U20221C486 | Ingeniería de Software | Conocimiento en diseño de software orientado a objetos y modelado UML. Experiencia en implementación de interfaces web adaptativas.                          |
-| ![Foto_Salim](./assets/images/salim.JPG)   | **Salim Ignacio Ramirez Mestanza**    | U20201E843 | Ingeniería de Software | Conocimiento en arquitectura de software y control de versiones con Git. Experiencia en documentación técnica y colaboración en equipos ágiles.              |
-| ![Foto_Diego](./assets/images/Diego.jpg)   | **Diego Alejandro Vilca Saboya**      | U20231A778 | Ingeniería de Software | Conocimiento en desarrollo web utilizando las últimas tecnologías en tendencia. Experiencia en elaboración de diagramas de arquitectura y prototipado UX/UI. |
-| ![Foto_Rafael](./assets/images/rafael.jpg) | **Rafael Alexander Dominguez Vargas** | U202312318 | Ingeniería de Software | Conocimiento en bases de datos relacionales y validación de requisitos. Experiencia en análisis de necesidades de usuario y desarrollo frontend.             |
+| **Foto**                                     | **Nombre**                            | **Código** | **Carrera**            | **Resumen de Conocimientos Técnicos y Habilidades**                                                                                                          |
+|----------------------------------------------|---------------------------------------|------------|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Foto_Daniel](./assets/images/Daniel.jpg)   | **Daniel Franco Crispin Ramos**       | U20221G120 | Ingeniería de Software | Conocimiento en bases de datos y gestión de proyectos. Experiencia en interfaces de usuario y soluciones para la administración educativa.                   |
+| ![Foto_Paul](./assets/images/Paul.png)       | **Paul Fernando Sulca Gonzales**      | U20221C486 | Ingeniería de Software | Conocimiento en diseño de software orientado a objetos y modelado UML. Experiencia en implementación de interfaces web adaptativas.                          |
+| ![Foto_Salim](./assets/images/salim.JPG)     | **Salim Ignacio Ramirez Mestanza**    | U20201E843 | Ingeniería de Software | Conocimiento en arquitectura de software y control de versiones con Git. Experiencia en documentación técnica y colaboración en equipos ágiles.              |
+| ![Foto_Diego](./assets/images/Diego.jpg)     | **Diego Alejandro Vilca Saboya**      | U20231A778 | Ingeniería de Software | Conocimiento en desarrollo web utilizando las últimas tecnologías en tendencia. Experiencia en elaboración de diagramas de arquitectura y prototipado UX/UI. |
+| ![Foto_Rafael](./assets/images/rafael.jpg)   | **Rafael Alexander Dominguez Vargas** | U202312318 | Ingeniería de Software | Conocimiento en bases de datos relacionales y validación de requisitos. Experiencia en análisis de necesidades de usuario y desarrollo frontend.             |
 
 ## 1.2. Solution Profile
 
@@ -593,32 +593,32 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 
 #### Segmento: Administrativo - Entrevistado 1
 
-| Atributo                | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Nombre**              | Kevin Rodriguez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| **Edad**                | 28                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| **Sexo**                | Masculino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| **Distrito**            | Ica                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Ocupación**           | Coordinador de Academia                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Fecha de entrevista** | 09 de abril de 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Duración**            | 05:29                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Captura**             | ![Captura](./assets/screenshots/interview-screenshot-coordinator1.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| **Video**               | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EdMM8r4dK-5LhtPoz2W7EYcB4xFBS0U003gfDCRLW13tkQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Fz6inu)                                                                                                                                                                                                                                                                                                       |
+| Atributo                | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre**              | Kevin Rodriguez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Edad**                | 28                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Sexo**                | Masculino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Distrito**            | Ica                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Ocupación**           | Coordinador de Academia                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Fecha de entrevista** | 09 de abril de 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Duración**            | 05:29                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Captura**             | ![Captura](./assets/screenshots/interview-screenshot-coordinator1.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Video**               | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EdMM8r4dK-5LhtPoz2W7EYcB4xFBS0U003gfDCRLW13tkQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Fz6inu)                                                                                                                                                                                                                                                                                                                 |
 | **Resumen**             | Kevin gestiona actualmente sus procesos administrativos con Excel y listas impresas, lo que considera poco eficiente y repetitivo. Necesita acceder con frecuencia a información como asistencias y notas, pero no siempre la tiene a la mano, lo que afecta la atención a padres, quienes consultan regularmente. Expresa el deseo de contar con un sistema automatizado que permita búsquedas rápidas por nombre o código y que envíe alertas sobre pagos. Está dispuesto a adoptar una nueva herramienta siempre que sea intuitiva, centralice la información y tenga un costo accesible. Espera mejorar la organización y el control con una solución más moderna. |
 
 #### Segmento: Administrativo - Entrevistado 2
 
-| Atributo                | Detalle                                                                                                                                                                                                                                                                                                                        |
-|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Nombre**              | Marleni Rosa Flores                                                                                                                                                                                                                                                                                                            |
-| **Edad**                | 58                                                                                                                                                                                                                                                                                                                             |
-| **Sexo**                | Femenino                                                                                                                                                                                                                                                                                                                       |
-| **Distrito**            | Ica                                                                                                                                                                                                                                                                                                                            |
-| **Ocupación**           | Coordinadora de Academia                                                                                                                                                                                                                                                                                                       |
-| **Fecha de entrevista** | 09 de abril de 2025                                                                                                                                                                                                                                                                                                            |
-| **Duración**            | 04:49                                                                                                                                                                                                                                                                                                                          |
-| **Captura**             | ![Captura](assets/screenshots/interview-screenshot-coordinator2.png)                                                                                                                                                                                                                                                           |
-| **Video**               | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/Ebs_BIAxG4JMrmCJ6LwJa_YBYvTTFdvZmgIrZxrulP_vhg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lyN4UA)                                                                                                                                                                                                                                                                                              |
+| Atributo                | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre**              | Marleni Rosa Flores                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Edad**                | 58                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Sexo**                | Femenino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Distrito**            | Ica                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Ocupación**           | Coordinadora de Academia                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Fecha de entrevista** | 09 de abril de 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Duración**            | 04:49                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Captura**             | ![Captura](assets/screenshots/interview-screenshot-coordinator2.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Video**               | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/Ebs_BIAxG4JMrmCJ6LwJa_YBYvTTFdvZmgIrZxrulP_vhg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lyN4UA)                                                                                                                                                                                                                                                                                                                                                                              |
 | **Resumen**             | Marleni, coordinadora de una academia enfocada en estudiantes de últimos años escolares, actualmente gestiona procesos administrativos como matrículas, pagos y asistencias de manera manual. Esto le genera dificultades para llevar un control preciso de pagos, ingresos, egresos y asistencia, lo que afecta la organización y eficiencia del trabajo. Expresa interés en una herramienta que incluya registro de alumnos, control de pagos, ingresos, egresos y pagos a profesores. Considera muy útil recibir alertas para recordar pagos pendientes y prefiere un sistema simple, con funciones esenciales y fácil de usar. Está dispuesta a adoptar una nueva plataforma si mejora la gestión y organización de su trabajo. |
 
 #### Segmento: Administrativo - Entrevistado 3
@@ -785,17 +785,17 @@ En este User Task Matrix se detallan las tareas clave que cada tipo de usuario p
 | Gestionar cambios en la asignación de aulas y horarios |                      sometimes                      |                         high                         |
 | Supervisar los procesos administrativos                |                       always                        |                         high                         |
 
-| **TAREA**                                     |  **Luis Mendoza(Profesor) - Frecuencia**  |  **Luis Mendoza(Profesor) - Importancia**  |
-|-----------------------------------------------|:-----------------------------------------:|:------------------------------------------:|
-| Registrar asistencia de estudiantes           |                 sometimes                 |                    high                    |
-| Revisar y gestionar horarios de clases        |                 sometimes                 |                   medium                   |
-| Registrar calificaciones                      |                  always                   |                    high                    |
-| Acceder a información de los estudiantes      |                 sometimes                 |                 sometimes                  |
-| Coordinar con el personal administrativo      |                 sometimes                 |                   medium                   |
-| Comunicar incidencias en horario regular      |                   never                   |                    high                    |
-| Preparar los materiales para las clases       |                  always                   |                    high                    |
-| Diseñar las evaluaciones                      |                 sometimes                 |                    high                    |
-| Gestionar que se cumplan las normas en el aula|                  always                   |                    high                    |
+| **TAREA**                                       |  **Luis Mendoza(Profesor) - Frecuencia**  |  **Luis Mendoza(Profesor) - Importancia**  |
+|-------------------------------------------------|:-----------------------------------------:|:------------------------------------------:|
+| Registrar asistencia de estudiantes             |                 sometimes                 |                    high                    |
+| Revisar y gestionar horarios de clases          |                 sometimes                 |                   medium                   |
+| Registrar calificaciones                        |                  always                   |                    high                    |
+| Acceder a información de los estudiantes        |                 sometimes                 |                 sometimes                  |
+| Coordinar con el personal administrativo        |                 sometimes                 |                   medium                   |
+| Comunicar incidencias en horario regular        |                   never                   |                    high                    |
+| Preparar los materiales para las clases         |                  always                   |                    high                    |
+| Diseñar las evaluaciones                        |                 sometimes                 |                    high                    |
+| Gestionar que se cumplan las normas en el aula  |                  always                   |                    high                    |
 
 ### 2.3.3. User Journey Mapping
 A continuación se presentarán los User Journey Maps de cada User Persona. Estos mapas nos permitirán comprender los puntos de dolor que experimentan en cada etapa, desde que descubren nuestra app hasta que comparten su opinión sobre ella.
@@ -1365,7 +1365,6 @@ Pantalla donde el administrador puede registrar un nuevo profesor ingresando dat
 ![Wireframe-20](assets/images/wireframes-appweb/desktop/Organizacion-Agregar-profesor-confirmacion.png)
 ![Wireframe-20](assets/images/wireframes-appweb/desktop/Organizacion-credenciales-profesor.png)
 
-
 **Panel de Control: Matrícula (Administrador)**  
 Pantalla dentro del panel de control donde el administrador puede gestionar la matrícula de los alumnos. En esta sección, se presenta un formulario donde el administrador debe ingresar los datos del alumno y asignarles un aula correspondiente. Al completar el formulario, puede presionar el botón "Guardar matrícula", lo que mostrará un cuadro de confirmación para asegurar que la matrícula se ha realizado correctamente. Luego, el alumno se agregará al historial de matrículas de la academia.  
 ![Wireframe-10](assets/images/wireframes-appweb/desktop/Panel-control-Matrícula.png)
@@ -1584,7 +1583,7 @@ Luego de iniciar sesión y acceder a "Mi organización", el profesor se dirige a
 
 Enlace para acceder al [Figma](https://www.figma.com/design/IBULvwLcn9jdOYaUj9JqsP/Mock-ups?node-id=101-2884&t=go5YlT5s8AHAzlLO-1)
 
-### **Web Aplication mock-ups para Desktop Web Browser**
+### **Web Application mock-ups para Desktop Web Browser**
 #### **Mock-ups que tiene como usuario al administrador de la academia**
 
 **Iniciar Sesión**  
@@ -1686,7 +1685,7 @@ En las siguientes imágenes se muestra la pestaña del panel de "Asistencia", do
 ![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Profesores-Pagina/3-Asistencia/1Vista_profesor-Asistencia.png)
 
 Enlace para acceder al [Figma](https://www.figma.com/design/IBULvwLcn9jdOYaUj9JqsP/Mock-ups?node-id=101-2884&t=go5YlT5s8AHAzlLO-1)
-### **Web Aplication mock-ups para Movil Web Browser**
+### **Web Application mock-ups para Mobile Web Browser**
 #### **Mock-ups que tiene como usuario al administrador de la academia**
 En la imagen se muestra la pantalla de inicio de sesión de Demy, así como las opciones para rellenar sus datos, solo si el usuario ya tiene una cuenta creada con anterioridad.<br>
 ![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/1Registro/4Inicio_Sesion.png)
@@ -1784,7 +1783,7 @@ En la siguiente imagen se muestra la pestaña del panel de "Asistencia", donde e
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
-Enlace para acceder al [Lucid Chart](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EWQAxTMJq4tJpIHJ90rbWfYBCZKPnkxth6JTmDrxSy7_1Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FIc2F9|)
+Enlace para acceder al [Lucid Chart](https://lucid.app/lucidchart/aeb9aa17-6966-46be-b760-687cf1fdd331/edit?invitationId=inv_87dbf3f7-9dee-47e2-a29e-5d085bc620fe)
 
 **UserGoal: Registrarse en Demy**  
 **User persona:** Administradores <br>
@@ -2041,7 +2040,7 @@ En esta sección se presenta el diseño estructural del sistema a través de dia
 Esta sección presenta el diagrama de clases del sistema, modelado bajo principios de diseño orientado a objetos y alineado con los conceptos de Domain-Driven Design (DDD).
 Se representan las entidades clave, value objects, aggregates, así como las relaciones y los límites de contexto, reflejando la lógica del dominio identificada en el análisis previo.
 
-[Ver diagrama de clases](https://raw.githubusercontent.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report/refs/heads/develop/docs/class-diagram.puml)
+![Ver diagrama de clases](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report/refs/heads/main/docs/class-diagram.puml)
 
 ### 4.7.2. Class Dictionary
 
@@ -2254,7 +2253,6 @@ A continuación se presentan los productos de software seleccionados para apoyar
 
 ---
 
-
 - **Project Management**
 
 | **Herramienta**        | **Propósito**                                                                                   | **Enlace / Ruta de Acceso**                              |
@@ -2356,11 +2354,11 @@ Se seguirá el modelo propuesto por Vincent Driessen, el cual define las siguien
 
 **Branches usados en GitFlow**
 
-| **Tipo de rama**   | **Propósito**                                         | **Convención de nombres**        | **Ejemplo**               |
-|--------------------|--------------------------------------------------------|----------------------------------|---------------------------|
-| **feature**        | Desarrollo de nuevas funcionalidades.                  | `feature/<nombre-descriptivo>`  | `feature/sprint1-salim`   |
-| **release**        | Preparación de una nueva versión de producción.        | `release/vX.Y.Z`                 | `release/v1.0.0`          |
-| **hotfix**         | Corrección urgente en producción.                      | `hotfix/<problema>`              | `hotfix/fix-crash-navbar` |
+| **Tipo de rama**   | **Propósito**                                         | **Convención de nombres**         | **Ejemplo**               |
+|--------------------|-------------------------------------------------------|-----------------------------------|---------------------------|
+| **feature**        | Desarrollo de nuevas funcionalidades.                 | `feature/<nombre-descriptivo>`    | `feature/sprint1-salim`   |
+| **release**        | Preparación de una nueva versión de producción.       | `release/vX.Y.Z`                  | `release/v1.0.0`          |
+| **hotfix**         | Corrección urgente en producción.                     | `hotfix/<problema>`               | `hotfix/fix-crash-navbar` |
 
 **Semantic Versioning**
 
@@ -2392,7 +2390,7 @@ Para los mensajes de commit, se utilizará el estándar **Conventional Commits**
 ### 5.1.3. Source Code Style Guide & Conventions
 Con el fin de asegurar un código limpio, mantenible y coherente entre todos los miembros del equipo, se han adoptado las siguientes convenciones de estilo y nomenclatura. Todas las variables, funciones, clases, archivos y elementos seguirán una **nomenclatura en inglés**.
 
-**Nomeclantura General**
+**Nomenclature General**
 
 - Se utilizará **inglés** como idioma único para nombres de variables, funciones, clases, comentarios y documentación.
 - Se evitarán abreviaciones innecesarias y nombres genéricos como `data1`, `temp`, `info`, etc.
@@ -2459,7 +2457,6 @@ Explicaremos cada proceso con detalle.
 **Despliegue de la Landing Page** <br>
 Para el despliegue tuvimos que cumplir requisitos previos como tener una cuenta vinculada entre GitHub y Netlify. Además, debemos tener un repositorio de Github donde los archivos deben estar bien organizados.
 
-
 1. **Ingresar a Netlify**<br>
    Accedemos a la plataforma mediante nuestras credenciales de Github en "Log in with GitHub".
    ![Screenshot 1 del Deployment](./assets/screenshots/deployment-1.png)
@@ -2511,50 +2508,265 @@ A continuación se presentará el sprint planning para esta primera entrega, don
 | Sum of story points                  | 18                                                                                                                                                                                                                                                                                                                                                    |
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
-Ahora presentaremos nuestro LACX(Leadership-and-Collaboration Matrix) que nos ayudará a saber quién lidera y quién colabora en cada aspecto de este primer sprint.<br>
+
+Ahora presentaremos nuestro LACX (Leadership-and-Collaboration Matrix) que nos ayudará a saber quién lidera y quién colabora en cada aspecto de este primer sprint.<br>
 Los aspectos que tomamos en cuenta para este primer sprint fueron los features de nuestra Landing Page.
 
-| Team Member <br>  Last Name, First Name | GitHub Username | Hero Section <br> Leader (L) / <br> Collaborator (C) | About-Product<br> Leader (L) / <br> Collaborator (C | Benefits<br> Leader (L) / <br> Collaborator (C | Testimonials <br> Leader (L) / <br> Collaborator (C | About Us<br> Leader (L) / <br> Collaborator (C | Planes y precios<br> Leader (L) / <br> Collaborator (C | FAQs<br> Leader (L) / <br> Collaborator (C | Contacto<br> Leader (L) / <br> Collaborator (C | Footer<br> Leader (L) / <br> Collaborator (C |
-|-----------------------------------------|-----------------|------------------------------------------------------|-----------------------------------------------------|------------------------------------------------|-----------------------------------------------------|------------------------------------------------|--------------------------------------------------------|--------------------------------------------|------------------------------------------------|----------------------------------------------|
-| Crispin Daniel                          | danielcr04      | C                                                    | C                                                   | C                                              | C                                                   | C                                              | C                                                      | C                                          | L                                              | L                                            |  
-| Dominguez Rafael                        | Radv2005        | C                                                    | C                                                   | C                                              | L                                                   | L                                              | C                                                      | C                                          | C                                              | C                                            | 
-| Ramirez Salim                           | salimramirez    | L                                                    | C                                                   | C                                              | C                                                   | C                                              | C                                                      | C                                          | C                                              | C                                            | 
-| Sulca Paúl                              | Kyrubi          | C                                                    | C                                                   | C                                              | C                                                   | C                                              | L                                                      | L                                          | C                                              | C                                            | 
-| Vilca Diego                             | diesoks         | C                                                    | L                                                   | L                                              | C                                                   | C                                              | C                                                      | C                                          | C                                              | C                                            | 
+<div style="font-size:70%;">
+
+| **Team Member** <br> Last Name, First Name | **GitHub Username**  | **Hero** <br> L/C | **About** <br> L/C | **Benefits** <br> L/C | **Testimonials** <br> L/C | **About Us** <br> L/C | **Plans** <br> L/C | **FAQs** <br> L/C | **Contact** <br> L/C | **Footer** <br> L/C |
+|:------------------------------------------:|:--------------------:|:-----------------:|:------------------:|:---------------------:|:-------------------------:|:---------------------:|:------------------:|:-----------------:|:--------------------:|:-------------------:|
+|             **Crispin Daniel**             |      danielcr04      |         C         |         C          |           C           |             C             |           C           |         C          |         C         |          L           |          L          |
+|            **Dominguez Rafael**            |       Radv2005       |         C         |         C          |           C           |             L             |           L           |         C          |         C         |          C           |          C          |
+|             **Ramirez Salim**              |     salimramirez     |         L         |         C          |           C           |             C             |           C           |         C          |         C         |          C           |          C          |
+|               **Sulca Paúl**               |        Kyrubi        |         C         |         C          |           C           |             C             |           C           |         L          |         L         |          C           |          C          |
+|              **Vilca Diego**               |       diesoks        |         C         |         L          |           L           |             C             |           C           |         C          |         C         |          C           |          C          |
+
+</div>
+
+<div style="text-align: center; font-size:85%; margin-top: 0.5rem;">
+
+**Nota.** L = *Leader* (responsable principal del aspecto).  
+C = *Collaborator* (apoya el desarrollo del aspecto).
+
+</div>
 
 #### 5.2.1.3. Sprint Backlog 1
+
 El primer sprint estuvo dedicado exclusivamente al desarrollo de la landing page, con el objetivo de que nuestros segmentos puedan conocer más sobre Demy.<br>
 El objetivo principal de este sprint fue implementar la landing page en su totalidad.
 
 A continuación, se presenta una captura de pantalla de la herramienta de control que usamos, que fue Trello:
 ![Captura de Trello Open Source](./assets/screenshots/screenshot-trello-sprint1.png)
+
 Link del Trello: https://trello.com/invite/b/67ecba86096fa46ebe8a2926/ATTIfafb6c4ed10db041b9440c70313c4803876AE96C/open-source
 
-
-| Sprint #   |                                                                  | Sprint 1       |                                       |                                                                                                                                     |                   |             |                                                                             |
-|------------|------------------------------------------------------------------|----------------|---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|-------------------|-------------|-----------------------------------------------------------------------------|
-| User Story |                                                                  | Work-Item/Task |                                       |                                                                                                                                     |                   |             |                                                                             |
-| Id         | Title                                                            | Id             | Title                                 | Description                                                                                                                         | Estimation(Hours) | Assigned To | Status<br> (To do/ <br> In- <br> Process / <br> To- <br> Review / <br> Done |
-| LPS01      | Ver Hero section                                                 | LPS01a         | Maquetar Hero section                 | Diseñar y maquetar la estructura base del Hero <br> (título,  subtítulo, descripción , CTA) <br>con estilos del layout              | 3                 | Salim       | Done                                                                        |
-| LPS01      | Ver Hero section                                                 | LPS01b         | Aplicar contenido y responsive        | Agregar textos definitivos, aplicar estilos<br> visuales y asegurar que sea responsivo <br> en diferentes dispositivos              | 2                 | Salim       | Done                                                                        |
-| LPS02      | Ver sección About the product                                    | LPS02a         | Estructura head del about the product | Agregar el subtítulo, título, y descripción <br> del about the product                                                              | 1                 | Diego       | Done                                                                        | 
-| LPS02      | Ver sección About the product                                    | LPS02b         | Características del about the product | Agregar 4 características de Demy con <br> un ícono representativo y que sea responsivo                                             | 3                 | Diego       | Done                                                                        |
-| LPS03      | Ver sección de beneficios<br> y características                  | LPS03a         | Maquetar Beneficios                   | Agregar el título, subtítulo y descripción de <br>los beneficios y asegurar que sea responsivo                                      | 1                 | Diego       | Done                                                                        |
-| LPS03      | Ver sección de beneficios<br> y características                  | LPS03b         | Agregar los beneficios y imagen       | Agregar 3 beneficios con su título, descripción<br> e ícono y una imagen a la derecha representativa <br> y que todo sea responsivo | 3                 | Diego       | Done                                                                        |
-| LPS04      | Ver testimonios de usuarios <br> reales                          | LPS04a         | Diseño de testimonios                 | Agregar el título  y maquetar Cards de <br> testimonios con nombre, foto, descripción y ocupación                                   | 2                 | Rafael      | Done                                                                        |
-| LPS04      | Ver testimonios de usuarios <br> reales                          | LPS04b         | Mejora visual de testimonios          | Agregar puntuación de estrellas e imágenes<br> de cada  testimonio y asegurar que sea responsivo                                    | 3                 | Rafael      | Done                                                                        | 
-| LPS05      | Ver sección About us                                             | LPS05a         | Maquetar About Aus                    | Agregar el título, subtítulo, descripción e <br> imágenes del equipo                                                                | 2                 | Rafael      | Done                                                                        |
-| LPS05      | Ver sección About us                                             | LPS05b         | Estilizar y alinear                   | Aplicar la guía de estilos, alinear las imágenes y asegurar que sea responsivo                                                      | 1                 | Rafael      | Done                                                                        | 
-| LPS06      | Consultar planes y precios                                       | LPS06a         | Head de los planes                    | Agregar el título, subtítulo y descripción general <br> de los planes que ofrece Demy                                               | 1                 | Paul        | Done                                                                        |
-| LPS06      | Consultar planes y precios                                       | LPS06b         | Crear pricing cards                   | Agregar 3 cards para cada plan que ofrece Demy <br> y asegurar que sea responsivo                                                   | 3                 | Paul        | Done                                                                        |
-| LPS07      | Acceder a la sección de <br> contacto                            | LPS07a         | Formulario de contacto                | Agregar el título, subtítulo y inputs de<br> Name, Email, Phone y Message con el button <br> comienza hoy                           | 3                 | Daniel      | Done                                                                        |
-| LPS07      | Acceder a la sección de <br> contacto                            | LPS07b         | Mejora visual                         | Agregar un imagen a la derecha, aplicar la guía <br> de estilos al formulario y asegurar que sea responsivo                         | 2                 | Daniel      | Done                                                                        | 
-| LPS08      | Consultar preguntas <br> frecuentes                              | LPS08a         | Diseñar FAQs                          | Agregar el título, subtítulo y maquetar listas <br> de preguntas frecuentes <br> con  comportamiento de expansión                   | 3                 | Paul        | Done                                                                        |
-| LPS08      | Consultar preguntas <br> frecuentes                              | LPS08b         | Optimización responsive               | Ajustar comportamiento y animación para<br> diferentes tamaños de pantalla                                                          | 1                 | Paul        | Done                                                                        | 
-| LPS09      | Ver sección Footer <br> con enlaces útiles                       | LPS09a         | Estructura del footer                 | Agregar el logo de Demy y una navegación <br> secundaria con los enlaces de cada sección anterior                                   | 2                 | Daniel      | Done                                                                        | 
-| LPS09      | Ver sección Footer <br> con enlaces útiles                       | LPS09b         | Agregar redes sociales y responsive   | Agregar íconos de las redes sociales, <br> derechos reservados de Demy y asegurar que  <br>sea responsivo                           | 1                 | Daniel      | Done                                                                        |
-| LPS10      | Ver sitio en varios <br> idiomas <br> ( internacionalización)    | LPS10a         | Configurar sistema i18n               | Implementar soporte multilenguaje con <br> archivos JSON y función de cambio                                                        | 3                 | Salim       | Done                                                                        | 
-| LPS10      | Ver sitio en varios <br> idiomas <br> ( internacionalización)    | LPS10b         | Aplicar traducciones                  | Implementar las traducciones  de cada sección de <br> la landing page  en el formato JSON                                           | 1                 | Todos       | Done                                                                        | 
+<div style="font-size:80%; overflow-x:auto;">
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th colspan="2">Sprint #</th>
+      <th colspan="6">Sprint 1</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status (To-do / In-Process / To-Review / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LPS01</td>
+      <td>Ver Hero section</td>
+      <td>LPS01a</td>
+      <td>Maquetar Hero section</td>
+      <td>Diseñar y maquetar la estructura base del Hero <br>(título, subtítulo, descripción, CTA) <br>con estilos del layout</td>
+      <td>3</td>
+      <td>Salim</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>LPS01</td>
+      <td>Ver Hero section</td>
+      <td>LPS01b</td>
+      <td>Aplicar contenido y responsive</td>
+      <td>Agregar textos definitivos, aplicar estilos<br>visuales y asegurar que sea responsivo<br>en diferentes dispositivos</td>
+      <td>2</td>
+      <td>Salim</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>LPS02</td>
+      <td>Ver sección About the product</td>
+      <td>LPS02a</td>
+      <td>Estructura head del about the product</td>
+      <td>Agregar el subtítulo, título, y descripción<br>del about the product</td>
+      <td>1</td>
+      <td>Diego</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>LPS02</td>
+      <td>Ver sección About the product</td>
+      <td>LPS02b</td>
+      <td>Características del about the product</td>
+      <td>Agregar 4 características de Demy con<br>un ícono representativo y que sea responsivo</td>
+      <td>3</td>
+      <td>Diego</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>LPS03</td>
+      <td>Ver sección de beneficios<br>y características</td>
+      <td>LPS03a</td>
+      <td>Maquetar Beneficios</td>
+      <td>Agregar el título, subtítulo y descripción de<br>los beneficios y asegurar que sea responsivo</td>
+      <td>1</td>
+      <td>Diego</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>LPS03</td>
+      <td>Ver sección de beneficios<br>y características</td>
+      <td>LPS03b</td>
+      <td>Agregar los beneficios y imagen</td>
+      <td>Agregar 3 beneficios con su título, descripción<br>e ícono y una imagen a la derecha representativa<br>y que todo sea responsivo</td>
+      <td>3</td>
+      <td>Diego</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>LPS04</td>
+      <td>Ver testimonios de usuarios<br>reales</td>
+      <td>LPS04a</td>
+      <td>Diseño de testimonios</td>
+      <td>Agregar el título y maquetar Cards de<br>testimonios con nombre, foto, descripción y ocupación</td>
+      <td>2</td>
+      <td>Rafael</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>LPS04</td>
+      <td>Ver testimonios de usuarios<br>reales</td>
+      <td>LPS04b</td>
+      <td>Mejora visual de testimonios</td>
+      <td>Agregar puntuación de estrellas e imágenes<br>de cada testimonio y asegurar que sea responsivo</td>
+      <td>3</td>
+      <td>Rafael</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>LPS05</td>
+      <td>Ver sección About us</td>
+      <td>LPS05a</td>
+      <td>Maquetar About Us</td>
+      <td>Agregar el título, subtítulo, descripción e<br>imágenes del equipo</td>
+      <td>2</td>
+      <td>Rafael</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>LPS05</td>
+      <td>Ver sección About us</td>
+      <td>LPS05b</td>
+      <td>Estilizar y alinear</td>
+      <td>Aplicar la guía de estilos, alinear las imágenes y asegurar que sea responsivo</td>
+      <td>1</td>
+      <td>Rafael</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>LPS06</td>
+      <td>Consultar planes y precios</td>
+      <td>LPS06a</td>
+      <td>Head de los planes</td>
+      <td>Agregar el título, subtítulo y descripción general<br>de los planes que ofrece Demy</td>
+      <td>1</td>
+      <td>Paul</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>LPS06</td>
+      <td>Consultar planes y precios</td>
+      <td>LPS06b</td>
+      <td>Crear pricing cards</td>
+      <td>Agregar 3 cards para cada plan que ofrece Demy<br>y asegurar que sea responsivo</td>
+      <td>3</td>
+      <td>Paul</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>LPS07</td>
+      <td>Acceder a la sección de<br>contacto</td>
+      <td>LPS07a</td>
+      <td>Formulario de contacto</td>
+      <td>Agregar el título, subtítulo e inputs de<br>Name, Email, Phone y Message con el botón<br>comienza hoy</td>
+      <td>3</td>
+      <td>Daniel</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>LPS07</td>
+      <td>Acceder a la sección de<br>contacto</td>
+      <td>LPS07b</td>
+      <td>Mejora visual</td>
+      <td>Agregar una imagen a la derecha, aplicar la guía<br>de estilos al formulario y asegurar que sea responsivo</td>
+      <td>2</td>
+      <td>Daniel</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>LPS08</td>
+      <td>Consultar preguntas<br>frecuentes</td>
+      <td>LPS08a</td>
+      <td>Diseñar FAQs</td>
+      <td>Agregar el título, subtítulo y maquetar listas<br>de preguntas frecuentes<br>con comportamiento de expansión</td>
+      <td>3</td>
+      <td>Paul</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>LPS08</td>
+      <td>Consultar preguntas<br>frecuentes</td>
+      <td>LPS08b</td>
+      <td>Optimización responsive</td>
+      <td>Ajustar comportamiento y animación para<br>diferentes tamaños de pantalla</td>
+      <td>1</td>
+      <td>Paul</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>LPS09</td>
+      <td>Ver sección Footer<br>con enlaces útiles</td>
+      <td>LPS09a</td>
+      <td>Estructura del footer</td>
+      <td>Agregar el logo de Demy y una navegación<br>secundaria con los enlaces de cada sección anterior</td>
+      <td>2</td>
+      <td>Daniel</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>LPS09</td>
+      <td>Ver sección Footer<br>con enlaces útiles</td>
+      <td>LPS09b</td>
+      <td>Agregar redes sociales y responsive</td>
+      <td>Agregar íconos de las redes sociales,<br>derechos reservados de Demy y asegurar que<br>sea responsivo</td>
+      <td>1</td>
+      <td>Daniel</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>LPS10</td>
+      <td>Ver sitio en varios<br>idiomas<br>(internacionalización)</td>
+      <td>LPS10a</td>
+      <td>Configurar sistema i18n</td>
+      <td>Implementar soporte multilenguaje con<br>archivos JSON y función de cambio</td>
+      <td>3</td>
+      <td>Salim</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>LPS10</td>
+      <td>Ver sitio en varios<br>idiomas<br>(internacionalización)</td>
+      <td>LPS10b</td>
+      <td>Aplicar traducciones</td>
+      <td>Implementar las traducciones de cada sección de<br>la landing page en el formato JSON</td>
+      <td>1</td>
+      <td>Todos</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
@@ -2615,7 +2827,7 @@ En el Sprint 1 alcanzamos el desarrollo parcial de la implementación y desplieg
 9. **Footer**: En esta sección se mostrarán las secciones de la página y nuestras redes sociales.
    ![imagesExecutionEvidence](./assets/images/LandingPage/footer.png)
 
-Link de video de presentacion sobre el Landing Page [VideoPresentacion](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EbGUPtmgEAJBvhH1xK76s3gBTQGoCg3cPYxXa1mHx1tljw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1Jg2NW)
+Link de video de presentación sobre el Landing Page [VideoPresentacion](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EbGUPtmgEAJBvhH1xK76s3gBTQGoCg3cPYxXa1mHx1tljw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1Jg2NW)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -2623,7 +2835,7 @@ En este primer sprint no se contempló la evidencia de documentación de servici
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
-Para esta entrega del sprint 1, se desplego nuestro landing page parcialmente completo.
+Para esta entrega del sprint 1, se desplegó nuestro Landing Page parcialmente completo.
 
 1. **Hero Section**: En esta sección el usuario podrá visualizar una breve descripción de Demy con texto que invite a usar la pagina y pueda ingresar a registrarse
    ![imagesExecutionEvidence](./assets/images/LandingPage/Hero_Section.png)
@@ -2650,7 +2862,7 @@ Para esta entrega del sprint 1, se desplego nuestro landing page parcialmente co
 Nuestro github del Landing page
 ![imagesExecutionEvidence](./assets/images/LandingPage/git_aplicaciones_web.png)
 
-Enlace para acceder al landinng page: [Pagina](https://demy-smartedu.netlify.app/)
+Enlace para acceder al landing page: [Pagina](https://demy-smartedu.netlify.app/)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
