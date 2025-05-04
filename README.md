@@ -31,6 +31,7 @@
 <h5 style="text-align: center"> Ciclo 2025-01 </h5>
 
 # Registro de Versiones del Informe
+
 | Versión | Fecha      | Autor                                                                                    | Descripción de modificación                                                                                                                                                                                                                                                                 |
 |---------|------------|------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1.0     | 08/04/2025 | Salim Ramirez                                                                            | Creación inicial del documento de trabajo en formato Markdown para centralizar el desarrollo del informe final.                                                                                                                                                                             |
@@ -45,48 +46,78 @@
 | 5.1     | 25/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se desarrolló la sección de Software Configuration Management. Se añadió la planificación del Sprint 1.                                                                                                                                                                                     |
 | 6.0     | 25/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se completó el Capítulo V: Product Implementation, incluyendo evidencias de avance en el desarrollo de la Landing Page.                                                                                                                                                                     |
 
-# Project Collaboration Insights
+# Project Report Collaboration Insights
 
-URL de nuestro repositorio para el reporte del proyecto: **[link del landing page]**
+Enlace para acceder al repositorio para el reporte del proyecto: [*Ver en GitHub*](https://github.com/upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page.git)
 
 **TB1**
-<br>Para el desarrollo del TB1 cada participantes del equipo realizo las siguientes tareas:
+<br>Para el desarrollo del TB1 cada participante del equipo realizo las siguientes tareas:
 
-| Integrantes                         | Tarea Asignada                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Crispin Ramos, Daniel Franco        | - Startup Profile<br>- Perfiles del equipo<br>- Empathy Mapping<br>- Ubiquitous Language<br>- Diseño, ejecución y análisis de una entrevista<br>- To-Be Scenario Mapping<br>- General Style Guidelines<br>- Searching Systems<br>-Web Applications Wireframes<br>- Web Applications Wireflow Diagramas<br>- Landing Page(Contact + Footer)<br>- Environment Configuration<br>- Source Code Management)                                                                                                                        |
-| Dominguez Vargas, Rafael Alexander  | - Project Report Collaboration Insights<br>- Segmentos objetivo<br>- User Task Matrix<br>- Diseño, ejecución y análisis de una entrevista<br>- Impact Mapping<br>- Organization Systems<br>- Landing Page Wireframes<br>- Web applications Mock-ups<br>- Web Application User Flow Diagrams<br>- Landing Page(testimonials + About us)<br>- Development Evidence<br>- Execution Evidence<br>- Deployment Evidence<br>- Team Collaboration Insights                                                                            |
-| Ramirez Mestanza, Salim Ignacio     | - Registro de Versiones del Informe<br>- Lean UX Process completo (4 partes)<br>- User Personas<br>- Diseño, ejecución y análisis de una entrevista<br>- Product Backlog<br>- SEO Tags and Meta Tags<br>- Web Applications Prototyping<br>- Class Diagrams<br>- Class Dictionary<br>- Database Diagram<br>- Landing Page (Navbar + Hero + i18n)                                                                                                                                                                               |
-| Sulca Gonzales, Paúl Ferdando       | - Antecedentes y problemática<br>- As-is Scenario Mapping<br>- Diseño, ejecución y análisis de una entrevista<br>- Product Backlog<br>- Labeling Systems<br>- Landing Page Mock-up<br>- Web Applications Wireframes<br>- Web Applications Prototyping<br>- Software Architecture Context Diagram<br>- Software Architecture Container Diagrams<br>- Software Architecture Container Diagrams<br>- Software Architecture Components Diagrams<br>- Database Diagram<br>- Landing Page (Planes y precios + preguntas frecuentes) |
-| Vilca Saboya, Diego Alejandro       | - Carátula<br>- Tabla de contenidos<br>- Student outcome<br>- Análisis competitivo y estrategias<br>- User Journey Mapping<br>- Diseño, ejecución y análisis de una entrevista<br>- User Stories<br>- Web Style Guidelines<br>- Navigation Systems<br>- Web Applications Mock-ups<br>- Landing Page (About the product + Beneficios y características)<br>- Style Guide & Conventions<br>- Deployment Configuration<br>- Sprint Planning<br>- Aspect Leaders and Collaborators<br>- Sprint Backlog                            |
+| Integrantes                        | Tarea Asignada                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Crispin Ramos, Daniel Franco       | - Startup Profile<br>- Perfiles del equipo<br>- Empathy Mapping<br>- Ubiquitous Language<br>- Diseño, ejecución y análisis de una entrevista<br>- To-Be Scenario Mapping<br>- General Style Guidelines<br>- Searching Systems<br>- Web Applications Wireframes<br>- Web Applications Wireflow Diagramas<br>- Landing Page(Contact + Footer)<br>- Environment Configuration<br>- Source Code Management)                                                                                                                       |
+| Dominguez Vargas, Rafael Alexander | - Project Report Collaboration Insights<br>- Segmentos objetivo<br>- User Task Matrix<br>- Diseño, ejecución y análisis de una entrevista<br>- Impact Mapping<br>- Organization Systems<br>- Landing Page Wireframes<br>- Web applications Mock-ups<br>- Web Application User Flow Diagrams<br>- Landing Page(testimonials + About us)<br>- Development Evidence<br>- Execution Evidence<br>- Deployment Evidence<br>- Team Collaboration Insights                                                                            |
+| Ramirez Mestanza, Salim Ignacio    | - Registro de Versiones del Informe<br>- Lean UX Process completo (4 partes)<br>- User Personas<br>- Diseño, ejecución y análisis de una entrevista<br>- Product Backlog<br>- SEO Tags and Meta Tags<br>- Web Applications Prototyping<br>- Class Diagrams<br>- Class Dictionary<br>- Database Diagram<br>- Landing Page (Navbar + Hero + i18n)                                                                                                                                                                               |
+| Sulca Gonzales, Paúl Fernando      | - Antecedentes y problemática<br>- As-is Scenario Mapping<br>- Diseño, ejecución y análisis de una entrevista<br>- Product Backlog<br>- Labeling Systems<br>- Landing Page Mock-up<br>- Web Applications Wireframes<br>- Web Applications Prototyping<br>- Software Architecture Context Diagram<br>- Software Architecture Container Diagrams<br>- Software Architecture Container Diagrams<br>- Software Architecture Components Diagrams<br>- Database Diagram<br>- Landing Page (Planes y precios + preguntas frecuentes) |
+| Vilca Saboya, Diego Alejandro      | - Carátula<br>- Tabla de contenidos<br>- Student outcome<br>- Análisis competitivo y estrategias<br>- User Journey Mapping<br>- Diseño, ejecución y análisis de una entrevista<br>- User Stories<br>- Web Style Guidelines<br>- Navigation Systems<br>- Web Applications Mock-ups<br>- Landing Page (About the product + Beneficios y características)<br>- Style Guide & Conventions<br>- Deployment Configuration<br>- Sprint Planning<br>- Aspect Leaders and Collaborators<br>- Sprint Backlog                            |
 
-**Github Collaboration Insights**
+**GitHub Collaboration Insights**
 
-En github se presenta un timeline de las ramas principales realizadas por cada integrante del equipo y procesos merge sometidos. Todas las ramas fueron creadas tomando en cuenta el diseño del **GitFlow** para una organizacion que usa un software control de versiones.
+En GitHub se presenta un timeline de las principales ramas creadas por cada integrante del equipo, así como los procesos de *merge* realizados.  
+Todas las ramas fueron gestionadas siguiendo el flujo de trabajo **GitFlow**, adaptado para una organización que utiliza un sistema de control de versiones.
 
-Link del repositorio en Github [Repositorio](https://github.com/upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page.git)
-
-Los Integrantes son:
+Los integrantes son:
 
 | Integrantes                          | Nombre en GitHub |
 |--------------------------------------|------------------|
 | Crispin Ramos, Daniel Franco         | danielcr04       |
 | Dominguez Vargas, Rafael Alexander   | Radv2005         |
 | Ramirez Mestanza, Salim Ignacio      | salimramirez     |
-| Sulca Gonzales, Paúl Ferdando        | Kyrubi           |
-| Vilca Saboya, Diego Alejandro        | diegovilcasaboya |
+| Sulca Gonzales, Paúl Fernando        | Kyrubi           |
+| Vilca Saboya, Diego Alejandro        | diesoks          |
 
+Las principales ramas del repositorio son las siguientes:
 
-Las ramas mas prominentes:
-- **main:** La rama principal donde estara el documento completo.
-- **develop:** La rama donde hacemos merge para guardar los cambios.
-- **feature/sprint1-daniel:** La rama de Daniel donde guarda sus avances del sprint1.
-- **feature/sprint1-diego:** La rama de Diego donde guarda sus avances del sprint1.
-- **feature/sprint1-paul:** La rama de Paul donde guarda sus avances del sprint1.
-- **feature/sprint1-rafael:** La rama de Rafael donde guarda sus avances del sprint1.
-- **feature/sprint1-salim:** La rama de Salim donde guarda sus avances del sprint1.
+- **main:** Rama principal que contiene la versión estable y consolidada del documento.
+- **develop:** Rama de integración utilizada para fusionar los cambios realizados en las ramas de características.
+- **feature/sprint1-daniel:** Rama utilizada por Daniel para el desarrollo de las tareas correspondientes al Sprint 1.
+- **feature/sprint1-diego:** Rama utilizada por Diego para el desarrollo de las tareas correspondientes al Sprint 1.
+- **feature/sprint1-paul:** Rama utilizada por Paul para el desarrollo de las tareas correspondientes al Sprint 1.
+- **feature/sprint1-rafael:** Rama utilizada por Rafael para el desarrollo de las tareas correspondientes al Sprint 1.
+- **feature/sprint1-salim:** Rama utilizada por Salim para el desarrollo de las tareas correspondientes al Sprint 1.
+- **release/1.0.0:** Rama creada para preparar versiones candidatas al reporte final, siguiendo *Semantic Versioning 2.0.0*. En esta rama se realizan ajustes finales como correcciones menores y revisiones antes de integrarla a `main`.
+- **hotfix/urgent-fix:** Rama utilizada para aplicar correcciones críticas directamente sobre `main`, asegurando la estabilidad de la versión publicada.
 
-![Network graph](./assets/images/network-graph.png)
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+**Figura 1.** Gráfico de red (*network graph*) de ramas en el repositorio de GitHub.
+
+![Insights - Network Graph](./assets/images/insights-network-graph.png)
+
+**Nota.** El gráfico fue generado automáticamente por *GitHub* mediante la herramienta **Insights > Network**.
+
+</div>
+
+A continuación, se presentan los gráficos que muestran el análisis de los commits en el repositorio correspondiente al informe.  
+Estos gráficos detallan la cantidad de líneas de código añadidas por cada miembro del equipo y la actividad de commits registrada.
+
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+**Figura 2.** Análisis de líneas de código añadidas por contribuyente.
+
+![Insights - Contributors](./assets/images/insights-contributors.png)
+
+</div>
+
+El siguiente gráfico muestra la cantidad de commits realizados en la semana con mayor actividad en el proyecto.
+
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+**Figura 3.** Análisis de cantidad de commits realizados por semana.
+
+![Insights - Commits](./assets/images/insights-commits.png)
+
+</div>
 
 # Contenido
 
@@ -205,42 +236,62 @@ La startup **SmartEdu**, conformada por estudiantes de la carrera de Ingeniería
 
 ### 1.1.2. Perfiles de los integrantes del equipo
 
-| **Foto**                                   | **Nombre**                            | **Código** | **Carrera**            | **Resumen de Conocimientos Técnicos y Habilidades**                                                                                        |
-|--------------------------------------------|---------------------------------------|------------|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Foto_Daniel](./assets/images/Daniel.jpg) | **Daniel Franco Crispin Ramos**       | U20221G120 | Ingeniería de Software | Conocimiento en bases de datos y gestión de proyectos. Experiencia en interfaces de usuario y soluciones para la administración educativa. |
-| ![Foto_Paul](./assets/images/Paul.png)     | **Paul Fernando Sulca Gonzales**      | U20221C486 | Ingeniería de Software |                                                                                                                                            |
-| ![Foto_Salim](./assets/images/salim.JPG)   | **Salim Ignacio Ramirez Mestanza**    | U20201E843 | Ingeniería de Software |                                                                                                                                            |
-| ![Foto_Diego](./assets/images/Daniel.jpg)  | **Diego Alejandro Vilca Saboya**      | U20231A778 | Ingeniería de Software |                                                                                                                                            |
-| ![Foto_Rafael](./assets/images/rafael.jpg) | **Rafael Alexander Dominguez Vargas** | U202312318 | Ingeniería de Software |                                                                                                                                            |
-
+| **Foto**                                   | **Nombre**                            | **Código** | **Carrera**            | **Resumen de Conocimientos Técnicos y Habilidades**                                                                                                          |
+|--------------------------------------------|---------------------------------------|------------|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Foto_Daniel](./assets/images/Daniel.jpg) | **Daniel Franco Crispin Ramos**       | U20221G120 | Ingeniería de Software | Conocimiento en bases de datos y gestión de proyectos. Experiencia en interfaces de usuario y soluciones para la administración educativa.                   |
+| ![Foto_Paul](./assets/images/Paul.png)     | **Paul Fernando Sulca Gonzales**      | U20221C486 | Ingeniería de Software | Conocimiento en diseño de software orientado a objetos y modelado UML. Experiencia en implementación de interfaces web adaptativas.                          |
+| ![Foto_Salim](./assets/images/salim.JPG)   | **Salim Ignacio Ramirez Mestanza**    | U20201E843 | Ingeniería de Software | Conocimiento en arquitectura de software y control de versiones con Git. Experiencia en documentación técnica y colaboración en equipos ágiles.              |
+| ![Foto_Diego](./assets/images/Diego.jpg)   | **Diego Alejandro Vilca Saboya**      | U20231A778 | Ingeniería de Software | Conocimiento en desarrollo web utilizando las últimas tecnologías en tendencia. Experiencia en elaboración de diagramas de arquitectura y prototipado UX/UI. |
+| ![Foto_Rafael](./assets/images/rafael.jpg) | **Rafael Alexander Dominguez Vargas** | U202312318 | Ingeniería de Software | Conocimiento en bases de datos relacionales y validación de requisitos. Experiencia en análisis de necesidades de usuario y desarrollo frontend.             |
 
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
+
 #### What?
+
 #### ¿Cuál es el problema?
+
 El problema radica en la gestión desorganizada y manual de los procesos administrativos en academias educativas presenciales. Muchas de estas instituciones utilizan hojas de Excel, documentos físicos o plataformas no integradas, lo que genera el aumento de esfuerzo, pérdida de información, errores y una ineficiente administración de los recursos y tiempo.
+
 #### When (Cuando)
+
 #### ¿Cuándo sucede el problema?
+
 Este problema sucede de manera constante en el día a día de las academias, especialmente al inicio de ciclos academicos, al momento de inscribir alumnos, registrar asistencia, gestionar pagos, distribuir horarios y administrar recursos. La falta de automatización y centralización de procesos es una barrera persistente que afecta la eficiencia desde el primer contacto con el alumno hasta el cierre del periodo académico.
+
 #### Where (Dónde)
+
 #### ¿A dónde se dirige?
+
 La solución está dirigida a academias privadas de nivel escolar, preuniversitario o técnico que buscan mejorar su gestión interna mediante tecnología accesible, amigable y diseñada para sus flujos operativos reales.
+
 #### ¿Dónde surge el problema?
+
 Surge dentro de las academias presenciales que gestionan sus operaciones de forma tradicional en todo el país. Específicamente, el problema ocurre en las áreas administrativas, académicas y de coordinación de recursos.
 #### Who (Quién)
+
 #### ¿Quiénes están involucrados? ¿Quién lo utilizará?
+
 Los principales usuarios serán el personal administrativo (coordinadores) y los docentes (para el control de asistencia y gestión de clases)
 Estos perfiles utilizarán la plataforma para registrar matrículas, gestionar pagos, asignar horarios, monitorear asistencia, controlar inventarios, y obtener reportes para la toma de decisiones.
+
 #### Why (Por qué)
+
 #### ¿Cuál es la causa del problema?
+
 La causa del problema está en la falta de herramientas accesibles y especializadas que se adapten al contexto operativo de academias presenciales. Muchas instituciones no han adoptado soluciones tecnológicas por miedo al cambio, desconocimiento o falta de recursos, lo cual perpetúa el uso de métodos manuales que limitan su eficiencia y capacidad de crecimiento.
 
 ### ¿Cuáles son las 2H?
+
 #### How (Cómo)
+
 #### ¿Cómo se utilizará el producto?
+
 La plataforma web será utilizada diariamente por el personal de la academia. A través de una interfaz amigable, podrán registrar matrículas, programar clases, marcar asistencia, ingresar pagos y gestionar inventario. Se podrá acceder desde computadoras o smartphones, permitiendo que los usuarios trabajen desde cualquier lugar con conexión a internet.
+
 #### ¿Cómo lograremos alcanzar la correcta gestión de los procesos administrativos de la academia dentro de la plataforma?
+
 Mediante el diseño de módulos para cada funcionalidad clave que hemos identificado:
 
 - Módulo de matrícula.
@@ -251,12 +302,14 @@ Mediante el diseño de módulos para cada funcionalidad clave que hemos identifi
 
 - Módulo de horarios que permite programar docentes, salones y materias.
 
-- Modulo de registro de alumnnos, profesores, secciones, aulas, sedes, etc.
+- Módulo de registro de alumnos, profesores, secciones, aulas, sedes, etc.
 
 - Dashboard administrativo.
 
 #### How much (Cuánto)
+
 #### ¿Qué porcentaje del personal académico-administrativo se beneficiaría?
+
 Se estima que el sistema podría beneficiar directamente al 70% del personal de una academia promedio, incluyendo al menos 3 a 5 administrativos y entre 10 y 20 docentes, aunque todo esto dependeria del tamaño de la institución y las sedes que esta maneje.
 
 ### 1.2.2. Lean UX Process
@@ -368,12 +421,20 @@ El sistema debe responder rápido, enviar notificaciones útiles y garantizar la
 
 El Lean UX Canvas nos permite organizar de forma clara y colaborativa los elementos clave del diseño: problema, usuarios, suposiciones, hipótesis y métricas.
 En este proyecto, nos ayuda a enfocar el desarrollo en generar valor real para las academias educativas.
-A continuación se presenta el Lean UX Canvas elaborado en la herramienta Miro.
+
+A continuación, se presenta el Lean UX Canvas elaborado en la herramienta *Miro*:
+
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+**Figura 4.** Lean UX Canvas del proyecto *Demy*.
 
 ![Lean UX Canvas](./assets/images/lean-ux-canvas.jpg)
-**Figura 1.** Lean UX Canvas del proyecto.
 
-**Enlace al Lean UX Canvas:** [Ver en Miro](https://miro.com/app/board/uXjVIGPrhA0=/?share_link_id=155958536023)
+<br>
+
+</div>
+
+**Enlace al Lean UX Canvas:** [*Ver en Miro*](https://miro.com/app/board/uXjVIGPrhA0=/?share_link_id=155958536023)
 
 ## 1.3. Segmentos objetivo
 
@@ -381,7 +442,7 @@ En el análisis del segmento objetivo para Demy, hemos previsto que nuestros pri
 
 ### Profesores de academias preuniversitarias
 
-Según la revista Gan@Mas (24 de julio,2014), sabemos que diversos docentes usan hasta el **29% de su tiempo en tareas administrativas**, las cuales no deberían estar ligadas a profesionales de la educación. La gran demanda en estas academias preuniversitarias no permite a los profesores dedicar su tiempo laboral a ejercer plenamente su labor de docente.
+Según la revista Gan@Mas (24 de julio, 2014), sabemos que diversos docentes usan hasta el **29% de su tiempo en tareas administrativas**, las cuales no deberían estar ligadas a profesionales de la educación. La gran demanda en estas academias preuniversitarias no permite a los profesores dedicar su tiempo laboral a ejercer plenamente su labor de docente.
 
 - **Edad**: Buscamos profesores de cualquier edad
 - **Necesidad clave**: Reducir la carga administrativa y optimizar su tiempo para centrarse en la enseñanza y mejorar su eficiencia en las aulas.
@@ -401,26 +462,30 @@ Suelen enfrentarse a una gran carga de trabajo relacionada con la **planificaci�
 
 Esta sección tiene objetivo conocer mejor los competidores a los que se enfrentará SmartEDU y poder así comparar nuestros beneficios.
 
-|**Competitive Analysis Landscape** |                             |                   
-|-----------------------------------|-----------------------------|
-| ¿Por qué llevar acabo este análisis?| El objetivo de este análisis competitivo es saber como será nuestro posicionamiento en el mercado en comparación a otros sistema de gestión de academias y que será lo que nos hará destacar|
+| **Competitive Analysis Landscape**     |                                                                                                                                                                                              |                   
+|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ¿Por qué llevar acabo este análisis?   | El objetivo de este análisis competitivo es saber como será nuestro posicionamiento en el mercado en comparación a otros sistema de gestión de academias y que será lo que nos hará destacar |
 
-|                     |                                                                           | SmartEdu                                                                                                                                                                                                                          | ![Academygest logo](./assets/images/competidor-academygest.jpg) <br> Academygest                                                                                       | ![Logo Playoff](./assets/images/competidor-playoff.jpg) <br> Playoff                                                                                                                                                                                                                     | ![Logo Quickschools](./assets/images/competidor-quickschools.png) <br> Quickschools                                                                                                                                                                                                            |
-|---------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Perfil              | Overview                                                                  | SmartEdu ofrece a Demy, un sistema web integral que facilita la organización, carga operativa y mejora la experiencia tanto de alumnos como docentes.                                                                             | Plataforma integral que facilita la gestión de academias y centros educativos, permitiendo organizar y mantener datos de alumnos.                                      | Sistema de gestión para entidades, que una de sus opciones es un enfoque a academias, ofreciendo cosas como control de cobros y pagos junto a organización de actividades                                                                                                                | QuickSchools es una plataforma en la nube para gestionar escuelas, con funciones como calificaciones, asistencia y comunicación con padres. Está pensada para instituciones pequeñas y medianas.                                                                                               |
-|                     | Ventaja <br> competitiva <br> ¿Qué valor <br> ofrece a los <br> clientes? | Solución integral y escalable para la administración de academias, que a la vez tendrá mucha accesibilidad ofrenciendo diferentes de acuerdo a que le convenga más a la academia                                                  | Optimización de la gestión administrativa, ahorro de tiempo y mejora de la eficiencia en la administración de academias y centros educativos.                          | Mejora de la motivación y participación en programas de formación y gestión mediante dinámicas de juego personalizadas                                                                                                                                                                   | Solución accesible y flexible para la gestión administrativa y académica, con un enfoque en facilidad de uso y personalización.                                                                                                                                                                |
-| Perfil de marketing | Mercado objetivo                                                          | Academia presenciales preuniversitarias ( con una sede o varias sedes)                                                                                                                                                            | Academias y centros de formación en España, enfocados en cursos profesionales o empresariales, que requieren control académico, administrativo y financiero.           | Playoff está dirigido a entidades educativas, corporativas y de formación que buscan aumentar la motivación y participación mediante gamificación.                                                                                                                                       | Escuelas pequeñas y medianas a nivel global (como colegios K-12 y privados) que necesitan una solución simple y flexible para gestionar procesos académicos.                                                                                                                                   |
-|                     | Estrategias de Marketing                                                  | Ofrece anuncios en la televesión, junto a redes sociales como tiktok,instagram o facebook.                                                                                                                                        | Campañas en línea enfocadas en instituciones educativas que buscan soluciones de gestión                                                                               | Publica artículos,estudios de caso y guías sobre la implementación efectiva de estrategia de gamificación en empresas <br> Muestra casos de uso de como la gamificación                                                                                                                  | Ofrece guías para atraer y retener clientes potenciales interesados en su mejora de procesos educativos                                                                                                                                                                                        |
-| Perfil de producto  | Productos & Servicios                                                     | Registro y matrícula de alumnos <br> Automatizacíon de gestión de pagos y suscripciones <br> Toma de asistencia <br> Gestión de inventario                                                                                        | Control de asistencia de alumnos <br> Gestión de pagos como cobros y finanzas <br> Gestión de informes  <br> Envío de SMS  a los alumnos                               | Plataforma de gamificación <br> Gamificación educativa <br> Análisis y reportes de la participacíon y el progreso <br> Customización de experiencias:personalizacíon de la plataforma según la entidad, ya sea Academias o empresas                                                      | Herramientas para siempre mantener informado a los padres y estudiantes <br> Un gradebook personalizado <br> Horario de clases inteligente <br>                                                                                                                                                |
-|                     | Precios y Costos                                                          | Plan Básico:  \$50 / mes , dirigido a pequeñas academias ( 1 sede). <br> Plan Intermedio: $100 /mes , dirigido a academias medianas (2 sedes) <br> Plan Premium: \$200, dirigido a academias grandes ( varias sedes)              | 25€  /mes, que incluye :<br/>- Sin instalaciones <br/>- 24 horas del día disponible <br> -Alumnos y cursos ilimitados <br> -Asistencia de Alumnos <br> Soporte técnico | Incluye 15 días de prueba gratuita, por otro lado los planes son:<br/> Plan Base( 34,95€), para los que empiezan <br/> Plan pro (49,95€), para los que llevan poco<br/> Plan Top ( 69,95€) para los veteranos<br/> Plan Premium ( tarifa personalizada), acuerdo a tratar con la empresa | Gaia Plan ( \$0.99) por estudiante por mes<br/> Apollo Plan ( $1.49) por estudiante por mes <br/> Athena plan (\$2.99) por estudiante por mes <br/> Todos los planes incluyen una prueba gratuita de 30 días, <br/>además puedes ponerte en contacto con quickschools para un Enterprise Plan  |
-|                     | Canales de distribución <br> Web o móvil                                  | Demy actualmente solo se distribuye exclusivamente en Web                                                                                                                                                                         | Solo disponible a través de navegadores web                                                                                                                            | Se distribuye de manera web pero con el Plan Pro tendrás acceso a la app móvil.                                                                                                                                                                                                          | Se distribuye de manera web y móvil.                                                                                                                                                                                                                                                           |
-| Análisis Swot       | Fortalezas                                                                | Incluye varios planes de acuerdo al alcance de la academia <br/> Producto especializado en academias preuniversitarias<br/>                                                                                                       | Plataforma integral especializada en academias pequeñas y medianas. <br> Interfaz intuitiva y en idioma español <br> Cobertura de funciones básicas de gestión         | Especialización en gamificación, un campo en crecimiento <br/> Altamante adaptable a distintos sectores ( Academias, RRHH, ventas) <br/>                                                                                                                                                 | Plataforma madura, flexible y con planes escalables <br/> Soporte al cliente efectivo <br/>                                                                                                                                                                                                    |
-|                     | Debilidades                                                               | SmartEdu al ser una startup emergente no cuenta con mucho financiamiento <br/> No cuenta con una app móvil <br/>                                                                                                                  | No cuenta con una app móvil <br/> Se limite presencialmente a españa <br/> Menor reconocimiento frente a competidores globales                                         | No es una solución académica integral, más bien un complemento<br/> Requiere personalización técnica <br/>  La app móvil es solo accesible a partir de un cierto plan<br/>                                                                                                               | Puede resultar costo a gran escala si no se optimiza el uso <br/> Limitado al idioma inglés                                                                                                                                                                                                    |
-|                     | Oportunidades                                                             | Poca competencia en el segmento objetivo <br/> Aumento en el uso de la tecnología luego del COVID-19 <br/>                                                                                                                        | Ampliar su presencia a latinomerica <br/> Incorporar una app móvil para una buena complementación y accesibilidad <br/>                                                | Amplicación creciente de la gamificacíon en la actualidad<br/> Alianza con plataforams educativas para ofrecer gamificacíon integrada<br/>                                                                                                                                               | Incluir el idioma español para ser más global  <br/>  Alianzas con gobiernos o redes escolares                                                                                                                                                                                                 |           
-|                     | Amenazas                                                                  | Resistencia al cambio tecnológico de parte de algunas academias <br/> Soluciones muy fuertes de otros competidores <br/> Posibles ciberataques, ya que la startup no tiene mucho conocimiento sobre la ciberseguridad actualmente | Dependencia de un solo mercado geográfico <br/> Competencia con soluciones globales más completas y flexibles                                                          | Dependencia de clientes que comprendan el valor de la gamificación<br/>                                                                                                                                                                                                                  | Compite con plataformas globables que incluye varios idiomas <br/> Riesgo de saturación en el mercado K-12                                                                                                                                                                                     |
+<div style="font-size: 90%;">
 
+|                     |                                                                    | SmartEdu                                                                                                                                                       | <img src="./assets/images/competidor-academygest.jpg" alt="Academygest logo" width="70"><br>Academygest                                                                 | <img src="./assets/images/competidor-playoff.jpg" alt="Playoff logo" width="70"><br>Playoff                                             | <img src="./assets/images/competidor-quickschools.png" alt="Quickschools logo" width="70"><br>Quickschools                                                                                                             |
+|---------------------|--------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Perfil              | Overview                                                           | SmartEdu ofrece a Demy un sistema web integral que facilita la organización, reduce la carga operativa y mejora la experiencia tanto de alumnos como docentes. | Plataforma integral que facilita la gestión de academias y centros educativos, permitiendo organizar y mantener datos de alumnos.                                       | Sistema de gestión para entidades, que ofrece también control de cobros, pagos y organización de actividades académicas.                | Plataforma en la nube para gestión escolar, con funciones como calificaciones, asistencia y comunicación con padres. Dirigida a escuelas pequeñas y medianas.                                                          |
+|                     | Ventaja <br> competitiva <br> ¿Qué valor <br> ofrece al cliente?   | Solución integral y escalable para la administración de academias, accesible y adaptable según las necesidades de cada institución.                            | Optimización de la gestión administrativa, ahorro de tiempo y mejora de la eficiencia en la administración de centros educativos.                                       | Incremento de la motivación y participación en programas educativos mediante dinámicas de juego personalizadas.                         | Gestión académica simple y flexible, enfocada en facilidad de uso y personalización para escuelas pequeñas y medianas.                                                                                                 |
+| Perfil de marketing | Mercado objetivo                                                   | Academias presenciales preuniversitarias, con una o varias sedes.                                                                                              | Academias y centros de formación en España que requieren control académico, administrativo y financiero.                                                                | Entidades educativas y corporativas que buscan motivar mediante estrategias de gamificación.                                            | Escuelas K-12 privadas y pequeñas instituciones educativas a nivel global que necesitan soluciones simples y flexibles.                                                                                                |
+|                     | Estrategias de marketing                                           | Publicidad en televisión y campañas digitales en TikTok, Instagram y Facebook.                                                                                 | Campañas en línea enfocadas en instituciones educativas que requieren soluciones de gestión.                                                                            | Publicaciones de artículos y casos de éxito sobre implementación de gamificación educativa.                                             | Generación de guías y contenidos educativos para atraer y retener clientes potenciales.                                                                                                                                |
+| Perfil de producto  | Productos y servicios                                              | Registro y matrícula de alumnos.<br> Automatización de pagos.<br> Toma de asistencia.<br> Gestión de inventario de materiales.                                 | Control de asistencia de alumnos.<br> Gestión de pagos y cobros.<br> Gestión de informes académicos.<br> Envío de SMS a estudiantes.                                    | Plataforma de gamificación educativa.<br> Análisis de participación.<br> Personalización de experiencias según la entidad.              | Gestión de comunicaciones.<br> Gradebook personalizado.<br> Horarios de clases inteligentes.<br> Información académica accesible.                                                                                      |
+|                     | Precios y costos                                                   | Plan Básico: \$50/mes (1 sede).<br> Plan Intermedio: \$100/mes (2 sedes).<br> Plan Premium: \$200/mes (varias sedes).                                          | Plan único: 25€/mes.<br> Incluye:<br> - Sin instalaciones.<br> - Servicio 24/7.<br> - Alumnos y cursos ilimitados.<br> - Gestión de asistencia.<br> - Soporte técnico.  | Plan Base: 34,95€.<br> Plan Pro: 49,95€.<br> Plan Top: 69,95€.<br> Plan Premium: personalizado.<br> Incluye prueba gratuita de 15 días. | Gaia Plan: \$0.99/estudiante/mes.<br> Apollo Plan: \$1.49/estudiante/mes.<br> Athena Plan: \$2.99/estudiante/mes.<br> Todos incluyen prueba gratuita de 30 días.<br> Plan Enterprise disponible bajo contacto directo. |
+|                     | Canales de distribución                                            | Distribución exclusiva vía web.                                                                                                                                | Disponible en navegadores web.                                                                                                                                          | Distribución web y acceso a app móvil con el Plan Pro.                                                                                  | Disponible vía web y aplicaciones móviles.                                                                                                                                                                             |
+| Análisis SWOT       | Fortalezas                                                         | Solución especializada en academias preuniversitarias.<br> Planes escalables según necesidades.                                                                | Plataforma intuitiva, en español, adecuada para academias pequeñas y medianas.<br> Cobertura completa de funciones básicas.                                             | Enfoque especializado en gamificación educativa.<br> Adaptable a academias, empresas y áreas de RRHH.                                   | Plataforma madura, flexible y con soporte eficaz.<br> Planes escalables.                                                                                                                                               |
+|                     | Debilidades                                                        | Startup emergente con financiamiento limitado.<br> Ausencia de aplicación móvil.                                                                               | Limitado geográficamente a España.<br> Sin aplicación móvil.<br> Menor reconocimiento frente a competidores globales.                                                   | Solución complementaria, no integral.<br> App móvil solo disponible en ciertos planes.                                                  | Puede resultar costoso en grandes escalas.<br> Limitación al idioma inglés.                                                                                                                                            |
+|                     | Oportunidades                                                      | Bajo nivel de competencia en el segmento objetivo.<br> Crecimiento del uso de tecnología educativa post COVID-19.                                              | Expansión a Latinoamérica.<br> Desarrollo de aplicación móvil.                                                                                                          | Creciente interés en gamificación educativa.<br> Alianzas con plataformas educativas.                                                   | Inclusión del idioma español.<br> Posibilidad de alianzas con redes escolares y gobiernos.                                                                                                                             |
+|                     | Amenazas                                                           | Resistencia al cambio en academias tradicionales.<br> Competencia fuerte.<br> Vulnerabilidad ante ciberataques debido a falta de experiencia.                  | Alta competencia global.<br> Dependencia de un solo mercado geográfico.                                                                                                 | Necesidad de clientes que comprendan el valor de la gamificación.<br> Riesgo de baja adopción.                                          | Competencia con plataformas multilingües.<br> Saturación del mercado K-12.                                                                                                                                             |
+
+</div>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
 Para competir eficazmente en el mercado de plataformas de gestión para academias presenciales, SmartEdu aplicará las siguientes estrategias y tácticas preliminares, considerando sus propias fortalezas y debilidades, así como el contexto de oportunidades y amenazas en relación a sus competidores:
 
 * Diferenciación por enfoque especializado <br>
