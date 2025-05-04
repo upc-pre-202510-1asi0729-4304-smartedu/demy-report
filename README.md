@@ -1771,7 +1771,9 @@ Con el sprint 1 se avanzó con la creación del landing page para Demy, que incl
 | LPS10      | Ver sitio en varios <br> idiomas <br> ( internacionalización)    | LPS10a         | Configurar sistema i18n               | Implementar soporte multilenguaje con <br> archivos JSON y función de cambio                                                        | 3                 | Salim       | Done                                                                        | 
 | LPS10      | Ver sitio en varios <br> idiomas <br> ( internacionalización)    | LPS10b         | Aplicar traducciones                  | Implementar las traducciones  de cada sección de <br> la landing page  en el formato JSON                                           | 1                 | Todos       | Done                                                                        | 
 
-#### 5.2.1.5. Execution Evidence for Sprint Review
+#### 5.2.1.4. Development Evidence for Sprint Review.
+
+#### 5.2.1.5. Execution Evidence for Sprint Review.
 En el Sprint 1 alcanzamos el desarrollo parcial de la implementación y despliegue del landing page, la cual muestra las diferentes secciones donde el usuario puede encontrar información relevante acerca del producto y del startup. A continuación, se muestran algunas evidencias:
 
 1. **Hero Section**: En esta sección el usuario podrá visualizar una breve descripción de Demy y un botón para comenzar a usarlo.
@@ -1784,20 +1786,19 @@ En el Sprint 1 alcanzamos el desarrollo parcial de la implementación y desplieg
    ![imagesExecutionEvidence](./assets/images/LandingPage/testimonials.png)
 5. **About Us**: En esta sección se verán los integrantes que conforman Demy.
    ![imagesExecutionEvidence](./assets/images/LandingPage/about-us.png)
+
 6. **Plans & Pricing**: En esta sección se mostrarán los 3 planes que ofrecemos como Demy y los beneficios de cada uno de estos.
    ![imagesExecutionEvidence](./assets/images/LandingPage/plans&pricing.png)
+
 7. **Contact**: En esta sección el usuario podrá ingresar sus datos para contactarse con los miembros de Demy.
    ![imagesExecutionEvidence](./assets/images/LandingPage/contact.png)
+
 8. **FAQs**: En esta sección se mostrarán las preguntas frecuentes sobre Demy y sus respectivas respuestas.
    ![imagesExecutionEvidence](./assets/images/LandingPage/faqs.png)
 9. **Footer**: En esta sección se mostrarán las secciones de la página y nuestras redes sociales.
    ![imagesExecutionEvidence](./assets/images/LandingPage/footer.png)
 
-Link de video de presentacion sobre el Landing Page [VideoPresentacion](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EbNWdfKGQuBEuGvOgF0FLu8BkuSD2voCyDiuY2Un6Xb9Ug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FxX1gG)
-#### 5.2.1.4. Development Evidence for Sprint Review.
-
-#### 5.2.1.5. Execution Evidence for Sprint Review.
-
+Link de video de presentacion sobre el Landing Page [VideoPresentacion](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EbGUPtmgEAJBvhH1xK76s3gBTQGoCg3cPYxXa1mHx1tljw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1Jg2NW)
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
 En este primer sprint no se contempló la evidencia de documentación de servicios.
