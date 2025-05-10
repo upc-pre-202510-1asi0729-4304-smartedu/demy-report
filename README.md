@@ -201,6 +201,15 @@ El siguiente gráfico muestra la cantidad de commits realizados en la semana con
             - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
             - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
             - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+        - [5.2.2. Sprint 2](#522-sprint-2)
+            - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+            - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+            - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+            - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+            - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+            - [5.2.2.6. Services Documentation Evidence for Sprint Review ](#5226-services-documentation-evidence-for-sprint-review)
+            - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+            - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
 
 - [Conclusiones](#conclusiones)
     - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
@@ -2890,7 +2899,116 @@ Enlace para acceder al landing page: [Pagina](https://demy-academy.netlify.app/)
 
 En esta sección se presentan las principales conclusiones del equipo respecto al desarrollo del modelo de negocio digital, alineadas a los Problem Statements e hipótesis del proceso Lean UX.
 Se contrastan los hallazgos obtenidos con la implementación realizada durante este primer sprint.
+### 5.2.2. Sprint 2
 
+#### 5.2.2.1. Sprint Planning 2.
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+#### 5.2.2.3. Sprint Backlog 2.
+El segundo sprint estuvo dedicado exclusivamente al desarrollo del FrontEnd de nuestra aplicación web.<br>
+El objetivo principal de este sprint fue implementar el FrontEnd en su totalidad.
+
+A continuación, se presenta una captura de pantalla de la herramienta de control que usamos, que fue Trello:
+![Captura de Trello Sprint 2 Open Source](./assets/screenshots/screenshot-trello-sprint2.png)
+
+Link del Trello: https://trello.com/invite/b/6819740de16513c45c3d354c/ATTIedc4ea5981992e453e7c58e80e0043eaBE7AA2C9/sprint-2-open-source
+
+<div style="font-size:80%; overflow-x:auto;">
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th colspan="2">Sprint #</th>
+      <th colspan="6">Sprint 2</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+<tr><td>US01</td><td>Iniciar sesión como usuario autenticado</td><td>US01a</td><td>Implementar la vista de login</td><td>Maquetar el formulario, aplicar estilos, usar los componentes de la biblioteca UI correspondiente</td><td>4</td><td>Rafael</td><td>To-do</td></tr>
+<tr><td>US01</td><td>Iniciar sesión como usuario autenticado</td><td>US01b</td><td>Archivos db.json y i18n para el login</td><td>Agregar los archivos json  del fake api y para el idioma español e inglés</td><td>4</td><td>Rafael</td><td>To-do</td></tr>
+<tr><td>US02</td><td>Cerrar sesión de forma segura</td><td>US02a</td><td>Implementar cerrar sesión</td><td>Agregar una opción de cerrar sesión en el header</td><td>4</td><td>Rafael</td><td>To-do</td></tr>
+<tr><td>US02</td><td>Cerrar sesión de forma segura</td><td>US02b</td><td>Aplicar i18n</td><td>Agregar los archivos json para el idioma español e inglés</td><td>4</td><td>Rafael</td><td>To-do</td></tr>
+<tr><td>US03</td><td>Acceder con permisos según el rol</td><td>US03a</td><td>Agregar la vista de tipo de usuario</td><td>Agregar la vista de elección de tipo de usuario y configurar el path dependiendo de la elección</td><td>4</td><td>Rafael</td><td>To-do</td></tr>
+<tr><td>US03</td><td>Acceder con permisos según el rol</td><td>US03b</td><td>Aplicar i18n</td><td>Agregar los archivos json de en y es</td><td>4</td><td>Rafael</td><td>To-do</td></tr>
+<tr><td>US04</td><td>Recuperar acceso mediante correo</td><td>US04a</td><td>Agregar la vista de recuperar acceso</td><td>Agregar la opción de me olvidé mi contraseña y la vista de ingresar el correo donde se mandará el enlace de nueva contraseña</td><td>5</td><td>Rafael</td><td>To-do</td></tr>
+<tr><td>US04</td><td>Recupera acceso mediante correo</td><td>US04b</td><td>Integración + i18n de la vista de recuperación</td><td>Implementar el consumo del Fake API junto a los archivos json del i18n</td><td>4</td><td>Rafael</td><td>To-do</td></tr>
+<tr><td>US05</td><td>Registrarse como usuario en la plataforma</td><td>US05a</td><td>Maquetar la vista de Registro</td><td>Agregar la vista de registro usando la biblioteca de componentes UI correspondiente</td><td>4</td><td>Rafael</td><td>To-do</td></tr>
+<tr><td>US05</td><td>Registrarse como usuario en la plataforma</td><td>US05b</td><td>Integración de la vista login con Fake API y i18n</td><td>Implementar el consumo del Fake API junto a los archivos i18n de en y es</td><td>4</td><td>Paul</td><td>To-do</td></tr>
+<tr><td>US06</td><td>Registrar matrícula de un estudiante</td><td>US06a</td><td>Maquetar la vista de registro de matrícula</td><td>Agregar la vista de registro de matrícula utilizando la biblioteca de componentes UI correspondiente</td><td>5</td><td>Paul</td><td>To-do</td></tr>
+<tr><td>US06</td><td>Registrar matrícula de un estudiante</td><td>US06b</td><td>Integración de la vista de registro de matrícula con Fake API y i18n</td><td>Implementar el consumo del Fake API junto a los archivos de i18n en  y es para la vista</td><td>4</td><td>Paul</td><td>To-do</td></tr>
+<tr><td>US07</td><td>Consultar historial de matrículas por estudiante</td><td>US07a</td><td>Maquetar la vista de consulta de matrículas por estudiante</td><td>Implementar la vista de consulta de matriculas por estudiante utilizando la biblioteca de componentes UI correspondiente</td><td>4</td><td>Paul</td><td>To-do</td></tr>
+<tr><td>US07</td><td>Consultar historial de matrículas por estudiante</td><td>US07b</td><td>Integración de la vista de consulta de matrícula con Fake API y i18n</td><td>Implementar el consumo del Fake API junto a los archivos de i18n en  y es para la vista correspondiente</td><td>4</td><td>Paul</td><td>To-do</td></tr>
+<tr><td>US08</td><td>Editar datos de una matrícula existente</td><td>US08a</td><td>Maquetar la vista de editar datos de una matrícula</td><td>Agregar la opción de editar datos e implementar su vista utilizando la biblioteca de componentes UI correspondiente</td><td>4</td><td>Paul</td><td>To-do</td></tr>
+<tr><td>US08</td><td>Editar datos de una matrícula existente</td><td>US08b</td><td>Integración de la vista de editar datos con Fake API y i18n</td><td>Implementar el consumo del Fake API y archivos en y es para la vista correspondiente</td><td>4</td><td>Paul</td><td>To-do</td></tr>
+<tr><td>US09</td><td>Eliminar una matrícula registrada</td><td>US09a</td><td>Maquetar la vista de eliminar una matrícula registrada</td><td>Agregar la opción de liminar una matrícula e implementar su vista utilizando la biblioteca de componentes UI correspondiente</td><td>4</td><td>Paul</td><td>To-do</td></tr>
+<tr><td>US09</td><td>Eliminar una matrícula registrada</td><td>US09b</td><td>Integración de la vista de eliminar matrícula con Fake API y i18n</td><td>Implementar el consumo del Fake API y los archivos en y es para la vista correspondiente</td><td>5</td><td>Paul</td><td>To-do</td></tr>
+<tr><td>US10</td><td>Visualizar resumen de estudiantes matriculados</td><td>US10a</td><td>Maquetar la vista de resumen de estudiantes matriculados</td><td>Agregar la opción de ver una lista de los estudiantes matriculados y su vista, utilizando la biblioteca de componentes UI correspondiente</td><td>4</td><td>Paul</td><td>To-do</td></tr>
+<tr><td>US10</td><td>Visualizar resumen de estudiantes matriculados</td><td>US10b</td><td>Integración de la vista de visualizar resumen de estudiantes con Fake API y i18n</td><td>Implementar el consumo del Fake API y los archivos en y es para la vista correspondiente</td><td>4</td><td>Paul</td><td>To-do</td></tr>
+<tr><td>US11</td><td>Registrar asistencia de  estudiante por clase</td><td>US11a</td><td>Maquetar la vista de registro de asistencia</td><td>Agregar la opción de registro de asistencia de un estudiante y su vista, utilizando la biblioteca de componentes UI correspondiente</td><td>5</td><td>Diego</td><td>To-do</td></tr>
+<tr><td>US11</td><td>Registrar asistencia de  estudiante por clase</td><td>US11b</td><td>Integración de la vista de registro de asistencia con Fake API y i18n</td><td>Implementar el consumo del Fake API y los archivos en y es para la vista correspondiente</td><td>4</td><td>Diego</td><td>To-do</td></tr>
+<tr><td>US12</td><td>Consultar asistencia de un estudiante</td><td>US12a</td><td>Maquetar la vista de consulta de asistencia de un estudiante</td><td>Agregar la opción de consultar las asistencias de un estudiante y su vista, utilizando la biblioteca de componentes UI correspondiente</td><td>5</td><td>Diego</td><td>To-do</td></tr>
+<tr><td>US12</td><td>Consultar asistencia de un estudiante</td><td>US12b</td><td>Integración de la vista de consulta de asistencia con Fake API y i18n</td><td>Implementar el consumo del Fake API y los archivos en y es para la vista correspondiente</td><td>4</td><td>Diego</td><td>To-do</td></tr>
+<tr><td>US13</td><td>Recibir notificaciones sobre inasistencias</td><td>US13a</td><td>Agregar el envío de notificaciones por inasistencias</td><td>Implementar el envió de notificación a una bandeja de entrada cuando el número de inasistencias sea alto</td><td>5</td><td>Diego</td><td>To-do</td></tr>
+<tr><td>US13</td><td>Recibir notificaciones sobre inasistencias</td><td>US13b</td><td>Integración de las notificaciones de inasistencias con Fake API u i18n</td><td>Implementar el consumo del Fake API y los archivos en y es para la notificación correspondiente</td><td>4</td><td>Diego</td><td>To-do</td></tr>
+<tr><td>US14</td><td>Registrar pago de un estudiante</td><td>US14a</td><td>Maquetar la vista de registrar pago de un estudiante</td><td>Agregar la opción de registro de pago de un estudiante y su vista, utilizando la biblioteca de componentes UI correspondiente</td><td>5</td><td>Salim</td><td>To-do</td></tr>
+<tr><td>US14</td><td>Registrar pago de un estudiante</td><td>US14b</td><td>Integración de la vista de registro de pago con Fake API y i18n</td><td>Implementar el consumo del Fake API y los archivos en y es para la vista correspondiente</td><td>4</td><td>Salim</td><td>To-do</td></tr>
+<tr><td>US15</td><td>Consultar estado de pago de un estudiante</td><td>US15a</td><td>Maquetar la vista de consulta de estado de pago de un estudiante</td><td>Agregar la opción de consultar el estado de pago de un estudiante y su vista, utilizando la biblioteca de componentes UI correspondiente</td><td>5</td><td>Salim</td><td>To-do</td></tr>
+<tr><td>US15</td><td>Consultar estado de pago de un estudiante</td><td>US15b</td><td>Integración de la vista de consulta de estado de pago con Fake API y i18n</td><td>Implementar el consumo del Fake API y los archivos en y es para la vista correspondiente</td><td>4</td><td>Salim</td><td>To-do</td></tr>
+<tr><td>US16</td><td>Recibir alertas por pagos vencidos</td><td>US16a</td><td>Agregar el envío de notificaciones/alertas por pagos vencidos</td><td>Implementar el envío de una notificación sobre un pago vencido a la bandeja de entrada</td><td>4</td><td>Diego</td><td>To-do</td></tr>
+<tr><td>US16</td><td>Recibir alertas por pagos vencidos</td><td>US16b</td><td>Integración de las notificaciones por pagos vencidos con Fake API y i18n</td><td>Implementar el consumo del Fake API y los archivos en y es correspondiente</td><td>4</td><td>Diego</td><td>To-do</td></tr>
+<tr><td>US17</td><td>Registrar egresos</td><td>US17a</td><td>Maquetar la vista de registrar egresos financieros</td><td>Agregar la opción de registrar egresos y su vista, utilizando la biblioteca de componentes UI correspondiente</td><td>5</td><td>Salim</td><td>To-do</td></tr>
+<tr><td>US17</td><td>Registrar egresos</td><td>US17b</td><td>Integración de la vista de registrar egresos con Fake API y i18n</td><td>Implementar el consumo del Fake API y los archivos en y es para la vista correspondiente</td><td>4</td><td>Salim</td><td>To-do</td></tr>
+<tr><td>US18</td><td>Generar reporte financiero mensual</td><td>US18a</td><td>Maquetar la vista de reporte de financiero mensual</td><td>Agregar la generación de reportes financieros por mes y su vista, utilizando la biblioteca de componentes UI correspondiente</td><td>5</td><td>Salim</td><td>To-do</td></tr>
+<tr><td>US18</td><td>Generar reporte financiero mensual</td><td>US18b</td><td>Integración de la vista de reportes financieros mensuales con Fake API y i18n</td><td>Implementar el consumo del Fake API y los archivos en y es para la vista correspondiente</td><td>4</td><td>Salim</td><td>To-do</td></tr>
+<tr><td>US19</td><td>Crear materias por periodo de estudio</td><td>US19a</td><td>Maquetar la vista de creación de materias por periodo de estudio</td><td>Agregar la opción de crear materias por periodo y su vista, utilizando la biblioteca de componentes UI correspondiente</td><td>4</td><td>Daniel</td><td>To-do</td></tr>
+<tr><td>US19</td><td>Crear materias por periodo de estudio</td><td>US19b</td><td>Integración de la vista de crear materias por periodo con Fake API y i18n</td><td>Implementar el consumo del Fake API y los archivos en y es para la vista correspondiente</td><td>4</td><td>Daniel</td><td>To-do</td></tr>
+<tr><td>US20</td><td>Asignar horarios a los docentes y cursos</td><td>US20a</td><td>Maquetar la vista de asignación de horarios para los docentes y cursos</td><td>Agregar la opción de asignar horarios a los docentes y los cursos con su vista, utilizando la biblioteca de componentes UI correspondiente</td><td>5</td><td>Daniel</td><td>To-do</td></tr>
+<tr><td>US20</td><td>Asignar horarios a los docentes y cursos</td><td>US20b</td><td>Integración de la vista de asignación de horarios a los docentes y cursos con Fake API y i18n</td><td>Implementar el consumo del Fake API y los archivos en y es para la vista correspondiente</td><td>4</td><td>Daniel</td><td>To-do</td></tr>
+<tr><td>US21</td><td>Consultar disponibilidad de salones</td><td>US21a</td><td>Maquetar la vista de consultar disponibilidad de salones</td><td>Agregar la opción de consultar disponibilidad de salones y su vista, utilizando la biblioteca de componentes UI correspondiente</td><td>5</td><td>Daniel</td><td>To-do</td></tr>
+<tr><td>US21</td><td>Consultar disponibilidad de salones</td><td>US21b</td><td>Integración de consultar disponibilidad de salones con Fake API y i18n</td><td>Implementar el consumo del Fake API y los archivos en y es para la vista correspondiente</td><td>4</td><td>Daniel</td><td>To-do</td></tr>
+<tr><td>US22</td><td>Reprogramar clases por cambio de horario</td><td>US22a</td><td>Maquetar la vista de reprogramación de clases por cambio de horario</td><td>Agregar la opción de reprogramar una clase mediante cambio de horario junto a su vista, utilizando la biblioteca de componentes UI correspondiente</td><td>5</td><td>Daniel</td><td>To-do</td></tr>
+<tr><td>US22</td><td>Reprogramar clases por cambio de horario</td><td>US22b</td><td>Integración de la vista de reprogramar clases con FakeAPI y i18n</td><td>Implementar el consumo del Fake API y los archivos en y es para la vista correspondiente</td><td>4</td><td>Daniel</td><td>To-do</td></tr>
+<tr><td>US23</td><td>Actualizar calendario del docente</td><td>US23a</td><td>Actualización del calendario</td><td>Implementar la actualización de la vista del horario  del docente cuando se reprograme una clase</td><td>6</td><td>Daniel</td><td>To-do</td></tr>
+<tr><td>US23</td><td>Actualizar calendario del docente</td><td>US23b</td><td>Integración con Fake API y i18n</td><td>Implementar el consumo del Fake API y los archivos en y es para la actualización del calendario</td><td>4</td><td>Daniel</td><td>To-do</td></tr>
+<tr><td>US24</td><td>Elegir plan de suscripción y método de pago</td><td>US24a</td><td>Elección de un plan de suscripción</td><td>Agregar la opción de escoger una plan de suscripción y que se afilie al usuario</td><td>6</td><td>Salim</td><td>To-do</td></tr>
+<tr><td>US24</td><td>Elegir plan de suscripción y método de pago</td><td>US24b</td><td>Integración con Fake API y i18n</td><td>Implementar el consumo del Fake API y los archivos en y es para la afiliación del plan elegido por el usuario</td><td>5</td><td>Salim</td><td>To-do</td></tr>
+<tr><td>US25</td><td>Ver el plan actual y sus características</td><td>US25a</td><td>Maquetación de  la vista de los planes ofrecidos por Demy</td><td>Implementar la vista de los planes ofrecidos por DEMY utilizando los cards de la biblioteca de componentes UI correspondiente</td><td>5</td><td>Salim</td><td>To-do</td></tr>
+<tr><td>US25</td><td>Ver el plan actual y sus características</td><td>US25b</td><td>Integración de la vista de planes ofrecidos por Demy con i18n y Fake API</td><td>Implementar el consumo del Fake API y los archivos en y es para la vista correspondiente</td><td>4</td><td>Salim</td><td>To-do</td></tr>
+<tr><td>US26</td><td>Ver bandeja de entrada con notificaciones</td><td>US26a</td><td>Maquetar la vista de bandeja de entrada</td><td>Agregar la opción de ver la bandeja de entrada y su vista, utilizando la biblioteca de componentes UI correspondiente</td><td>4</td><td>Diego</td><td>To-do</td></tr>
+<tr><td>US26</td><td>Ver bandeja de entrada con notificaciones</td><td>US26b</td><td>Integración de la vista de bandeja de entrada con Fake API y i18n</td><td>Implementar el consumo del Fake API y los archivos en y es para la vista correspondiente</td><td>4</td><td>Diego</td><td>To-do</td></tr>
+<tr><td>US27</td><td>Agregar profesores</td><td>US27a</td><td>Maquetación de la vista de agregar profesores</td><td>Agregar la opción de agregar profesores y su vista, utilizando la biblioteca de componentes UI correspondiente</td><td>5</td><td>Rafael</td><td>To-do</td></tr>
+<tr><td>US27</td><td>Agregar profesores</td><td>US27b</td><td>Integración de la vista de agregar profesores con FAKE API y i18n</td><td>Implementar el consumo del Fake API y los archivos en y es para la vista correspondiente</td><td>4</td><td>Rafael</td><td>To-do</td></tr>
+<tr><td>US28</td><td>Agregar Aula</td><td>US28a</td><td>Maquetación de la vista de agregar aulas</td><td>Agregar la opción de agregar aulas y su vista, utilizando la biblioteca de componentes UI correspondiente</td><td>5</td><td>Paul</td><td>To-do</td></tr>
+<tr><td>US28</td><td>Agregar Aula</td><td>US28b</td><td>Integración de la vista de agregar aula con Fake API y i18n</td><td>Implementar el consumo del Fake API y los archivos en y es para la vista correspondiente</td><td>4</td><td>Paul</td><td>To-do</td></tr>
+<tr><td>US29</td><td>Agregar periodo académico</td><td>US29a</td><td>Maquetación de la vista de agregar periodo académico</td><td>Agregar la opción de agregar periodo académico y su vista, utilizando la biblioteca de componentes UI correspondiente</td><td>5</td><td>Paul</td><td>To-do</td></tr>
+<tr><td>US29</td><td>Agregar periodo académico</td><td>US29b</td><td>Integración de la vista de agregar periodo académico</td><td>Implementar el consumo del Fake API y los archivos en y es para la vista correspondiente</td><td>4</td><td>Paul</td><td>To-do</td></tr>
+
+  </tbody>
+</table>
+</div>
+
+#### 5.2.2.4 Development Evidence for Sprint Review.
+
+#### 5.2.2.5.  Execution Evidence for Sprint Review.
+
+#### 5.2.2.6.  Services Documentation Evidence for Sprint Review.
+
+#### 5.2.2.7.  Software Deployment Evidence for Sprint Review.
+
+#### 5.2.2.8.  Team Collaboration Insights during Sprint.
 ## Conclusiones y Recomendaciones
 
 ### Conclusiones
