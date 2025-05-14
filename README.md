@@ -3079,6 +3079,18 @@ Link del MockAPI de Demy: https://mockapi.io/projects/6820406072e59f922ef8198c
 #### 5.2.2.7.  Software Deployment Evidence for Sprint Review.
 
 #### 5.2.2.8.  Team Collaboration Insights during Sprint.
+
+| Alumno                             | Actividad                     |
+|------------------------------------|-------------------------------|
+| Crispin Ramos, Daniel Franco       | scheduling management         |
+| Dominguez Vargas, Rafael Alexander | iam (Sign up, Sign in, Plans) |
+| Ramirez Mestanza, Salim Ignacio    | web app set up and billing    |
+| Sulca Gonzales, Paúl Fernando      | enrollment management         |
+| Vilca Saboya, Diego Alejandro      | attendance management         |
+
+![Captura de pantalla de los insights Sprint 2](./assets/screenshots/sprint2-insights.png)
+
+![Captura 2 de pantalla de los insights del Sprint 2](./assets/screenshots/sprint2-insights-2.png)
 ## Conclusiones y Recomendaciones
 
 ### Conclusiones
