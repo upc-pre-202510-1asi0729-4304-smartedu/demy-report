@@ -28,7 +28,7 @@
 | U20221C486 | Sulca Gonzales, Paúl Fernando      |
 | U20231A778 | Vilca Saboya, Diego Alejandro      |
 
-<h5 style="text-align: center"> Ciclo 2025-01 </h5>
+<h5 style="text-align: center"> Ciclo 2025-10 </h5>
 
 # Registro de Versiones del Informe
 
@@ -61,6 +61,17 @@ Enlace para acceder al repositorio para el reporte del proyecto: [*Ver en GitHub
 | Sulca Gonzales, Paúl Fernando      | - Antecedentes y problemática<br>- As-is Scenario Mapping<br>- Diseño, ejecución y análisis de una entrevista<br>- Product Backlog<br>- Labeling Systems<br>- Landing Page Mock-up<br>- Web Applications Wireframes<br>- Web Applications Prototyping<br>- Software Architecture Context Diagram<br>- Software Architecture Container Diagrams<br>- Software Architecture Container Diagrams<br>- Software Architecture Components Diagrams<br>- Database Diagram<br>- Landing Page (Planes y precios + preguntas frecuentes) |
 | Vilca Saboya, Diego Alejandro      | - Carátula<br>- Tabla de contenidos<br>- Student outcome<br>- Análisis competitivo y estrategias<br>- User Journey Mapping<br>- Diseño, ejecución y análisis de una entrevista<br>- User Stories<br>- Web Style Guidelines<br>- Navigation Systems<br>- Web Applications Mock-ups<br>- Landing Page (About the product + Beneficios y características)<br>- Style Guide & Conventions<br>- Deployment Configuration<br>- Sprint Planning<br>- Aspect Leaders and Collaborators<br>- Sprint Backlog                            |
 
+**TP**
+<br>Para el desarrollo del TB1 cada participante del equipo realizo las siguientes tareas:
+
+| Integrantes                        | Tarea Asignada                                                                                                                                                              |
+|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Crispin Ramos, Daniel Franco       | - Scheduling context<br>- Creación de entidades de scheduling<br>- Creación de servicios de scheduling<br>- Ubiquitous Language<br>- Development Evidence for Sprint Review |
+| Dominguez Vargas, Rafael Alexander | - IAM Context<br>- Creación de entidades de IAM<br>- Creación de servicios de IAM<br>- Execution and Deployment Evidence for Sprint Review                                  |
+| Ramirez Mestanza, Salim Ignacio    | - Billing context<br>- Creación de entidades de Billing (4 partes)<br>- Creación de servicios de billing<br>- Sprint Planning & Aspect Leaders and Collaborators            |
+| Sulca Gonzales, Paúl Fernando      | - Enrollment Context<br>- Creación de entidades de Enrollment<br>- Creación de servicios de enrollment<br>- Development Evidence for Sprint Review                          |
+| Vilca Saboya, Diego Alejandro      | - Attendance Context<br>- Creación de entidades de Attendance<br>- Creación de servicios de attendance<br>- Sprint Backlog 2 & Services Documentation for Sprint Review     |
+
 **GitHub Collaboration Insights**
 
 En GitHub se presenta un timeline de las principales ramas creadas por cada integrante del equipo, así como los procesos de *merge* realizados.  
@@ -90,11 +101,11 @@ Las principales ramas del repositorio son las siguientes:
 
 <div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
 
-**Figura 1.** Gráfico de red (*network graph*) de ramas en el repositorio de GitHub.
+**TB1**
+
+Gráfico de red (*network graph*) de ramas en el repositorio de GitHub.
 
 ![Insights - Network Graph](./assets/images/insights-network-graph.png)
-
-**Nota.** El gráfico fue generado automáticamente por *GitHub* mediante la herramienta **Insights > Network**.
 
 </div>
 
@@ -103,7 +114,7 @@ Estos gráficos detallan la cantidad de líneas de código añadidas por cada mi
 
 <div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
 
-**Figura 2.** Análisis de líneas de código añadidas por contribuyente.
+Análisis de líneas de código añadidas por contribuyente.
 
 ![Insights - Contributors](./assets/images/insights-contributors.png)
 
@@ -113,9 +124,40 @@ El siguiente gráfico muestra la cantidad de commits realizados en la semana con
 
 <div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
 
-**Figura 3.** Análisis de cantidad de commits realizados por semana.
+Análisis de cantidad de commits realizados por semana.
 
 ![Insights - Commits](./assets/images/insights-commits.png)
+
+</div>
+
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+**TP1**
+
+Gráfico de red (*network graph*) de ramas en el repositorio de GitHub.
+
+![Insights - Network Graph](./assets/images/insights-network-graph-tp.png)
+
+</div>
+
+A continuación, se presentan los gráficos que muestran el análisis de los commits en el repositorio correspondiente al informe.  
+Estos gráficos detallan la cantidad de líneas de código añadidas por cada miembro del equipo y la actividad de commits registrada.
+
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+Análisis de líneas de código añadidas por contribuyente.
+
+![Insights - Contributors](./assets/images/insights-contributors-tp.png)
+
+</div>
+
+El siguiente gráfico muestra la cantidad de commits realizados en la semana con mayor actividad en el proyecto.
+
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+Análisis de cantidad de commits realizados por semana.
+
+![Insights - Commits](./assets/images/insights-commits-tp.png)
 
 </div>
 
@@ -3215,6 +3257,10 @@ Enlace de los videos de las entrevistas para needfinding: [Ver en Microsoft Stre
 
 Enlace del video de exposición TB1: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/ESbzRCEthQVNrM6L4BuA1doBz8Vl_GXwLAFVuTiaa4_CnQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=T1XkRF)
 
+Enlace del video de exposición TP1: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/ESbzRCEthQVNrM6L4BuA1doBz8Vl_GXwLAFVuTiaa4_CnQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=T1XkRF)
+
 Enlace del repositorio en Github: [Ver en Github](https://github.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report)
 
 Enlace a la landing page: [Abrir en el navegador](https://demy-academy.netlify.app/)
+
+Enlace al frontend web application: [Abrir en el navegador](https://demy-web-app.netlify.app/)
