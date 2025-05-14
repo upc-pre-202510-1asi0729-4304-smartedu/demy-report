@@ -2127,6 +2127,12 @@ Se representan las entidades clave, value objects, aggregates, así como las rel
 
 ![Ver diagrama de clases](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report/refs/heads/main/docs/class-diagram.puml)
 
+A continuación, se presentan los diagramas UML para el Frontend Web Application, separado por bounded context para una mejor visibilidad.
+
+**Bounded context IAM**
+
+
+
 ### 4.7.2. Class Dictionary
 
 #### IAM Context
