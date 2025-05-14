@@ -3179,7 +3179,7 @@ Link del Trello: https://trello.com/invite/b/6819740de16513c45c3d354c/ATTIedc4ea
 
 En el sprint 2 se logrò la implementación del frontend web application para Demy, incluyendo los bounded contexts IAM, Billing, Attendance, Scheduling y Enrollment.
 
-<div style="font-size:70%;">
+<div style="font-size:60%;">
 
 | Repository                                           | Branch                        | Commit ID                                  | Commit Message                                                                                     | Commit Body | Committed On |
 |------------------------------------------------------|-------------------------------|--------------------------------------------|----------------------------------------------------------------------------------------------------|-------------|--------------|
