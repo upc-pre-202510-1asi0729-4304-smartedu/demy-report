@@ -1,0 +1,116 @@
+@startuml IAM Context Class Diagram
+
+skinparam classFontSize 14
+skinparam classFontName Arial
+skinparam classAttributeFontSize 12
+skinparam classAttributeFontName Arial
+skinparam packageStyle rectangle
+
+package "iam" {
+  package "model" {
+    enum Role {
+      ADMIN
+      TEACHER
+    }
+
+    enum AccountStatus {
+      ACTIVE
+      INACTIVE
+      BLOCKED
+    }
+
+    class UserAccount <<Entity>> {
+      -id: number
+      -fullName: string
+      -email: string
+      -passwordHash: string
+      -role: string
+      -status: string
+      +constructor(user: {id?, fullName?, email?, passwordHash?, role?, status?})
+      +activate(): void
+      +deactivate(): void
+      +block(): void
+      +changePassword(newHash: string): void
+      +updateEmail(newEmail: string): void
+    }
+
+    class Academy <<Entity>> {
+      -id: number
+      -userId: string
+      -periods: string[]
+      -academy_name: string
+      -ruc: string
+      +constructor(academy: {id?, userId?, periods?, academy_name?, ruc?})
+    }
+  }
+
+  package "services" {
+    class TeacherService <<Service>> {
+      -baseUrl: string
+      +constructor(http: HttpClient)
+      +getTeachers(): Observable<UserAccount[]>
+      +createTeacher(teacher: UserAccount): Observable<UserAccount>
+      +updateTeacher(id: number, teacherData: Partial<UserAccount>): Observable<UserAccount>
+      +deleteTeacher(id: number): Observable<any>
+    }
+
+    class AcademyService <<Service>> {
+      -apiUrl: string
+      +constructor(http: HttpClient)
+      +createAcademy(academy: Academy): Observable<Academy>
+      +getAcademiesByUserId(userId: string): Observable<Academy[]>
+      +getAcademyById(id: number): Observable<Academy>
+    }
+
+    class UserService <<Service>> {
+      -apiUrl: string
+      +constructor(http: HttpClient)
+      +registerUser(user: Omit<UserAccount, 'id'>): Observable<UserAccount>
+      +getUserByEmail(email: string): Observable<UserAccount[]>
+      +deleteUser(userId: string): Observable<void>
+    }
+  }
+
+  package "components" {
+    class TeacherModalComponent <<Component>> {
+      #teacherForm: NgForm
+      -dialogTitle: string
+      -teacher: UserAccount
+      -mode: 'add' | 'edit' | 'delete'
+      +constructor(dialogRef: MatDialogRef<TeacherModalComponent>, data: any)
+      +onCancel(): void
+      +onSubmit(): void
+      +onConfirmDelete(): void
+    }
+  }
+
+  package "pages" {
+    class TeacherOverviewComponent <<Component>> {
+      #columnsToDisplay: string[]
+      #dataSource: MatTableDataSource<UserAccount>
+      -paginator: MatPaginator
+      -sort: MatSort
+      -teacherService: TeacherService
+      -dialog: MatDialog
+      +ngOnInit(): void
+      +ngAfterViewInit(): void
+      +onNewTeacher(): void
+      #onEditItem(teacher: UserAccount): void
+      #onDeleteItem(teacher: UserAccount): void
+      -getAllTeachers(): void
+    }
+  }
+}
+
+' Relaciones ajustadas
+iam.services.TeacherService --> iam.model.UserAccount: "manages"
+iam.services.UserService --> iam.model.UserAccount: "manages"
+iam.services.AcademyService --> iam.model.Academy: "manages"
+
+iam.model.UserAccount --> iam.model.Role: "uses"
+iam.model.UserAccount --> iam.model.AccountStatus: "uses"
+
+iam.pages.TeacherOverviewComponent ..> iam.components.TeacherModalComponent: "opens dialog"
+iam.pages.TeacherOverviewComponent ..> iam.services.TeacherService: "injects"
+
+@enduml

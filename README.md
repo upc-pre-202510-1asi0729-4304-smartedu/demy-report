@@ -2127,6 +2127,38 @@ Se representan las entidades clave, value objects, aggregates, así como las rel
 
 ![Ver diagrama de clases](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report/refs/heads/main/docs/class-diagram.puml)
 
+A continuación, se presentan los diagramas UML para el Frontend Web Application, separado por bounded context para una mejor visibilidad.
+
+**Bounded context IAM**
+
+Sirve para la autenticación y gestión de usuarios, así como el manejo de roles.
+
+![IAM Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-iam-context.puml)
+
+**Bounded context Enrollment**
+
+Módulo de matrícula a alumnos, creación de academia y periodos académicos.
+
+![Enrollment Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-enrollment-context.puml)
+
+**Bounded context Billing**
+
+Manejo de facturas, pagos y transacciones financieras.
+
+![Billing Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-billing-context.puml)
+
+**Bounded context Scheduling**
+
+Gestión de horarios, salones de clase, cursos, y horarios semanales.
+
+![Scheduling Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-scheduling-context.puml)
+
+**Bounded context Attendance**
+
+Control de asistencia y registro de faltas por sesiones de clase.
+
+![Attendance Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-attendance-context.puml)
+
 ### 4.7.2. Class Dictionary
 
 #### IAM Context
