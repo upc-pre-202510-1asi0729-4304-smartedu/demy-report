@@ -12,7 +12,7 @@
 
 <h4 style="text-align: center"> Docente: Efraín Ricardo Bautista Ubillús </h4>
 
-<h4 style="text-align: center;"> Informe del TB1 </h4>
+<h4 style="text-align: center;"> Trabajo Parcial </h4>
 
 <h4 style="text-align: center"> Startup: SmartEdu </h4>
 
