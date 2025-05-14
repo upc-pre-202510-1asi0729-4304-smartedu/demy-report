@@ -28,7 +28,7 @@
 | U20221C486 | Sulca Gonzales, Paúl Fernando      |
 | U20231A778 | Vilca Saboya, Diego Alejandro      |
 
-<h5 style="text-align: center"> Ciclo 2025-01 </h5>
+<h5 style="text-align: center"> Ciclo 2025-10 </h5>
 
 # Registro de Versiones del Informe
 
@@ -101,11 +101,11 @@ Las principales ramas del repositorio son las siguientes:
 
 <div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
 
-**Figura 1.** Gráfico de red (*network graph*) de ramas en el repositorio de GitHub.
+**TB1**
+
+Gráfico de red (*network graph*) de ramas en el repositorio de GitHub.
 
 ![Insights - Network Graph](./assets/images/insights-network-graph.png)
-
-**Nota.** El gráfico fue generado automáticamente por *GitHub* mediante la herramienta **Insights > Network**.
 
 </div>
 
@@ -114,7 +114,7 @@ Estos gráficos detallan la cantidad de líneas de código añadidas por cada mi
 
 <div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
 
-**Figura 2.** Análisis de líneas de código añadidas por contribuyente.
+Análisis de líneas de código añadidas por contribuyente.
 
 ![Insights - Contributors](./assets/images/insights-contributors.png)
 
@@ -124,9 +124,40 @@ El siguiente gráfico muestra la cantidad de commits realizados en la semana con
 
 <div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
 
-**Figura 3.** Análisis de cantidad de commits realizados por semana.
+Análisis de cantidad de commits realizados por semana.
 
 ![Insights - Commits](./assets/images/insights-commits.png)
+
+</div>
+
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+**TP1**
+
+Gráfico de red (*network graph*) de ramas en el repositorio de GitHub.
+
+![Insights - Network Graph](./assets/images/insights-network-graph-tp.png)
+
+</div>
+
+A continuación, se presentan los gráficos que muestran el análisis de los commits en el repositorio correspondiente al informe.  
+Estos gráficos detallan la cantidad de líneas de código añadidas por cada miembro del equipo y la actividad de commits registrada.
+
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+Análisis de líneas de código añadidas por contribuyente.
+
+![Insights - Contributors](./assets/images/insights-contributors-tp.png)
+
+</div>
+
+El siguiente gráfico muestra la cantidad de commits realizados en la semana con mayor actividad en el proyecto.
+
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+Análisis de cantidad de commits realizados por semana.
+
+![Insights - Commits](./assets/images/insights-commits-tp.png)
 
 </div>
 
@@ -3226,6 +3257,10 @@ Enlace de los videos de las entrevistas para needfinding: [Ver en Microsoft Stre
 
 Enlace del video de exposición TB1: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/ESbzRCEthQVNrM6L4BuA1doBz8Vl_GXwLAFVuTiaa4_CnQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=T1XkRF)
 
+Enlace del video de exposición TP1: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/ESbzRCEthQVNrM6L4BuA1doBz8Vl_GXwLAFVuTiaa4_CnQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=T1XkRF)
+
 Enlace del repositorio en Github: [Ver en Github](https://github.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report)
 
 Enlace a la landing page: [Abrir en el navegador](https://demy-academy.netlify.app/)
+
+Enlace al frontend web application: [Abrir en el navegador](https://demy-web-app.netlify.app/)
