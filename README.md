@@ -261,9 +261,15 @@ Análisis de cantidad de commits realizados por semana.
             - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
             - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
             - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    - [5.3. Validation Interviews](#53-validation-interviews)
+        - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+        - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+        - [5.3.3. Evaluaciones según Heurísticas](#533-evaluaciones-según-heurísticas)
+    - [5.4. Video About-the-Product](#54-video-about-the-product)
 
 - [Conclusiones](#conclusiones)
     - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+    - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -3505,21 +3511,59 @@ Capturas de pantalla del Web Applications
 
 ### 5.2.3. Sprint 3
 
+
+
 #### 5.2.3.1. Sprint Planning 3
+
+
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
+
+
 #### 5.2.3.3. Sprint Backlog 3
+
+
 
 #### 5.2.3.4 Development Evidence for Sprint Review
 
+
+
 #### 5.2.3.5. Execution Evidence for Sprint Review
+
+
 
 #### 5.2.3.6.  Services Documentation Evidence for Sprint Review
 
+
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+
+
 #### 5.2.3.8.  Team Collaboration Insights during Sprint
+
+
+
+## 5.3. Validation Interviews
+
+
+
+### 5.3.1. Diseño de Entrevistas
+
+
+
+### 5.3.2. Registro de Entrevistas
+
+
+
+### 5.3.3. Evaluaciones según heurísticas
+
+
+
+## 5.4. Video About-the-Product
+
+
 
 ## Conclusiones y Recomendaciones
 
@@ -3548,6 +3592,10 @@ Estas acciones permitirán optimizar el roadmap del producto y acercarse de mane
 
 Finalmente, se sugiere incorporar una sección de ayuda dentro del sistema con tutoriales breves y guías interactivas para facilitar la adopción por parte de usuarios con baja familiaridad tecnológica.
 Esto contribuirá a reducir la curva de aprendizaje y a mejorar la percepción de usabilidad desde los primeros usos.
+
+## Video About-the-Team
+
+
 
 # Bibliografía
 
