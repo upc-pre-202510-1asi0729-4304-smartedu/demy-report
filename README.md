@@ -8,7 +8,7 @@
 
 <h4 style="text-align: center"> 1ASI0729 - Desarrollo de Aplicaciones Open Source </h4>
 
-<h4 style="text-align: center"> Sección: 4304  </h4>
+<h4 style="text-align: center"> NRC: 4304  </h4>
 
 <h4 style="text-align: center"> Docente: Efraín Ricardo Bautista Ubillús </h4>
 
@@ -48,7 +48,7 @@
 
 # Project Report Collaboration Insights
 
-Enlace para acceder al repositorio para el reporte del proyecto: [*Ver en GitHub*](https://github.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report)
+Enlace para acceder al repositorio para el reporte del proyecto: [*Ver en GitHub*](https://github.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report)
 
 **TB1**
 <br>Para el desarrollo del TB1 cada participante del equipo realizo las siguientes tareas:
@@ -2184,7 +2184,7 @@ En esta sección se presenta el diseño estructural del sistema a través de dia
 Esta sección presenta el diagrama de clases del sistema, modelado bajo principios de diseño orientado a objetos y alineado con los conceptos de Domain-Driven Design (DDD).
 Se representan las entidades clave, value objects, aggregates, así como las relaciones y los límites de contexto, reflejando la lógica del dominio identificada en el análisis previo.
 
-![Ver diagrama de clases](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report/refs/heads/main/docs/class-diagram.puml)
+![Ver diagrama de clases](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/main/docs/class-diagram.puml)
 
 A continuación, se presentan los diagramas UML para el Frontend Web Application, separado por bounded context para una mejor visibilidad.
 
@@ -2192,31 +2192,31 @@ A continuación, se presentan los diagramas UML para el Frontend Web Application
 
 Sirve para la autenticación y gestión de usuarios, así como el manejo de roles.
 
-![IAM Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-iam-context.puml)
+![IAM Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-iam-context.puml)
 
 **Bounded context Enrollment**
 
 Módulo de matrícula a alumnos, creación de academia y periodos académicos.
 
-![Enrollment Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-enrollment-context.puml)
+![Enrollment Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-enrollment-context.puml)
 
 **Bounded context Billing**
 
 Manejo de facturas, pagos y transacciones financieras.
 
-![Billing Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-billing-context.puml)
+![Billing Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-billing-context.puml)
 
 **Bounded context Scheduling**
 
 Gestión de horarios, salones de clase, cursos, y horarios semanales.
 
-![Scheduling Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-scheduling-context.puml)
+![Scheduling Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-scheduling-context.puml)
 
 **Bounded context Attendance**
 
 Control de asistencia y registro de faltas por sesiones de clase.
 
-![Attendance Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-attendance-context.puml)
+![Attendance Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-attendance-context.puml)
 
 ### 4.7.2. Class Dictionary
 
@@ -2516,9 +2516,9 @@ El equipo utilizará **GitHub** como plataforma de alojamiento y **Git** como co
 
 | **Producto**              | **Repositorio GitHub**                                                                                                                                   |
 |---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Organización SmartEdu** | [https://github.com/upc-pre-202501-1asi0729-4304-smartedu](https://github.com/upc-pre-202501-1asi0729-4304-smartedu)                                     |
-| **Landing Page**          | [https://github.com/upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page](https://github.com/upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page) |
-| **Report**                | [https://github.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report](https://github.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report)             |
+| **Organización SmartEdu** | [https://github.com/upc-pre-202510-1asi0729-4304-smartedu](https://github.com/upc-pre-202510-1asi0729-4304-smartedu)                                     |
+| **Landing Page**          | [https://github.com/upc-pre-202510-1asi0729-4304-smartedu/demy-landing-page](https://github.com/upc-pre-202510-1asi0729-4304-smartedu/demy-landing-page) |
+| **Report**                | [https://github.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report](https://github.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report)             |
 
 **GitFlow Workflow**
 
@@ -3511,15 +3511,46 @@ Capturas de pantalla del Web Applications
 
 ### 5.2.3. Sprint 3
 
-
-
 #### 5.2.3.1. Sprint Planning 3
 
+A continuación se presentará el sprint planning para esta entrega, donde definimos que trabajo se va a realizar para el siguiente sprint y cómo se va a lograr.
 
+| Sprint #                            | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                            |
+|-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint planning Background          |                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Date                                | 2025/06/05                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Time                                | 20:00                                                                                                                                                                                                                                                                                                                                                                                                               | 
+| Location                            | Llamada grupal en la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                             |
+| Prepared By                         | Salim Ramirez                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Attendees <br>(to planning meeting) | Daniel Crispin, Rafael Dominguez, Paúl Sulca y Diego Vilca                                                                                                                                                                                                                                                                                                                                                          |
+| **Sprint Goal & User Stories**      |                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Sprint 3 Goal                       | Desarrollar el backend para la API REST de la plataforma Demy, usando Java con Sprint Boot, siguiendo una arquitectura basada en DDD, utilizando Swagger para probar el funcionamiento de los endpoints creados.<br>Finalizar la implementación de la interfaz de la Web Application, además de integrarlo correctamente con la Landing Page.<br>Integrar parcialmente el frontend con el backend de la aplicación. |
+| Sprint 3 Velocity                   | 63                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Sum of story points                 | 63                                                                                                                                                                                                                                                                                                                                                                                                                  |
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
+A continuación se presenta el artefacto LACX (Leadership-and-Collaboration Matrix) que ayudará a saber quién lidera y quién colabora en cada aspecto de este tercer sprint.<br>
+Los aspectos que tomamos en cuenta para este tercer sprint fueron los features para el Backend Web Service.
 
+<div style="font-size:70%;">
+
+| **Team Member** <br> Last Name, First Name | **GitHub Username**  | **IAM Context** <br> L/C | **Enrollment Context** <br> L/C | **Billing Context** <br> L/C | **Scheduling Context** <br> L/C | **Attendance Context** <br> L/C |
+|:------------------------------------------:|:--------------------:|:------------------------:|:-------------------------------:|:----------------------------:|:-------------------------------:|:-------------------------------:|
+|             **Crispin Daniel**             |      danielcr04      |            C             |                C                |              C               |                L                |                C                |
+|            **Dominguez Rafael**            |       Radv2005       |            L             |                C                |              C               |                C                |                C                |
+|             **Ramirez Salim**              |     salimramirez     |            C             |                C                |              L               |                C                |                C                |
+|               **Sulca Paúl**               |        Kyrubi        |            C             |                L                |              C               |                C                |                C                |
+|              **Vilca Diego**               |       diesoks        |            C             |                C                |              C               |                C                |                L                |
+
+</div>
+
+<div style="text-align: center; font-size:85%; margin-top: 0.5rem;">
+
+**Nota.** L = *Leader* (responsable principal del aspecto).  
+C = *Collaborator* (apoya el desarrollo del aspecto).
+
+</div>
 
 #### 5.2.3.3. Sprint Backlog 3
 
@@ -3609,7 +3640,7 @@ Enlace del video de exposición TB1: [Ver en Microsoft Streams](https://upcedupe
 
 Enlace del video de exposición TP1: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EaBwS6_qiZlNqDAixn8oQf8BCsq6y0JE9cC1qCVfezYSqw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=StBjjK)
 
-Enlace del repositorio en Github: [Ver en Github](https://github.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report)
+Enlace del repositorio en Github: [Ver en Github](https://github.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report)
 
 Enlace a la landing page: [Abrir en el navegador](https://demy-academy.netlify.app/)
 
