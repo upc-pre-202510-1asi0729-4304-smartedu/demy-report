@@ -8,7 +8,7 @@
 
 <h4 style="text-align: center"> 1ASI0729 - Desarrollo de Aplicaciones Open Source </h4>
 
-<h4 style="text-align: center"> Sección: 4304  </h4>
+<h4 style="text-align: center"> NRC: 4304  </h4>
 
 <h4 style="text-align: center"> Docente: Efraín Ricardo Bautista Ubillús </h4>
 
@@ -48,7 +48,7 @@
 
 # Project Report Collaboration Insights
 
-Enlace para acceder al repositorio para el reporte del proyecto: [*Ver en GitHub*](https://github.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report)
+Enlace para acceder al repositorio para el reporte del proyecto: [*Ver en GitHub*](https://github.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report)
 
 **TB1**
 <br>Para el desarrollo del TB1 cada participante del equipo realizo las siguientes tareas:
@@ -249,12 +249,27 @@ Análisis de cantidad de commits realizados por semana.
             - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
             - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
             - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
-            - [5.2.2.6. Services Documentation Evidence for Sprint Review ](#5226-services-documentation-evidence-for-sprint-review)
+            - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
             - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
             - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+        - [5.2.3. Sprint 3](#523-sprint-3)
+            - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+            - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+            - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+            - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+            - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+            - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+            - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+            - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    - [5.3. Validation Interviews](#53-validation-interviews)
+        - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+        - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+        - [5.3.3. Evaluaciones según Heurísticas](#533-evaluaciones-según-heurísticas)
+    - [5.4. Video About-the-Product](#54-video-about-the-product)
 
 - [Conclusiones](#conclusiones)
     - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+    - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -1011,6 +1026,8 @@ Se elaboraron historias de usuario (US), técnicas (TS) y de sitio web estático
 | EP05            | Gestión de horarios y asignaciones                              | Como administrativo,<br>quiero asignar horarios, salones y docentes a los cursos,<br>para estructurar la carga académica de forma ordenada y gestionar imprevistos.                                    | — *(Epica, no aplica)*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | US19<br>US20<br>US21<br>US22<br>US23                                                                                                 |
 | EP06            | Accesos desde Landing Page por segmento                         | Como visitante del sitio,<br>quiero ser redirigido desde la landing page a la vista correspondiente según mi perfil,<br>para acceder fácilmente a la información o funcionalidades relevantes para mí. | — *(Epica, no aplica)*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | LPS01<br>LPS02<br>LPS03<br>LPS04<br>LPS05<br>LPS06<br>LPS07<br>LPS08<br>LPS09<br>LPS10                                               |
 | EP07            | Servicios técnicos y APIs REST                                  | Como equipo de desarrollo,<br>quiero exponer endpoints REST bien documentados y seguros,<br>para facilitar la integración, el mantenimiento y la escalabilidad del sistema.                            | — *(Epica, no aplica)*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | TS01<br>TS02<br>TS03<br>TS04<br>TS05<br>TS06<br>TS07<br>TS08<br>TS09<br>TS10<br>TS11<br>TS12<br>TS13<br>TS14<br>TS15<br>TS16<br>TS17 |
+| EP08            | Gestión de planes y suscripciones                               | Como administrativo del <br>sistema, quiero poder escoger un plan adecuado a mi perfil<br>para gestionar los beneficios de cada plan dentro de mi academia.                                            | — *(Epica, no aplica)*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | US24<br>US25                                                                                                                         |
+| EP09            | Comunicación y notificaciones                                   | Como usuario del sistema,<br>quiero recibir alertas dentro de la platafora<br>sobre información relevante según mi rol<br>para estar al tanto de los aspectos más urgentes en un momento determinado.  | — *(Epica, no aplica)*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | US13<br>US16<br>US26                                                                                                                 |
 | LPS01           | Ver Hero Section                                                | Como visitante,<br>quiero visualizar una sección inicial llamativa,<br>para entender rápidamente qué ofrece la plataforma Demy.                                                                        | **Scenario 1: Visualización inicial**<br>Given accedo al sitio desde cualquier dispositivo<br>When se carga la página<br>Then se muestra el nombre del producto, slogan y botón de acción con diseño atractivo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | EP06                                                                                                                                 |
 | LPS02           | Ver sección "About the product"                                 | Como visitante,<br>quiero conocer en qué consiste Demy,<br>para entender cómo puede ayudar a academias como la mía.                                                                                    | **Scenario 1: Ver detalles del producto**<br>Given estoy navegando por la landing<br>When hago scroll o clic en "¿Qué es Demy?"<br>Then se despliega una descripción clara del producto y su propósito                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | EP06                                                                                                                                 |
 | LPS03           | Ver sección de beneficios y características                     | Como visitante,<br>quiero conocer los beneficios clave del sistema,<br>para identificar si resuelve mis necesidades.                                                                                   | **Scenario 1: Visualización de beneficios**<br>Given estoy en la sección de beneficios<br>When la sección está visible<br>Then se muestran íconos o bullets con características destacadas como gestión, automatización, accesibilidad, etc.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | EP06                                                                                                                                 |
@@ -2163,7 +2180,7 @@ En esta sección se presenta el diseño estructural del sistema a través de dia
 Esta sección presenta el diagrama de clases del sistema, modelado bajo principios de diseño orientado a objetos y alineado con los conceptos de Domain-Driven Design (DDD).
 Se representan las entidades clave, value objects, aggregates, así como las relaciones y los límites de contexto, reflejando la lógica del dominio identificada en el análisis previo.
 
-![Ver diagrama de clases](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report/refs/heads/main/docs/class-diagram.puml)
+![Ver diagrama de clases](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/main/docs/class-diagram.puml)
 
 A continuación, se presentan los diagramas UML para el Frontend Web Application, separado por bounded context para una mejor visibilidad.
 
@@ -2171,31 +2188,31 @@ A continuación, se presentan los diagramas UML para el Frontend Web Application
 
 Sirve para la autenticación y gestión de usuarios, así como el manejo de roles.
 
-![IAM Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-iam-context.puml)
+![IAM Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-iam-context.puml)
 
 **Bounded context Enrollment**
 
 Manejo y creacion de matrículas a alumnos, creación de estudiantes y periodos académicos.
 
-![Enrollment Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-enrollment-context.puml)
+![Enrollment Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-enrollment-context.puml)
 
 **Bounded context Billing**
 
 Manejo de facturas, pagos, egresos y transacciones financieras.
 
-![Billing Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-billing-context.puml)
+![Billing Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-billing-context.puml)
 
 **Bounded context Scheduling**
 
 Gestión de horarios, salones de clase, cursos, y horarios semanales.
 
-![Scheduling Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-scheduling-context.puml)
+![Scheduling Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-scheduling-context.puml)
 
 **Bounded context Attendance**
 
 Control de asistencia y registro de faltas por sesiones de clase.
 
-![Attendance Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-attendance-context.puml)
+![Attendance Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-attendance-context.puml)
 
 ### 4.7.2. Class Dictionary
 
@@ -2495,9 +2512,9 @@ El equipo utilizará **GitHub** como plataforma de alojamiento y **Git** como co
 
 | **Producto**              | **Repositorio GitHub**                                                                                                                                   |
 |---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Organización SmartEdu** | [https://github.com/upc-pre-202501-1asi0729-4304-smartedu](https://github.com/upc-pre-202501-1asi0729-4304-smartedu)                                     |
-| **Landing Page**          | [https://github.com/upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page](https://github.com/upc-pre-202501-1asi0729-4304-smartedu/demy-landing-page) |
-| **Report**                | [https://github.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report](https://github.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report)             |
+| **Organización SmartEdu** | [https://github.com/upc-pre-202510-1asi0729-4304-smartedu](https://github.com/upc-pre-202510-1asi0729-4304-smartedu)                                     |
+| **Landing Page**          | [https://github.com/upc-pre-202510-1asi0729-4304-smartedu/demy-landing-page](https://github.com/upc-pre-202510-1asi0729-4304-smartedu/demy-landing-page) |
+| **Report**                | [https://github.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report](https://github.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report)             |
 
 **GitFlow Workflow**
 
@@ -3036,7 +3053,7 @@ Enlace para acceder al landing page: [*Abrir en el navegador*](https://demy-acad
 
 #### 5.2.2.1. Sprint Planning 2.
 
-A continuación se presentará el sprint planning para esta primera entrega, donde definimos que trabajo se va a realizar para el próximo sprint y cómo se va a lograr.
+A continuación se presentará el sprint planning para esta entrega, donde definimos que trabajo se va a realizar para el siguiente sprint y cómo se va a lograr.
 
 | Sprint #                             | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -3488,6 +3505,93 @@ Capturas de pantalla del Web Applications
 
 ![Captura 2 de pantalla de los insights del Sprint 2](./assets/screenshots/sprint2-insights-2.png)
 
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3
+
+A continuación se presentará el sprint planning para esta entrega, donde definimos que trabajo se va a realizar para el siguiente sprint y cómo se va a lograr.
+
+| Sprint #                            | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                            |
+|-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint planning Background          |                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Date                                | 2025/06/05                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Time                                | 20:00                                                                                                                                                                                                                                                                                                                                                                                                               | 
+| Location                            | Llamada grupal en la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                             |
+| Prepared By                         | Salim Ramirez                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Attendees <br>(to planning meeting) | Daniel Crispin, Rafael Dominguez, Paúl Sulca y Diego Vilca                                                                                                                                                                                                                                                                                                                                                          |
+| **Sprint Goal & User Stories**      |                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Sprint 3 Goal                       | Desarrollar el backend para la API REST de la plataforma Demy, usando Java con Sprint Boot, siguiendo una arquitectura basada en DDD, utilizando Swagger para probar el funcionamiento de los endpoints creados.<br>Finalizar la implementación de la interfaz de la Web Application, además de integrarlo correctamente con la Landing Page.<br>Integrar parcialmente el frontend con el backend de la aplicación. |
+| Sprint 3 Velocity                   | 63                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Sum of story points                 | 63                                                                                                                                                                                                                                                                                                                                                                                                                  |
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+A continuación se presenta el artefacto LACX (Leadership-and-Collaboration Matrix) que ayudará a saber quién lidera y quién colabora en cada aspecto de este tercer sprint.<br>
+Los aspectos que tomamos en cuenta para este tercer sprint fueron los features para el Backend Web Service.
+
+<div style="font-size:70%;">
+
+| **Team Member** <br> Last Name, First Name | **GitHub Username**  | **IAM Context** <br> L/C | **Enrollment Context** <br> L/C | **Billing Context** <br> L/C | **Scheduling Context** <br> L/C | **Attendance Context** <br> L/C |
+|:------------------------------------------:|:--------------------:|:------------------------:|:-------------------------------:|:----------------------------:|:-------------------------------:|:-------------------------------:|
+|             **Crispin Daniel**             |      danielcr04      |            C             |                C                |              C               |                L                |                C                |
+|            **Dominguez Rafael**            |       Radv2005       |            L             |                C                |              C               |                C                |                C                |
+|             **Ramirez Salim**              |     salimramirez     |            C             |                C                |              L               |                C                |                C                |
+|               **Sulca Paúl**               |        Kyrubi        |            C             |                L                |              C               |                C                |                C                |
+|              **Vilca Diego**               |       diesoks        |            C             |                C                |              C               |                C                |                L                |
+
+</div>
+
+<div style="text-align: center; font-size:85%; margin-top: 0.5rem;">
+
+**Nota.** L = *Leader* (responsable principal del aspecto).  
+C = *Collaborator* (apoya el desarrollo del aspecto).
+
+</div>
+
+#### 5.2.3.3. Sprint Backlog 3
+
+
+
+#### 5.2.3.4 Development Evidence for Sprint Review
+
+
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+
+
+#### 5.2.3.6.  Services Documentation Evidence for Sprint Review
+
+
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+
+
+#### 5.2.3.8.  Team Collaboration Insights during Sprint
+
+
+
+## 5.3. Validation Interviews
+
+
+
+### 5.3.1. Diseño de Entrevistas
+
+
+
+### 5.3.2. Registro de Entrevistas
+
+
+
+### 5.3.3. Evaluaciones según heurísticas
+
+
+
+## 5.4. Video About-the-Product
+
+
+
 ## Conclusiones y Recomendaciones
 
 En esta sección se presentan las principales conclusiones del equipo respecto al desarrollo del modelo de negocio digital, alineadas a los Problem Statements e hipótesis del proceso Lean UX.
@@ -3516,6 +3620,10 @@ Estas acciones permitirán optimizar el roadmap del producto y acercarse de mane
 Finalmente, se sugiere incorporar una sección de ayuda dentro del sistema con tutoriales breves y guías interactivas para facilitar la adopción por parte de usuarios con baja familiaridad tecnológica.
 Esto contribuirá a reducir la curva de aprendizaje y a mejorar la percepción de usabilidad desde los primeros usos.
 
+## Video About-the-Team
+
+
+
 # Bibliografía
 
 Gan@Más. (2014, julio 24). Docentes usan hasta el 29% de su tiempo en las tareas administrativas. Revista Gan@Más. https://revistaganamas.com.pe/docentes-utilizan-hasta-el-29-de-su-tiempo-en-las-tareas-administrativas/
@@ -3528,7 +3636,7 @@ Enlace del video de exposición TB1: [Ver en Microsoft Streams](https://upcedupe
 
 Enlace del video de exposición TP1: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EaBwS6_qiZlNqDAixn8oQf8BCsq6y0JE9cC1qCVfezYSqw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=StBjjK)
 
-Enlace del repositorio en Github: [Ver en Github](https://github.com/upc-pre-202501-1asi0729-4304-smartedu/demy-report)
+Enlace del repositorio en Github: [Ver en Github](https://github.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report)
 
 Enlace a la landing page: [Abrir en el navegador](https://demy-academy.netlify.app/)
 
