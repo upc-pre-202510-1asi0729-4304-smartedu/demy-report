@@ -3551,7 +3551,19 @@ Capturas de pantalla del Web Applications
 
 ### 5.3.1. Diseño de Entrevistas
 
+**User Goal**: Registrar asistencia de una sesión de clase
 
+**User Persona**: Profesores
+
+**Explicación del flujo**: En la sección del Dashboard, la categoría "Mi organización" es la que aparece
+de manera predeterminada. El usuario al navegar mediante el navbar izquierdo, selecciona la sección de "Asistencia",
+entonces luego de ser dirigido, el usuario deberá seleccionar el curso correspondiente, la fecha y marcará la asistencia
+de los alumnos mediante el checkbox.
+Finalmente, el usuario apretará el botón de "Guardar asistencia".
+
+**Pregunta**:¿La navegación hasta la sección de asistencia te pareció fácil de entender, por qué? ¿Te pareció intuitivo
+el proceso de registrar una asistencia, por qué? ¿Qué opinas del diseño de la sección de registrar asistencia,
+es cómoda a la vista?
 
 ### 5.3.2. Registro de Entrevistas
 
