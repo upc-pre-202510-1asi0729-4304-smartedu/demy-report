@@ -3075,7 +3075,7 @@ A continuación se presentará el sprint planning para esta entrega, donde defin
 #### 5.2.2.2. Aspect Leaders and Collaborators.
 
 A continuación se presenta el artefacto LACX (Leadership-and-Collaboration Matrix) que ayudará a saber quién lidera y quién colabora en cada aspecto de este segundo sprint.<br>
-Los aspectos que tomamos en cuenta para este primer sprint fueron los los features para el FrontEnd Web Application.
+Los aspectos que tomamos en cuenta para este segundo sprint fueron los features para el FrontEnd Web Application.
 
 <div style="font-size:70%;">
 
