@@ -3611,6 +3611,39 @@ Si el usuario confirma la acción presionando "Eliminar", el curso será removid
 | **Captura**             | ![Captura](./assets/images/registro_de_entrevistas_2/Captura_Video_Entrevista_Open.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | **Resumen**             | Sebastián comentó que el acceso desde la landing page hasta el login como profesor fue claro y sin complicaciones, y que el formulario de inicio de sesión fue fácil de completar con las credenciales proporcionadas. Una vez dentro de la plataforma, pudo acceder sin problemas a la sección "Mi horario" y visualizó correctamente las clases asignadas, considerando el flujo claro y directo. Sobre el registro de asistencia, señaló que la navegación hasta esa sección fue intuitiva y el proceso de marcar asistencia mediante checkboxes le resultó fácil de entender. También valoró positivamente el diseño visual de la sección, describiéndolo como cómodo y claro para el usuario. |
 
+## 5.3.3. Evaluaciones según herurísticas
+
+
+| # | Problema                                                                    | Escala de severidad | Heurística/ Principio Violado                                                           |
+|---|-----------------------------------------------------------------------------|---------------------|-----------------------------------------------------------------------------------------|
+| 6 | El mensaje de error en login no especifica el error cometido por el usuario | 2                   | Usability: Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de los errores  |
+| 7 | La casilla "remember me" debería de estar marcada por defecto               | 1                   | Usability: Flexibilidad y eficiencia en el uso                                          |
+
+**PROBLEMA #6:** El mensaje de error en Login no especifica el error cometido por el usuario <br>
+**Severidad:** 2 <br>
+**Heurística violada:** Usability- Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de los errores<br>
+**Problema:** <br>
+Al momento de registrar las credenciales incorrectas en Login, no se muestra ningún mensaje que indique que el error está relacionado con las credenciales. Este mensaje es necesario, ya que orienta al usuario y le permite recuperarse del problema de manera adecuada. <br>
+
+**Recomendación:** <br>
+Agregar una descripción leve de la causa del problema para que el usuario pueda recuperarse del problema. <br>
+
+![Captura](./assets/screenshots/usability-problem1-teacher1.png)
+
+
+
+**PROBLEMA #7:** La casilla de remember me debería de estar marcada por defecto <br>
+**Severidad:** 1 <br>
+**Heurística violada:** Usability- Flexibilidad y eficiencia en el uso<br>
+**Problema:** <br>
+Al momento de registrar las credenciales en Login, la casilla “remember me” no está marcada por defecto lo cual evita que se optimice el flujo del caso mas común, pues casi siempre uno quiere mantener su sesión iniciada. <br>
+
+**Recomendación:** <br>
+Hacer que la casilla “remember me” esté marcada por defecto para reducir el tiempo que toma el usuario al iniciar sesión por primera vez  <br>
+
+![Captura](./assets/screenshots/usability-problem-2-teacher1.png)
+
+
 
 ## Conclusiones y Recomendaciones
 
