@@ -3674,6 +3674,8 @@ El alcance de esta evaluación incluye la revisión de usabilidad de las siguien
 FUERA DE ALCANCE: <br>
 
 
+TABLA RESUMEN:
+
 | # | Problema                                                    | Escala de severidad | Heurística/ Principio Violado                  |
 |---|-------------------------------------------------------------|---------------------|------------------------------------------------|
 | 1 | La página de guardar asistencia carece de imágenes          | 1                   | Usability: Reconocer antes que recordar        |
