@@ -3645,9 +3645,71 @@ es cómoda a la vista?
 
 ### 5.3.2. Registro de Entrevistas
 
+| Atributo                | Detalle                                                                                                                                                                                                                                                                                                                                           |
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre**              | Jeff Aylas Quispe Vergara                                                                                                                                                                                                                                                                                                                         |
+| **Edad**                | 25                                                                                                                                                                                                                                                                                                                                                |
+| **Sexo**                | Masculino                                                                                                                                                                                                                                                                                                                                         |
+| **Distrito**            | San Juan de Lurigancho                                                                                                                                                                                                                                                                                                                            |
+| **Ocupación**           | Docente en Academia ADUNI                                                                                                                                                                                                                                                                                                                         |
+| **Fecha de entrevista** | 18 de junio del 2025                                                                                                                                                                                                                                                                                                                              |
+| **Timing**              | 0:02 - 4:55                                                                                                                                                                                                                                                                                                                                       |
+| **Video**               | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/ERtaTxJ331BBmHHVJXsqYhoBAU9tKcOTx-fePw-K2jTntA?e=mLuXu9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **Captura**             | ![Captura](./assets/screenshots/validation-interview-teacher3.png)                                                                                                                                                                                                                                                                                |
+| **Resumen**             | El docente entrevistado,menciona que la aplicación es muy intuitiva y fácil de usar, desde la navegación de la landing page hasta el web application, también que le gusta que pueda cambiar entre inglés y español y que tal vez se pueda incluir algunas imágenes para que sea más cómoda a la vista.                                           |
 
 
 ### 5.3.3. Evaluaciones según heurísticas
+
+SITE o APP A EVALUAR: <br>
+*Demy*
+
+TAREAS A EVALUAR: <br>
+El alcance de esta evaluación incluye la revisión de usabilidad de las siguientes tareas: <br>
+
+1. Inicio de sesión
+2. Ver horario
+3. Registrar asistencia
+
+FUERA DE ALCANCE: <br>
+
+
+| # | Problema                                                    | Escala de severidad | Heurística/ Principio Violado                  |
+|---|-------------------------------------------------------------|---------------------|------------------------------------------------|
+| 1 | La página de guardar asistencia carece de imágenes          | 1                   | Usability: Reconocer antes que recordar        |
+| 2 | Los checkbox de asistencia no aparecen marcados por defecto | 2                   | Usability: Flexibilidad y eficiencia en el uso |
+
+DESCRIPCIÓN DE PROBLEMAS:
+
+PROBLEMA #1: La página de guardar asistencia carece de imágenes <br>
+Severidad: 1 <br>
+Heurística violada: Usability- Reconocer antes que recordar <br>
+Problema: <br>
+Al momento de ingresar a la página de guardar asistencia, hace falta algunas imágenes referenciales para que sea un poco más cómoda a la vista,
+ya que estas sirven para que el usuario no tenga que recordar o interpretar mucho cada sección. <br>
+
+![Captura](./assets/screenshots/usability-problem-1-teacher3.png)
+
+Recomendación: <br>
+Agregar unas cuantas imágenes referenciales en las secciones marcadas de color rojo en la captura anteriormente presentada. <br>
+
+PROBLEMA #2: Los checkbox de asistencia no aparecen marcados por defecto <br>
+Severidad: 2<br>
+Heurística violada: Usability- Flexibilidad y eficiencia en el uso <br>
+Problema: <br>
+Al momento de registrar una asistencia, las checkbox no aparecen marcadas por defecto, esto impide que se optimize el flujo del caso más común, que es cuando la mayoría asiste
+, lo cual aumenta el número de clics que tendrá que dar el usuario si tomamos en cuenta que es un salón muy grande.
+
+![Captura](./assets/screenshots/usability-problem-2-teacher3.png)
+
+Recomendación: <br>
+Hacer que las checkbox de asistencia ya aparecen marcadas por defecto, esto reducirá el número de clics que tendrá que dar el usuario al momento de tomar asistencia en un salón con gran cantidad de alumnos.
+
+
+
+
+
+
 
 
 
