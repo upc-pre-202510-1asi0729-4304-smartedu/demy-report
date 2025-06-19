@@ -3631,7 +3631,96 @@ Cuando el usuario haya completado los datos podrá darle a la opción de "Confir
 
 ### 5.3.3. Evaluaciones según heurísticas
 
+#### UX Heuristics & Principles Evaluation
+#### Usability – Inclusive Design – Information Architecture
 
+**CARRERA** : Ingeniería de Software
+
+**CURSO** : Desarrollo de Aplicaciones Open Source
+
+**SECCIÓN** : 4304
+
+**PROFESOR** : Efraín Ricardo Bautista Ubillús
+
+**AUDITOR** : SmartEdu
+
+**CLIENTES** : Kevin Rodríguez, Marleni Flores, Jhon Candioti, Sebastían Maguiña, Diego Meléndez, Jeff Quispe
+
+#### SITE o APP A EVALUAR:
+
+**Demy**
+
+#### TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de usabilidad de las siguientes tareas:
+
+**Web Application**
+1. Inicio de sesión
+2. Ver horario
+3. Registrar asistencia
+
+#### FUERA DE ALCANCE:
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+**Landing Page**
+1. Redes sociales asociadas a la startup
+2. Política de privacidad y condiciones de uso
+
+**Web Application**
+1. Recuperación de contraseña
+2. Política de privacidad y condiciones de uso
+
+#### ESCALA DE SEVERIDAD:
+
+| Nivel   | Descripción                                                                                                                                                                                         |
+|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1       | **Problema superficial**: puede ser fácilmente superador por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                   |
+| 2       | **Problema menor**: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase. |
+| 3       | **Problema mayor**: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                 |
+| 4       | **Problema muy grave**: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
+
+#### TABLA RESUMEN:
+
+| # | Problema                                                    | Escala de severidad | Heurística/ Principio Violado                  |
+|---|-------------------------------------------------------------|---------------------|------------------------------------------------|
+| 1 | La página de guardar asistencia carece de imágenes          | 1                   | Usability: Reconocer antes que recordar        |
+| 2 | Los checkbox de asistencia no aparecen marcados por defecto | 2                   | Usability: Flexibilidad y eficiencia en el uso |
+
+#### DESCRIPCIÓN DE PROBLEMAS:
+
+**PROBLEMA #1:** La página de guardar asistencia carece de imágenes
+
+**Severidad:** 1
+<br>
+**Heurística violada:** Usability- Reconocer antes que recordar
+
+**Problema:**
+<br>
+Al momento de ingresar a la página de guardar asistencia, hace falta algunas imágenes referenciales para que sea un poco más cómoda a la vista,
+ya que estas sirven para que el usuario no tenga que recordar o interpretar mucho cada sección. <br>
+
+![Captura](./assets/screenshots/usability-problem-1-teacher3.png)
+
+**Recomendación:**
+<br>
+Agregar unas cuantas imágenes referenciales en las secciones marcadas de color rojo en la captura anteriormente presentada. <br>
+
+**PROBLEMA #2:** Los checkbox de asistencia no aparecen marcados por defecto <br>
+
+**Severidad: 2**
+<br>
+**Heurística violada: Usability- Flexibilidad y eficiencia en el uso**
+
+**Problema:**
+<br>
+Al momento de registrar una asistencia, las checkbox no aparecen marcadas por defecto, esto impide que se optimize el flujo del caso más común, que es cuando la mayoría asiste, lo cual aumenta el número de clics que tendrá que dar el usuario si tomamos en cuenta que es un salón muy grande.
+
+![Captura](./assets/screenshots/usability-problem-2-teacher3.png)
+
+**Recomendación:**
+<br>
+Hacer que las checkbox de asistencia ya aparecen marcadas por defecto, esto reducirá el número de clics que tendrá que dar el usuario al momento de tomar asistencia en un salón con gran cantidad de alumnos.
 
 ## 5.4. Video About-the-Product
 
