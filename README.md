@@ -3511,6 +3511,16 @@ Capturas de pantalla del Web Applications
 
 ### 5.2.3. Sprint 3
 
+El tercer sprint estuvo dedicado al mayor avance posible de nuestro Backend junto a algunas correcciones del FrontEnd.<br>
+El objetivo principal de este sprint fue avanzar los endpoints core de nuestro proyecto.
+
+A continuación, se presenta una captura de pantalla de la herramienta de control que usamos, que fue Trello:
+![]()
+
+Link del Trello:  https://trello.com/invite/b/6851e331936ecded782e9022/ATTI1e3d0177c1475f7ec78c0723d746621712A5CEAC/sprint-3-open-source
+
+
+
 
 
 #### 5.2.3.1. Sprint Planning 3
@@ -3523,7 +3533,75 @@ Capturas de pantalla del Web Applications
 
 #### 5.2.3.3. Sprint Backlog 3
 
+<div style="font-size:80%; overflow-x:auto;">
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th colspan="2">Sprint #</th>
+      <th colspan="6">Sprint 3</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+<tr><td>TS12</td><td> Implementar un endpoint para registrar una class sesión</td><td>TS12a</td><td>Dominio e Infraestructura</td><td>Definir agregados, entidades, repositorios y persistencia para ClassSession.</td><td>4</td><td>Diego</td><td>Done</td></tr>
+<tr><td>TS12</td><td> Implementación de capas restantes</td><td>TS12b</td><td>Dominio e Infraestructura</td><td>Implementar la capa de aplicación y interfaz</td><td>4</td><td>Diego</td><td>Done</td></tr>
+<tr><td>TS13</td><td>Implementar un endpoint para consultar la asistencia de un alumno por DNI</td><td>TS13a</td><td>Dominio e Infraestructura</td><td>Agregar método en repositorio para obtener asistencia por DNI</td><td>2</td><td>Diego</td><td>To-do</td></tr>
+<tr><td>TS13</td><td>Implementar un endpoint para consultar la asistencia de un alumno por DNI</td><td>TS13b</td><td>Application Query Service</td><td>Crear query, handler y servicio de aplicación para consulta por DNI</td><td>2</td><td>Diego</td><td>To-do</td></tr>
+<tr><td>TS13</td><td>Implementar un endpoint para consultar la asistencia de un alumno por DNI</td><td>TS13c</td><td>Exponer Endpoint</td><td>Crear controlador GET /attendance/student/{dni}</td><td>1</td><td>Diego</td><td>To-do</td></tr>
 
+<tr><td>TS14</td><td>Implementar un endpoint para consultar la asistencia de un alumno en un curso</td><td>TS14a</td><td>Dominio e Infraestructura</td><td>Agregar método en repositorio para filtrar por studentId y courseId</td><td>2</td><td>Diego</td><td>To-do</td></tr>
+<tr><td>TS14</td><td>Implementar un endpoint para consultar la asistencia de un alumno en un curso</td><td>TS14b</td><td>Application Query Service</td><td>Crear query, handler y servicio para consultar asistencia por curso</td><td>2</td><td>Diego</td><td>To-do</td></tr>
+<tr><td>TS14</td><td>Implementar un endpoint para consultar la asistencia de un alumno en un curso</td><td>TS14c</td><td>Exponer Endpoint</td><td>Crear controlador GET /attendance/course/{courseId}/student/{id}</td><td>1</td><td>Diego</td><td>To-do</td></tr>
+
+<tr><td>TS15</td><td>Implementar endpoint para crea y consultar transacciones financiera (GET, POST /financial-transactions)</td><td>TS15a</td><td>Dominio e Infraestructura</td><td>Definir entidad FinancialTransaction, repositorio y mapeo</td><td>3</td><td>Salim</td><td>To-do</td></tr>
+<tr><td>TS15</td><td>Implementar endpoint para crea y consultar transacciones financiera (GET, POST /financial-transactions)</td><td>TS15b</td><td>Application CQRS Services</td><td>Crear Command (POST) y Query (GET) con handlers</td><td>2</td><td>Salim</td><td>To-do</td></tr>
+<tr><td>TS15</td><td>Implementar endpoint para crea y consultar transacciones financiera (GET, POST /financial-transactions)</td><td>TS15c</td><td>Exponer Endpoints</td><td>Crear controlador GET y POST /financial-transactions</td><td>1</td><td>Salim</td><td>To-do</td></tr>
+
+<tr><td>TS16</td><td>Implementar endpoint para poder consultar los perfiles de usuarios Admin
+(GET/users/role/{name})</td><td>TS16a</td><td>Infraestructura</td><td>Agregar método en repositorio que filtre por rol ADMIN</td><td>1</td><td>Rafael</td><td>To-do</td></tr>
+<tr><td>TS16</td><td>Implementar endpoint para poder consultar los perfiles de usuarios Admin
+(GET/users/role/{name})</td><td>TS16b</td><td>Application Query Service</td><td>Crear query, handler y servicio para filtro por rol</td><td>1.5</td><td>Rafael</td><td>To-do</td></tr>
+<tr><td>TS16</td><td>Implementar endpoint para poder consultar los perfiles de usuarios Admin
+(GET/users/role/{name})</td><td>TS16c</td><td>Exponer Endpoint</td><td>Crear GET /users/role/ADMIN</td><td>0.5</td><td>Rafael</td><td>To-do</td></tr>
+
+<tr><td>TS17</td><td>Implementar  endpoint para poder consultar los perfiles de usuarios Teacher 
+(GET/users/role/{name})</td><td>TS17a</td><td>Infraestructura</td><td>Agregar método en repositorio que filtre por rol TEACHER</td><td>1</td><td>Rafael</td><td>To-do</td></tr>
+<tr><td>TS17</td><td>Implementar  endpoint para poder consultar los perfiles de usuarios Teacher 
+(GET/users/role/{name})</td><td>TS17b</td><td>Application Query Service</td><td>Crear query, handler y servicio para filtro por rol</td><td>1.5</td><td>Rafael</td><td>To-do</td></tr>
+<tr><td>TS17</td><td>Implementar  endpoint para poder consultar los perfiles de usuarios Teacher 
+(GET/users/role/{name})</td><td>TS17c</td><td>Exponer Endpoint</td><td>Crear GET /users/role/TEACHER</td><td>0.5</td><td>Rafael</td><td>To-do</td></tr>
+
+<tr><td>TS18</td><td>Implementar endpoints para eliminar a los Usuarios Teachers de Demy (DELETE /users/{id})</td><td>TS18a</td><td>Dominio e Infraestructura</td><td>Agregar método de eliminación en repositorio de usuario</td><td>1</td><td>Rafael</td><td>To-do</td></tr>
+<tr><td>TS18</td><td>Implementar endpoints para eliminar a los Usuarios Teachers de Demy (DELETE /users/{id})</td><td>TS18b</td><td>Application Command</td><td>Crear Command y Handler para eliminar por ID</td><td>1.5</td><td>Rafael</td><td>To-do</td></tr>
+<tr><td>TS18</td><td>Implementar endpoints para eliminar a los Usuarios Teachers de Demy (DELETE /users/{id})</td><td>TS18c</td><td>Exponer Endpoint</td><td>Crear DELETE /users/{id}</td><td>0.5</td><td>Rafael</td><td>To-do</td></tr>
+
+<tr><td>TS19</td><td>Implementar endpoint para poder agregar los perfiles de usuarios teacher
+(Post/users/role/{name})</td><td>TS19a</td><td>Dominio e Infraestructura</td><td>Implementar mapeo y persistencia de usuarios Teacher</td><td>2</td><td>Rafael</td><td>To-do</td></tr>
+<tr><td>TS19</td><td>Implementar endpoint para poder agregar los perfiles de usuarios teacher
+(Post/users/role/{name})</td><td>TS19b</td><td>Application Command</td><td>Crear Command y Handler para crear Teacher</td><td>1.5</td><td>Rafael</td><td>To-do</td></tr>
+<tr><td>TS19</td><td>Implementar endpoint para poder agregar los perfiles de usuarios teacher
+(Post/users/role/{name})</td><td>TS19c</td><td>Exponer Endpoint</td><td>Crear POST /users/role/TEACHER</td><td>0.5</td><td>Rafael</td><td>To-do</td></tr>
+
+<tr><td>TS20</td><td>Implementar endpoint para poder editar los perfiles de teacher (Put/users/role/{Teacher})</td><td>TS20a</td><td>Dominio e Infraestructura</td><td>Agregar método de actualización en repositorio</td><td>2</td><td>Rafael</td><td>To-do</td></tr>
+<tr><td>TS20</td><td>Implementar endpoint para poder editar los perfiles de teacher (Put/users/role/{Teacher})</td><td>TS20b</td><td>Application Command</td><td>Crear Command y Handler para editar datos de Teacher</td><td>1.5</td><td>Rafael</td><td>To-do</td></tr>
+<tr><td>TS20</td><td>Implementar endpoint para poder editar los perfiles de teacher (Put/users/role/{Teacher})</td><td>TS20c</td><td>Exponer Endpoint</td><td>Crear PUT /users/role/TEACHER</td><td>0.5</td><td>Rafael</td><td>To-do</td></tr>
+
+  </tbody>
+</table>
+</div>
 
 #### 5.2.3.4 Development Evidence for Sprint Review
 
