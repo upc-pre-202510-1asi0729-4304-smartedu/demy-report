@@ -2171,40 +2171,87 @@ Demy es una plataforma web diseñada específicamente para resolver los problema
 
 Además, Demy interactúa con dos sistemas externos: Microsoft Outlook, que se utiliza para enviar notificaciones por correo electrónico, y IoT Attendance, un sistema de IoT que recibe información sobre la asistencia de los docentes.
 <br> <br>
+**FrontEnd**
+
 ![Image](assets/domain-driven-software-architecture/SoftwareArchitectureContextDiagram.png)
+
+**Backend**
+
+![Image](assets/domain-driven-software-architecture/Backend/BackendContextDiagram.png)
 
 ### 4.6.2. Software Architecture Container Diagrams
 
 El Container Diagram de Demy muestra los principales contenedores del sistema y cómo interactúan entre sí. El sistema está conformado por una aplicación web de una sola página (SPA), una API RESTful y una base de datos monolitica. Los usuarios ingresan al sistema a través de una Landing Page, que los redirige a la SPA, donde se manejan tareas clave como el control de asistencia y la gestión de horarios. El sistema se comunica con la API de Demy, que consulta la base de datos para gestionar la información académica.
 <br> <br>
+**FrontEnd**
+
 ![Image](assets/domain-driven-software-architecture/SoftwareArchitectureContainerDiagrams.png)
 
+**Backend**
+
+![Image](assets/domain-driven-software-architecture/Backend/BackendContainerDiagram.png)
+
 ### 4.6.3. Software Architecture Components Diagrams
+
+**All Bounded Context**
+
+![Image](assets/domain-driven-software-architecture/Backend/BackendConponentsDiagram.png)
 
 **Attendance Context**
 El flujo comienza con el AppComponent, que organiza la aplicación. El AttendanceRecordComponent registra la asistencia, y los datos se transforman a través del AttendanceService y AttendanceRecord.assembler. El AttendanceDashboardComponent muestra la asistencia, mientras que el ClassSessionComponent visualiza las sesiones de clase. Los datos se procesan y transforman en modelos y DTOs para ser mostrados en la interfaz de usuario.
 <br> <br>
+**FrontEnd**
+
 ![Image](assets/domain-driven-software-architecture/AttendanceComponents.png)
+
+**Backend**
+
+![Image](assets/domain-driven-software-architecture/Backend/AttendanceBoundedContextL.png)
 
 **Enrollments Context**
 El flujo en este diagrama comienza con el AppComponent, que organiza la interfaz. El EnrollmentComponent gestiona las inscripciones y usa el EnrollmentApiService para obtener y actualizar datos del backend. De manera similar, el AcademyComponent maneja la información de academias y períodos académicos a través del AcademyApiService. Los datos se transforman en modelos de dominio mediante los Assemblers antes de ser utilizados en la aplicación. En resumen, los componentes interactúan con los servicios de backend, transformando y mostrando los datos relevantes.
 <br> <br>
+**FrontEnd**
+
 ![Image](assets/domain-driven-software-architecture/EnrollmentsComponents.png)
+
+**Backend**
+
+![Image](assets/domain-driven-software-architecture/Backend/EnrollmentBoundedContextL.png)
+
 
 **IAM Context**
 El flujo comienza con el AppComponent, que organiza la aplicación. El UserAccountComponent gestiona los detalles de la cuenta y el RoleManagementComponent maneja los roles. El LoginComponent se encarga del inicio de sesión, interactuando con el AuthenticationApiService para autenticar a los usuarios. El UserApiService actualiza los datos del usuario, comunicándose con el Demy API. Los datos se transforman con User.assembler y se estructuran en modelos como User.entity y User.response
 <br> <br>
+**FrontEnd**
+
 ![Image](assets/domain-driven-software-architecture/IAMComponents.png)
+
+**Backend**
+
+![Image](assets/domain-driven-software-architecture/Backend/IAMBoundedContextL.png)
 
 **Scheduling Context**
 El flujo comienza con el AppComponent, que organiza la aplicación. El ScheduleManagementComponent gestiona los horarios semanales a través del WeeklyScheduleService, que transforma los datos con WeeklySchedule.assembler y los guarda en WeeklySchedule.entity. El ScheduleService maneja las entradas individuales de horarios, utilizando el SchedulingApiService para comunicarse con el backend, y transforma los datos con Schedule.assembler en Schedule.entity.
 <br> <br>
+**FrontEnd**
+
 ![Image](assets/domain-driven-software-architecture/SchedulingComponents.png)
 
-**Subscription and Billing Context**
+**Backend**
+
+![Image](assets/domain-driven-software-architecture/Backend/SchedulingBoundedContextL.png)
+
+**Billing Context**
 El flujo comienza con el AppComponent, que organiza la aplicación. El SubscriptionManagementComponent gestiona las suscripciones y usa el SubscriptionService para interactuar con la API. Los datos se transforman con Subscription.assembler y se estructuran en Subscription.entity. El PlanManagementComponent maneja los planes de suscripción, mientras que el InvoiceManagementComponent gestiona las facturas, utilizando servicios similares para procesar y estructurar los datos en Invoice.entity. El TransactionManagementComponent maneja las transacciones financieras, interactuando con el FinancialTransactionService y procesando los datos en FinancialTransaction.entity.
 <br> <br>
+**FrontEnd**
+
 ![Image](assets/domain-driven-software-architecture/SubscriptionBillingComponents.png)
+
+**Backend**
+
+![Image](assets/domain-driven-software-architecture/Backend/BillingBoundedContextL.png)
 
 ## 4.7. Software Object-Oriented Design
 
@@ -2223,31 +2270,61 @@ A continuación, se presentan los diagramas UML para el Frontend Web Application
 
 Sirve para la autenticación y gestión de usuarios, así como el manejo de roles.
 
-![IAM Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-iam-context.puml)
+**FrontEnd**
+
+![IAM Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-iam-context.puml)
+
+**BackEnd**
+
+![IAM Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint3-paul/docs/Backend/backend-iam-class-diagram.puml)
 
 **Bounded context Enrollment**
 
-Módulo de matrícula a alumnos, creación de academia y periodos académicos.
+Manejo y creacion de matrículas a alumnos, creación de estudiantes y periodos académicos.
 
-![Enrollment Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-enrollment-context.puml)
+**FrontEnd**
+
+![Enrollment Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-enrollment-context.puml)
+
+**BackEnd**
+
+![Enrollment Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint3-paul/docs/Backend/class-diagram-enrollment.puml)
 
 **Bounded context Billing**
 
-Manejo de facturas, pagos y transacciones financieras.
+Manejo de facturas, pagos, egresos y transacciones financieras.
 
-![Billing Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-billing-context.puml)
+**FrontEnd**
+
+![Billing Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-billing-context.puml)
+
+**BackEnd**
+
+![Billing Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-billing-context.puml)
 
 **Bounded context Scheduling**
 
 Gestión de horarios, salones de clase, cursos, y horarios semanales.
 
-![Scheduling Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-scheduling-context.puml)
+**FrontEnd**
+
+![Scheduling Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-scheduling-context.puml)
+
+**BackEnd**
+
+![Scheduling Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint3-paul/docs/Backend/backend-scheduling-class-diagram.puml)
 
 **Bounded context Attendance**
 
 Control de asistencia y registro de faltas por sesiones de clase.
 
-![Attendance Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-attendance-context.puml)
+**FrontEnd**
+
+![Attendance Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-attendance-context.puml)
+
+**BackEnd**
+
+![Attendance Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint3-paul/docs/Backend/attendance-class-diagram.puml)
 
 ### 4.7.2. Class Dictionary
 
@@ -3730,6 +3807,200 @@ Link del Trello:  https://trello.com/invite/b/6851e331936ecded782e9022/ATTI1e3d0
 
 #### 5.2.3.4 Development Evidence for Sprint Review
 
+En esta sección se documentan los avances de implementación realizados durante el Sprint, específicamente en los componentes desarrollados de la solución: Landing Page, Frontend y Backend. La sección comienza con una introducción que resume los logros técnicos más relevantes alcanzados durante el periodo.
+
+| Repository                                             | Branch                         | Commit ID                                | Commit Message                                                                               | Commit Body | Committed On |
+|--------------------------------------------------------|--------------------------------|------------------------------------------|----------------------------------------------------------------------------------------------|-------------|--------------|
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | develop                        | 2a011520734e6b4c6bf77e0790dfdb3f6219a546 | merge: integrate feature/iam-management into develop                                         | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 22b8f9bd3359ed698d5127b23e12c2fdba79007a | fix(iam): user account controller error messages                                             | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | develop                        | 0c911e9bf8a311e4d1c164e37f4c54a2acb5a176 | merge: integrate feature/enrollment into develop                                             | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | d5901bacd3be2dbc335cd0edbd6a4284c7dd8464 | feat(enrollment): udpate AcademicPeriod in enrollment context                                | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | develop                        | 3809c982cb6e7d9dc51d9612acb2641eb1bd0d2a | merge: integrate feature/scheduling into develop                                             | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 36359f8e36f856fb6e6f138bedffd810327b58fb | feat(enrollment): add UpdateStudentResource in enrollment context                            | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | d81daf6d54eda1485504dd5a65ceed94f950f54a | feat(enrollment): add UpdateStudentCommandFromResourceAssembler in enrollment context        | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 887245d8084f4b6dd19e82edddddd2e4a6ee53d5 | feat(enrollment): add UpdateStudentCommand in enrollment context                             | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 35df17a5aaae2a52140320d0ac2e7b0f87a30f7d | feat(enrollment): add UpdateEnrollmentResource in enrollment context                         | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | c19d8a9734de6a96bc4c47eff4da5d24625d8e6d | feat(enrollment): add UpdateEnrollmentCommandFromResourceAssembler in enrollment context     | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 024a0ded24374dda6eb18f528955562961054f47 | feat(enrollment): add UpdateEnrollmentCommand in enrollment context                          | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 64a1ea494d25764bf0fcce51fdbac017d9dd2fd2 | feat(enrollment): add UpdateAcademicPeriodResource in enrollment context                     | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 96648a6d8c3e494904e4fe097f5ff2f6a6795922 | feat(enrollment): add UpdateAcademicPeriodCommandFromResourceAssembler in enrollment context | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 56dedc9476229788561dcb107904096cd6a2f9f8 | feat(enrollment): add UpdateAcademicPeriodCommand in enrollment context                      | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | d3d691b8d9086e0a63ddd64a1f12bf08fe9e5c92 | feat(enrollment): add StudentResourceFromEntityAssembler in enrollment context               | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 18932b7584380e1ae3eaba948b7797060b3a11b1 | feat(enrollment): add StudentResource in enrollment context                                  | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 6ffca8d70956dd6ee95c60167bf6b6ee4b28dcc2 | feat(enrollment): add StudentRepository interface in enrollment context                      | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | f455d3fa5cf555924e91eead146ad8f9d0a7987a | feat(enrollment): add StudentQueryService interface in enrollment context                    | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | e5a1afb145ee16796b89b22654708b2507f198ee | feat(enrollment): add StudentController in enrollment context                                | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 52b113d762fe89a8c6274fc73ff29eb141ae7edc | feat(enrollment): add StudentCommandServiceImpl class in enrollment context                  | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | d4a34cceae256ddfba7aea3814abe89ddd8c3c87 | feat(enrollment): add StudentCommandService interface in enrollment context                  | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | fd0803e1b39b8343118dd7ad491e2cd225725be5 | feat(enrollment): add GetStudentByDniQuery in enrollment context                             | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 3a7ba07829e7eed946000428ab97c30251e03a51 | feat(enrollment): add GetEnrollmentByIdQuery in enrollment context                           | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 30520aea6b01178c3022bf90d9cf965f4d9efad5 | feat(enrollment): add GetAllStudentsQuery in enrollment context                              | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 04355037ddb3851396cda154d02411eb913efd4a | feat(enrollment): add GetAllEnrollmentsQuery in enrollment context                           | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 373e006d54e64f8617853ba4604dd41d310cfe1a | feat(enrollment): add GetAllEnrollmentsByStudentIdQuery in enrollment context                | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 9da02483c6ea0385662535492ca490f1f4f6d05d | feat(enrollment): add GetAllEnrollmentsByStudentDniQuery in enrollment context               | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 2d0e4ac13e4e39969ea83b0b99c98bd20b3eac53 | feat(enrollment): add GetAllAcademicPeriodsQuery in enrollment context                       | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | a4e61020950e7c4dc6b5bd26beb5d4e80b7a0780 | feat(enrollment): add GetAcademicPeriodByIdQuery in enrollment context                       | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 187f7794fdd0b63b135c0719c389cee5b84f280c | feat(enrollment): add EnrollmentResourceFromEntityAssembler in enrollment context            | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | da5caa79f05c73f8ebea248740b6d08fbae756a1 | feat(enrollment): add EnrollmentResource in enrollment context                               | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | c14f26915a5982acc8c43d820f79011af86e7906 | feat(enrollment): add EnrollmentRepository interface in enrollment context                   | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | f5adaa9c9bcc8002b1eae181dc38852380d2ff44 | feat(enrollment): add EnrollmentQueryServiceImpl in enrollment context                       | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 753c11847b263c985596d31ad6764a8fc132aeca | feat(enrollment): add EnrollmentQueryService interface in enrollment context                 | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 604563e324728028d9e3ef267baa00ebc0536195 | feat(enrollment): add EnrollmentController in enrollment context                             | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | d0c3735893f7f63d01f8e0c0ccc34399d09c3e61 | feat(enrollment): add EnrollmentCommandService interface in enrollment context               | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | fdc300b5cec147b9735e0efe571df277df3bf38c | feat(enrollment): add DeleteStudentCommand in enrollment context                             | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 963029f1e27a49b81e7c5a82bb4fd6068f5e926f | feat(enrollment): add DeleteEnrollmentCommand in enrollment context                          | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | a41b7f9be631a4bf599c237ffb9e2a31adc54844 | feat(enrollment): add DeleteAcademicPeriodCommand in enrollment context                      | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 225df37c322527e0918ef386325d7c7662ca07ca | feat(enrollment): add CreateStudentCommandFromResourceAssembler in enrollment context        | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 51a46d385f83301861dd58149c37301e8eb273fc | feat(enrollment): add CreateStudentCommand in enrollment context                             | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | a3d2d5538b77da8e34e674e026a199c470414063 | feat(enrollment): add CreateEnrollmentCommandFromResourceAssembler in enrollment context     | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | d72d6e238eab6821606312f7c635cf9eecbeb489 | feat(enrollment): add CreateEnrollmentCommand in enrollment context                          | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 6f92fe0fe2049095151cd23466300b62bd1c6d70 | feat(enrollment): add CreateAcademicPeriodCommandFromResourceAssembler in enrollment context | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | a0e0e7a269949cb8666172ea7406cf48e5a3e89b | feat(enrollment): add CreateAcademicPeriodCommand in enrollment context                      | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | f771c09a556ceec978370874993292749624125d | feat(enrollment): add AcademicPeriodResourceFromEntityAssembler in enrollment context        | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | d014e927aa32d6635142d40d34dbc376b0f0a324 | feat(enrollment): add AcademicPeriodResource in enrollment context                           | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 1484ae106f69223e98c800943477bdafd0c98742 | feat(enrollment): add AcademicPeriodRepository interface in enrollment context               | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 0fce10dc8b484b622e6534696ed14ceb87291559 | feat(enrollment): add AcademicPeriodQueryService interface in enrollment context             | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 629ad673ff4c4e629afc323d053c539b10394c62 | feat(enrollment): add AcademicPeriodController in enrollment context                         | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 14b449b5f6a06664b865291cd7b15deed0c1edf5 | feat(enrollment): add StudentQueryServiceImpl class in enrollment context                    | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | b411ece10b96c666a3f44cdce60f278e97f0f19b | feat(enrollment): add EnrollmentCommandServiceImpl class in enrollment context               | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 1d739681b8c9707a315c3fb1009a188324414a39 | feat(enrollment): add AcademicPeriodQueryServiceImpl class in enrollment context             | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 00f4f91533b240ce10b5ead51f899169bbe33d10 | feat(enrollment): add AcademicPeriodCommandServiceImpl class in enrollment context           | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 25488ac517418d80dd6eae4736379c135b5d2fb9 | feat(enrollment): add AcademicPeriodCommandServiceImpl class in enrollment context           | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 57cf31d8dfdacb4c209399546d6f0b2811153608 | feat(enrollment): add Enrollment aggregate root in enrollment context                        | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 36761978a083567a56c0857ec0388ce122824831 | feat(enrollment): add Student aggregate root in enrollment context                           | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 1d83e34562fb6656a0e2a3d84d2dade2b45bf6f1 | feat(enrollment): add AcademicPeriod aggregate root in enrollment context                    | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 95d8ccac97624d2203be30ae7a93b512ea7ac81a | feat(enrollment): add CreateStudentResource in enrollment bounded context                    | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | develop                        | 905cdf380a1fc834d1cc75c1eaec4b6c710201ae | merge: integrate feature/iam-management into develop                                         | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | babf1672d6474eb86ca06494fecc0fdce3baac96 | feat(enrollment): add CreateEnrollmentResource in enrollment bounded context                 | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | c48b943d619867c1a702407f0313fe42a45a32ec | feat(enrollment): add CreateAcademicPeriodResource in enrollment bounded context             | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 58fde578395b2b504d4b70bd93f7d7db64a9142d | feat(enrollment): add PeriodDuration value object in enrollment bounded context              | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 1587e085d5f85ece6aeb5978291932f079ebb149 | feat(enrollment): add StudentId value object in enrollment bounded context                   | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 7f53a91dfa2247dc9c4a4e11b17326664662d2f9 | feat(enrollment): add PhoneNumber value object in enrollment bounded context                 | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 7b3ac237c3b6c47f20584909a242b7423f96a7b0 | feat(enrollment): add PersonName value object in enrollment bounded context                  | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 46214939678c908031f0cca0bdc9fee6fb92de5a | feat(enrollment): add PeriodId value object in enrollment bounded context                    | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 431466eaba28c7e7c44a11850732f1c22e8e86d8 | feat(enrollment): add ActiveStatus value object in enrollment bounded context                | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | e85b116baf62ffaa8420afc129768347220aef47 | feat(enrollment): add EnrollmentStatus value object in enrollment bounded context            | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 7509e715214b2e11966742d7b9437d6cec4ff280 | feat(enrollment): add Sex value object in enrollment bounded context                         | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 56953f4fb85752f7a11b904ad294cf9cbfe88224 | feat(enrollment): add PaymentStatus value object in enrollment bounded context               | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 3c9607c79d915c8cb00441fb51f3480cf20573a8 | fix(iam): user account controller messages                                                   | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 2ca1f1ae03e265fbe7846b934ecadb6cb6f9a58d | fix: Backend iam class diagram                                                               | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 8386074b01f5c577d374d0d779ede53a51339d33 | feat(scheduling): add schedule to weekly command from resource assembler                     | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 2c9b3ee9e4ef4a3367ee18d69b4c4504c9c4cf11 | feat(scheduling): add schedule to weekly command from resource assembler                     | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 2d3a37a9a851cc6c0d9b6e7e27438a7d9ab93044 | feat(scheduling): add weekly schedule command from resource assembler                        | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 9679b8a6b0dd5f0ebf704d24ac8096043ff18e45 | feat(scheduling): add course classroom command from resource assembler                       | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | b25a4d90ec068b32b09698c6978f54a453e39c74 | feat(scheduling): add create classroom command from resource assembler                       | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | e653447614230f8a4a0ff96216914bc6ca4bfbe7 | feat(scheduling): add updated classroom command from resource assembler                      | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 27632c56bbc740ad8f9eb2ba499dc86cbdafcbb8 | feat(scheduling): add updated course command from resource assembler                         | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | f10cc2af515cda9b19ad689fe2573c4f0df794b5 | feat(scheduling): add weekly schedule resource from entity assembler                         | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | a8c33640e682356b0c6c360ae3bf7e593141ebe9 | feat(scheduling): add course resource from entity assembler                                  | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 41d8e9f109824d4d62b0cd801b3b4cc6954904ac | feat(scheduling): add classsroom resource from entity assembler                              | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | a897206d2e190da22d317bbb52db090e24b4f7ad | feat(scheduling): add updated classroom resource                                             | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 320c5057a7fdf0ac6ce1494f68073ee2e68dd4b7 | feat(scheduling): add updated course resource                                                | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | b3f1d7fb4d9edea17715f8cc9860dbac33886700 | feat(scheduling): add updated weekly schedule resource                                       | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 740644b32fa967945e9857d3f428a16c0ee2ac10 | feat(scheduling): add updated weekly schedule resource                                       | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 9f94e17aa422134fc2e3b99b3a18868056507869 | feat(scheduling): add create weekly schedule resource                                        | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 318790baaedee307440c06edb29882d4cc563564 | feat(scheduling): add create course resource                                                 | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 30a446189f33fee9822d66e5807a53a3fb63d96e | feat(scheduling): add create classroom resource                                              | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 954cda9ac53f99580c4a8f53313eb3c13778bb21 | feat(scheduling): add schedule to weekly resource                                            | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | ec4586a71fa409b28de08292d5c957067290f36b | feat(scheduling): add weekly schedule resource                                               | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 9819518a09a8c501abe5ae85ea49ce962b4f3101 | feat(scheduling): add schedule resource                                                      | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | a8ce0affd7921b400418bf3769baf24b202a7350 | feat(scheduling): add course resource                                                        | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | f442a1f831e0e4a87e6088075930559f00f82ac5 | feat(scheduling): add classroom resource                                                     | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 9111c372842e1ad9bf7ece19db09cf023ee63759 | feat(scheduling): create weekly schedule service implement                                   | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | e4ce4d3aa8a20592f93d0700cd9365ee775856b2 | feat(scheduling): create course service implement                                            | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 99ea422e1a775837a3dc2aa78acf6b1f9a6dd558 | feat(scheduling): create classroom service implement                                         | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 6984406905cfb9c5b473b89735623bc36d4f8772 | feat(scheduling): create weekly schedule controller                                          | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 95b3b2035c8631c37a5a76a1e152463e47d108e4 | feat(scheduling): create course controller                                                   | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | a6cf9322d9f2d78e47c59c80af3f17c507c16368 | fix(iam): UserAccountCommandServiceImpl error                                                | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 7a890ed327527fe76a8febbe9681695d0c6bf6e2 | feat(scheduling): create classroom controller                                                | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 00d1380f403bc5c2ad341f59465dd5d2054b53fb | feat(scheduling): create classroom repository                                                | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 495691fd04a8c739a688d93796a2e7e124bdec00 | feat(scheduling): create course repository                                                   | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 0e0ef936991674d4ea8a1b4cab77c79cb384528c | feat(scheduling): create weekly schedule repository                                          | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 56229934d335b1de60a3e67aec0f674345000aa4 | feat(scheduling): create weekly schedule query service                                       | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 7e8d6187cb01291d334bbc4bdaf1a4d7cadc0015 | feat(scheduling): create weekly schedule command service                                     | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 111a922dcb74c2a20672e00c5a1ff831804a9f4a | feat(scheduling): create course command service                                              | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 64218d24c94a4c1d91a190f62d2033d0914df419 | feat(scheduling): create course query service                                                | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 8b616e1a8569616531b215f2ba63fdd801180377 | feat(scheduling): create classroom query service                                             | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 4596d3276bcc17f1aaf552f8c3a570eeee5f2203 | feat(scheduling): create classroom command service                                           | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 1a3a1e091bf4f2479c94fe67da4a5a5ca1498531 | feat(scheduling): create weekly schedule queries                                             | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 615e2f48dd9d1e6108ffeb129c12158d6b2f2aa4 | feat(scheduling): create course queries                                                      | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | c359aa49e968b26b5648d9eaa5a28f4b3d199558 | feat(scheduling): create classroom queries                                                   | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | e3b8697f48a2c986ef68158a5a64eea5c89ae659 | feat(iam): integrate new sign-in/sign-up endpoints in UserAccountController                  | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 9959540d040cd56f08993d41f08561fe4ec7abf1 | refactor(iam): update UserAccountCommandService interface and implementation                 | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | fb8e874f36896356f9c3550810998b1675385fbe | feat(scheduling): create weeklyschedule commands                                             | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 05db15f04977bde9eafa92c0a4738d8dfe74f4ee | feat(iam): add sign-in and sign-up resources and commands for admin and teacher              | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 3a556d6808157a99f3831f9b20d1eb9bc233b51a | feat(scheduling): create course commands                                                     | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | a7a2f0d4663da3deb49c505a69ff053182c88176 | feat(scheduling): create classroom commands                                                  | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 06dd5d85702c2630ba628d1381e38ef2bb939c67 | feat: create value objects identifier in scheduling section                                  | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | a80ceaee710c6677aa6f7cee0864930591e3b165 | feat: create value objects in scheduling bounded                                             | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 363d0e227b8aedbe1bd950889e502d17aa019b45 | feat: create Schedule entity                                                                 | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | c939f8bc4913c7eb6e8376f7557a3f964ee74103 | feat: create WeeklySchedule aggregate                                                        | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 6c38b48f5253ff6abf92cfc5ddfc3ae327505d61 | feat: create Course aggregate                                                                | —           | 19/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/schedulling-management | 96633bcadacf54ba15b7170fe69e2c7a1ae0e32e | feat: create Classroom aggregate                                                             | —           | 19/06/2025   |
+ | upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 6734e904f9a39c1e389c7ab80676d5de69dd23c6 | feat(iam): add frontend context class diagram                                                | —           | 18/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 3874fa54ca7919bf14f73178744b803f83c83f4f | feat(iam): add backend class diagram                                                         | —           | 18/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | develop                        | 59c8ea55281349a7d5e7aa583626d2f3cb5c0ebf | merge: integrate feature/iam-management into develop                                         | —           | 18/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | develop                        | 311800e25300e4a0622f352cf3fa921e3a911a05 | merge: integrate feature/attendance-management into develop                                  | —           | 18/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 991fad30084a4f9201393905a7895000677ae125 | feat(iam): add security configuration and teacher resource                                   | —           | 17/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 534e1d3baadc9a6fca5b2d7ef4b43f56c9157c2c | fix(iam): apply corrections to UserAccount entity, controller and repository                 | —           | 17/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 94dfbf07efc4c4f8b090640472dd7c07eaa6928c | refactor(iam): minor changes in other aggregates and modules 2                               | —           | 16/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 917f36ba3a013025ccbda6df9b4539e5106fd5d3 | chore(iam): minor changes in other aggregates and modules                                    | —           | 16/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 5272476654dbdd0f6c7da4d47c120e8e70bb2605 | refactor(iam): update value objects and entities                                             | —           | 16/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 6aa44137566ad926f07935b72e9d092c246e4566 | feat(iam): expose user-related endpoints and resources                                       | —           | 16/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 5d5071958c7b0e7bddfb34b28b71ede71cd0ad9d | chore(iam): add UserAccount repository for persistence                                       | —           | 16/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 6c445073fbe1c6f44d34899dec2ea793031ce130 | feat(iam): enhance aggregate and implement command/query services                            | —           | 16/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | b6efbd1a3b4e4fb406acacb61521c3c9b0205bbe | feat(iam): add signup, signin, and admin/teacher update resources                            | —           | 16/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | b8ad558ac6d016313dae6f20b659811786049e6c | feat(iam): implement password hashing and reset resource                                     | —           | 16/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | dbf730b37bf99ca9938abf83cd460ab5b4b2ef85 | feat(iam): add useraccount jpa repository                                                    | —           | 9/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | b964094eeebd5b25940cb8e96acf617d467b451f | feat(iam): add useraccount resource and entity assembler                                     | —           | 9/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 143e77074e407ab94709ded770fdc68cb37157e4 | feat(iam): add controller and query service implementation                                   | —           | 9/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 065e72e5a00d4acd535f9e9a305cca22037ceff1 | feat(iam): add domain service and userid value object                                        | —           | 9/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 92a44d0123986010b66851ef4f8961880eff2288 | feat(iam): add useraccount aggregate                                                         | —           | 9/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | c977a0be51cde94cc71c221bf2b5ebf26bf30eb9 | feat(iam): add iam domain entities and value objects                                         | —           | 9/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 605f61b4a54a8a0657ff5b348f2bae0ec8b42326 | chore: update application configuration                                                      | —           | 9/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | d2637ab620258f8d2d3821f8f3f72eaec6a3702b | feat(attendance): update StudentId value object in shared context                            | —           | 9/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | b4d8d6918cf65f77e580d468477fce17c949bc45 | feat(attendance): add ClassSessionController in attendance context                           | —           | 9/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | c47d620e0189774ec9928ab686a3e9ce9fad3702 | feat(attendance): add CreateClassSessionCommandFromResourceAssembler in attendance context   | —           | 9/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | 5517db87d9d887a673964bdca768cf362a70d0ad | feat(attendance): add ClassSessionResourceFromEntityAssembler in attendance context          | —           | 9/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | 2133d227ec86dbc11a710fed3d5124e20d51c0c1 | feat(attendance): add CreateClassSessionResource in attendance context                       | —           | 9/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | be560dc7c0c351b97d06c26d4f7280a15f5c19a4 | feat(attendance): add ClassSessionResource in attendance context                             | —           | 9/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | ba653258e96abc87c5fab6bea4348415b02264e6 | feat(attendance): add AttendanceRecordResource in attendance context                         | —           | 9/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | 29d7abff502a07feb47fd2ebaa348abbb789f27e | feat(attendance): add ClassSessionCommandServiceImpl Implementation in attendance context    | —           | 9/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | 322f38749097dce7d7043abe203244d8bd5c762d | feat(attendance): add ClassSessionRepository in attendance context                           | —           | 9/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | d0c006fe85eeddc4b6df9dd80ccf88c3461fd968 | feat(attendance): add CreateClassSessionCommand in attendance context                        | —           | 9/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | 282688533e13a38c66d44d5d931cfd7d74bf7880 | feat(attendance): add ClassSessionCommandService interface in attendance context             | —           | 9/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | 348ae4b241f7ec9c29d649b4f994ecf8a8facab7 | feat(attendance): add AttendanceStatus enum in attendance bounded context                    | —           | 9/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | 8da847fd640ab59d4f82836451098e9b30c5ea9e | feat(attendance): add AttendanceRecord value object in attendance bounded context            | —           | 9/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | 70db2d178c5435ac6ea6ac106b5bc3d105d9afcc | feat(attendance): add CourseId value object                                                  | —           | 9/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | ecb46f15e90ff06814d891ce61ac24978d4805b5 | feat(attendance): add ClassSession aggregate root in attendance bounded context              | —           | 9/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | fb8e874f36896356f9c3550810998b1675385fbe | merge: integrate feature/billing-management into develop                                     | —           | 8/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | a02042dded6c6280e0dfcafb4100f7c048a18793 | docs: change names for class diagrams                                                        | —           | 8/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 1b1cf113a4b672fb0038dcd17edc698e0dd5573b | feat(billing): add InvoiceController in billing context                                      | —           | 8/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 59666413e8938cfa72d160740e50174f85be1784 | feat(billing): add InvoiceResourceFromEntityAssembler in billing context                     | —           | 8/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 4fd2a06a9f044f26dc1a9d4484b9d5dc438f2fc3 | feat(billing): add InvoiceResource in billing context                                        | —           | 8/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 642720a54cd665a4be8d5baeee835bf8c64a9bd4 | feat(billing): update InvoiceQueryServiceImpl with Service bean                              | —           | 8/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 9d7a6d6ced7151ef9e98e76d7999b55a354a3f32 | feat(billing): add InvoiceQueryServiceImpl class in billing context                          | —           | 8/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | f08fc628261198dda7f062bbd2251b8eb4ee8d13 | feat(billing): add PaymentRepository interface in billing context                            | —           | 8/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | af20f0224940683a37b89198cfcb56e149b3df30 | feat(billing): add InvoiceRepository interface in billing context                            | —           | 8/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 4c824e5ac78252db4307a0025e53dfa8b34f86b3 | feat(billing): add InvoiceQueryService interface in billing context                          | —           | 8/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | f932793f0d4e41c530f2a7d9f27d1ef6d1f15273 | feat(billing): add GetInvoiceByStudentIdQuery in billing context                             | —           | 8/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | f307cc54b92fb981415a17b8cd75c47dedecadff | feat(billing): add enums for invoice aggregate                                               | —           | 8/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 9ba09fe291b91a198d1dad7c41ca0110e27d4440 | feat(billing): update invoice aggregate root                                                 | —           | 8/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | c93bb9bcd55690b364b0cff6cb0ec15fa186ab2e | feat(billing): add payment entity                                                            | —           | 8/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | b6b41452249883760301b939c3fafef1fd6832ad | docs: add frontend class diagram for enrollment context                                      | —           | 8/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 097500b24b7c1be6e20dbbb3e620caea4d57616a | feat(enrollment): add first version of student entity                                        | —           | 8/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 91edbfdfd9cd7fd620b61b7d022e71adaa02f552 | merge: integrate feature/billing-management into develop                                     | —           | 8/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | edfde2ea12cb0c23be6f736b65efa2365e436781 | feat(billing): add class diagrams                                                            | —           | 8/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 4c906a9e6b8c6ebe73c45b30a5daf21526196ef9 | feat(billing): update invoice aggregate root                                                 | —           | 8/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | e5cc5a26fbf1f65a266c6be476946a6775aacc9d | feat(shared): add student id value object in shared context                                  | —           | 8/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 4f4dc912f9a433d4806639e9bca31fefb37ac45d | feat(shared): update money value object to a record class                                    | —           | 8/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | d711854712dec3d426fb0b049da64b5b0fc24046 | feat(shared): add money value object in shared context                                       | —           | 8/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 5df9a9dc38f4d88966665d3aab2f50982c5918ef | feat(billing): add invoice aggregate root                                                    | —           | 8/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/initial-structure      | 0ab13cdd41e29e83e6c975efabf3b4d65067b92a | merge: integrate feature/initial-structure into develop                                      | —           | 7/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/initial-structure      | ee212f0af13fd45eac0c888fdcfff3e8bded52a3 | feat: add shared bounded context                                                             | —           | 7/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/initial-structure      | 227491eb742e9fac97ea2e205dc8d6f36b59c9b0 | build: add pluralize and spring documentation dependencies in pom.xml                        | —           | 7/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/initial-structure      | c42da70120f9f762e81e5aed37ae43ccaa7821ff | chore: update lombok dependency version                                                      | —           | 7/06/2025    |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | main                           | a47164a484b9c62e2b4ada456cb34955df872af6 | chore: initial commit                                                                        | —           | 7/06/2025    |
 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
@@ -3912,10 +4183,38 @@ Link del Repositorio del Web Services: https://github.com/upc-pre-202510-1asi072
 
 ## 5.3. Validation Interviews
 
+En esta sección, nos enfocamos en evaluar la usabilidad de la página web creada para optimizar la gestión de academias educativas en el país. Esta etapa fundamental consiste en realizar entrevistas con los usuarios principales: administrativos y profesores.
 
+A través de estas entrevistas, buscamos obtener comentarios directos sobre su experiencia de uso, sus necesidades y sugerencias de mejora. De esta manera, nos aseguramos de que la plataforma no solo sea funcional, sino que también responda a las expectativas y problemas reales de los usuarios a los que está dirigida. A continuación, se detallan los objetivos de usuario que guiarán estas entrevistas.
 
 ### 5.3.1. Diseño de Entrevistas
 
+En esta sección, se describen los objetivos específicos de los usuarios que guían nuestras entrevistas. Estos objetivos son fundamentales para asegurar que la plataforma web cumpla con las necesidades reales de los usuarios en lo que respecta a la gestión y administración de academias educativas.
+
+#### User Goal: Registrar el pago de un alumno
+
+**User Persona:** Administradores
+
+**Explicación del flujo:**
+En la sección del Dashboard, la categoría "Mi organización" aparece de manera predeterminada. En el panel derecho, se encuentran diversas categorías, y el usuario deberá seleccionar la opción "Pagos". Al hacerlo, se lo redirige a la sección de Pagos, donde encontrará un buscador que solicita el DNI de un estudiante.
+
+Si el usuario introduce un DNI válido, se mostrarán en la tabla los datos básicos del estudiante, el estado del pago y la fecha de vencimiento. Si el DNI no está registrado, la pestaña permanecerá vacía.
+
+**User Goal:** Agregar un nuevo profesor <br>
+**User Persona:** Administrador <br>
+**Descripción del flujo:**<br>
+En la sección "Mi organización", el usuario verá cinco recuadros. Al seleccionar "Profesores", será dirigido a la sección de Profesores, donde podrá visualizar todos los profesores registrados en Demy.
+Para agregar un nuevo profesor, el usuario debe hacer clic en la opción "Nuevo Profesor", lo que abrirá un modal donde podrá ingresar el nombre completo, el correo electrónico y la contraseña del profesor. Al completar los datos, el usuario deberá presionar "Guardar", registrando así al nuevo profesor en el sistema.
+
+**Pregunta:** ¿Te pareció que el proceso de agregar un nuevo profesor es consistente con otros procesos similares que has visto en otras aplicaciones? ¿Hubo algún aspecto que te resultó confuso o diferente? ¿Cómo podríamos hacer que este proceso sea más familiar y fácil de seguir?
+
+**User Goal:** Matricular a un alumno <br>
+**User Persona:** Administrador <br>
+**Descripción del flujo:** <br>
+El administrador ingresa al módulo de "Matrícula" desde la barra lateral. Dentro de este módulo, se presenta un formulario en el que el administrador debe seleccionar al alumno, el periodo académico, el monto, el estado de pago, el estado de la matrícula y la fecha de matriculación. Una vez que todos los campos estén completos, el administrador debe presionar el botón "Registrar matrícula".
+La matrícula registrada se reflejará en la sección "Historial de matrícula", donde el administrador podrá consultar todas las matrículas realizadas, incluida la del alumno recientemente matriculado.
+
+**Pregunta:** Durante el proceso de matrícula, ¿la aplicación te ayuda a evitar errores al ingresar información, como seleccionar al alumno o el estado del pago? ¿Hay alguna parte del formulario donde te gustaría recibir más ayuda o información para evitar posibles errores?
 **User Goal:** Agregar un nuevo profesor <br>
 **User Persona:** Administrador <br>
 **Descripción del flujo:**<br>
@@ -3999,6 +4298,35 @@ es cómoda a la vista?
 | **Captura**             | ![Captura](./assets/screenshots/validation-interview-teacher3.png)                                                                                                                                                                                                                                                                                |
 | **Resumen**             | El docente entrevistado,menciona que la aplicación es muy intuitiva y fácil de usar, desde la navegación de la landing page hasta el web application, también que le gusta que pueda cambiar entre inglés y español y que tal vez se pueda incluir algunas imágenes para que sea más cómoda a la vista.                                           |
 
+#### Segmento: Administrativo - Entrevistado 1
+
+| Atributo                | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre**              | Kevin Rodriguez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Edad**                | 28                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Sexo**                | Masculino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Distrito**            | Ica                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Ocupación**           | Coordinador de Academia                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Fecha de entrevista** | 18 de junio de 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Timing**              | xx:xx - xx:xx                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Video**               | [Ver en Microsoft Stream]()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Captura**             | ![Captura](./assets/screenshots/open-captura-validación-administrativo-1.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Resumen**             | Durante la entrevista, Kevin valoró positivamente el diseño y la apariencia de la página, destacando sus colores atractivos y la interfaz intuitiva que facilita la navegación desde la landing hasta el registro y el inicio de sesión. Al interactuar con las secciones de gestión, apreció la claridad de los botones en “Cursos” (crear, editar, eliminar) y encontró consistente el flujo para añadir nuevos profesores, subrayando que solicitar nombre y correo electrónico resulta práctico. En el proceso de matrícula, destacó la facilidad para registrar alumnos y revisar su estado de pago, aunque sugirió unificar las etiquetas “cancelado” y “completado” para simplificar la visualización. Por ultimo, en la sección de finanzas, encontró claro el registro de egresos y la actualización automática del resumen mensual, considerándolo útil para llevar un control de gastos recurrentes. Kevin consideró la plataforma práctica, eficiente y capaz de reemplazar sus listados en Excel, al centralizar la información y automatizar alertas de pagos y búsquedas de datos. |
+
+#### Segmento: Administrativo - Entrevistado 2
+
+| Atributo                | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre**              | Marleni Rosa Flores                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Edad**                | 58                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Sexo**                | Femenino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Distrito**            | Ica                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Ocupación**           | Coordinadora de Academia                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Fecha de entrevista** | 18 de junio de 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Timing**              | xx:xx - xx:xx                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Video**               | [Ver en Microsoft Stream]()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Captura**             | ![Captura](./assets/screenshots/open-captura-validación-administrativo-2.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Resumen**             | Durante la entrevista, Marleni Flores valoró la claridad y la consistencia del diseño: destacó los colores y la tipografía, considerándolos muy adecuados y atractivos, y señaló que la página comunica de manera efectiva sus objetivos. Marleni apreció la facilidad de uso de la plataforma en todas las secciones. Al interactuar con el inicio de sesión, la gestión de cursos (creación, edición y eliminación), y la incorporación de un nuevo profesor, encontró los procesos intuitivos y “muy didácticos”, sin puntos confusos ni necesidad de instrucciones adicionales. En la sección de matrícula, Marleni corroboró que todos los campos necesarios para registrar un alumno estaban presentes y el flujo resultó sencillo de entender. Asimismo, comentó que la búsqueda por DNI funciona de forma rápida y clara, permitiendo verificar al instante la información del estudiante. Por ultimo, al registrar pagos y egresos, Marleni confirmó que los formularios eran completos y que la sección de finanzas mostraba inmediatamente los resultados debajo del formulario. En general, consideró la plataforma práctica, accesible y eficiente para centralizar y automatizar las tareas administrativas de una academia. |
 
 ### 5.3.3. Evaluaciones según heurísticas
 
@@ -4238,6 +4566,72 @@ Revisar el diseño del formulario de login asegurando una alineación coherente 
 **Problema:**
 <br>
 El usuario menciona que al iniciar sesión le gustaría acceder directamente a la sección “Mi horario” en lugar de “Asistencia”, ya que suele usarla con mayor frecuencia para consultar rápidamente su agenda. Aunque valora la organización general de la interfaz y la funcionalidad de reprogramación de clases, considera que este pequeño ajuste mejoraría la eficiencia en su flujo de uso habitual. Actualmente, el sistema no anticipa esta necesidad, lo que genera un paso adicional innecesario.
+
+**Web Application**
+
+| #  | Problema                                                                                                            | Escala de severidad | Heurística/ Principio Violado                  |
+|----|---------------------------------------------------------------------------------------------------------------------|---------------------|------------------------------------------------|
+| 1  | La página de guardar asistencia carece de imágenes                                                                  | 1                   | Usability: Reconocer antes que recordar        |
+| 2  | Los checkbox de asistencia no aparecen marcados por defecto                                                         | 2                   | Usability: Flexibilidad y eficiencia en el uso |
+| 3  | Campos de correo y contraseña desalineados visualmente                                                              | 1                   | Usability: Aesthetic and minimalist design     |
+| 4  | La sección “Mi horario” no aparece por defecto tras iniciar sesión                                                  | 2                   | Usability: Flexibilidad y eficiencia en el uso |
+| 5  | No se muestra un contador de inasistencias en la lista de alumnos                                                   | 2                   | Usability: Visibilidad del estado del sistema  |
+| 8  | Las imágenes en la sección "Mi Organización" tardan en cargarse                                                     | 2                   | Usability: Reconocer antes que recordar        |
+| 9  | En la sección de gestión de matrícula, los campos para ingresar no están organizados de manera clara                | 1                   | Usability: Aesthetic and minimalist design     |
+| 10 | En la sección de pagos, no hay ninguna respuesta cuando un alumno no tiene registros de pagos pendientes ni pagados | 2                   | Usability: Visibilidad del estado del sistema  |
+| 11 | En la sección de finanzas, no existe un contraste visual claro entre los ingresos y los egresos de la academia      | 2                   | Usability: Aesthetic and minimalist design     |
+| 12 | Confusión en las etiquetas de estado de matrícula (“cancelado” vs. “completado”)                                    | 2                   | Usability: Consistencia y estándares           |
+| 13 | Feedback de confirmación de matrícula aparece fuera de la vista inicial (requiere desplazarse hacia abajo)          | 2                   | Usability: Visibilidad del estado del sistema  |
+| 14 | Campos de matrícula resaltados en rojo tras envío exitoso                                                           | 2                   | Usability: Visibilidad del estado del sistema  |
+| 15 | Icono de eliminar sin etiqueta                                                                                      | 2                   | Usability: Reconocer antes que recordar        |
+
+
+### DESCRIPCIÓN DE PROBLEMAS
+
+**PROBLEMA #12:** Confusión en las etiquetas de estado de matrícula
+
+**Severidad:** 2 <br>
+**Heurística violada:** Consistencia y estándares
+
+**Problema:** En el formulario de matrícula, al completar el registro del alumno, el sistema muestra dos estados distintos (“cancelado” y “completado”) para indicar si la matrícula está activa o finalizada. Kevin comentó que esto puede prestarse a error, ya que un único estado (“Matriculado”) resultaría más claro.
+
+![Captura](./assets/screenshots/usability-problem-12-administrator.png)
+
+**Recomendación:** Unificar las etiquetas bajo un único estado representativo (por ejemplo, “Matriculado”) o usar un indicador booleano acompañado de una descripción clara. Así se evita la ambigüedad y se respeta la consistencia terminológica en toda la aplicación.
+
+
+**PROBLEMA #13:** Feedback de confirmación de matrícula fuera de la vista inicial
+
+**Severidad:** 2<br>
+**Heurística violada:** Visibilidad del estado del sistema
+
+**Problema:** Tras registrar la matrícula de un alumno, la confirmación se ubica en la parte inferior de la pantalla, obligando al usuario a “scrollear” para verificar que el proceso fue exitoso. Esto añade pasos innecesarios y puede generar incertidumbre inmediata.
+
+![Captura](./assets/screenshots/usability-problem-13-administrator.png)
+
+**Recomendación:** Mostrar un mensaje de éxito o ventana emergente cerca del punto de acción (por ejemplo, arriba del formulario) que confirme inmediatamente la operación sin necesidad de desplazarse. De esta forma se mejora la percepción de respuesta ágil del sistema.
+
+**PROBLEMA #14:** Campos de matrícula resaltados en rojo tras envío exitoso
+
+**Severidad:** 2<br>
+**Heurística violada:** Visibilidad del estado del sistema
+
+**Descripción:** Después de registrar una matrícula correctamente, el formulario se limpia pero mantiene el borde rojo (estado de error), lo que induce al usuario a pensar que la operación ha fallado.
+
+![Captura](./assets/screenshots/usability-problem-14-administrator.png)
+
+**Recomendación:** Al completar con éxito el registro, restablecer el estilo neutro de los campos (borde gris) y mostrar una notificación de éxito (por ejemplo, un mensaje verde) para confirmar la creación sin ambigüedades.
+
+**PROBLEMA #15:** Icono de eliminar sin etiqueta
+
+**Severidad:** 2<br>
+**Heurística violada:** Reconocer antes que recordar
+
+**Descripción:** El botón para eliminar o editar cursos o profesores se identifica solo con un icono de basurero, sin texto ni descripción emergente, lo que puede confundir a usuarios menos experimentados.
+
+![Captura](./assets/screenshots/usability-problem-15-administrator.png)
+
+**Recomendación:** Añadir un atributo `title` con texto descriptivo (“Eliminar curso”/“Eliminar profesor”) y, de ser posible, una etiqueta visible en pantallas anchas.
 
 ![Captura](./assets/screenshots/usability-problem-4-teacher2.png)
 
