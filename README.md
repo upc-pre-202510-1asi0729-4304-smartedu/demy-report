@@ -508,7 +508,7 @@ En el análisis del segmento objetivo para Demy, hemos previsto que nuestros pri
 
 ### Profesores de academias preuniversitarias
 
-Según la revista Gan@Mas(24 de julio,2014), sabemos que diversos docentes usan hasta el **29% de su tiempo en tareas administrativas**, las cuales no deberían estar ligadas a profesionales de la educación. La gran demanda en estas academias preuniversitarias no permite a los profesores dedicar su tiempo laboral a ejercer plenamente su labor de docente.
+Según la revista Gan@Mas(24 de julio, 2014), sabemos que diversos docentes usan hasta el **29% de su tiempo en tareas administrativas**, las cuales no deberían estar ligadas a profesionales de la educación. La gran demanda en estas academias preuniversitarias no permite a los profesores dedicar su tiempo laboral a ejercer plenamente su labor de docente.
 
 - **Edad**: Buscamos profesores de cualquier edad
 - **Necesidad clave**: Reducir la carga administrativa y optimizar su tiempo para centrarse en la enseñanza y mejorar su eficiencia en las aulas.
@@ -2126,40 +2126,87 @@ Demy es una plataforma web diseñada específicamente para resolver los problema
 
 Además, Demy interactúa con dos sistemas externos: Microsoft Outlook, que se utiliza para enviar notificaciones por correo electrónico, y IoT Attendance, un sistema de IoT que recibe información sobre la asistencia de los docentes.
 <br> <br>
+**FrontEnd**
+
 ![Image](assets/domain-driven-software-architecture/SoftwareArchitectureContextDiagram.png)
+
+**Backend**
+
+![Image](assets/domain-driven-software-architecture/Backend/BackendContextDiagram.png)
 
 ### 4.6.2. Software Architecture Container Diagrams
 
 El Container Diagram de Demy muestra los principales contenedores del sistema y cómo interactúan entre sí. El sistema está conformado por una aplicación web de una sola página (SPA), una API RESTful y una base de datos monolitica. Los usuarios ingresan al sistema a través de una Landing Page, que los redirige a la SPA, donde se manejan tareas clave como el control de asistencia y la gestión de horarios. El sistema se comunica con la API de Demy, que consulta la base de datos para gestionar la información académica.
 <br> <br>
+**FrontEnd**
+
 ![Image](assets/domain-driven-software-architecture/SoftwareArchitectureContainerDiagrams.png)
 
+**Backend**
+
+![Image](assets/domain-driven-software-architecture/Backend/BackendContainerDiagram.png)
+
 ### 4.6.3. Software Architecture Components Diagrams
+
+**All Bounded Context**
+
+![Image](assets/domain-driven-software-architecture/Backend/BackendConponentsDiagram.png)
 
 **Attendance Context**
 El flujo comienza con el AppComponent, que organiza la aplicación. El AttendanceRecordComponent registra la asistencia, y los datos se transforman a través del AttendanceService y AttendanceRecord.assembler. El AttendanceDashboardComponent muestra la asistencia, mientras que el ClassSessionComponent visualiza las sesiones de clase. Los datos se procesan y transforman en modelos y DTOs para ser mostrados en la interfaz de usuario.
 <br> <br>
+**FrontEnd**
+
 ![Image](assets/domain-driven-software-architecture/AttendanceComponents.png)
+
+**Backend**
+
+![Image](assets/domain-driven-software-architecture/Backend/AttendanceBoundedContextL.png)
 
 **Enrollments Context**
 El flujo en este diagrama comienza con el AppComponent, que organiza la interfaz. El EnrollmentComponent gestiona las inscripciones y usa el EnrollmentApiService para obtener y actualizar datos del backend. De manera similar, el AcademyComponent maneja la información de academias y períodos académicos a través del AcademyApiService. Los datos se transforman en modelos de dominio mediante los Assemblers antes de ser utilizados en la aplicación. En resumen, los componentes interactúan con los servicios de backend, transformando y mostrando los datos relevantes.
 <br> <br>
+**FrontEnd**
+
 ![Image](assets/domain-driven-software-architecture/EnrollmentsComponents.png)
+
+**Backend**
+
+![Image](assets/domain-driven-software-architecture/Backend/EnrollmentBoundedContextL.png)
+
 
 **IAM Context**
 El flujo comienza con el AppComponent, que organiza la aplicación. El UserAccountComponent gestiona los detalles de la cuenta y el RoleManagementComponent maneja los roles. El LoginComponent se encarga del inicio de sesión, interactuando con el AuthenticationApiService para autenticar a los usuarios. El UserApiService actualiza los datos del usuario, comunicándose con el Demy API. Los datos se transforman con User.assembler y se estructuran en modelos como User.entity y User.response
 <br> <br>
+**FrontEnd**
+
 ![Image](assets/domain-driven-software-architecture/IAMComponents.png)
+
+**Backend**
+
+![Image](assets/domain-driven-software-architecture/Backend/IAMBoundedContextL.png)
 
 **Scheduling Context**
 El flujo comienza con el AppComponent, que organiza la aplicación. El ScheduleManagementComponent gestiona los horarios semanales a través del WeeklyScheduleService, que transforma los datos con WeeklySchedule.assembler y los guarda en WeeklySchedule.entity. El ScheduleService maneja las entradas individuales de horarios, utilizando el SchedulingApiService para comunicarse con el backend, y transforma los datos con Schedule.assembler en Schedule.entity.
 <br> <br>
+**FrontEnd**
+
 ![Image](assets/domain-driven-software-architecture/SchedulingComponents.png)
 
-**Subscription and Billing Context**
+**Backend**
+
+![Image](assets/domain-driven-software-architecture/Backend/SchedulingBoundedContextL.png)
+
+**Billing Context**
 El flujo comienza con el AppComponent, que organiza la aplicación. El SubscriptionManagementComponent gestiona las suscripciones y usa el SubscriptionService para interactuar con la API. Los datos se transforman con Subscription.assembler y se estructuran en Subscription.entity. El PlanManagementComponent maneja los planes de suscripción, mientras que el InvoiceManagementComponent gestiona las facturas, utilizando servicios similares para procesar y estructurar los datos en Invoice.entity. El TransactionManagementComponent maneja las transacciones financieras, interactuando con el FinancialTransactionService y procesando los datos en FinancialTransaction.entity.
 <br> <br>
+**FrontEnd**
+
 ![Image](assets/domain-driven-software-architecture/SubscriptionBillingComponents.png)
+
+**Backend**
+
+![Image](assets/domain-driven-software-architecture/Backend/BillingBoundedContextL.png)
 
 ## 4.7. Software Object-Oriented Design
 
@@ -2178,31 +2225,61 @@ A continuación, se presentan los diagramas UML para el Frontend Web Application
 
 Sirve para la autenticación y gestión de usuarios, así como el manejo de roles.
 
-![IAM Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-iam-context.puml)
+**FrontEnd**
+
+![IAM Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-iam-context.puml)
+
+**BackEnd**
+
+![IAM Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint3-paul/docs/Backend/backend-iam-class-diagram.puml)
 
 **Bounded context Enrollment**
 
 Manejo y creacion de matrículas a alumnos, creación de estudiantes y periodos académicos.
 
-![Enrollment Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-enrollment-context.puml)
+**FrontEnd**
+
+![Enrollment Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-enrollment-context.puml)
+
+**BackEnd**
+
+![Enrollment Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint3-paul/docs/Backend/class-diagram-enrollment.puml)
 
 **Bounded context Billing**
 
 Manejo de facturas, pagos, egresos y transacciones financieras.
 
-![Billing Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-billing-context.puml)
+**FrontEnd**
+
+![Billing Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-billing-context.puml)
+
+**BackEnd**
+
+![Billing Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-billing-context.puml)
 
 **Bounded context Scheduling**
 
 Gestión de horarios, salones de clase, cursos, y horarios semanales.
 
-![Scheduling Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-scheduling-context.puml)
+**FrontEnd**
+
+![Scheduling Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-scheduling-context.puml)
+
+**BackEnd**
+
+![Scheduling Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint3-paul/docs/Backend/backend-scheduling-class-diagram.puml)
 
 **Bounded context Attendance**
 
 Control de asistencia y registro de faltas por sesiones de clase.
 
-![Attendance Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-attendance-context.puml)
+**FrontEnd**
+
+![Attendance Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint2-salim/docs/frontend-attendance-context.puml)
+
+**BackEnd**
+
+![Attendance Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report/refs/heads/feature/sprint3-paul/docs/Backend/attendance-class-diagram.puml)
 
 ### 4.7.2. Class Dictionary
 
