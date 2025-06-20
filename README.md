@@ -3828,6 +3828,72 @@ La matrícula registrada se reflejará en la sección "Historial de matrícula",
 ### 5.3.3. Evaluaciones según heurísticas
 
 
+**Web Application**
+
+| #  | Problema                                                                                                            | Escala de severidad | Heurística/ Principio Violado                  |
+|----|---------------------------------------------------------------------------------------------------------------------|---------------------|------------------------------------------------|
+| 1  | La página de guardar asistencia carece de imágenes                                                                  | 1                   | Usability: Reconocer antes que recordar        |
+| 2  | Los checkbox de asistencia no aparecen marcados por defecto                                                         | 2                   | Usability: Flexibilidad y eficiencia en el uso |
+| 3  | Campos de correo y contraseña desalineados visualmente                                                              | 1                   | Usability: Aesthetic and minimalist design     |
+| 4  | La sección “Mi horario” no aparece por defecto tras iniciar sesión                                                  | 2                   | Usability: Flexibilidad y eficiencia en el uso |
+| 5  | No se muestra un contador de inasistencias en la lista de alumnos                                                   | 2                   | Usability: Visibilidad del estado del sistema  |
+| 8  | Las imágenes en la sección "Mi Organización" tardan en cargarse                                                     | 2                   | Usability: Reconocer antes que recordar        |
+| 9  | En la sección de gestión de matrícula, los campos para ingresar no están organizados de manera clara                | 1                   | Usability: Aesthetic and minimalist design     |
+| 10 | En la sección de pagos, no hay ninguna respuesta cuando un alumno no tiene registros de pagos pendientes ni pagados | 2                   | Usability: Visibilidad del estado del sistema  |
+| 11 | En la sección de finanzas, no existe un contraste visual claro entre los ingresos y los egresos de la academia      | 2                   | Usability: Aesthetic and minimalist design     |
+| 12 | Confusión en las etiquetas de estado de matrícula (“cancelado” vs. “completado”)                                    | 2                   | Usability: Consistencia y estándares           |
+| 13 | Feedback de confirmación de matrícula aparece fuera de la vista inicial (requiere desplazarse hacia abajo)          | 2                   | Usability: Visibilidad del estado del sistema  |
+| 14 | Campos de matrícula resaltados en rojo tras envío exitoso                                                           | 2                   | Usability: Visibilidad del estado del sistema  |
+| 15 | Icono de eliminar sin etiqueta                                                                                      | 2                   | Usability: Reconocer antes que recordar        |
+
+
+### DESCRIPCIÓN DE PROBLEMAS
+
+**PROBLEMA #12:** Confusión en las etiquetas de estado de matrícula
+
+**Severidad:** 2 <br>
+**Heurística violada:** Consistencia y estándares
+
+**Problema:** En el formulario de matrícula, al completar el registro del alumno, el sistema muestra dos estados distintos (“cancelado” y “completado”) para indicar si la matrícula está activa o finalizada. Kevin comentó que esto puede prestarse a error, ya que un único estado (“Matriculado”) resultaría más claro.
+
+![Captura](./assets/screenshots/usability-problem-12-administrator.png)
+
+**Recomendación:** Unificar las etiquetas bajo un único estado representativo (por ejemplo, “Matriculado”) o usar un indicador booleano acompañado de una descripción clara. Así se evita la ambigüedad y se respeta la consistencia terminológica en toda la aplicación.
+
+
+**PROBLEMA #13:** Feedback de confirmación de matrícula fuera de la vista inicial
+
+**Severidad:** 2<br>
+**Heurística violada:** Visibilidad del estado del sistema
+
+**Problema:** Tras registrar la matrícula de un alumno, la confirmación se ubica en la parte inferior de la pantalla, obligando al usuario a “scrollear” para verificar que el proceso fue exitoso. Esto añade pasos innecesarios y puede generar incertidumbre inmediata.
+
+![Captura](./assets/screenshots/usability-problem-13-administrator.png)
+
+**Recomendación:** Mostrar un mensaje de éxito o ventana emergente cerca del punto de acción (por ejemplo, arriba del formulario) que confirme inmediatamente la operación sin necesidad de desplazarse. De esta forma se mejora la percepción de respuesta ágil del sistema.
+
+**PROBLEMA #14:** Campos de matrícula resaltados en rojo tras envío exitoso
+
+**Severidad:** 2<br>
+**Heurística violada:** Visibilidad del estado del sistema
+
+**Descripción:** Después de registrar una matrícula correctamente, el formulario se limpia pero mantiene el borde rojo (estado de error), lo que induce al usuario a pensar que la operación ha fallado.
+
+![Captura](./assets/screenshots/usability-problem-14-administrator.png)
+
+**Recomendación:** Al completar con éxito el registro, restablecer el estilo neutro de los campos (borde gris) y mostrar una notificación de éxito (por ejemplo, un mensaje verde) para confirmar la creación sin ambigüedades.
+
+**PROBLEMA #15:** Icono de eliminar sin etiqueta
+
+**Severidad:** 2<br>
+**Heurística violada:** Reconocer antes que recordar
+
+**Descripción:** El botón para eliminar o editar cursos o profesores se identifica solo con un icono de basurero, sin texto ni descripción emergente, lo que puede confundir a usuarios menos experimentados.
+
+![Captura](./assets/screenshots/usability-problem-15-administrator.png)
+
+**Recomendación:** Añadir un atributo `title` con texto descriptivo (“Eliminar curso”/“Eliminar profesor”) y, de ser posible, una etiqueta visible en pantallas anchas.
+
 
 ## 5.4. Video About-the-Product
 
