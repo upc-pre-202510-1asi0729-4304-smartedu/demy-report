@@ -3736,8 +3736,6 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
-**Landing Page**
-
 **PROBLEMA #1:** El botón "Comenzar ahora" no redirige a ninguna sección funcional
 
 **Severidad: 2**  
