@@ -1,0 +1,272 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+
+' === AGREGADOS ===
+package "billing.domain.model.aggregates.invoice" {
+    class Invoice <<AggregateRoot>>
+    class Payment
+
+    Invoice --|> shared.domain.model.aggregates.AuditableAbstractAggregateRoot
+    Payment --|> shared.domain.model.entities.AuditableModel
+
+    Invoice "1" *-- "0..*" Payment : payments
+    Payment --> Invoice : belongs to >
+}
+
+' === BASES AUDITABLES ===
+package "shared.domain.model.aggregates" {
+    abstract class AuditableAbstractAggregateRoot<T> {
+        - Long id
+        - Date createdAt
+        - Date updatedAt
+        --
+        + void addDomainEvent(Object)
+    }
+
+    AuditableAbstractAggregateRoot ..|> AbstractAggregateRoot
+}
+
+package "shared.domain.model.entities" {
+    class AuditableModel {
+        - Long id
+        - Date createdAt
+        - Date updatedAt
+    }
+}
+
+' === COMANDOS ===
+package "billing.domain.model.commands" {
+    class CreateInvoiceCommand <<record>> {
+        + Long studentId
+        + BigDecimal amount
+        + String currency
+        + LocalDate dueDate
+    }
+
+    class AssignPaymentToInvoiceCommand <<record>> {
+        + Long invoiceId
+        + BigDecimal amount
+        + String currency
+        + String method
+        + LocalDateTime paidAt
+    }
+}
+
+' === QUERIES ===
+package "billing.domain.model.queries" {
+    class GetInvoiceByIdQuery <<record>> {
+        + Long invoiceId
+    }
+
+    class GetInvoiceByStudentIdQuery <<record>> {
+        + StudentId studentId
+    }
+}
+
+' === SERVICIOS DE DOMINIO ===
+package "billing.domain.services" {
+    interface InvoiceCommandService {
+        + Long handle(CreateInvoiceCommand)
+        + Payment handle(AssignPaymentToInvoiceCommand)
+    }
+
+    interface InvoiceQueryService {
+        + Optional<Invoice> handle(GetInvoiceByIdQuery)
+        + List<Invoice> handle(GetInvoiceByStudentIdQuery)
+    }
+}
+
+' === SERVICIOS APLICACIÓN ===
+package "billing.application.internal.commandservices" {
+    class InvoiceCommandServiceImpl {
+        - InvoiceRepository invoiceRepository
+        --
+        + Long handle(CreateInvoiceCommand)
+        + Payment handle(AssignPaymentToInvoiceCommand)
+    }
+
+    InvoiceCommandServiceImpl ..|> InvoiceCommandService
+    InvoiceCommandServiceImpl ..> InvoiceRepository
+    InvoiceCommandServiceImpl ..> Invoice
+    InvoiceCommandServiceImpl ..> Payment
+    InvoiceCommandServiceImpl ..> PaymentMethod
+    InvoiceCommandServiceImpl ..> Money
+}
+
+package "billing.application.internal.queryservices" {
+    class InvoiceQueryServiceImpl {
+        - InvoiceRepository invoiceRepository
+        --
+        + Optional<Invoice> handle(GetInvoiceByIdQuery)
+        + List<Invoice> handle(GetInvoiceByStudentIdQuery)
+    }
+
+    InvoiceQueryServiceImpl ..|> InvoiceQueryService
+    InvoiceQueryServiceImpl ..> InvoiceRepository
+    InvoiceQueryServiceImpl ..> Invoice
+}
+
+' === REPOSITORIOS ===
+package "billing.infrastructure.persistence.jpa.repositories" {
+    interface InvoiceRepository {
+        + List<Invoice> findByStudentId(StudentId)
+    }
+
+    InvoiceRepository ..|> JpaRepository
+    InvoiceRepository ..> Invoice : <<manages>>
+    InvoiceRepository ..> StudentId : <<filters by>>
+}
+
+' === RECURSOS REST ===
+package "billing.interfaces.rest.resources" {
+    class CreateInvoiceResource <<record>> {
+        + Long studentId
+        + BigDecimal amount
+        + String currency
+        + LocalDate dueDate
+    }
+
+    class AssignPaymentToInvoiceResource <<record>> {
+        + BigDecimal amount
+        + String currency
+        + String method
+        + LocalDateTime paidAt
+    }
+
+    class InvoiceResource <<record>> {
+        + Long id
+        + String studentId
+        + String amount
+        + String currency
+        + LocalDate dueDate
+        + String status
+    }
+
+    class PaymentResource <<record>> {
+        + Long id
+        + BigDecimal amount
+        + String currency
+        + String method
+        + LocalDateTime paidAt
+    }
+}
+
+' === ASSEMBLERS REST ===
+package "billing.interfaces.rest.transform" {
+    class AssignPaymentToInvoiceCommandFromResourceAssembler {
+        + AssignPaymentToInvoiceCommand toCommandFromResource(Long, AssignPaymentToInvoiceResource)
+    }
+
+    class CreateInvoiceCommandFromResourceAssembler {
+        + CreateInvoiceCommand toCommandFromResource(CreateInvoiceResource)
+    }
+
+    class InvoiceResourceFromEntityAssembler {
+        + InvoiceResource toResourceFromEntity(Invoice)
+    }
+
+    class PaymentResourceFromEntityAssembler {
+        + PaymentResource toResourceFromEntity(Payment)
+    }
+
+    AssignPaymentToInvoiceCommandFromResourceAssembler ..> AssignPaymentToInvoiceResource
+    AssignPaymentToInvoiceCommandFromResourceAssembler ..> AssignPaymentToInvoiceCommand
+
+    CreateInvoiceCommandFromResourceAssembler ..> CreateInvoiceResource
+    CreateInvoiceCommandFromResourceAssembler ..> CreateInvoiceCommand
+
+    InvoiceResourceFromEntityAssembler ..> Invoice
+    InvoiceResourceFromEntityAssembler ..> InvoiceResource
+
+    PaymentResourceFromEntityAssembler ..> Payment
+    PaymentResourceFromEntityAssembler ..> PaymentResource
+}
+
+' === CONTROLADOR REST ===
+package "billing.interfaces.rest.controllers" {
+    class InvoiceController {
+        + getInvoiceByStudentId()
+        + createInvoice()
+        + assignPaymentToInvoice()
+    }
+
+    InvoiceController ..> InvoiceQueryService
+    InvoiceController ..> InvoiceCommandService
+    InvoiceController ..> CreateInvoiceResource
+    InvoiceController ..> AssignPaymentToInvoiceResource
+    InvoiceController ..> InvoiceResource
+    InvoiceController ..> PaymentResource
+    InvoiceController ..> CreateInvoiceCommandFromResourceAssembler
+    InvoiceController ..> AssignPaymentToInvoiceCommandFromResourceAssembler
+    InvoiceController ..> InvoiceResourceFromEntityAssembler
+    InvoiceController ..> PaymentResourceFromEntityAssembler
+}
+
+' === VALUE OBJECTS ===
+package "shared.domain.model.valueobjects" {
+    class StudentId {
+        - Long value
+        + Long value()
+    }
+
+    class Money {
+        + BigDecimal amount()
+        + Currency currency()
+    }
+
+    enum PaymentMethod {
+        CASH
+        CARD
+        TRANSFER
+        WALLET
+        OTHER
+    }
+
+    enum InvoiceStatus {
+        PENDING
+        PAID
+        OVERDUE
+        CANCELLED
+    }
+}
+
+' === RELACIONES ADICIONALES EXPLÍCITAS ===
+
+' Invoice y value objects
+Invoice --> shared.domain.model.valueobjects.StudentId
+Invoice --> shared.domain.model.valueobjects.Money
+Invoice --> shared.domain.model.valueobjects.InvoiceStatus
+
+' Payment y value objects
+Payment --> shared.domain.model.valueobjects.Money
+Payment --> shared.domain.model.valueobjects.PaymentMethod
+
+' Comandos y tipos usados
+CreateInvoiceCommand --> shared.domain.model.valueobjects.StudentId
+CreateInvoiceCommand --> LocalDate
+AssignPaymentToInvoiceCommand --> LocalDateTime
+AssignPaymentToInvoiceCommand --> PaymentMethod
+
+' Queries y VO
+GetInvoiceByStudentIdQuery --> shared.domain.model.valueobjects.StudentId
+
+' Ensambladores y dominios/recursos
+CreateInvoiceCommandFromResourceAssembler ..> CreateInvoiceCommand
+CreateInvoiceCommandFromResourceAssembler ..> CreateInvoiceResource
+
+AssignPaymentToInvoiceCommandFromResourceAssembler ..> AssignPaymentToInvoiceCommand
+AssignPaymentToInvoiceCommandFromResourceAssembler ..> AssignPaymentToInvoiceResource
+
+InvoiceResourceFromEntityAssembler ..> Invoice
+InvoiceResourceFromEntityAssembler ..> InvoiceResource
+
+PaymentResourceFromEntityAssembler ..> Payment
+PaymentResourceFromEntityAssembler ..> PaymentResource
+
+' Controlador y comandos/recursos
+InvoiceController ..> GetInvoiceByStudentIdQuery
+InvoiceController ..> GetInvoiceByIdQuery
+
+
+@enduml
