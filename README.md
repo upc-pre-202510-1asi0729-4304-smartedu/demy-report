@@ -167,7 +167,7 @@ Análisis de cantidad de commits realizados por semana.
 
 Gráfico de red (*network graph*) de ramas en el repositorio de GitHub.
 
-![Insights - Network Graph]()
+![Insights - Network Graph](./assets/screenshots/Network_Graph_Sprint_3.png)
 
 </div>
 
@@ -178,7 +178,7 @@ Estos gráficos detallan la cantidad de líneas de código añadidas por cada mi
 
 Análisis de líneas de código añadidas por contribuyente.
 
-![Insights - Contributors]()
+![Insights - Contributors](./assets/screenshots/Contributors_Sprint_3.png)
 
 </div>
 
@@ -188,7 +188,7 @@ El siguiente gráfico muestra la cantidad de commits realizados en la semana con
 
 Análisis de cantidad de commits realizados por semana.
 
-![Insights - Commits]()
+![Insights - Commits](./assets/screenshots/commits_sprint_3.png)
 
 </div>
 
@@ -3534,7 +3534,7 @@ Capturas de pantalla del Web Applications
 ### 5.2.3. Sprint 3
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
-Para la entrega de este tercer sprint, el backend de manera parcial siguiendo las tecnical historys
+Para la entrega de este tercer sprint, el backend de manera parcial siguiendo las technical histories
 
 - TS01: Implementar endpoint para registrar y gestionar matrículas (POST, PUT, DELETE /enrollments)
     ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Open_Source/TS01.png)
