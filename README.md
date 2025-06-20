@@ -195,7 +195,6 @@ Análisis de cantidad de commits realizados por semana.
 
 </div>
 
-
 # Contenido
 
 - [Capítulo I: Introducción](#capítulo-i-introducción)
@@ -4035,6 +4034,7 @@ En esta sección se documentan los avances de implementación realizados durante
 | upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | main                           | a47164a484b9c62e2b4ada456cb34955df872af6 | chore: initial commit                                                                        | —           | 7/06/2025    |
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
+
 Para la entrega de este tercer sprint, el backend de manera parcial siguiendo las technical histories
 
 - TS01: Implementar endpoint para registrar y gestionar matrículas (POST, PUT, DELETE /enrollments)
@@ -4360,6 +4360,21 @@ En esta sección, se describen los objetivos específicos de los usuarios que gu
 
 #### User Goal: Registrar el pago de un alumno
 
+**User Persona:** Administradores
+
+**Explicación del flujo:**
+En la sección del Dashboard, la categoría "Mi organización" aparece de manera predeterminada. En el panel derecho, se encuentran diversas categorías, y el usuario deberá seleccionar la opción "Pagos". Al hacerlo, se lo redirige a la sección de Pagos, donde encontrará un buscador que solicita el DNI de un estudiante.
+
+Si el usuario introduce un DNI válido, se mostrarán en la tabla los datos básicos del estudiante, el estado del pago y la fecha de vencimiento. Si el DNI no está registrado, la pestaña permanecerá vacía.
+
+El usuario podrá ver la información autocompletada en los campos y deberá seleccionar la opción "Registrar Pago". El sistema desplegará los datos del estudiante y permitirá modificar la fecha de pago, la cual está configurada por defecto al día actual. Al presionar "Guardar Pago", el pago se registrará de forma automática y la opción para registrar el pago desaparecerá. Además, el estado de pago cambiará de "Pendiente" a "Pagado".
+
+**Pregunta:**
+¿Hubo algún momento del proceso en que no supiste qué hacer o tuviste que detenerte a pensar? ¿Cuál fue ese momento y qué crees que podría mejorarse? ¿El sistema te dio suficiente retroalimentación al completar el registro (por ejemplo, cambio de estado, desaparición del botón, etc.)?
+En esta sección, se describen los objetivos específicos de los usuarios que guían nuestras entrevistas. Estos objetivos son fundamentales para asegurar que la plataforma web cumpla con las necesidades reales de los usuarios en lo que respecta a la gestión y administración de academias educativas.
+
+#### User Goal: Registrar el pago de un alumno
+
 **User Goal:** Registrar Usuario
 
 **User Persona:** Administradores
@@ -4401,6 +4416,17 @@ Si el usuario confirma la acción presionando "Eliminar", el curso será removid
 
 ¿El sistema te dio suficiente retroalimentación al completar una acción como agregar, editar o eliminar un curso? Por ejemplo, ¿recibiste algún mensaje de confirmación, cambio visible en la lista o cierre automático de ventanas emergentes que te indicara que la acción fue exitosa?
 
+#### User Goal: Registrar egresos y ver resumen
+
+**User Persona:** Administradores
+
+**Explicación del flujo:**
+En la sección del Dashboard se observa por defecto la categoría "Mi organización". En la parte de la derecha se observan las diferentes categorías, el usuario tendrá que dar a la opción de "Finanzas", se redirigirá al usuario a la categoría Finanzas, donde observará que se piden varios datos, estos son Concepto, Fecha, Monto y Categoría.
+
+Cuando el usuario haya completado los datos podrá darle a la opción de "Confirmar" para subir su egreso. En caso de que confirme, se mostrará la tabla del resumen mensual actualizada con el nuevo egreso registrado. En dicha tabla se mostrarán las transacciones financieras del mes actual.
+
+**Pregunta:**
+¿Qué tan claro te resultó el proceso para registrar un egreso? ¿Notaste con facilidad que el egreso fue registrado exitosamente? ¿La actualización del resumen mensual te pareció suficiente como confirmación del registro?
 
 
 **User Persona:** Administradores
@@ -4482,6 +4508,20 @@ es cómoda a la vista?
 
 ### 5.3.2. Registro de Entrevistas
 
+#### Segmento: Docente - Entrevistado 2
+
+| Atributo                | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre**              | Diego Meléndez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Edad**                | 21 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Sexo**                | Masculino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Distrito**            | Surquillo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Ocupación**           | Docente en CEPRE UNI                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Fecha de entrevista** | 18 de junio del 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Timing**              | XX:XX - XX:XX                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Video**               | [Ver en Microsoft Stream]()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Captura**             | ![Captura](./assets/screenshots/validation-screenshot-teacher2.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Resumen**             | Diego considera que el inicio de sesión es fácil y adecuado, destacando que lo redirige a una categoría principal con secciones intuitivas. El uso de credenciales asignadas por su organización no le generó problemas. Sugiere mejorar el diseño de los campos de correo y contraseña para que no se vean "fuera de margen", aunque no le resulta negativo.<br><br>Sobre la sección "Mi horario", opina que debería ser la vista predeterminada al iniciar sesión, ya que es la que más consulta. Le parece bien organizada y valora positivamente la funcionalidad de reprogramar clases.<br><br>En la sección "Asistencia", señala que la navegación es sencilla y contiene todo lo necesario. Propone incluir un contador de inasistencias por alumno para facilitar el seguimiento. En general, le gusta el diseño, lo considera completo y con colores apropiados. |
 
 #### Segmento: Docente - Entrevistado 1
 
@@ -4557,6 +4597,28 @@ es cómoda a la vista?
 
 ### 5.3.3. Evaluaciones según heurísticas
 
+#### UX Heuristics & Principles Evaluation
+#### Usability – Inclusive Design – Information Architecture
+
+**CARRERA** : Ingeniería de Software
+
+**CURSO** : Desarrollo de Aplicaciones Open Source
+
+**SECCIÓN** : 4304
+
+**PROFESOR** : Efraín Ricardo Bautista Ubillús
+
+**AUDITOR** : SmartEdu
+
+**CLIENTES** : Kevin Rodríguez, Marleni Flores, Jhon Candioti, Sebastían Maguiña, Diego Meléndez, Jeff Quispe
+
+#### SITE o APP A EVALUAR:
+
+**Demy**
+
+#### TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de usabilidad de las siguientes tareas:
 #### Usability – Inclusive Design – Information Architecture
 
 **CARRERA** : Ingeniería de Software
@@ -4684,6 +4746,125 @@ En la landing page, los precios de los planes no se muestran en soles (moneda lo
 **Recomendación:**  
 Mostrar los precios en soles (PEN), o al menos incluir la opción de cambiar la moneda a soles en un desplegable.
 
+**Web Application**
+1. Inicio de sesión
+2. Ver horario
+3. Registrar asistencia
+
+#### FUERA DE ALCANCE:
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+**Landing Page**
+1. Redes sociales asociadas a la startup
+2. Política de privacidad y condiciones de uso
+
+**Web Application**
+1. Recuperación de contraseña
+2. Política de privacidad y condiciones de uso
+
+#### ESCALA DE SEVERIDAD:
+
+| Nivel   | Descripción                                                                                                                                                                                         |
+|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1       | **Problema superficial**: puede ser fácilmente superador por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                   |
+| 2       | **Problema menor**: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase. |
+| 3       | **Problema mayor**: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                 |
+| 4       | **Problema muy grave**: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
+
+#### TABLA RESUMEN:
+
+**Web Application**
+
+| # | Problema                                                             | Escala de severidad | Heurística/ Principio Violado                   |
+|---|----------------------------------------------------------------------|---------------------|-------------------------------------------------|
+| 1 | La página de guardar asistencia carece de imágenes                   | 1                   | Usability: Reconocer antes que recordar         |
+| 2 | Los checkbox de asistencia no aparecen marcados por defecto          | 2                   | Usability: Flexibilidad y eficiencia en el uso  |
+| 3 | 	Campos de correo y contraseña desalineados visualmente              | 1                   | Usability: Aesthetic and minimalist design      |
+| 4 | 	La sección “Mi horario” no aparece por defecto tras iniciar sesión  | 2                   | Usability: Flexibilidad y eficiencia en el uso  |
+| 5 | 	No se muestra un contador de inasistencias en la lista de alumnos   | 2                   | Usability: Visibilidad del estado del sistema   |
+
+#### DESCRIPCIÓN DE PROBLEMAS:
+
+**PROBLEMA #1:** La página de guardar asistencia carece de imágenes
+
+**Severidad: 1**
+<br>
+**Heurística violada:** Usability- Reconocer antes que recordar
+
+**Problema:**
+<br>
+Al momento de ingresar a la página de guardar asistencia, hace falta algunas imágenes referenciales para que sea un poco más cómoda a la vista,
+ya que estas sirven para que el usuario no tenga que recordar o interpretar mucho cada sección. <br>
+
+![Captura](./assets/screenshots/usability-problem-1-teacher3.png)
+
+**Recomendación:**
+<br>
+Agregar unas cuantas imágenes referenciales en las secciones marcadas de color rojo en la captura anteriormente presentada. <br>
+
+**PROBLEMA #2:** Los checkbox de asistencia no aparecen marcados por defecto <br>
+
+**Severidad: 2**
+<br>
+**Heurística violada:** Usability- Flexibilidad y eficiencia en el uso
+
+**Problema:**
+<br>
+Al momento de registrar una asistencia, las checkbox no aparecen marcadas por defecto, esto impide que se optimize el flujo del caso más común, que es cuando la mayoría asiste, lo cual aumenta el número de clics que tendrá que dar el usuario si tomamos en cuenta que es un salón muy grande.
+
+![Captura](./assets/screenshots/usability-problem-2-teacher3.png)
+
+**Recomendación:**
+<br>
+Hacer que las checkbox de asistencia ya aparecen marcadas por defecto, esto reducirá el número de clics que tendrá que dar el usuario al momento de tomar asistencia en un salón con gran cantidad de alumnos.
+
+**PROBLEMA #3:** Campos de correo y contraseña desalineados visualmente
+
+**Severidad: 1**
+<br>
+**Heurística violada: Usabilidad** – Aesthetic and minimalist design
+
+**Problema:**
+<br>
+Durante el proceso de inicio de sesión, los campos de entrada para el correo y la contraseña aparecen desalineados o con un espaciado que rompe la armonía visual del formulario. Aunque esto no impide completar la tarea, genera una percepción visual negativa que puede afectar la credibilidad visual de la plataforma, sobre todo en el primer punto de contacto. El entrevistado menciona que “no le parece malo”, pero sí considera que podría verse más ordenado.
+
+![Captura](./assets/screenshots/usability-problem-3-teacher2.png)
+
+**Recomendación:**:
+<br>
+Revisar el diseño del formulario de login asegurando una alineación coherente entre etiquetas y campos de entrada, respetando márgenes y jerarquía visual. Se sugiere validar el espaciado con herramientas como Figma o inspección del DOM para ajustar paddings, margins y tamaños de fuente, logrando así un aspecto más pulido y profesional.
+
+**PROBLEMA #4:** La sección “Mi horario” no aparece por defecto tras iniciar sesión
+
+**Severidad: 2**
+<br>
+**Heurística violada:** Usabilidad – Flexibilidad y eficiencia en el uso
+
+**Problema:**
+<br>
+El usuario menciona que al iniciar sesión le gustaría acceder directamente a la sección “Mi horario” en lugar de “Asistencia”, ya que suele usarla con mayor frecuencia para consultar rápidamente su agenda. Aunque valora la organización general de la interfaz y la funcionalidad de reprogramación de clases, considera que este pequeño ajuste mejoraría la eficiencia en su flujo de uso habitual. Actualmente, el sistema no anticipa esta necesidad, lo que genera un paso adicional innecesario.
+
+![Captura](./assets/screenshots/usability-problem-4-teacher2.png)
+
+**Recomendación:**
+<br>
+Permitir configurar una pantalla inicial preferida según la frecuencia de uso o establecer “Mi horario” como la vista por defecto, si los datos de uso indican que es la sección más consultada por los usuarios. Esto reduciría fricción y aumentaría la eficiencia, especialmente para usuarios recurrentes.
+
+**PROBLEMA #5:** No se muestra un contador de inasistencias en la lista de alumnos
+
+**Severidad: 2**
+**Heurística violada:** Usabilidad – Visibility of system status
+
+**Problema:**
+<br>
+En la sección de “Asistencia”, aunque la navegación es sencilla y el diseño es visualmente agradable, el usuario señala que sería útil contar con un indicador visible del número de inasistencias por estudiante. Actualmente, esta información no está disponible de forma directa en la interfaz, lo que obliga al usuario a buscarla en otra parte del sistema (si es que existe), perdiendo eficiencia y visibilidad sobre el estado actual de cada alumno.
+
+![Captura](./assets/screenshots/usability-problem-5-teacher2.png)
+
+**Recomendación:**
+<br>
+Agregar una columna o ícono en la lista de alumnos que muestre la cantidad de inasistencias acumuladas, o bien un acceso rápido al historial de asistencia por alumno. Esto mejoraría el seguimiento, permitiría decisiones pedagógicas más informadas y mantendría al usuario actualizado sobre el estado del grupo en tiempo real.
 SITE o APP A EVALUAR: <br>
 *Demy*
 
