@@ -3701,7 +3701,7 @@ A continuación, se presenta una captura de pantalla de la herramienta de contro
 
 Link del Trello:  https://trello.com/invite/b/6851e331936ecded782e9022/ATTI1e3d0177c1475f7ec78c0723d746621712A5CEAC/sprint-3-open-source
 
-<div style="font-size:80%; overflow-x:auto;">
+<div style="font-size:60%; overflow-x:auto;">
 <table border="1" cellspacing="0" cellpadding="5">
   <thead>
     <tr>
@@ -3840,7 +3840,7 @@ Link del Trello:  https://trello.com/invite/b/6851e331936ecded782e9022/ATTI1e3d0
 
 En esta sección se documentan los avances de implementación realizados durante el Sprint, específicamente en los componentes desarrollados de la solución: Landing Page, Frontend y Backend. La sección comienza con una introducción que resume los logros técnicos más relevantes alcanzados durante el periodo.
 
-<div style="font-size:60%;">
+<div style="font-size:55%;">
 
 | Repository                                             | Branch                         | Commit ID                                | Commit Message                                                                               | Commit Body | Committed On |
 |--------------------------------------------------------|--------------------------------|------------------------------------------|----------------------------------------------------------------------------------------------|-------------|--------------|
@@ -4097,6 +4097,7 @@ actualmente no hay conexión, pero los endpoints se encuentran funcionales de ma
 Web Service:
 
 <div style="font-size:70%;">
+
 | Endpoint        | Operaciones | Parámetros              | URL                                                   | Response                                                    | 
 |-----------------|-------------|-------------------------|-------------------------------------------------------|-------------------------------------------------------------|
 | Users           | PUT         | {id}                    | /api/v1/users/teachers/{id}                           | Edita el perfil del teacher<br> con el id correspondiente   |  
@@ -4144,6 +4145,7 @@ Web Service:
 | Invoices        | POST        | No tiene                | /api/v1/invoices                                      | Registra las deudas de un estudiante                        |
 | Invoices        | GET         | {InvoiceId}             | /api/v1/invoices/{InvoiceId}/payments                 | Registra los pagos de un estudiante a sus deudas            |
 | Class Sessions  | POST        | No tiene                | /api/v1/class-sessions                                | Guarda el registro de asistencia una sesión clase           |
+
 </div>
 
 A continuación se presenta capturas de los endpoints en ejecución:
@@ -4917,12 +4919,6 @@ Aplicar un sistema de colores o etiquetas para diferenciar claramente los ingres
 ![Captura](./assets/screenshots/usability-problem-15-administrator.png)
 
 **Recomendación:** Añadir un atributo `title` con texto descriptivo (“Eliminar curso”/“Eliminar profesor”) y, de ser posible, una etiqueta visible en pantallas anchas.
-
-![Captura](./assets/screenshots/usability-problem-4-teacher2.png)
-
-**Recomendación:**
-<br>
-Permitir configurar una pantalla inicial preferida según la frecuencia de uso o establecer “Mi horario” como la vista por defecto, si los datos de uso indican que es la sección más consultada por los usuarios. Esto reduciría fricción y aumentaría la eficiencia, especialmente para usuarios recurrentes.
 
 ## 5.4. Video About-the-Product
 
