@@ -32,19 +32,23 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha      | Autor                                                                                    | Descripción de modificación                                                                                                                                                                                                                                                                 |
-|---------|------------|------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1.0     | 08/04/2025 | Salim Ramirez                                                                            | Creación inicial del documento de trabajo en formato Markdown para centralizar el desarrollo del informe final.                                                                                                                                                                             |
-| 1.1     | 10/04/2025 | Paúl Sulca                                                                               | Se agregó la carátula, tabla de contenidos y la estructura básica del informe siguiendo las pautas del curso.                                                                                                                                                                               |
-| 2.0     | 12/04/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se completó el Capítulo I: Introducción. Se definieron objetivos, contexto, visión general del producto.                                                                                                                                                                                    |
-| 2.1     | 12/04/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se agregaron los resultados de entrevistas y análisis de competidores, como parte del Capítulo II.                                                                                                                                                                                          |
-| 3.0     | 13/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se completó el Capítulo II: Requirements Elicitation & Analysis, incluyendo personas, escenarios y requerimientos iniciales.                                                                                                                                                                |
-| 3.1     | 16/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se integraron las User Stories, Landing Page Stories y Technical Stories como parte del Capítulo III.                                                                                                                                                                                       |
-| 4.0     | 18/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se completó el Capítulo III: Requirements Specification, detallando los criterios de aceptación y modelo de casos de uso.                                                                                                                                                                   |
-| 4.1     | 21/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se añadieron los style guidelines, mockups, wireframes, wireflow y userflow en el Capítulo IV: Product Design.                                                                                                                                                                              |
-| 5.0     | 23/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se completó el Capítulo IV: Product Design, incluyendo arquitectura de componentes, estructura visual y navegación.                                                                                                                                                                         |
-| 5.1     | 25/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se desarrolló la sección de Software Configuration Management. Se añadió la planificación del Sprint 1.                                                                                                                                                                                     |
-| 6.0     | 25/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se completó el Capítulo V: Product Implementation, incluyendo evidencias de avance en el desarrollo de la Landing Page.                                                                                                                                                                     |
+| Versión | Fecha      | Autor                                                                                    | Descripción de modificación                                                                                                  |
+|---------|------------|------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| 1.0     | 08/04/2025 | Salim Ramirez                                                                            | Creación inicial del documento de trabajo en formato Markdown para centralizar el desarrollo del informe final.              |
+| 1.1     | 10/04/2025 | Paúl Sulca                                                                               | Se agregó la carátula, tabla de contenidos y la estructura básica del informe siguiendo las pautas del curso.                |
+| 2.0     | 12/04/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se completó el Capítulo I: Introducción. Se definieron objetivos, contexto, visión general del producto.                     |
+| 2.1     | 12/04/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se agregaron los resultados de entrevistas y análisis de competidores, como parte del Capítulo II.                           |
+| 3.0     | 13/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se completó el Capítulo II: Requirements Elicitation & Analysis, incluyendo personas, escenarios y requerimientos iniciales. |
+| 3.1     | 16/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se integraron las User Stories, Landing Page Stories y Technical Stories como parte del Capítulo III.                        |
+| 4.0     | 18/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se completó el Capítulo III: Requirements Specification, detallando los criterios de aceptación y modelo de casos de uso.    |
+| 4.1     | 21/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se añadieron los style guidelines, mockups, wireframes, wireflow y userflow en el Capítulo IV: Product Design.               |
+| 5.0     | 23/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se completó el Capítulo IV: Product Design, incluyendo arquitectura de componentes, estructura visual y navegación.          |
+| 5.1     | 25/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se desarrolló la sección de Software Configuration Management. Se añadió la planificación del Sprint 1.                      |
+| 6.0     | 25/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se completó el Capítulo V: Product Implementation, incluyendo evidencias de avance en el desarrollo de la Landing Page.      |
+| 6.1     | 18/06/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se actualizó algunos detalles como las technical stories                                                                     |
+| 7.0     | 18/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se añadió todas las secciones del Sprint 3                                                                                   |
+| 6.0     | 25/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se añadió las entrevistas de validación junto a la evaluación según heurísticas                                              |                                                                                                                                                                   |
+
 
 # Project Report Collaboration Insights
 
@@ -3839,6 +3843,7 @@ Attendance: <br>
 
 
 
+Link del Repositorio del Web Services: https://github.com/upc-pre-202510-1asi0729-4304-smartedu/demy-web-service.git
 
 
 
@@ -3857,6 +3862,18 @@ Attendance: <br>
 
 #### 5.2.3.8.  Team Collaboration Insights during Sprint
 
+
+| Alumno                             | Actividad                             |
+|------------------------------------|---------------------------------------|
+| Crispin Ramos, Daniel Franco       | scheduling management                 |
+| Dominguez Vargas, Rafael Alexander | iam user (Sign up, Sign in)           |
+| Ramirez Mestanza, Salim Ignacio    | initial structure and billing context |
+| Sulca Gonzales, Paúl Fernando      | enrollment management                 |
+| Vilca Saboya, Diego Alejandro      | attendance management                 |
+
+![Captura de pantalla de los insights Sprint 3](./assets/screenshots/sprint3-insights-1.png)
+
+![Captura 2 de pantalla de los insights del Sprint 3](./assets/screenshots/sprint3-insights-2.png)
 
 
 ## 5.3. Validation Interviews
