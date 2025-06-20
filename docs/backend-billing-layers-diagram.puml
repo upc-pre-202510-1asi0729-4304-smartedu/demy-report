@@ -1,0 +1,38 @@
+@startuml
+skinparam packageStyle rectangle
+
+package demy-platform-backend as demy_platform_backend {
+    package billing {
+        package domain {}
+        package application {}
+        package infrastructure {}
+        package interfaces {}
+    }
+    package shared {
+        package domain {}
+        package infrastructure {}
+    }
+}
+
+' Definición explícita de paquetes externos
+package org.hibernate.boot.model {
+    package naming {}
+}
+
+' ========================
+' DEPENDENCIAS ENTRE CAPAS
+' ========================
+
+demy_platform_backend.billing.infrastructure ..> demy_platform_backend.billing.domain
+
+demy_platform_backend.billing.application ..> demy_platform_backend.billing.domain
+demy_platform_backend.billing.application ..> demy_platform_backend.billing.infrastructure
+
+demy_platform_backend.billing.interfaces ..> demy_platform_backend.billing.domain
+demy_platform_backend.billing.interfaces ..> demy_platform_backend.billing.application
+
+demy_platform_backend.shared.infrastructure ..> org.hibernate.boot.model.naming
+
+demy_platform_backend.billing.domain ..> demy_platform_backend.shared.domain
+
+@enduml
