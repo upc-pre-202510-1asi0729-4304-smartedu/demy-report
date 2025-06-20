@@ -12,7 +12,7 @@
 
 <h4 style="text-align: center"> Docente: Efraín Ricardo Bautista Ubillús </h4>
 
-<h4 style="text-align: center;"> Informe del Trabajo Parcial </h4>
+<h4 style="text-align: center;"> Informe del TB2 </h4>
 
 <h4 style="text-align: center"> Startup: SmartEdu </h4>
 
@@ -3840,6 +3840,8 @@ Link del Trello:  https://trello.com/invite/b/6851e331936ecded782e9022/ATTI1e3d0
 
 En esta sección se documentan los avances de implementación realizados durante el Sprint, específicamente en los componentes desarrollados de la solución: Landing Page, Frontend y Backend. La sección comienza con una introducción que resume los logros técnicos más relevantes alcanzados durante el periodo.
 
+<div style="font-size:60%;">
+
 | Repository                                             | Branch                         | Commit ID                                | Commit Message                                                                               | Commit Body | Committed On |
 |--------------------------------------------------------|--------------------------------|------------------------------------------|----------------------------------------------------------------------------------------------|-------------|--------------|
 | upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | develop                        | 2a011520734e6b4c6bf77e0790dfdb3f6219a546 | merge: integrate feature/iam-management into develop                                         | —           | 19/06/2025   |
@@ -4032,6 +4034,7 @@ En esta sección se documentan los avances de implementación realizados durante
 | upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/initial-structure      | 227491eb742e9fac97ea2e205dc8d6f36b59c9b0 | build: add pluralize and spring documentation dependencies in pom.xml                        | —           | 7/06/2025    |
 | upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/initial-structure      | c42da70120f9f762e81e5aed37ae43ccaa7821ff | chore: update lombok dependency version                                                      | —           | 7/06/2025    |
 | upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | main                           | a47164a484b9c62e2b4ada456cb34955df872af6 | chore: initial commit                                                                        | —           | 7/06/2025    |
+</div>
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
@@ -4093,6 +4096,7 @@ actualmente no hay conexión, pero los endpoints se encuentran funcionales de ma
 
 Web Service:
 
+<div style="font-size:70%;">
 | Endpoint        | Operaciones | Parámetros              | URL                                                   | Response                                                    | 
 |-----------------|-------------|-------------------------|-------------------------------------------------------|-------------------------------------------------------------|
 | Users           | PUT         | {id}                    | /api/v1/users/teachers/{id}                           | Edita el perfil del teacher<br> con el id correspondiente   |  
@@ -4140,6 +4144,7 @@ Web Service:
 | Invoices        | POST        | No tiene                | /api/v1/invoices                                      | Registra las deudas de un estudiante                        |
 | Invoices        | GET         | {InvoiceId}             | /api/v1/invoices/{InvoiceId}/payments                 | Registra los pagos de un estudiante a sus deudas            |
 | Class Sessions  | POST        | No tiene                | /api/v1/class-sessions                                | Guarda el registro de asistencia una sesión clase           |
+</div>
 
 A continuación se presenta capturas de los endpoints en ejecución:
 
