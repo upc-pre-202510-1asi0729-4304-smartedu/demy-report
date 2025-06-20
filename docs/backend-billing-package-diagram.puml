@@ -1,0 +1,76 @@
+@startuml
+skinparam packageStyle rectangle
+
+package demy-platform-backend as demy_platform_backend {
+    package billing {
+        package domain {
+            package model {
+                package aggregates as billing_aggregates {}
+                package entities {}
+                package valueobjects as billing_valueobjects {}
+                package commands {}
+                package queries {}
+            }
+            package services {}
+        }
+
+        package application.internal {
+            package commandservices {}
+            package queryservices {}
+        }
+
+        package infrastructure.persistence {
+            package jpa {
+                package repositories as billing_repositories {}
+            }
+        }
+
+        package interfaces.rest {
+            package controllers {}
+            package resources {}
+            package transform {}
+        }
+    }
+
+    package shared.domain.model {
+        package aggregates {}
+        package entities {}
+        package valueobjects as shared_valueobjects {}
+    }
+}
+
+' ========================
+' RELACIONES ENTRE PAQUETES
+' ========================
+
+commandservices ..> demy_platform_backend.billing.domain.services
+commandservices ..> billing_repositories
+commandservices ..> billing_aggregates
+commandservices ..> demy_platform_backend.billing.domain.model.commands
+commandservices ..> demy_platform_backend.billing.domain.model.entities
+commandservices ..> shared_valueobjects
+
+queryservices ..> demy_platform_backend.billing.domain.services
+queryservices ..> billing_repositories
+queryservices ..> demy_platform_backend.billing.domain.model.queries
+queryservices ..> billing_aggregates
+queryservices ..> shared_valueobjects
+
+controllers ..> demy_platform_backend.billing.interfaces.rest.resources
+controllers ..> demy_platform_backend.billing.interfaces.rest.transform
+controllers ..> billing_aggregates
+controllers ..> demy_platform_backend.billing.domain.model.commands
+controllers ..> demy_platform_backend.billing.domain.model.queries
+controllers ..> demy_platform_backend.billing.domain.services
+controllers ..> shared_valueobjects
+
+transform ..> billing_aggregates
+transform ..> demy_platform_backend.billing.domain.model.entities
+transform ..> demy_platform_backend.billing.domain.model.commands
+transform ..> demy_platform_backend.billing.interfaces.rest.resources
+transform ..> shared_valueobjects
+
+billing_repositories ..> billing_aggregates
+billing_repositories ..> shared_valueobjects
+
+@enduml
