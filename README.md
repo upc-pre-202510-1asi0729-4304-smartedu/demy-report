@@ -164,6 +164,38 @@ Análisis de cantidad de commits realizados por semana.
 
 </div>
 
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+**TB2**
+
+Gráfico de red (*network graph*) de ramas en el repositorio de GitHub.
+
+![Insights - Network Graph](./assets/screenshots/Network_Graph_Sprint_3.png)
+
+</div>
+
+A continuación, se presentan los gráficos que muestran el análisis de los commits en el repositorio correspondiente al informe.  
+Estos gráficos detallan la cantidad de líneas de código añadidas por cada miembro del equipo y la actividad de commits registrada.
+
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+Análisis de líneas de código añadidas por contribuyente.
+
+![Insights - Contributors](./assets/screenshots/Contributors_Sprint_3.png)
+
+</div>
+
+El siguiente gráfico muestra la cantidad de commits realizados en la semana con mayor actividad en el proyecto.
+
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+Análisis de cantidad de commits realizados por semana.
+
+![Insights - Commits](./assets/screenshots/commits_sprint_3.png)
+
+</div>
+
+
 # Contenido
 
 - [Capítulo I: Introducción](#capítulo-i-introducción)
@@ -4002,10 +4034,56 @@ En esta sección se documentan los avances de implementación realizados durante
 | upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/initial-structure      | c42da70120f9f762e81e5aed37ae43ccaa7821ff | chore: update lombok dependency version                                                      | —           | 7/06/2025    |
 | upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | main                           | a47164a484b9c62e2b4ada456cb34955df872af6 | chore: initial commit                                                                        | —           | 7/06/2025    |
 
-
 #### 5.2.3.5. Execution Evidence for Sprint Review
+Para la entrega de este tercer sprint, el backend de manera parcial siguiendo las technical histories
+
+- TS01: Implementar endpoint para registrar y gestionar matrículas (POST, PUT, DELETE /enrollments)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Open_Source/TS01.png)
+- TS02: Implementar endpoint para consultar matrícula por ID (GET /enrollments/{id})
+
+- TS03: Implementar endpoint para listar matrículas (GET /enrollments)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Open_Source/TS03.png)
+
+- TS04: Implementar endpoint para consultar matrícula por DNI (GET /enrollments/dni/{dni)
+- TS05: Implementar endpoint para registrar y gestionar estudiantes (POST, PUT, DELETE /students)
+- TS06: Implementar endpoint para obtener estudiante por ID (GET /students/{id})
+- TS07: Implementar endpoint para listar estudiantes (GET /students)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Open_Source/TS07.png)
+
+- TS08: Implementar endpoint para registrar y gestionar periodos academicos (POST, PUT, DELETE /academic-periods)
+- TS09: Implementar endpoint para obtener período académico por ID (GET /academic-periods/{id})
+- TS10: Implementar endpoint para listar períodos académicos (GET /academic-periods)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Open_Source/TS10.png)
 
 
+- TS11: Implementar un endpoint para registrar una class sesión
+- TS12: Implementar un endpoint para consultar la asistencia de un alumno por DNI
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Open_Source/TS12.png)
+
+
+- TS13: Implementar un endpoint para consultar la asistencia de un alumno en un curso
+- TS14: Implementar endpoint para registrar y consultar transacciones financieras (GET, POST /financial-transactions)
+- TS15: Implementar endpoint para poder consultar los perfiles de usuarios Admin
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Open_Source/TS15.png)
+
+- TS16: Implementar endpoint para poder editar los perfiles de admin
+- TS17: Implementar endpoint para poder consultar los perfiles de usuarios Teacher
+- TS18: Implementar endpoint para poder agregar los perfiles de usuarios teacher
+- TS19: Implementar endpoint para poder editar los perfiles de teacher
+- TS20: Implementar endpoint para consultar los pagos de una factura (GET /payments/{invoiceId})
+- TS21: Implementar endpoints para obtener datos de cursos (GET /courses, GET /courses/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Open_Source/TS21.jpg)
+
+- TS22: Implementar endpoints para registrar, actualizar y eliminar un curso (POST /courses, PUT /courses/{id}, DELETE /courses/{id})
+- TS23: Implementar endpoints para obtener datos de aulas (GET /classrooms, GET /classrooms/{id})
+- TS24: Implementar endpoints para registrar, actualizar y eliminar un aula (POST /classrooms, PUT /classrooms/{id}, DELETE /classrooms/{id})
+- TS25: Implementar endpoints para obtener datos de horarios semanales (GET /weeklyschedules, GET /weeklyschedules/{id})
+- TS26: Implementar endpoints para registrar, actualizar y eliminar un horario semanal (POST /weeklyschedules, PUT /weeklyschedules/{id}, DELETE /weeklyschedules/{id})
+- TS27: Implementar endpoint para registrar y gestionar facturas (POST, PUT, DELETE /invoices)
+- TS28: Implementar endpoint para consultar todas las facturas de un estudiante (GET /invoices/{studentId})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Open_Source/TS28.png)
+
+- TS29: Implementar endpoint para consultar una factura por su ID (GET /invoices/{id})
 
 #### 5.2.3.6.  Services Documentation Evidence for Sprint Review
 
@@ -4165,7 +4243,96 @@ Link del Repositorio del Web Services: https://github.com/upc-pre-202510-1asi072
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+Para la entrega de este tercer sprint, se implementó el backend en swagger
 
+**Pasos para el despliegue del backend en Railway:**
+
+1. Entrar a la pagina principal https://railway.com/
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/1.jpg)
+
+
+2. Iniciar sesión con github
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/2.jpg)
+
+
+3. Elegir un nuevo proyecto
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/3.jpg)
+
+
+4. Seleccionar el proyecto desde github
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/4.jpg)
+
+
+5. Esperar a que complete
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/5.jpg)
+
+
+6. Aparece activo por unos momentos
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/6.jpg)
+
+
+7. Pero fallará porque no encuentra la base de datos
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/7.jpg)
+
+
+8. Crea una instancia de la base de datos en mysql
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/8.jpg)
+
+
+9. Espera a que termine
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/9.jpg)
+
+
+10. Una vez iniciado, entrar a Variables y copiar los datos de: MYSQLHOST, MYSQLPORT, MYSQLDATABASE, MYSQLUSER y MYSQLPASSWORD
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/10.jpg)
+
+11. Asignar las variables de entorno a la instancia del backend, incluir SPRING_PROFILES_ACTIVE
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/11.jpg)
+
+
+12. Desplegar nuevamente
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/12.jpg)
+
+
+13. Completado y sin errores
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/13.jpg)
+
+
+14. Entramos a settings > networking > generate domain
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/14.jpg)
+
+
+15. Generamos la URL en el puerto 8080 e ingresamos
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/15.jpg)
+
+
+16. Visualizamos los endpoints
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/16.jpg)
+
+
+17. Funciona sin problemas
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/17.jpg)
+
+
+
+**Pagina swagger desplegado:**
+
+1. Bounded Iam: Bounded el cual contiene las funcionalidades con los datos de user teacher y admin
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/bounded_Iam.png)
+
+2. Bounded Attendance Managemet: Bounded el cual contiene las funcionalidades con los datos de student
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/bounded_Attendance.png)
+
+3. Bounded Billing Management: Bounded el cual contiene las funcionalidades con los datos de pagos
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/bounded_Billing.png)
+
+4. Bounded Enrollment Managemet: Bounded el cual contiene las funcionalidades con los datos de registro
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/bounded_Enrollment.png)
+
+5. Bounded Scheduling Managemet: Bounded el cual contiene las funcionalidades con los datos de cursos, horarios y ciclo académico.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/bounded_Schedules.png)
+
+Link de video de presentación sobre el Web Application [VideoPresentacionWebApplication](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EX2NpElc7NBFoGIs8TFRi1cBPvM520f8ySYpMncpIbH2SQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PVdKPY)
 
 #### 5.2.3.8.  Team Collaboration Insights during Sprint
 
@@ -4192,6 +4359,49 @@ A través de estas entrevistas, buscamos obtener comentarios directos sobre su e
 En esta sección, se describen los objetivos específicos de los usuarios que guían nuestras entrevistas. Estos objetivos son fundamentales para asegurar que la plataforma web cumpla con las necesidades reales de los usuarios en lo que respecta a la gestión y administración de academias educativas.
 
 #### User Goal: Registrar el pago de un alumno
+
+**User Goal:** Registrar Usuario
+
+**User Persona:** Administradores
+
+**Explicación del flujo:** El usuario estará en la página de registro de Demy, donde deberá ingresar su nombre completo, el nombre de su academia, su RUC, su correo institucional y una contraseña segura.
+
+Antes de continuar, el sistema requerirá que el usuario acepte los términos y condiciones de uso de la plataforma. Una vez que complete todos los campos obligatorios y presione el botón "Crear Cuenta", será redirigido automáticamente a la sección de "Planes".
+
+En esta nueva vista, el usuario deberá elegir entre uno de los tres planes disponibles que ofrece Demy. Al seleccionar un plan, se asignará automáticamente un pago correspondiente a la institución vinculada y el usuario será redirigido a la sección "Mi organización", dentro del Dashboard.
+
+**Preguntas:**
+
+¿Hubo algún momento durante el proceso en que no tuviste claro qué información debías ingresar? Si es así, ¿en qué parte ocurrió y qué sugerencias tienes para que sea más comprensible?
+
+¿Sentiste que el sistema te brindó una retroalimentación clara al completar el registro? Por ejemplo ¿hubo algún mensaje de confirmación, actualización visible en la interfaz o cierre automático del formulario que te indicara que la acción se realizó con éxito?
+
+
+**User Goal:** Agregar nuevo curso
+
+**User Persona:** Administradores
+
+**Explicación del flujo:** En la sección "Mi organización", el usuario verá en todo momento cinco recuadros principales. El usuario deberá seleccionar el recuadro "Cursos", lo cual lo llevará a la sección correspondiente donde podrá visualizar todos los cursos registrados en Demy hasta el momento.
+
+Para agregar uno nuevo, el usuario deberá hacer clic en el botón "Agregar Curso", lo que desplegará una ventana emergente en la que se le solicitará ingresar dos campos obligatorios: el Nombre del curso, el Código del curso y una descripcion.
+
+Una vez completados estos campos, el usuario podrá presionar el botón "Guardar". Al hacerlo, el sistema registrará automáticamente el nuevo curso y este pasará a mostrarse en la lista general de cursos disponibles.
+
+Si el usuario desea editar un curso, deberá hacer clic en el ícono de lápiz correspondiente al curso deseado. Esto abrirá una pestaña emergente con los datos actuales del curso: el Nombre del curso, el Código del curso y la Descripción.
+
+El usuario podrá modificar libremente cualquiera de estos campos y luego presionar el botón "Guardar" para confirmar los cambios. El sistema actualizará los datos del curso en la lista. En caso contrario, podrá cancelar la acción con el botón "Cancelar".
+
+Si el usuario desea eliminar un curso, deberá hacer clic en el ícono de tacho de basura junto al curso correspondiente. Al hacerlo, se abrirá una ventana emergente de confirmación que preguntará si está seguro de eliminar el curso.
+
+Si el usuario confirma la acción presionando "Eliminar", el curso será removido de la lista. En caso contrario, podrá cancelar la acción con el botón "Cancelar".
+
+**Preguntas:**
+
+¿Al ingresar a la sección de Cursos, hubo algún momento en que no te quedó claro para qué servía cada botón o elemento? Si es así, ¿Cuál fue ese momento y qué crees que podría hacerse para mejorar la comprensión?
+
+¿El sistema te dio suficiente retroalimentación al completar una acción como agregar, editar o eliminar un curso? Por ejemplo, ¿recibiste algún mensaje de confirmación, cambio visible en la lista o cierre automático de ventanas emergentes que te indicara que la acción fue exitosa?
+
+
 
 **User Persona:** Administradores
 
@@ -4271,6 +4481,23 @@ el proceso de registrar una asistencia, por qué? ¿Qué opinas del diseño de l
 es cómoda a la vista?
 
 ### 5.3.2. Registro de Entrevistas
+
+
+#### Segmento: Docente - Entrevistado 1
+
+| Atributo                | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre**              | Sebastian Maguiña Riva                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Edad**                | 23 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Sexo**                | Masculino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Distrito**            | San Martin de Porres                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Ocupación**           | Docente en academia Vonex                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Fecha de entrevista** | 08 de abril del 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Timing**              | 00:00 - 00:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Video**               | [Ver en Microsoft Stream]()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Captura**             | ![Captura](./assets/images/registro_de_entrevistas_2/Captura_Video_Entrevista_Open.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Resumen**             | Sebastián comentó que el acceso desde la landing page hasta el login como profesor fue claro y sin complicaciones, y que el formulario de inicio de sesión fue fácil de completar con las credenciales proporcionadas. Una vez dentro de la plataforma, pudo acceder sin problemas a la sección "Mi horario" y visualizó correctamente las clases asignadas, considerando el flujo claro y directo. Sobre el registro de asistencia, señaló que la navegación hasta esa sección fue intuitiva y el proceso de marcar asistencia mediante checkboxes le resultó fácil de entender. También valoró positivamente el diseño visual de la sección, describiéndolo como cómodo y claro para el usuario. |
+
 
 | Atributo                | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -4388,6 +4615,38 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 | 4       | **Problema muy grave**: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
 
 #### TABLA RESUMEN:
+
+
+| # | Problema                                                                    | Escala de severidad | Heurística/ Principio Violado                                                           |
+|---|-----------------------------------------------------------------------------|---------------------|-----------------------------------------------------------------------------------------|
+| 6 | El mensaje de error en login no especifica el error cometido por el usuario | 2                   | Usability: Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de los errores  |
+| 7 | La casilla "remember me" debería de estar marcada por defecto               | 1                   | Usability: Flexibilidad y eficiencia en el uso                                          |
+
+**PROBLEMA #6:** El mensaje de error en Login no especifica el error cometido por el usuario <br>
+**Severidad:** 2 <br>
+**Heurística violada:** Usability- Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de los errores<br>
+**Problema:** <br>
+Al momento de registrar las credenciales incorrectas en Login, no se muestra ningún mensaje que indique que el error está relacionado con las credenciales. Este mensaje es necesario, ya que orienta al usuario y le permite recuperarse del problema de manera adecuada. <br>
+
+**Recomendación:** <br>
+Agregar una descripción leve de la causa del problema para que el usuario pueda recuperarse del problema. <br>
+
+![Captura](./assets/screenshots/usability-problem1-teacher1.png)
+
+
+
+**PROBLEMA #7:** La casilla de remember me debería de estar marcada por defecto <br>
+**Severidad:** 1 <br>
+**Heurística violada:** Usability- Flexibilidad y eficiencia en el uso<br>
+**Problema:** <br>
+Al momento de registrar las credenciales en Login, la casilla “remember me” no está marcada por defecto lo cual evita que se optimice el flujo del caso mas común, pues casi siempre uno quiere mantener su sesión iniciada. <br>
+
+**Recomendación:** <br>
+Hacer que la casilla “remember me” esté marcada por defecto para reducir el tiempo que toma el usuario al iniciar sesión por primera vez  <br>
+
+![Captura](./assets/screenshots/usability-problem-2-teacher1.png)
+
+
 
 **Landing Page**
 
