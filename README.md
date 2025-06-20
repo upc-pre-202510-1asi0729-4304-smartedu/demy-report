@@ -4921,7 +4921,7 @@ Permitir configurar una pantalla inicial preferida según la frecuencia de uso o
 
 ## 5.4. Video About-the-Product
 
-
+Enlace al video about-the-product: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/ESETwQAXHZFHofT6lFN0cY4Bs8m-TbRog2PpkGOtmfz0AA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2EJ5Ef)
 
 ## Conclusiones y Recomendaciones
 
@@ -4953,7 +4953,7 @@ Esto contribuirá a reducir la curva de aprendizaje y a mejorar la percepción d
 
 ## Video About-the-Team
 
-
+Enlace al video about the team: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/ETPH22Fqwp5DtSCn5WfOYXoBDIwqLqz-5Y6ETZqcxru8QQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uVQQLG)
 
 # Bibliografía
 
@@ -4970,6 +4970,8 @@ Enlace de los videos de las entrevistas para needfinding: [Ver en Microsoft Stre
 Enlace del video de exposición TB1: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/ESbzRCEthQVNrM6L4BuA1doBz8Vl_GXwLAFVuTiaa4_CnQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=T1XkRF)
 
 Enlace del video de exposición TP1: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EaBwS6_qiZlNqDAixn8oQf8BCsq6y0JE9cC1qCVfezYSqw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=StBjjK)
+
+Enlace del video de exposición TB2: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EavAhMAvdHxBqUZ8lYmUUGcBiROiDz8zQeWy0WdRWmjBmw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6NSSnz)
 
 Enlace del repositorio en Github: [Ver en Github](https://github.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report)
 
