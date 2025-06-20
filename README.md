@@ -512,13 +512,17 @@ Según la revista Gan@Mas(24 de julio,2014), sabemos que diversos docentes usan 
 
 - **Edad**: Buscamos profesores de cualquier edad
 - **Necesidad clave**: Reducir la carga administrativa y optimizar su tiempo para centrarse en la enseñanza y mejorar su eficiencia en las aulas.
+- **Nivel educativo**: Profesores con formación universitaria, preferiblemente con especialización en educación o áreas afines.
+- **Uso de tecnología**: Profesores que utilizan tecnología en su labor docente, pero que requieren herramientas más eficientes para la gestión administrativa.
 
 ### Administradores de las academias preuniversitarias
 
-Suelen enfrentarse a una gran carga de trabajo relacionada con la **planificación de horarios, gestión de pagos y matrículas**. Este segmento busca soluciones tecnológicas que optimicen el manejo de información y mejoren la experiencia educativa de los alumnos.
+Administradores de las academias preuniversitarias suelen enfrentarse a una gran carga de trabajo relacionada con la planificación de horarios, gestión de pagos y matrículas. Según la Encuesta Nacional de Uso del Tiempo (ENUT) 2024, el 45% de los trabajadores en el sector educativo dedican más de 20 horas semanales a tareas administrativas, lo que refleja una carga significativa en el tiempo dedicado a tareas no pedagógicas (Instituto Nacional de Estadística e Informática [INEI], 2024). Además, un estudio realizado por el Grupo de Análisis para el Desarrollo (GRADE) destaca que el 70% de los directores de instituciones educativas en Perú consideran que las herramientas actuales para la gestión administrativa son ineficientes, lo que subraya la necesidad de adoptar nuevas soluciones tecnológicas (GRADE, 2023). Este segmento busca soluciones tecnológicas que optimicen el manejo de información y mejoren la experiencia educativa de los alumnos.
 
 - **Edad**: Buscamos personal administrativo de cualquier edad
 - **Necesidad clave**: Contar con una solución tecnológica que facilite la gestión, mejore la eficiencia operativa y brinde una experiencia más fluida tanto para el personal como para los alumnos y padres.
+- **Nivel educativo**: Administradores con formación técnica o universitaria, preferiblemente en áreas de gestión, administración o educación.
+- **Uso de tecnología**: Administradores que utilizan herramientas digitales para la gestión de información, pero que requieren una plataforma más integrada y eficiente para optimizar sus procesos.
 
 # Capítulo II: Requirements Elicitation & Analysis
 
@@ -3970,6 +3974,10 @@ Esto contribuirá a reducir la curva de aprendizaje y a mejorar la percepción d
 # Bibliografía
 
 Gan@Más. (2014, julio 24). Docentes usan hasta el 29% de su tiempo en las tareas administrativas. Revista Gan@Más. https://revistaganamas.com.pe/docentes-utilizan-hasta-el-29-de-su-tiempo-en-las-tareas-administrativas/
+
+GRADE. (2023). Estado de la educación en el Perú. Grupo de Análisis para el Desarrollo. https://repositorio.minedu.gob.pe/bitstream/handle/20.500.12799/5692/Estado%20de%20la%20educaci%C3%B3n%20en%20el%20Per%C3%BA.pdf?isAllowed=y&sequence=1
+
+Instituto Nacional de Estadística e Informática [INEI]. (2024). Encuesta Nacional de Uso del Tiempo (ENUT) 2024. INEI. https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib2010/libro.pdf
 
 # Anexos
 
