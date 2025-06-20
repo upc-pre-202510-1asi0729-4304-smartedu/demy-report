@@ -49,7 +49,6 @@
 | 7.0     | 18/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se añadió todas las secciones del Sprint 3                                                                                   |
 | 7.1     | 25/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se añadió las entrevistas de validación junto a la evaluación según heurísticas                                              |                                                                                                                                                                   |
 
-
 # Project Report Collaboration Insights
 
 Enlace para acceder al repositorio para el reporte del proyecto: [*Ver en GitHub*](https://github.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report)
@@ -516,13 +515,17 @@ Según la revista Gan@Mas(24 de julio,2014), sabemos que diversos docentes usan 
 
 - **Edad**: Buscamos profesores de cualquier edad
 - **Necesidad clave**: Reducir la carga administrativa y optimizar su tiempo para centrarse en la enseñanza y mejorar su eficiencia en las aulas.
+- **Nivel educativo**: Profesores con formación universitaria, preferiblemente con especialización en educación o áreas afines.
+- **Uso de tecnología**: Profesores que utilizan tecnología en su labor docente, pero que requieren herramientas más eficientes para la gestión administrativa.
 
 ### Administradores de las academias preuniversitarias
 
-Suelen enfrentarse a una gran carga de trabajo relacionada con la **planificación de horarios, gestión de pagos y matrículas**. Este segmento busca soluciones tecnológicas que optimicen el manejo de información y mejoren la experiencia educativa de los alumnos.
+Administradores de las academias preuniversitarias suelen enfrentarse a una gran carga de trabajo relacionada con la planificación de horarios, gestión de pagos y matrículas. Según la Encuesta Nacional de Uso del Tiempo (ENUT) 2024, el 45% de los trabajadores en el sector educativo dedican más de 20 horas semanales a tareas administrativas, lo que refleja una carga significativa en el tiempo dedicado a tareas no pedagógicas (Instituto Nacional de Estadística e Informática [INEI], 2024). Además, un estudio realizado por el Grupo de Análisis para el Desarrollo (GRADE) destaca que el 70% de los directores de instituciones educativas en Perú consideran que las herramientas actuales para la gestión administrativa son ineficientes, lo que subraya la necesidad de adoptar nuevas soluciones tecnológicas (GRADE, 2023). Este segmento busca soluciones tecnológicas que optimicen el manejo de información y mejoren la experiencia educativa de los alumnos.
 
 - **Edad**: Buscamos personal administrativo de cualquier edad
 - **Necesidad clave**: Contar con una solución tecnológica que facilite la gestión, mejore la eficiencia operativa y brinde una experiencia más fluida tanto para el personal como para los alumnos y padres.
+- **Nivel educativo**: Administradores con formación técnica o universitaria, preferiblemente en áreas de gestión, administración o educación.
+- **Uso de tecnología**: Administradores que utilizan herramientas digitales para la gestión de información, pero que requieren una plataforma más integrada y eficiente para optimizar sus procesos.
 
 # Capítulo II: Requirements Elicitation & Analysis
 
@@ -3581,6 +3584,7 @@ C = *Collaborator* (apoya el desarrollo del aspecto).
 </div>
 
 #### 5.2.3.3. Sprint Backlog 3
+
 El tercer sprint estuvo dedicado al mayor avance posible de nuestro Backend junto a algunas correcciones del FrontEnd.<br>
 El objetivo principal de este sprint fue avanzar los endpoints core de nuestro proyecto.
 
@@ -3906,12 +3910,52 @@ Link del Repositorio del Web Services: https://github.com/upc-pre-202510-1asi072
 
 ![Captura 2 de pantalla de los insights del Sprint 3](./assets/screenshots/sprint3-insights-2.png)
 
-
 ## 5.3. Validation Interviews
 
 
 
 ### 5.3.1. Diseño de Entrevistas
+
+**User Goal:** Agregar un nuevo profesor <br>
+**User Persona:** Administrador <br>
+**Descripción del flujo:**<br>
+En la sección "Mi organización", el usuario verá cinco recuadros. Al seleccionar "Profesores", será dirigido a la sección de Profesores, donde podrá visualizar todos los profesores registrados en Demy.
+Para agregar un nuevo profesor, el usuario debe hacer clic en la opción "Nuevo Profesor", lo que abrirá un modal donde podrá ingresar el nombre completo, el correo electrónico y la contraseña del profesor. Al completar los datos, el usuario deberá presionar "Guardar", registrando así al nuevo profesor en el sistema.
+
+**Pregunta:** ¿Te pareció que el proceso de agregar un nuevo profesor es consistente con otros procesos similares que has visto en otras aplicaciones? ¿Hubo algún aspecto que te resultó confuso o diferente? ¿Cómo podríamos hacer que este proceso sea más familiar y fácil de seguir?
+
+**User Goal:** Matricular a un alumno <br>
+**User Persona:** Administrador <br>
+**Descripción del flujo:** <br>
+El administrador ingresa al módulo de "Matrícula" desde la barra lateral. Dentro de este módulo, se presenta un formulario en el que el administrador debe seleccionar al alumno, el periodo académico, el monto, el estado de pago, el estado de la matrícula y la fecha de matriculación. Una vez que todos los campos estén completos, el administrador debe presionar el botón "Registrar matrícula".
+La matrícula registrada se reflejará en la sección "Historial de matrícula", donde el administrador podrá consultar todas las matrículas realizadas, incluida la del alumno recientemente matriculado.
+
+**Pregunta:** Durante el proceso de matrícula, ¿la aplicación te ayuda a evitar errores al ingresar información, como seleccionar al alumno o el estado del pago? ¿Hay alguna parte del formulario donde te gustaría recibir más ayuda o información para evitar posibles errores?
+
+
+**User Goal:** Iniciar sesión como profesor
+
+**User Persona:** Profesores de academia
+
+**Explicación del flujo:**
+El usuario inicia su interacción en la landing page de Demy, donde puede visualizar la presentación general de la plataforma Demy, conocer sus funcionalidades principales y los beneficios para las academias educativas. Desde esta página, identifica el botón de "Iniciar sesión" ubicado en el header. Al hacer clic en este botón, es redirigido automáticamente a la aplicación web de Demy.
+
+Una vez en la aplicación, el usuario visualiza directamente la pantalla de inicio de sesión. Allí debe completar el formulario ingresando su correo electrónico y contraseña, los cuales han sido previamente proporcionados por su coordinador de academia al momento de ser registrado en el sistema. Después de ingresar las credenciales, si los datos son correctos, el sistema valida el acceso y redirige al usuario hacia la vista principal correspondiente al perfil de profesor, donde podrá gestionar sus aulas, horarios y demás funcionalidades asignadas.
+
+**Pregunta:**
+- ¿El proceso desde la landing page hasta ingresar a la plataforma como profesor fue claro y sin dificultades?
+- ¿El formulario de inicio de sesión con sus credenciales proporcionadas fue fácil de completar?
+
+**User Goal:** Visualizar horarios de aulas asignadas
+
+**User Persona:** Profesores de academia
+
+**Explicación del flujo:**
+Luego de iniciar sesión y ser redirigido al dashboard principal correspondiente al perfil de profesor, el usuario visualiza la interfaz principal de la plataforma Demy. Desde el sidenavbar ubicado en el lateral de la pantalla, selecciona la opción "Mi horario". Al ingresar a esta sección, el sistema muestra automáticamente el listado de clases programadas para el docente, incluyendo los datos específicos como fecha, hora, aula asignada, sede donde se dicta la clase y demás detalles relevantes. Además de visualizar su programación, el profesor tiene la opción de gestionar la reprogramación de sus clases en caso sea necesario, accediendo a la funcionalidad de reprogramación disponible dentro de la misma sección.
+
+**Preguntas:**
+- ¿El acceso a la sección de mi horario dentro de la plataforma le resultó sencillo y fácil de ubicar?
+- ¿La visualización del horario asignado fue clara y le permitió entender rápidamente su programación de clases?
 
 **User Goal**: Registrar asistencia de una sesión de clase
 
@@ -3929,6 +3973,19 @@ es cómoda a la vista?
 
 ### 5.3.2. Registro de Entrevistas
 
+| Atributo                | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre**              | Jhon Robert Candioti                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Edad**                | 42 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Sexo**                | Masculino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Distrito**            | Ica                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Ocupación**           | Dueño y administrativo de la academia Enigmas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Fecha de entrevista** | 19 de junio del 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Timing**              | XX:XX - XX:XX                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Video**               | [Ver en Microsoft Stream]()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Captura**             | ![Captura](./assets/screenshots/validation-screenshot-administrator3.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Resumen**             | Durante la entrevista, John destacó las secciones de beneficios, escalabilidad y control, valorando la facilidad de uso de la plataforma, que facilita la gestión de matrícula, asistencia, pagos y reportes financieros.<br><br> John apreció la versatilidad y dinamismo del sistema, considerándolo útil para gestionar las operaciones diarias de la academia. Resaltó que el diseño debía ser práctico y digitalizado para evitar procesos manuales tediosos, como el manejo de datos de estudiantes y pagos. En la demostración, interactuó con las secciones de registro de cuentas, creación de cursos y eliminación de profesores, y comentó que los procesos eran claros y fáciles de ejecutar. La función para gestionar la matrícula también fue bien recibida, destacando la simplicidad para registrar a los estudiantes y verificar el estado de los pagos.<br><br> Por último, en la sección de financiación, John explicó cómo registrar ingresos y gastos, como la compra de materiales, y destacó la claridad del proceso. En general, valoró la plataforma como práctica y eficiente para mejorar la administración de la academia.  |
+
 | Atributo                | Detalle                                                                                                                                                                                                                                                                                                                                           |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Nombre**              | Jeff Aylas Quispe Vergara                                                                                                                                                                                                                                                                                                                         |
@@ -3944,6 +4001,101 @@ es cómoda a la vista?
 
 
 ### 5.3.3. Evaluaciones según heurísticas
+
+#### Usability – Inclusive Design – Information Architecture
+
+**CARRERA** : Ingeniería de Software
+
+**CURSO** : Desarrollo de Aplicaciones Open Source
+
+**SECCIÓN** : 4304
+
+**PROFESOR** : Efraín Ricardo Bautista Ubillús
+
+**AUDITOR** : SmartEdu
+
+**CLIENTES** : Kevin Rodríguez, Marleni Flores, Jhon Candioti, Sebastían Maguiña, Diego Meléndez, Jeff Quispe
+
+#### SITE o APP A EVALUAR:
+
+**Demy**
+
+#### TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de usabilidad de las siguientes tareas:
+
+**Web Application**
+1. Inicio de sesión
+2. Ver horario
+3. Registrar asistencia
+4. Gestionar profesores 
+5. Gestionar cursos
+6. Gestionar Aulas
+7. Gestionar Horarios semanales
+8. Gestionar Periodos académicos
+9. Registrar matrícula de alumno
+10. Consultar estado de pago
+11. Consultar horarios por periodo
+12. Consultar las finanzas
+
+#### FUERA DE ALCANCE:
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+**Landing Page**
+1. Redes sociales asociadas a la startup
+2. Política de privacidad y condiciones de uso
+
+**Web Application**
+1. Recuperación de contraseña
+2. Política de privacidad y condiciones de uso
+
+#### ESCALA DE SEVERIDAD:
+
+| Nivel   | Descripción                                                                                                                                                                                         |
+|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1       | **Problema superficial**: puede ser fácilmente superador por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                   |
+| 2       | **Problema menor**: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase. |
+| 3       | **Problema mayor**: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                 |
+| 4       | **Problema muy grave**: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
+
+#### TABLA RESUMEN:
+
+**Landing Page**
+
+| #  | Problema                                                                                            | Escala de severidad | Heurística/ Principio Violado                   |
+|----|-----------------------------------------------------------------------------------------------------|---------------------|-------------------------------------------------|
+| 1  | El botón "Comenzar ahora" no redirige a ninguna sección funcional                                   | 2                   | Usability: Control y libertad del usuario       |
+| 2  | Los precios no están mostrados en soles, lo cual podría generar confusión para los usuarios locales | 1                   | Usability: Aesthetic and minimalist design      |
+| 3  | Al elegir un plan, la página solo redirige al encabezado, sin ofrecer la opción de proceder al pago | 2                   | Usability: Control y libertad del usuario       |
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1:** El botón "Comenzar ahora" no redirige a ninguna sección funcional
+
+**Severidad: 2**  
+**Heurística violada:** Usability: Control y libertad del usuario
+
+**Problema:**  
+El botón "Comenzar ahora" en la página principal no tiene ninguna acción asociada, lo que impide que el usuario avance a una sección funcional. Este tipo de problemas genera confusión, ya que los usuarios esperan una acción inmediata al hacer clic en botones de llamada a la acción.
+
+![Captura](./assets/screenshots/usability-problem-1-landing.png)
+
+**Recomendación:**  
+Asignar una redirección adecuada al botón "Comenzar ahora", para que lleve al usuario a una página donde pueda comenzar el proceso de registro o el flujo principal de la aplicación.
+
+**PROBLEMA #2:** Los precios no están mostrados en soles, lo cual podría generar confusión para los usuarios locales
+
+**Severidad: 1**  
+**Heurística violada:** Usability: Aesthetic and minimalist design
+
+**Problema:**  
+En la landing page, los precios de los planes no se muestran en soles (moneda local), lo que puede generar incertidumbre en los usuarios peruanos, quienes podrían esperar ver la moneda local para realizar una compra o evaluación de costos.
+
+![Captura](./assets/screenshots/usability-problem-2-landing.png)
+
+**Recomendación:**  
+Mostrar los precios en soles (PEN), o al menos incluir la opción de cambiar la moneda a soles en un desplegable.
 
 SITE o APP A EVALUAR: <br>
 *Demy*
@@ -3998,6 +4150,172 @@ Hacer que las checkbox de asistencia ya aparecen marcadas por defecto, esto redu
 
 
 
+**PROBLEMA #3:** Al elegir un plan, la página solo redirige al encabezado, sin ofrecer la opción de proceder al pago
+
+**Severidad: 2**  
+**Heurística violada:** Usability: Control y libertad del usuario
+
+**Problema:**  
+Cuando el usuario selecciona un plan, la página solo lo redirige al encabezado, pero no ofrece una opción para proceder con el pago o continuar con el proceso. Este error dificulta la experiencia de compra.
+
+![Captura](./assets/screenshots/usability-problem-3-landing.png)
+
+**Recomendación:**  
+Hacer que el enlace al plan seleccionado redirija a una página de pago o a una sección donde el usuario pueda completar el proceso de compra.
+
+
+**Web Application**
+
+| #  | Problema                                                                                                            | Escala de severidad | Heurística/ Principio Violado                   |
+|----|---------------------------------------------------------------------------------------------------------------------|---------------------|-------------------------------------------------|
+| 1  | La página de guardar asistencia carece de imágenes                                                                  | 1                   | Usability: Reconocer antes que recordar         |
+| 2  | Los checkbox de asistencia no aparecen marcados por defecto                                                         | 2                   | Usability: Flexibilidad y eficiencia en el uso  |
+| 3  | Campos de correo y contraseña desalineados visualmente                                                              | 1                   | Usability: Aesthetic and minimalist design      |
+| 4  | La sección “Mi horario” no aparece por defecto tras iniciar sesión                                                  | 2                   | Usability: Flexibilidad y eficiencia en el uso  |
+| 5  | No se muestra un contador de inasistencias en la lista de alumnos                                                   | 2                   | Usability: Visibilidad del estado del sistema   |
+| 8  | Las imágenes en la sección "Mi Organización" tardan en cargarse                                                     | 2                   | Usability: Reconocer antes que recordar         |
+| 9  | En la sección de gestión de matrícula, los campos para ingresar no están organizados de manera clara                | 1                   | Usability: Aesthetic and minimalist design      |
+| 10 | En la sección de pagos, no hay ninguna respuesta cuando un alumno no tiene registros de pagos pendientes ni pagados | 2                   | Usability: Visibilidad del estado del sistema   |
+| 11 | En la sección de finanzas, no existe un contraste visual claro entre los ingresos y los egresos de la academia      | 2                   | Usability: Aesthetic and minimalist design      |
+
+#### DESCRIPCIÓN DE PROBLEMAS:
+
+**PROBLEMA #1:** La página de guardar asistencia carece de imágenes
+
+**Severidad: 1**
+<br>
+**Heurística violada:** Usability- Reconocer antes que recordar
+
+**Problema:**
+<br>
+Al momento de ingresar a la página de guardar asistencia, hace falta algunas imágenes referenciales para que sea un poco más cómoda a la vista,
+ya que estas sirven para que el usuario no tenga que recordar o interpretar mucho cada sección. <br>
+
+![Captura](./assets/screenshots/usability-problem-1-teacher3.png)
+
+**Recomendación:**
+<br>
+Agregar unas cuantas imágenes referenciales en las secciones marcadas de color rojo en la captura anteriormente presentada. <br>
+
+**PROBLEMA #2:** Los checkbox de asistencia no aparecen marcados por defecto <br>
+
+**Severidad: 2**
+<br>
+**Heurística violada:** Usability- Flexibilidad y eficiencia en el uso
+
+**Problema:**
+<br>
+Al momento de registrar una asistencia, las checkbox no aparecen marcadas por defecto, esto impide que se optimize el flujo del caso más común, que es cuando la mayoría asiste, lo cual aumenta el número de clics que tendrá que dar el usuario si tomamos en cuenta que es un salón muy grande.
+
+![Captura](./assets/screenshots/usability-problem-2-teacher3.png)
+
+**Recomendación:**
+<br>
+Hacer que las checkbox de asistencia ya aparecen marcadas por defecto, esto reducirá el número de clics que tendrá que dar el usuario al momento de tomar asistencia en un salón con gran cantidad de alumnos.
+
+**PROBLEMA #3:** Campos de correo y contraseña desalineados visualmente
+
+**Severidad: 1**
+<br>
+**Heurística violada: Usabilidad** – Aesthetic and minimalist design
+
+**Problema:**
+<br>
+Durante el proceso de inicio de sesión, los campos de entrada para el correo y la contraseña aparecen desalineados o con un espaciado que rompe la armonía visual del formulario. Aunque esto no impide completar la tarea, genera una percepción visual negativa que puede afectar la credibilidad visual de la plataforma, sobre todo en el primer punto de contacto. El entrevistado menciona que “no le parece malo”, pero sí considera que podría verse más ordenado.
+
+![Captura](./assets/screenshots/usability-problem-3-teacher2.png)
+
+**Recomendación:**:
+<br>
+Revisar el diseño del formulario de login asegurando una alineación coherente entre etiquetas y campos de entrada, respetando márgenes y jerarquía visual. Se sugiere validar el espaciado con herramientas como Figma o inspección del DOM para ajustar paddings, margins y tamaños de fuente, logrando así un aspecto más pulido y profesional.
+
+**PROBLEMA #4:** La sección “Mi horario” no aparece por defecto tras iniciar sesión
+
+**Severidad: 2**
+<br>
+**Heurística violada:** Usabilidad – Flexibilidad y eficiencia en el uso
+
+**Problema:**
+<br>
+El usuario menciona que al iniciar sesión le gustaría acceder directamente a la sección “Mi horario” en lugar de “Asistencia”, ya que suele usarla con mayor frecuencia para consultar rápidamente su agenda. Aunque valora la organización general de la interfaz y la funcionalidad de reprogramación de clases, considera que este pequeño ajuste mejoraría la eficiencia en su flujo de uso habitual. Actualmente, el sistema no anticipa esta necesidad, lo que genera un paso adicional innecesario.
+
+![Captura](./assets/screenshots/usability-problem-4-teacher2.png)
+
+**Recomendación:**
+<br>
+Permitir configurar una pantalla inicial preferida según la frecuencia de uso o establecer “Mi horario” como la vista por defecto, si los datos de uso indican que es la sección más consultada por los usuarios. Esto reduciría fricción y aumentaría la eficiencia, especialmente para usuarios recurrentes.
+
+**PROBLEMA #5:** No se muestra un contador de inasistencias en la lista de alumnos
+
+**Severidad: 2**
+**Heurística violada:** Usabilidad – Visibility of system status
+
+**Problema:**
+<br>
+En la sección de “Asistencia”, aunque la navegación es sencilla y el diseño es visualmente agradable, el usuario señala que sería útil contar con un indicador visible del número de inasistencias por estudiante. Actualmente, esta información no está disponible de forma directa en la interfaz, lo que obliga al usuario a buscarla en otra parte del sistema (si es que existe), perdiendo eficiencia y visibilidad sobre el estado actual de cada alumno.
+
+![Captura](./assets/screenshots/usability-problem-5-teacher2.png)
+
+**Recomendación:**
+<br>
+Agregar una columna o ícono en la lista de alumnos que muestre la cantidad de inasistencias acumuladas, o bien un acceso rápido al historial de asistencia por alumno. Esto mejoraría el seguimiento, permitiría decisiones pedagógicas más informadas y mantendría al usuario actualizado sobre el estado del grupo en tiempo real.
+
+
+
+**PROBLEMA #8:** Las imágenes en la sección "Mi Organización" tardan en cargarse
+
+**Severidad: 2**  
+**Heurística violada:** Usability: Reconocer antes que recordar
+
+**Problema:**  
+En la sección "Mi Organización", las imágenes no se cargan rápidamente, lo que retrasa la visualización de los datos importantes y afecta la experiencia del usuario.
+
+![Captura](./assets/screenshots/usability-problem-8-administrator.png)
+
+**Recomendación:**  
+Optimizar las imágenes para que se carguen más rápido y mejorar la fluidez de la experiencia, utilizando imágenes de menor resolución o implementando carga progresiva.
+
+
+**PROBLEMA #9:** En la sección de gestión de matrícula, los campos para ingresar no están organizados de manera clara
+
+**Severidad: 1**  
+**Heurística violada:** Usability: Aesthetic and minimalist design
+
+**Problema:**  
+En la sección de gestión de matrícula, los campos para ingresar no siguen un flujo claro ni están organizados de manera intuitiva, lo que dificulta la navegación y confunde al usuario.
+
+![Captura](./assets/screenshots/usability-problem-9-administrator.png)
+
+**Recomendación:**  
+Reorganizar los campos de manera lógica y asegurarse de que el flujo de trabajo sea coherente para facilitar la entrada de datos y mejorar la experiencia de usuario.
+
+
+**PROBLEMA #10:** En la sección de pagos, no hay ninguna respuesta cuando un alumno no tiene registros de pagos pendientes ni pagados
+
+**Severidad: 2**  
+**Heurística violada:** Usability: Visibilidad del estado del sistema
+
+**Problema:**  
+Cuando un alumno no tiene registros de pagos, no hay ningún mensaje que indique la falta de información, lo que deja al usuario sin saber si es un error o simplemente no hay pagos registrados.
+
+![Captura](./assets/screenshots/usability-problem-10-administrator.png)
+
+**Recomendación:**  
+Incluir un mensaje que indique claramente que no hay pagos registrados para ese alumno, para que el usuario sepa qué está sucediendo y pueda tomar las acciones necesarias.
+
+
+**PROBLEMA #11:** En la sección de finanzas, no existe un contraste visual claro entre los ingresos y los egresos de la academia
+
+**Severidad: 2**  
+**Heurística violada:** Usability: Aesthetic and minimalist design
+
+**Problema:**  
+En la sección de finanzas, no hay un contraste visual claro entre los ingresos y los egresos, lo que puede dificultar la interpretación rápida de la información financiera.
+
+![Captura](./assets/screenshots/usability-problem-11-administrator.png)
+
+**Recomendación:**  
+Aplicar un sistema de colores o etiquetas para diferenciar claramente los ingresos de los egresos, mejorando así la comprensión visual y la accesibilidad de los datos financieros.
 
 ## 5.4. Video About-the-Product
 
@@ -4038,6 +4356,10 @@ Esto contribuirá a reducir la curva de aprendizaje y a mejorar la percepción d
 # Bibliografía
 
 Gan@Más. (2014, julio 24). Docentes usan hasta el 29% de su tiempo en las tareas administrativas. Revista Gan@Más. https://revistaganamas.com.pe/docentes-utilizan-hasta-el-29-de-su-tiempo-en-las-tareas-administrativas/
+
+GRADE. (2023). Estado de la educación en el Perú. Grupo de Análisis para el Desarrollo. https://repositorio.minedu.gob.pe/bitstream/handle/20.500.12799/5692/Estado%20de%20la%20educaci%C3%B3n%20en%20el%20Per%C3%BA.pdf?isAllowed=y&sequence=1
+
+Instituto Nacional de Estadística e Informática [INEI]. (2024). Encuesta Nacional de Uso del Tiempo (ENUT) 2024. INEI. https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib2010/libro.pdf
 
 # Anexos
 
