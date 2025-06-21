@@ -75,6 +75,17 @@ Enlace para acceder al repositorio para el reporte del proyecto: [*Ver en GitHub
 | Sulca Gonzales, Paúl Fernando      | - Enrollment Context<br>- Creación de entidades de Enrollment<br>- Creación de servicios de enrollment<br>- Development Evidence for Sprint Review                          |
 | Vilca Saboya, Diego Alejandro      | - Attendance Context<br>- Creación de entidades de Attendance<br>- Creación de servicios de attendance<br>- Sprint Backlog 2 & Services Documentation for Sprint Review     |
 
+**TB2**
+<br>Para el desarrollo del TP cada participante del equipo realizo las siguientes tareas:
+
+| Integrantes                        | Tarea Asignada                                                                                                                                                          |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Crispin Ramos, Daniel Franco       | - Scheduling context<br>- Creación de entidades de scheduling<br>- Creación de servicios de scheduling<br>- Development Evidence for Sprint Review                      |
+| Dominguez Vargas, Rafael Alexander | - IAM Context<br>- Creación de entidades de IAM<br>- Creación de servicios de IAM<br>- Execution and Deployment Evidence for Sprint Review                              |
+| Ramirez Mestanza, Salim Ignacio    | - Billing context<br>- Creación de entidades de Billing<br>- Creación de servicios de billing<br>- Sprint Planning & Aspect Leaders and Collaborators                   |
+| Sulca Gonzales, Paúl Fernando      | - Enrollment Context<br>- Creación de entidades de Enrollment<br>- Creación de servicios de enrollment<br>- Development Evidence for Sprint Review                      |
+| Vilca Saboya, Diego Alejandro      | - Attendance Context<br>- Creación de entidades de Attendance<br>- Creación de servicios de attendance<br>- Sprint Backlog 2 & Services Documentation for Sprint Review |
+
 **GitHub Collaboration Insights**
 
 En GitHub se presenta un timeline de las principales ramas creadas por cada integrante del equipo, así como los procesos de *merge* realizados.  
