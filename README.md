@@ -4378,7 +4378,7 @@ A continuación, se presenta una captura de pantalla de la herramienta de contro
 
 Link del Trello: https://trello.com/invite/b/686459ee1405423b53034be0/ATTIa02174050f7335afbb736e5413d76444C0E68BAA/sprint-4-open-source
 
-<div style="font-size:70%; overflow-x:auto;">
+<div style="font-size:60%; overflow-x:auto;">
 <table border="1" cellspacing="0" cellpadding="5">
   <thead>
     <tr>
