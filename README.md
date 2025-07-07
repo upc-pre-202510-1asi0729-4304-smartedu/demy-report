@@ -4411,10 +4411,10 @@ Link de video de presentación sobre el Web Application [VideoPresentacionWebApp
 
 
 - TS13: Implementar un endpoint para consultar la asistencia de un alumno en un curso
-  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS013.png)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS13.png)
 
 - TS14: Implementar endpoint para registrar y consultar transacciones financieras (GET, POST /financial-transactions)
-  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS014.png)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS14.png)
 
 - TS15: Implementar endpoint para poder consultar los perfiles de usuarios Admin
   ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS15.png)
@@ -4431,9 +4431,6 @@ Link de video de presentación sobre el Web Application [VideoPresentacionWebApp
 - TS19: Implementar endpoint para poder editar los perfiles de teacher
   ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS19.png)
 
-
-- TS21: Implementar endpoints para obtener datos de cursos (GET /courses, GET /courses/{id})
-  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS21.jpg)
 
 - TS22: Implementar endpoints para registrar, actualizar y eliminar un curso (POST /courses, PUT /courses/{id}, DELETE /courses/{id})
   ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS22.png)
