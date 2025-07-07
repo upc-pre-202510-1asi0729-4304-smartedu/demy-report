@@ -1,0 +1,236 @@
+@startuml
+' Root namespace for Enrollment Context
+package enrollment-backend as enrollment_backend {
+
+  ' Domain and Application Layers
+  package enrollment {
+    package domain {
+      package model {
+        package aggregates {
+          class Student <<AggregateRoot>> {
+            - PersonName name
+            - Dni dni
+            - Sex sex
+            - LocalDate birthDate
+            - String address
+            - PhoneNumber phoneNumber
+            # Student()
+            + Student(CreateStudentCommand)
+            + void updateInformation(...)
+          }
+          class AcademicPeriod <<AggregateRoot>> {
+            - String periodName
+            - LocalDate startDate
+            - LocalDate endDate
+            - Boolean isActive
+            # AcademicPeriod()
+            + AcademicPeriod(CreateAcademicPeriodCommand)
+            + AcademicPeriod updateInformation(...)
+          }
+          class Enrollment <<AggregateRoot>> {
+            - StudentId studentId
+            - PeriodId periodId
+            - Money amount
+            - EnrollmentStatus enrollmentStatus
+            - PaymentStatus paymentStatus
+            # Enrollment()
+            + Enrollment(CreateEnrollmentCommand)
+            + void updateInformation(...)
+          }
+        }
+        package valueobjects {
+          class StudentId <<record>> {
+            - Long id
+          }
+          class PeriodId <<record>> {
+            - Long id
+          }
+          class Money <<record>> {
+            - BigDecimal amount
+            - Currency currency
+          }
+          enum Sex {
+            MALE
+            FEMALE
+          }
+          enum EnrollmentStatus {
+            ACTIVE
+            CANCELLED
+            COMPLETED
+            DELETED
+          }
+          enum PaymentStatus {
+            PENDING
+            PAID
+            REFUNDED
+            PARTIAL
+          }
+        }
+      }
+      package commands {
+        class CreateStudentCommand <<record>> {  }
+        class UpdateStudentCommand <<record>> {  }
+        class DeleteStudentCommand <<record>> {  }
+        class CreateAcademicPeriodCommand <<record>> { }
+        class UpdateAcademicPeriodCommand <<record>> {  }
+        class DeleteAcademicPeriodCommand <<record>> {  }
+        class CreateEnrollmentCommand <<record>> {  }
+        class UpdateEnrollmentCommand <<record>> {  }
+        class DeleteEnrollmentCommand <<record>> {  }
+      }
+    }
+    package application {
+      package internal {
+        package commandservices {
+          class StudentCommandServiceImpl {
+            - StudentRepository repo
+            + Long handle(CreateStudentCommand)
+            + void handle(DeleteStudentCommand)
+            + Optional<Student> handle(UpdateStudentCommand)
+          }
+          class AcademicPeriodCommandServiceImpl {
+            - AcademicPeriodRepository repo
+            + Long handle(CreateAcademicPeriodCommand)
+            + void handle(DeleteAcademicPeriodCommand)
+            + Optional<AcademicPeriod> handle(UpdateAcademicPeriodCommand)
+          }
+          class EnrollmentCommandServiceImpl {
+            - EnrollmentRepository repo
+            + Long handle(CreateEnrollmentCommand)
+            + void handle(DeleteEnrollmentCommand)
+            + Optional<Enrollment> handle(UpdateEnrollmentCommand)
+          }
+        }
+        package queryservices {
+          class StudentQueryServiceImpl {
+            - StudentRepository repo
+            + Optional<Student> handle(GetStudentByIdQuery)
+            + List<Student> handle(GetAllStudentsQuery)
+            + Optional<Student> handle(GetStudentByDniQuery)
+          }
+          class AcademicPeriodQueryServiceImpl {
+            - AcademicPeriodRepository repo
+            + List<AcademicPeriod> handle(GetAllAcademicPeriodsQuery)
+            + Optional<AcademicPeriod> handle(GetAcademicPeriodByIdQuery)
+          }
+          class EnrollmentQueryServiceImpl {
+            - EnrollmentRepository repo
+            - StudentRepository repoStudent
+            + List<Enrollment> handle(GetAllEnrollmentsQuery)
+            + Optional<Enrollment> handle(GetEnrollmentByIdQuery)
+            + List<Enrollment> handle(GetAllEnrollmentsByStudentIdQuery)
+            + List<Enrollment> handle(GetAllEnrollmentsByStudentDniQuery)
+          }
+        }
+      }
+    }
+    package interfaces {
+      package rest {
+        package controllers {
+          class StudentController {
+            - StudentCommandService cmd
+            - StudentQueryService qry
+            + ResponseEntity<StudentResource> createStudent(@RequestBody CreateStudentResource)
+            + ResponseEntity<List<StudentResource>> getAllStudents()
+            + ResponseEntity<StudentResource> getStudentById(@PathVariable Long studentId)
+            + ResponseEntity<StudentResource> getStudentByDni(@PathVariable String dni)
+            + ResponseEntity<StudentResource> updateStudent(@PathVariable Long studentId, @RequestBody UpdateStudentResource)
+            + ResponseEntity<?> deleteStudent(@PathVariable Long studentId)
+          }
+          class AcademicPeriodController {
+            - AcademicPeriodCommandService cmd
+            - AcademicPeriodQueryService qry
+            + ResponseEntity<AcademicPeriodResource> createAcademicPeriod(@RequestBody CreateAcademicPeriodResource)
+            + ResponseEntity<List<AcademicPeriodResource>> getAllAcademicPeriods()
+            + ResponseEntity<AcademicPeriodResource> updateAcademicPeriod(@PathVariable Long academicPeriodId, @RequestBody UpdateAcademicPeriodResource)
+            + ResponseEntity<?> deleteAcademicPeriod(@PathVariable Long academicPeriodId)
+          }
+          class EnrollmentController {
+            - EnrollmentCommandService cmd
+            - EnrollmentQueryService qry
+            + ResponseEntity<EnrollmentResource> createEnrollment(@RequestBody CreateEnrollmentResource)
+            + ResponseEntity<List<EnrollmentResource>> getAllEnrollments()
+            + ResponseEntity<EnrollmentResource> getEnrollmentById(@PathVariable Long enrollmentId)
+            + ResponseEntity<List<EnrollmentResource>> getEnrollmentsByStudentId(@PathVariable Long studentId)
+            + ResponseEntity<List<EnrollmentResource>> getEnrollmentsByStudentDni(@PathVariable String dni)
+            + ResponseEntity<EnrollmentResource> updateEnrollment(@PathVariable Long enrollmentId, @RequestBody UpdateEnrollmentResource)
+            + ResponseEntity<String> deleteEnrollment(@PathVariable Long enrollmentId)
+          }
+        }
+      }
+    }
+    package infrastructure {
+      package persistence {
+        package jpa {
+          package repositories {
+            interface StudentRepository extends JpaRepository<Student, Long> {
+              + boolean existsByDni(String dni)
+              + Optional<Student> findByDni(String dni)
+            }
+            interface AcademicPeriodRepository extends JpaRepository<AcademicPeriod, Long> {
+              + boolean existsByPeriodName(String periodName)
+              + boolean existsByPeriodNameAndIdIsNot(String periodName, Long id)
+            }
+            interface EnrollmentRepository extends JpaRepository<Enrollment, Long> {
+              + Optional<Enrollment> findByStudentIdAndPeriodId(StudentId, PeriodId)
+              + List<Enrollment> findAllByStudentId(StudentId)
+              + List<Enrollment> findAllByPeriodId(PeriodId)
+            }
+          }
+        }
+      }
+    }
+  }
+  package shared {
+    package domain {
+      package model {
+        package aggregates {
+          class AuditableAbstractAggregateRoot<T> <<abstract>> {
+            - Long id
+            - Date createdAt
+            - Date updatedAt
+            + addDomainEvent(Object)
+          }
+        }
+        package valueobjects {
+          class Money <<record>> {
+            - BigDecimal amount
+            - Currency currency
+            + Money()
+            + Money add(Money other)
+            + Money subtract(Money other)
+            + boolean isZero()
+            + static Money zero(Currency currency)
+          }
+        }
+      }
+    }
+    package infrastructure {
+      package persistence {
+        package jpa {
+          package configuration {
+            package strategy {
+              class SnakeCaseWithPluralizedTablePhysicalNamingStrategy <<implements PhysicalNamingStrategy>> {
+                + toPhysicalTableName(String, JdbcEnvironment)
+                + toPhysicalColumnName(String, JdbcEnvironment)
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  ' Inheritance and service bindings
+  Student --|> AuditableAbstractAggregateRoot
+  AcademicPeriod --|> AuditableAbstractAggregateRoot
+  Enrollment --|> AuditableAbstractAggregateRoot
+
+  StudentCommandServiceImpl ..|> StudentCommandService
+  StudentQueryServiceImpl   ..|> StudentQueryService
+  AcademicPeriodCommandServiceImpl ..|> AcademicPeriodCommandService
+  AcademicPeriodQueryServiceImpl   ..|> AcademicPeriodQueryService
+  EnrollmentCommandServiceImpl     ..|> EnrollmentCommandService
+  EnrollmentQueryServiceImpl       ..|> EnrollmentQueryService
+
+@enduml
