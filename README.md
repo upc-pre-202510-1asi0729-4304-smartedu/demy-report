@@ -195,6 +195,41 @@ Análisis de cantidad de commits realizados por semana.
 
 </div>
 
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+**TF1**
+
+Gráfico de red (*network graph*) de ramas en el repositorio de GitHub.
+
+![Insights - Network Graph](./assets/images/Team_Collaboration_Insights_tf/insights-network-graph-tp.png)
+
+</div>
+
+A continuación, se presentan los gráficos que muestran el análisis de los commits en el repositorio correspondiente al informe.  
+Estos gráficos detallan la cantidad de líneas de código añadidas por cada miembro del equipo y la actividad de commits registrada.
+
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+Análisis de líneas de código añadidas por contribuyente.
+
+![Insights - Contributors](./assets/images/Team_Collaboration_Insights_tf/insights-contributors-tp.png)
+
+</div>
+
+El siguiente gráfico muestra la cantidad de commits realizados en la semana con mayor actividad en el proyecto.
+
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+Análisis de cantidad de commits realizados por semana.
+
+![Insights - Commits](./assets/images/Team_Collaboration_Insights_tf/insights-commits-tp.png)
+
+</div>
+
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+
+
 # Contenido
 
 - [Capítulo I: Introducción](#capítulo-i-introducción)
@@ -4097,6 +4132,7 @@ actualmente no hay conexión, pero los endpoints se encuentran funcionales de ma
 Web Service:
 
 <div style="font-size:70%;">
+
 | Endpoint        | Operaciones | Parámetros              | URL                                                   | Response                                                    | 
 |-----------------|-------------|-------------------------|-------------------------------------------------------|-------------------------------------------------------------|
 | Users           | PUT         | {id}                    | /api/v1/users/teachers/{id}                           | Edita el perfil del teacher<br> con el id correspondiente   |  
@@ -4144,6 +4180,7 @@ Web Service:
 | Invoices        | POST        | No tiene                | /api/v1/invoices                                      | Registra las deudas de un estudiante                        |
 | Invoices        | GET         | {InvoiceId}             | /api/v1/invoices/{InvoiceId}/payments                 | Registra los pagos de un estudiante a sus deudas            |
 | Class Sessions  | POST        | No tiene                | /api/v1/class-sessions                                | Guarda el registro de asistencia una sesión clase           |
+
 </div>
 
 A continuación se presenta capturas de los endpoints en ejecución:
@@ -4343,143 +4380,174 @@ Link de video de presentación sobre el Web Application [VideoPresentacionWebApp
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
 - TS01: Implementar endpoint para registrar y gestionar matrículas (POST, PUT, DELETE /enrollments)
-  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Open_Source/TS01.png)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS01.png)
+
 - TS02: Implementar endpoint para consultar matrícula por ID (GET /enrollments/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS02.png)
 
 - TS03: Implementar endpoint para listar matrículas (GET /enrollments)
-  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Open_Source/TS03.png)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS03.png)
 
 - TS04: Implementar endpoint para consultar matrícula por DNI (GET /enrollments/dni/{dni)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS04.png)
+
 - TS05: Implementar endpoint para registrar y gestionar estudiantes (POST, PUT, DELETE /students)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS05.png)
+
 - TS06: Implementar endpoint para obtener estudiante por ID (GET /students/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS06.png)
+
 - TS07: Implementar endpoint para listar estudiantes (GET /students)
-  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Open_Source/TS07.png)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS07.png)
 
 - TS08: Implementar endpoint para registrar y gestionar periodos academicos (POST, PUT, DELETE /academic-periods)
-- TS09: Implementar endpoint para obtener período académico por ID (GET /academic-periods/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS08.png)
+
+
 - TS10: Implementar endpoint para listar períodos académicos (GET /academic-periods)
-  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Open_Source/TS10.png)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS10.png)
 
 
-- TS11: Implementar un endpoint para registrar una class sesión
 - TS12: Implementar un endpoint para consultar la asistencia de un alumno por DNI
-  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Open_Source/TS12.png)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS12.png)
 
 
 - TS13: Implementar un endpoint para consultar la asistencia de un alumno en un curso
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS013.png)
+
 - TS14: Implementar endpoint para registrar y consultar transacciones financieras (GET, POST /financial-transactions)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS014.png)
+
 - TS15: Implementar endpoint para poder consultar los perfiles de usuarios Admin
-  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Open_Source/TS15.png)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS15.png)
 
 - TS16: Implementar endpoint para poder editar los perfiles de admin
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS16.png)
+
 - TS17: Implementar endpoint para poder consultar los perfiles de usuarios Teacher
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS17.png)
+
 - TS18: Implementar endpoint para poder agregar los perfiles de usuarios teacher
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS18.png)
+
 - TS19: Implementar endpoint para poder editar los perfiles de teacher
-- TS20: Implementar endpoint para consultar los pagos de una factura (GET /payments/{invoiceId})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS19.png)
+
+
 - TS21: Implementar endpoints para obtener datos de cursos (GET /courses, GET /courses/{id})
-  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Open_Source/TS21.jpg)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS21.jpg)
 
 - TS22: Implementar endpoints para registrar, actualizar y eliminar un curso (POST /courses, PUT /courses/{id}, DELETE /courses/{id})
-- TS23: Implementar endpoints para obtener datos de aulas (GET /classrooms, GET /classrooms/{id})
-- TS24: Implementar endpoints para registrar, actualizar y eliminar un aula (POST /classrooms, PUT /classrooms/{id}, DELETE /classrooms/{id})
-- TS25: Implementar endpoints para obtener datos de horarios semanales (GET /weeklyschedules, GET /weeklyschedules/{id})
-- TS26: Implementar endpoints para registrar, actualizar y eliminar un horario semanal (POST /weeklyschedules, PUT /weeklyschedules/{id}, DELETE /weeklyschedules/{id})
-- TS27: Implementar endpoint para registrar y gestionar facturas (POST, PUT, DELETE /invoices)
-- TS28: Implementar endpoint para consultar todas las facturas de un estudiante (GET /invoices/{studentId})
-  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Open_Source/TS28.png)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS22.png)
 
-- TS29: Implementar endpoint para consultar una factura por su ID (GET /invoices/{id})
+- TS23: Implementar endpoints para obtener datos de aulas (GET /classrooms, GET /classrooms/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS23.png)
+
+- TS24: Implementar endpoints para registrar, actualizar y eliminar un aula (POST /classrooms, PUT /classrooms/{id}, DELETE /classrooms/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS24.png)
+
+- TS25: Implementar endpoints para obtener datos de horarios semanales (GET /weeklyschedules, GET /weeklyschedules/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS25.png)
+
+- TS26: Implementar endpoints para registrar, actualizar y eliminar un horario semanal (POST /weeklyschedules, PUT /weeklyschedules/{id}, DELETE /weeklyschedules/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS26.png)
+
+
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
 **Pasos para el despliegue del backend en Railway:**
 
 1. Entrar a la pagina principal https://railway.com/
-   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/1.jpg)
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/1.jpg)
 
 
 2. Iniciar sesión con github
-   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/2.jpg)
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/2.jpg)
 
 
 3. Elegir un nuevo proyecto
-   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/3.jpg)
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/3.jpg)
 
 
 4. Seleccionar el proyecto desde github
-   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/4.jpg)
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/4.jpg)
 
 
 5. Esperar a que complete
-   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/5.jpg)
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/5.jpg)
 
 
 6. Aparece activo por unos momentos
-   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/6.jpg)
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/6.jpg)
 
 
 7. Pero fallará porque no encuentra la base de datos
-   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/7.jpg)
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/7.jpg)
 
 
 8. Crea una instancia de la base de datos en mysql
-   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/8.jpg)
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/8.jpg)
 
 
 9. Espera a que termine
-   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/9.jpg)
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/9.jpg)
 
 
 10. Una vez iniciado, entrar a Variables y copiar los datos de: MYSQLHOST, MYSQLPORT, MYSQLDATABASE, MYSQLUSER y MYSQLPASSWORD
-    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/10.jpg)
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/10.jpg)
 
 11. Asignar las variables de entorno a la instancia del backend, incluir SPRING_PROFILES_ACTIVE
-    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/11.jpg)
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/11.jpg)
 
 
 12. Desplegar nuevamente
-    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/12.jpg)
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/12.jpg)
 
 
 13. Completado y sin errores
-    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/13.jpg)
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/13.jpg)
 
 
 14. Entramos a settings > networking > generate domain
-    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/14.jpg)
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/14.jpg)
 
 
 15. Generamos la URL en el puerto 8080 e ingresamos
-    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/15.jpg)
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/15.jpg)
 
 
 16. Visualizamos los endpoints
-    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/16.jpg)
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/16.jpg)
 
 
 17. Funciona sin problemas
-    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/17.jpg)
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/17.jpg)
 
+18. Asignar la variable de entorno STRIPE_KEY
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/18.jpg)
 
+**Autenticacion de la tarjeta en pagina Stripe:**
+    ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/sprite.png)
 
 **Pagina swagger desplegado:**
 
 1. Bounded Iam: Bounded el cual contiene las funcionalidades con los datos de user teacher y admin
-   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/bounded_Iam.png)
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/bounded_Iam.png)
 
 2. Bounded Attendance Managemet: Bounded el cual contiene las funcionalidades con los datos de student
-   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/bounded_Attendance.png)
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/bounded_Attendance.png)
 
 3. Bounded Billing Management: Bounded el cual contiene las funcionalidades con los datos de pagos
-   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/bounded_Billing.png)
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/bounded_Billing.png)
 
 4. Bounded Enrollment Managemet: Bounded el cual contiene las funcionalidades con los datos de registro
-   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/bounded_Enrollment.png)
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/bounded_Enrollment.png)
 
 5. Bounded Scheduling Managemet: Bounded el cual contiene las funcionalidades con los datos de cursos, horarios y ciclo académico.
-   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/bounded_Schedules.png)
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/bounded_Schedules.png)
 
-Link de video de presentación sobre el Web Application [VideoPresentacionWebApplication](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EX2NpElc7NBFoGIs8TFRi1cBPvM520f8ySYpMncpIbH2SQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PVdKPY)
+Link de video de presentación sobre el Web Application [VideoPresentacionWebApplication]()
 
 #### 5.2.3.8.  Team Collaboration Insights during Sprint
 
