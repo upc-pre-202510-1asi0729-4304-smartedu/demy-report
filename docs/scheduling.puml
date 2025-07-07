@@ -1,0 +1,193 @@
+@startuml SchedulingClassDiagram
+
+skinparam classFontSize 14
+skinparam classFontName Arial
+skinparam classAttributeFontSize 12
+skinparam classAttributeFontName Arial
+skinparam packageStyle rectangle
+
+package "Scheduling.Model" {
+    class Classroom <<Entity>> {
+        -id: number
+        -code: string
+        -capacity: number
+        -campus: string
+        +constructor(classroom: { id?: number, code?: string, capacity?: number, campus?: string })
+    }
+
+    class Course <<Entity>> {
+        -id: number
+        -name: string
+        -code: string
+        -description: string
+        +constructor(course: { id?: number, name?: string, code?: string, description?: string })
+    }
+
+    class UserAccount <<Entity>> {
+        ' Referencia a módulo IAM
+    }
+
+    class TimeRange <<ValueObject>> {
+        +start: string
+        +end: string
+    }
+
+    class Schedule <<Entity>> {
+        -id: number
+        -dayOfWeek: string
+        -timeRange: TimeRange
+        -course: Course
+        -classroom: Classroom
+        -teacher: UserAccount
+        +constructor(schedule: { ... })
+    }
+
+    class ScheduleWeekly <<Entity>> {
+        -id: number
+        -name: string
+        -weekSchedule: Schedule[]
+        +constructor(scheduleWeekly: { ... })
+    }
+
+    Schedule --> Course
+    Schedule --> Classroom
+    Schedule --> UserAccount : teacher
+    Schedule --> TimeRange
+    ScheduleWeekly --> Schedule : contains *
+}
+
+package "Scheduling.Components" {
+    class ClassroomModalComponent <<Component>> {
+        -dialogTitle: string
+        -classroom: Classroom
+        -mode: 'add' | 'edit' | 'delete'
+        +constructor(dialogRef, data)
+        +onCancel(): void
+        +onSubmit(): void
+        +onConfirmDelete(): void
+    }
+
+    class CourseModalComponent <<Component>> {
+        -dialogTitle: string
+        -course: Course
+        -mode: 'add' | 'edit' | 'delete'
+        +constructor(dialogRef, data)
+        +onCancel(): void
+        +onSubmit(): void
+        +onConfirmDelete(): void
+    }
+
+    class TeacherScheduleSearchComponent <<Component>> {
+        -allSchedules: ScheduleWeekly[]
+        -teacherSchedules: Schedule[]
+        -isLoading: boolean
+        -errorMessage: string
+        -currentTeacher: UserAccount
+        -weekDays: string[]
+        +constructor(weeklyScheduleService: WeeklyScheduleService)
+        +ngOnInit(): void
+        -loadTeacherInfo(): void
+        -loadWeeklySchedules(): void
+        -filterTeacherSchedules(): void
+        -getUniqueTimeSlots(): string[]
+        -getSchedulesForDayAndTime(day: string, timeSlot: string): Schedule[]
+    }
+
+    class SearchSchedulesComponent <<Component>> {
+    }
+
+    class TeacherScheduleComponent <<Component>> {
+    }
+}
+
+package "Scheduling.Pages" {
+    class ClassroomOverviewComponent <<Component>> {
+        -classroomData: Classroom
+        -columnsToDisplay: string[]
+        -paginator: MatPaginator
+        -sort: MatSort
+        -dataSource: MatTableDataSource
+        -classroom: Classroom
+        -classroomService: ClassroomService
+        -dialog: MatDialog
+        +ngOnInit(): void
+        +ngAfterViewInit(): void
+        +onNewClassroom(): void
+        +onEditItem(item: Classroom): void
+        +onDeleteItem(item: Classroom): void
+    }
+
+    class CoursesOverviewComponent <<Component>> {
+        -courseData: Course
+        -columnsToDisplay: string[]
+        -paginator: MatPaginator
+        -sort: MatSort
+        -dataSource: MatTableDataSource
+        -course: Course
+        -courseService: CourseService
+        -dialog: MatDialog
+        +ngOnInit(): void
+        +ngAfterViewInit(): void
+        +onNewCourse(): void
+        +onEditItem(item: Course): void
+        +onDeleteItem(item: Course): void
+    }
+
+    class WeeklySchedulesOverviewComponent <<Component>> {
+        -weeklyScheduleData: ScheduleWeekly
+        -columnsToDisplay: string[]
+        -paginator: MatPaginator
+        -sort: MatSort
+        -dataSource: MatTableDataSource
+        -weeklySchedule: ScheduleWeekly
+        -weeklyScheduleService: WeeklyScheduleService
+        -dialog: MatDialog
+        +ngOnInit(): void
+        +ngAfterViewInit(): void
+        +onNewWeeklySchedule(): void
+        +onEditItem(item: ScheduleWeekly): void
+        +onDeleteItem(item: ScheduleWeekly): void
+        +getSchedulesCount(schedule: ScheduleWeekly): number
+    }
+}
+
+package "Scheduling.Services" {
+    class ClassroomService <<Service>> {
+        -resourceEndpoint: string
+    }
+
+    class CourseService <<Service>> {
+        -resourceEndpoint: string
+    }
+
+    class WeeklyScheduleService <<Service>> {
+        -resourceEndpoint: string
+        +getAll(): Observable<ScheduleWeekly[]>
+    }
+
+    class BaseService<T> <<Service>> {
+        +getAll(): Observable<T[]>
+        +create(entity: T): Observable<any>
+        +update(id: number, entity: T): Observable<any>
+        +delete(id: number): Observable<any>
+    }
+
+    ClassroomService --> Classroom : <<extends>> BaseService
+    CourseService --> Course : <<extends>> BaseService
+    WeeklyScheduleService --> ScheduleWeekly : <<extends>> BaseService
+}
+
+' Relaciones entre componentes y servicios/modelos
+TeacherScheduleSearchComponent ..> WeeklyScheduleService : uses
+TeacherScheduleSearchComponent --> ScheduleWeekly : reads
+TeacherScheduleSearchComponent --> Schedule : filters
+TeacherScheduleSearchComponent --> UserAccount : currentTeacher
+
+ClassroomModalComponent --> Classroom : edits
+CourseModalComponent --> Course : edits
+
+ClassroomOverviewComponent --> ClassroomService
+CoursesOverviewComponent --> CourseService
+WeeklySchedulesOverviewComponent --> WeeklyScheduleService
+
+@enduml

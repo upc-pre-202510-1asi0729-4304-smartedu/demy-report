@@ -12,7 +12,7 @@
 
 <h4 style="text-align: center"> Docente: Efraín Ricardo Bautista Ubillús </h4>
 
-<h4 style="text-align: center;"> Informe del TB2 </h4>
+<h4 style="text-align: center;"> Informe del Trabajo Final </h4>
 
 <h4 style="text-align: center"> Startup: SmartEdu </h4>
 
@@ -2226,7 +2226,7 @@ El Container Diagram de Demy muestra los principales contenedores del sistema y 
 
 **All Bounded Context**
 
-![Image](assets/domain-driven-software-architecture/Backend/BackendConponentsDiagram.png)
+![Image](assets/domain-driven-software-architecture/Backend/BackendComponentsDiagram.png)
 
 **Attendance Context**
 El flujo comienza con el AppComponent, que organiza la aplicación. El AttendanceRecordComponent registra la asistencia, y los datos se transforman a través del AttendanceService y AttendanceRecord.assembler. El AttendanceDashboardComponent muestra la asistencia, mientras que el ClassSessionComponent visualiza las sesiones de clase. Los datos se procesan y transforman en modelos y DTOs para ser mostrados en la interfaz de usuario.
