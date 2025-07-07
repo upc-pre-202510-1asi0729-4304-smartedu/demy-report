@@ -226,8 +226,6 @@ Análisis de cantidad de commits realizados por semana.
 
 </div>
 
-<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
-
 
 
 # Contenido
