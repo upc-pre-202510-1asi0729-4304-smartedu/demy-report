@@ -4989,7 +4989,7 @@ Aplicar un sistema de colores o etiquetas para diferenciar claramente los ingres
 
 ## 5.4. Video About-the-Product
 
-Enlace al video about-the-product: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/ESETwQAXHZFHofT6lFN0cY4Bs8m-TbRog2PpkGOtmfz0AA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2EJ5Ef)
+Enlace al video about-the-product: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EXml96CmIHlGlwlOFeeV6wYB7Ed6rmv6VlAjxt-4G3Xn-g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3YceWD)
 
 ## Conclusiones y Recomendaciones
 
@@ -5021,7 +5021,7 @@ Esto contribuirá a reducir la curva de aprendizaje y a mejorar la percepción d
 
 ## Video About-the-Team
 
-Enlace al video about the team: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/ETPH22Fqwp5DtSCn5WfOYXoBDIwqLqz-5Y6ETZqcxru8QQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uVQQLG)
+Enlace al video about the team: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EcC1kIJn-6tGnWcKHHXvfIIBglZeexMIal8yK1Apm1NOHA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7P59dB)
 
 # Bibliografía
 
@@ -5048,3 +5048,13 @@ Enlace a la landing page: [Abrir en el navegador](https://demy-academy.netlify.a
 Enlace al frontend web application: [Abrir en el navegador](https://demy-web-app.netlify.app/)
 
 Enlace al backend web service: [Abrir en el navegador](https://demy-web-service-production.up.railway.app/swagger-ui/index.html)
+
+Credenciales de acceso para la aplicación:
+
+**Segmento objetivo: administradores**
+- Correo: juanperez@gmail.com
+- Contraseña: juanperez123
+
+**Segmento objetivo: profesores**
+- Correo: sebasmr@gmail.com
+- Contraseña: sebasmr123
