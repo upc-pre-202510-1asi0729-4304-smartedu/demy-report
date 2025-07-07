@@ -12,7 +12,7 @@
 
 <h4 style="text-align: center"> Docente: Efraín Ricardo Bautista Ubillús </h4>
 
-<h4 style="text-align: center;"> Informe del TB2 </h4>
+<h4 style="text-align: center;"> Informe del Trabajo Final </h4>
 
 <h4 style="text-align: center"> Startup: SmartEdu </h4>
 
@@ -46,8 +46,10 @@
 | 5.1     | 25/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se desarrolló la sección de Software Configuration Management. Se añadió la planificación del Sprint 1.                      |
 | 6.0     | 25/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se completó el Capítulo V: Product Implementation, incluyendo evidencias de avance en el desarrollo de la Landing Page.      |
 | 6.1     | 18/06/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se actualizó algunos detalles como las technical stories                                                                     |
-| 7.0     | 18/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se añadió todas las secciones del Sprint 3                                                                                   |
-| 7.1     | 25/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se añadió las entrevistas de validación junto a la evaluación según heurísticas                                              |                                                                                                                                                                   |
+| 7.0     | 18/06/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se añadió todas las secciones del Sprint 3                                                                                   |
+| 7.1     | 25/06/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se añadió las entrevistas de validación junto a la evaluación según heurísticas                                              |                                                                                                                                                                   |
+| 7.2     | 01/07/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se añadió el sprint 4 backlog                                                                                                |    
+| 8.0     | 07/07/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se añadió las demás secciones del sprint 4 y se levantó observaciones                                                        |    
 
 # Project Report Collaboration Insights
 
@@ -85,6 +87,17 @@ Enlace para acceder al repositorio para el reporte del proyecto: [*Ver en GitHub
 | Ramirez Mestanza, Salim Ignacio    | - Billing context<br>- Creación de entidades de Billing<br>- Creación de servicios de billing<br>- Sprint Planning & Aspect Leaders and Collaborators                   |
 | Sulca Gonzales, Paúl Fernando      | - Enrollment Context<br>- Creación de entidades de Enrollment<br>- Creación de servicios de enrollment<br>- Development Evidence for Sprint Review                      |
 | Vilca Saboya, Diego Alejandro      | - Attendance Context<br>- Creación de entidades de Attendance<br>- Creación de servicios de attendance<br>- Sprint Backlog 2 & Services Documentation for Sprint Review |
+
+**TF**
+<br>Para el desarrollo del TF cada participante del equipo realizo las siguientes tareas:
+
+| Integrantes                        | Tarea Asignada                                                                                                                                  |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| Crispin Ramos, Daniel Franco       | - Scheduling context<br>- Integración backend y frontend en scheduling context<br>- Development Evidence for Sprint Review                      |
+| Dominguez Vargas, Rafael Alexander | - IAM Context<br>- Integración backend y frontend en IAM context<br>- Execution and Deployment Evidence for Sprint Review                       |
+| Ramirez Mestanza, Salim Ignacio    | - Billing context<br>- Integración backend y frontend en Billing context<br>- Sprint Planning & Aspect Leaders and Collaborators                |
+| Sulca Gonzales, Paúl Fernando      | - Enrollment Context<br>- Integración backend y frontend en Enrollment context<br>- Development Evidence for Sprint Review                      |
+| Vilca Saboya, Diego Alejandro      | - Attendance Context<br>- Integración backend y frontend en Attendance context<br>- Sprint Backlog 2 & Services Documentation for Sprint Review |
 
 **GitHub Collaboration Insights**
 
@@ -206,6 +219,37 @@ Análisis de cantidad de commits realizados por semana.
 
 </div>
 
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+**TF1**
+
+Gráfico de red (*network graph*) de ramas en el repositorio de GitHub.
+
+![Insights - Network Graph](./assets/images/Team_Collaboration_Insights_tf/insights-network-graph-tp.png)
+
+</div>
+
+A continuación, se presentan los gráficos que muestran el análisis de los commits en el repositorio correspondiente al informe.  
+Estos gráficos detallan la cantidad de líneas de código añadidas por cada miembro del equipo y la actividad de commits registrada.
+
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+Análisis de líneas de código añadidas por contribuyente.
+
+![Insights - Contributors](./assets/images/Team_Collaboration_Insights_tf/insights-contributors-tp.png)
+
+</div>
+
+El siguiente gráfico muestra la cantidad de commits realizados en la semana con mayor actividad en el proyecto.
+
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+Análisis de cantidad de commits realizados por semana.
+
+![Insights - Commits](./assets/images/Team_Collaboration_Insights_tf/insights-commits-tp.png)
+
+</div>
+
 # Contenido
 
 - [Capítulo I: Introducción](#capítulo-i-introducción)
@@ -306,6 +350,15 @@ Análisis de cantidad de commits realizados por semana.
             - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
             - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
             - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+        - [5.2.4. Sprint 4](#524-sprint-4)
+            - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+            - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+            - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+            - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+            - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+            - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+            - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+            - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
     - [5.3. Validation Interviews](#53-validation-interviews)
         - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
         - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -328,10 +381,10 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
 
-| **Criterio específico**                                                   | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | **Conclusiones**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-|---------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia**   | **Salim:**<br>TB1: Participé guiando al equipo para tomar un rumbo claro y fomentar un espacio de coherencia y comunicación entre todos.<br>TP1: Realicé una presentación grupal sobre el progreso del proyecto, explicando detalladamente cada fase y participando activamente en las discusiones con el resto del equipo.<br><br>**Diego:**<br>TB1: Participé en las reuniones de trabajo apoyando al equipo y aportando ideas que se tuvieron en cuenta en el proceso de desarrollo.<br>TP1: En las reuniones virtuales del equipo, me aseguré de que todos los puntos relevantes se comunicaran de forma clara y eficiente.<br><br>**Daniel:**<br>TB1: Trabajé en conjunto con mi equipo para participar activamente en la toma de decisiones que nos permitió mejorar como grupo.<br>TP1: Ayudé a coordinar las reuniones de trabajo donde cada miembro del equipo podía expresar sus puntos de vista y actualizaciones del proyecto.<br><br>**Rafael:**<br>TB1: Mantuve una comunicación oral adecuada para comunicarme correctamente con mi equipo y recibí retroalimentación de mis compañeros para asegurar el correcto proceso de desarrollo.<br>TP1: Durante el trabajo parcial, participé en discusiones de grupo y presentaciones orales donde contribuyó a una comunicación efectiva entre todos. <br>  <br> **Paul:** <br>  TB1: Participé activamente en las reuniones de equipo, asegurándome de que todos tuviéramos un entendimiento común sobre los avances y tareas a realizar.  <br> TP1: Durante el trabajo final, ayudé a coordinar las presentaciones orales, colaborando para que todos los miembros del equipo se sintieran cómodos al presentar sus avances, y apoyé a que las discusiones fueran organizadas y productivas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Consideramos que este criterio ha sido abordado satisfactoriamente. Las reuniones y presentaciones orales fueron claves para mantener una comunicación efectiva dentro del equipo y con los involucrados. Cada miembro, al aportar en las discusiones, contribuyó a una mejor comprensión del trabajo en equipo, lo que permitió realizar ajustes rápidos y eficientes en el desarrollo del proyecto. Las presentaciones grupales también nos ayudaron a organizar y estructurar la información de manera efectiva.  |
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Salim:**<br>TB1: Comunicaba en nuestro grupo de WhatsApp los pendientes que había, coordinábamos horarios para las reuniones, y avisaba sobre los cambios y actualizaciones realizadas.<br>TP1: A través de WhatsApp y Discord, mantuve a todo el equipo informado sobre el progreso, las tareas y actualizaciones necesarias.<br><br>**Diego:**<br>TB1: Trabajé junto a mis compañeros expresándome adecuadamente por los medios digitales establecidos para la coordianción (WhatsApp, Discord, etc) de forma asertiva para lograr una mejor comunicación entre los miembros.<br>TP1: Colaboré activamente en los debates y comentarios en los documentos compartidos en Notion y en GitHub, garantizando una comunicación fluida con el equipo.<br><br>**Daniel:**<br>TB1: Fomenté el entorno colaborativo entre los integrantes para comunicarnos adecuadamente. Me permitieron expresarme libremente aportando ideas que fueron consideradas para el proyecto.<br>TP1: Utilicé plataformas como Notion y trello para coordinar las tareas del equipo, asegurando que todos los miembros pudieran realizar un seguimiento de los avances.<br><br>**Rafael:**<br>TB1: Trabajé en mi entorno colaborativo y pudimos crear un ambiente saludable donde pudimos expresar nuestras ideas y compartir nuestros distintos puntos de vista.<br>TP1: Me aseguré de que todas las discusiones por escrito fueran claras y detalladas, con el fin de evitar malentendidos y garantizar la coordinación efectiva del equipo.<br><br>**Paul:**<br>TB1: Para este entregable, mantuve una comunicación constante con mi equipo por medio de entornos digitales de comunicación escrita.<br>TP1: Contribuí en las plataformas digitales, asegurando que todos los miembros del equipo tuvieran acceso a la información actualizada y participaran activamente.                                                                                                                                                                                                                                                                                                                                                                                                                                    | Creemos que hemos logrado un buen desempeño en este aspecto. La comunicación escrita a través de plataformas digitales como WhatsApp, Trello y GitHub ha sido fundamental para mantener al equipo alineado. Esto facilitó la colaboración y coordinación de tareas, además de asegurar que todos tuviéramos claro el estado de las entregas. Las herramientas nos permitieron registrar evidencias claras de lo realizado y contribuyó al seguimiento adecuado de los objetivos del proyecto.                        |
+| **Criterio específico**                                                   | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | **Conclusiones**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|---------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia**   | **Salim:**<br>TB1: Participé guiando al equipo para tomar un rumbo claro y fomentar un espacio de coherencia y comunicación entre todos.<br>TP1: Realicé una presentación grupal sobre el progreso del proyecto, explicando detalladamente cada fase y participando activamente en las discusiones con el resto del equipo.<br>TF1: Durante la fase final del proyecto, me encargué de presentar de forma clara el funcionamiento de los flujos integrados del sistema ante los mentores, destacando el valor de cada funcionalidad implementada y respondiendo preguntas técnicas con seguridad.<br><br>**Diego:**<br>TB1: Participé en las reuniones de trabajo apoyando al equipo y aportando ideas que se tuvieron en cuenta en el proceso de desarrollo.<br>TP1: En las reuniones virtuales del equipo, me aseguré de que todos los puntos relevantes se comunicaran de forma clara y eficiente.<br>TF1: Expuse verbalmente el proceso de validación técnica y funcional de los flujos de usuario frente a los evaluadores, explicando de forma precisa cómo se logró la integración entre frontend y backend.<br><br>**Daniel:**<br>TB1: Trabajé en conjunto con mi equipo para participar activamente en la toma de decisiones que nos permitió mejorar como grupo.<br>TP1: Ayudé a coordinar las reuniones de trabajo donde cada miembro del equipo podía expresar sus puntos de vista y actualizaciones del proyecto.<br>TF1: Durante la exposición final, comuniqué claramente los aspectos técnicos relacionados a la arquitectura del sistema y respondí consultas específicas sobre cómo se lograron los flujos funcionales en la plataforma.<br><br>**Rafael:**<br>TB1: Mantuve una comunicación oral adecuada para comunicarme correctamente con mi equipo y recibí retroalimentación de mis compañeros para asegurar el correcto proceso de desarrollo.<br>TP1: Durante el trabajo parcial, participé en discusiones de grupo y presentaciones orales donde contribuyó a una comunicación efectiva entre todos.<br>TF1: Presenté ante mentores y compañeros la experiencia de usuario lograda tras la integración de los flujos, destacando las mejoras visuales y de navegación, y facilitando el entendimiento del impacto del trabajo realizado.<br><br>**Paul:**<br>TB1: Participé activamente en las reuniones de equipo, asegurándome de que todos tuviéramos un entendimiento común sobre los avances y tareas a realizar.<br>TP1: Durante el trabajo final, ayudé a coordinar las presentaciones orales, colaborando para que todos los miembros del equipo se sintieran cómodos al presentar sus avances, y apoyé a que las discusiones fueran organizadas y productivas.<br>TF1: Expliqué de forma clara el estado final del sistema durante la presentación final, detallando el cumplimiento de los flujos clave y respondiendo consultas relacionadas al proceso de pruebas y entrega funcional.                           | Consideramos que este criterio ha sido abordado satisfactoriamente. Las reuniones y presentaciones orales fueron claves para mantener una comunicación efectiva dentro del equipo y con los involucrados. Cada miembro, al aportar en las discusiones, contribuyó a una mejor comprensión del trabajo en equipo, lo que permitió realizar ajustes rápidos y eficientes en el desarrollo del proyecto. Las presentaciones grupales también nos ayudaron a organizar y estructurar la información de manera efectiva.  |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Salim:**<br>TB1: Comunicaba en nuestro grupo de WhatsApp los pendientes que había, coordinábamos horarios para las reuniones, y avisaba sobre los cambios y actualizaciones realizadas.<br>TP1: A través de WhatsApp y Discord, mantuve a todo el equipo informado sobre el progreso, las tareas y actualizaciones necesarias.<br>TF1: Redacté actualizaciones detalladas sobre el estado de integración entre frontend y backend en Discord, lo que permitió al equipo identificar rápidamente errores y ajustar tareas en base al avance real del sistema.<br><br>**Diego:**<br>TB1: Trabajé junto a mis compañeros expresándome adecuadamente por los medios digitales establecidos para la coordinación (WhatsApp, Discord, etc) de forma asertiva para lograr una mejor comunicación entre los miembros.<br>TP1: Colaboré activamente en los debates y comentarios en los documentos compartidos en Notion y en GitHub, garantizando una comunicación fluida con el equipo.<br>TF1: Documenté en GitHub issues y pull requests relacionados a los flujos integrados, explicando claramente cada cambio y facilitando la revisión por parte del equipo.<br><br>**Daniel:**<br>TB1: Fomenté el entorno colaborativo entre los integrantes para comunicarnos adecuadamente. Me permitieron expresarme libremente aportando ideas que fueron consideradas para el proyecto.<br>TP1: Utilicé plataformas como Notion y Trello para coordinar las tareas del equipo, asegurando que todos los miembros pudieran realizar un seguimiento de los avances.<br>TF1: Escribí descripciones precisas en Trello y Notion sobre los requerimientos técnicos de cada funcionalidad integrada, facilitando el seguimiento del progreso y evitando ambigüedades durante la validación funcional.<br><br>**Rafael:**<br>TB1: Trabajé en mi entorno colaborativo y pudimos crear un ambiente saludable donde pudimos expresar nuestras ideas y compartir nuestros distintos puntos de vista.<br>TP1: Me aseguré de que todas las discusiones por escrito fueran claras y detalladas, con el fin de evitar malentendidos y garantizar la coordinación efectiva del equipo.<br>TF1: Elaboré aportes escritos en los canales digitales con observaciones específicas sobre la experiencia de usuario, lo que ayudó a que se realizaran ajustes visuales y de flujo en base a criterios compartidos.<br><br>**Paul:**<br>TB1: Para este entregable, mantuve una comunicación constante con mi equipo por medio de entornos digitales de comunicación escrita.<br>TP1: Contribuí en las plataformas digitales, asegurando que todos los miembros del equipo tuvieran acceso a la información actualizada y participaran activamente.<br>TF1: Me encargué de recopilar por escrito las validaciones realizadas en navegador y Swagger, y compartí los resultados con el equipo, lo que facilitó la identificación de pendientes y el cumplimiento del objetivo funcional. | Creemos que hemos logrado un buen desempeño en este aspecto. La comunicación escrita a través de plataformas digitales como WhatsApp, Trello y GitHub ha sido fundamental para mantener al equipo alineado. Esto facilitó la colaboración y coordinación de tareas, además de asegurar que todos tuviéramos claro el estado de las entregas. Las herramientas nos permitieron registrar evidencias claras de lo realizado y contribuyó al seguimiento adecuado de los objetivos del proyecto.                        |
 
 # Capítulo I: Introducción
 
@@ -2237,7 +2290,7 @@ El Container Diagram de Demy muestra los principales contenedores del sistema y 
 
 **All Bounded Context**
 
-![Image](assets/domain-driven-software-architecture/Backend/BackendConponentsDiagram.png)
+![Image](assets/domain-driven-software-architecture/Backend/BackendComponentsDiagram.png)
 
 **Attendance Context**
 El flujo comienza con el AppComponent, que organiza la aplicación. El AttendanceRecordComponent registra la asistencia, y los datos se transforman a través del AttendanceService y AttendanceRecord.assembler. El AttendanceDashboardComponent muestra la asistencia, mientras que el ClassSessionComponent visualiza las sesiones de clase. Los datos se procesan y transforman en modelos y DTOs para ser mostrados en la interfaz de usuario.
@@ -4259,7 +4312,7 @@ Invoices: <br>
 
 Link del Repositorio del Web Services: https://github.com/upc-pre-202510-1asi0729-4304-smartedu/demy-web-service.git
 
-#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
 Para la entrega de este tercer sprint, se implementó el backend en swagger
 
@@ -4332,11 +4385,11 @@ Para la entrega de este tercer sprint, se implementó el backend en swagger
     ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/17.jpg)
 
 
-
+    
 **Pagina swagger desplegado:**
 
 1. Bounded Iam: Bounded el cual contiene las funcionalidades con los datos de user teacher y admin
-   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/bounded_Iam.png)
+    ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/bounded_Iam.png)
 
 2. Bounded Attendance Managemet: Bounded el cual contiene las funcionalidades con los datos de student
    ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Open_Source/bounded_Attendance.png)
@@ -4365,6 +4418,672 @@ Link de video de presentación sobre el Web Application [VideoPresentacionWebApp
 ![Captura de pantalla de los insights Sprint 3](./assets/screenshots/sprint3-insights-1.png)
 
 ![Captura 2 de pantalla de los insights del Sprint 3](./assets/screenshots/sprint3-insights-2.png)
+
+### 5.2.4. Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4.
+
+A continuación se presentará el sprint planning para esta entrega, donde definimos que trabajo se va a realizar para el siguiente sprint y cómo se va a lograr.
+
+| Sprint #                        | Sprint 4                                                                                                                                                                                                                                                                                                                                                                                                        |
+|---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**  |                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Date                            | 2025-06-21                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Time                            | 08:00 PM                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Location                        | Llamada grupal en la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                         |
+| Prepared By                     | Salim Ramirez                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Attendees (to planning meeting) | Daniel Crispin, Rafael Dominguez, Paúl Sulca, Diego Vilca                                                                                                                                                                                                                                                                                                                                                       |
+| Sprint 3 Review Summary         | Durante el Sprint 3 se implementó la base del backend utilizando Spring Boot y Java. Se avanzó en la definición de los endpoints principales, así como en la estructura del modelo de dominio. Se realizaron pruebas iniciales con Swagger. Además, se avanzó el diseño del frontend del proyecto.                                                                                                              |
+| Sprint 3 Retrospective Summary  | El equipo identificó como fortalezas la buena comunicación diaria y el cumplimiento de tiempos en el backend. Sin embargo, se señaló la necesidad de mejorar la integración entre frontend y backend, así como distribuir mejor las tareas de pruebas y revisión.                                                                                                                                               |
+| **Sprint Goal & User Stories**  |                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Sprint 4 Goal                   | Our focus is on integrating the frontend of Demy with its backend API and finalizing the UI implementation. We believe it delivers a functional and testable version of the platform to internal testers and mentors. This will be confirmed when all main user flows (student creation, payment registration, and visualizations) are accessible through the web interface and tested via Swagger and browser. |
+| Sprint 4 Velocity               | 33                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Sum of Story Points             | 33                                                                                                                                                                                                                                                                                                                                                                                                              |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+
+A continuación se presenta el artefacto LACX (Leadership-and-Collaboration Matrix) que ayudará a saber quién lidera y quién colabora en cada aspecto de este cuarto sprint.<br>
+Los aspectos que tomamos en cuenta para este tercer sprint fueron los features para el Backend Web Service y el Frontend Web Application, concluyendo su integración.
+
+<div style="font-size:70%;">
+
+| **Team Member** <br> Last Name, First Name | **GitHub Username**  | **IAM Context** <br> L/C | **Enrollment Context** <br> L/C | **Billing Context** <br> L/C | **Scheduling Context** <br> L/C | **Attendance Context** <br> L/C |
+|:------------------------------------------:|:--------------------:|:------------------------:|:-------------------------------:|:----------------------------:|:-------------------------------:|:-------------------------------:|
+|             **Crispin Daniel**             |      danielcr04      |            C             |                C                |              C               |                L                |                C                |
+|            **Dominguez Rafael**            |       Radv2005       |            L             |                C                |              C               |                C                |                C                |
+|             **Ramirez Salim**              |     salimramirez     |            C             |                C                |              L               |                C                |                C                |
+|               **Sulca Paúl**               |        Kyrubi        |            C             |                L                |              C               |                C                |                C                |
+|              **Vilca Diego**               |       diesoks        |            C             |                C                |              C               |                C                |                L                |
+
+</div>
+
+<div style="text-align: center; font-size:85%; margin-top: 0.5rem;">
+
+**Nota.** L = *Leader* (responsable principal del aspecto).  
+C = *Collaborator* (apoya el desarrollo del aspecto).
+
+</div>
+
+#### 5.2.4.3. Sprint Backlog 4.
+
+El cuarto sprint estuvo dedicado a completar detalles faltantes de nuestra web application, tanto en el front como en el backend<br>
+El objetivo principal de este sprint fue pulir nuestra web application y agregar detalles faltantes antes del project release.
+
+A continuación, se presenta una captura de pantalla de la herramienta de control que usamos, que fue Trello:
+![Captura](./assets/screenshots/sprint-4-trello-open.png)
+
+Link del Trello: https://trello.com/invite/b/686459ee1405423b53034be0/ATTIa02174050f7335afbb736e5413d76444C0E68BAA/sprint-4-open-source
+
+<div style="font-size:60%; overflow-x:auto;">
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th colspan="2">Sprint #</th>
+      <th colspan="6">Sprint 4</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+<tr><td>US07</td><td>Consultar historial de matrículas por estudiante</td><td>US07a</td><td>Adaptación al backend</td><td> Adaptar detalles del frontend de acuerdo al backend</td><td>1</td><td>Paul</td><td>Done</td></tr>
+
+<tr><td>US12</td><td>Consultar asistencia de un estudiante</td><td>US12a</td><td>Maquetar la vista de consulta de asistencia de un estudiante</td><td>Agregar la opción de consultar las asistencias de un estudiante y su vista, utilizando la biblioteca de componentes UI correspondiente</td><td>5</td><td>Diego</td><td>Done</td></tr>
+<tr><td>US12</td><td>Consultar asistencia de un estudiante</td><td>US12b</td><td>Integración de la vista de consulta con el backend</td><td>Implementar el consumo de nuestro backend </td><td>4</td><td>Diego</td><td>Done</td></tr>
+
+<tr><td>US18</td><td>Generar reporte financiero mensual</td><td>US18a</td><td>Maquetar la vista de reporte de financiero mensual</td><td>Arreglar detalles de  la vista mensual de reportes financieros empleando la librería de componentes UI correspondiente</td><td>3</td><td>Salim</td><td>Done</td></tr>
+<tr><td>US18</td><td>Generar reporte financiero mensual</td><td>US18b</td><td>Integración de la vista de reportes financieros mensuales con el backend</td><td>Conectar la vista de reportes financieros de acuerdo a lo establecido en el backend</td><td>2</td><td>Salim</td><td>Done</td></tr>
+
+<tr><td>US20</td><td>Asignar horarios a los docentes y cursos</td><td>US20a</td><td>Maquetar la vista de asignación de horarios para los docentes y cursos</td><td>Arreglar detalles de  la interfaz que permita asignar horarios tanto a docentes como a cursos, usando la librería de componentes UI</td><td>5</td><td>Daniel</td><td>Done</td></tr>
+<tr><td>US20</td><td>Asignar horarios a los docentes y cursos</td><td>US20b</td><td>Integración de la vista de asignación de horarios a los docentes y cursos con el backend</td><td>Integrar la vista de asignación de horarios de acuerdo al backend </td><td>2</td><td>Daniel</td><td>Done</td></tr>
+
+<tr><td>TS12</td><td>Implementar un endpoint para consultar la asistencia de un alumno por DNI</td><td>TS12a</td><td>Dominio e Infraestructura</td><td>Agregar método en repositorio para obtener asistencia por DNI</td><td>2</td><td>Diego</td><td>Done</td></tr>
+<tr><td>TS12</td><td>Implementar un endpoint para consultar la asistencia de un alumno por DNI</td><td>TS12b</td><td>Application Query Service</td><td>Crear query, handler y servicio de aplicación para consulta por DNI</td><td>2</td><td>Diego</td><td>Done</td></tr>
+<tr><td>TS12</td><td>Implementar un endpoint para consultar la asistencia de un alumno por DNI</td><td>TS12c</td><td>Exponer Endpoint</td><td>Crear controlador GET /attendance/student/{dni}</td><td>1</td><td>Diego</td><td>Done</td></tr>
+
+<tr><td>TS13</td><td>Implementar un endpoint para consultar la asistencia de un alumno en un curso</td><td>TS13a</td><td>Dominio e Infraestructura</td><td>Agregar método en repositorio para filtrar por studentId y courseId</td><td>2</td><td>Diego</td><td>Done</td></tr>
+<tr><td>TS13</td><td>Implementar un endpoint para consultar la asistencia de un alumno en un curso</td><td>TS13b</td><td>Application Query Service</td><td>Crear query, handler y servicio para consultar asistencia por curso</td><td>2</td><td>Diego</td><td>Done</td></tr>
+<tr><td>TS13</td><td>Implementar un endpoint para consultar la asistencia de un alumno en un curso</td><td>TS13c</td><td>Exponer Endpoint</td><td>Crear controlador GET /attendance/course/{courseId}/student/{id}</td><td>1</td><td>Diego</td><td>Done</td></tr>
+
+<tr><td>TS15</td><td>Implementar endpoint para poder consultar los perfiles de usuarios Admin</td><td>TS15a</td><td>Infraestructura</td><td>Implementar un método en el repositorio que permita obtener usuarios con el rol ADMIN</td><td>1</td><td>Rafael</td><td>Done</td></tr>
+<tr><td>TS15</td><td>Implementar endpoint para poder consultar los perfiles de usuarios Admin</td><td>TS15b</td><td>Application Query Service</td><td>Desarrollar la query, el handler y el servicio necesarios para aplicar el filtro por rol</td><td>1.5</td><td>Rafael</td><td>Done</td></tr>
+<tr><td>TS15</td><td>Implementar endpoint para poder consultar los perfiles de usuarios Admin</td><td>TS15c</td><td>Exponer Endpoint</td><td>Exponer un endpoint GET en la ruta /users/role/ADMIN para consultar usuarios con ese rol</td><td>0.5</td><td>Rafael</td><td>Done</td></tr>
+
+  </tbody>
+</table>
+</div>
+
+#### 5.2.4.4. Development Evidence for Sprint Review.
+
+En esta sección se documentan los avances de implementación realizados durante el Sprint 4, específicamente en los componentes desarrollados de la solución: Landing Page, Frontend y Backend. La sección comienza con una introducción que resume los logros técnicos más relevantes alcanzados durante el periodo.
+
+<div style="font-size:55%;">
+
+| Repository                                             | Branch                         | Commit ID                                | Commit Message                                                                                                                   | Commit Body | Committed On |
+|--------------------------------------------------------|--------------------------------|------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|-------------|--------------|
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | develop                        | ff174c7947e6925833ce21dfb8637b0ac0f92378 | merge: integrate feature/iam-user into develop                                                                                   | —           | 07/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | develop                        | 6345daa626f8ecb8e3a9a7da08e8d23cfbb571a6 | merge: integrate feature/scheduling-management into develop                                                                      | —           | 07/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | develop                        | 641ae426c0ec376a84f894a181934fa6e2326b21 | merge: integrate feature/attendance-management into develop                                                                      | —           | 07/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | develop                        | dcbffda91705ae0121bc572e40a237e57bae7ff6 | merge: integrate feature/acceptance-tests into develop                                                                           | —           | 07/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | develop                        | 010e263db709a010d6146a0386d6490339381319 | merge: integrate feature/billing-management into develop                                                                         | —           | 07/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | ef5d0a0a5eed57c666cfbdf3d8ef44f5a34b9a2a | refactor(enrollments): update enums                                                                                              | —           | 07/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | df0faf6476c445153848b66e2070e955ce3864ad | refactor(enrollments): add validations for commands                                                                              | —           | 06/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 1390b7d1a4586430e75a5c684ff8e870d7509608 | docs(enrollments): add documentation JavaDOC for controllers                                                                     | —           | 06/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | f80c3129c8c55c390ce3b497c41372725404f805 | fix(iam): payments key                                                                                                           | —           | 06/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 3bfccf58fe9300281a600a08873e49072ae0670e | test(unit): add EnrollmentTests                                                                                                  | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/acceptance-tests       | 4044afbf991d6623bd0ea88b793d8effc76906ed | test(acceptance): update EnrollmentSteps                                                                                         | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/acceptance-tests       | 4d80d50c690653ec95296302e4141be7a2b2e450 | test(acceptance): add Cucumber runner and configs                                                                                | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/acceptance-tests       | 011966d9a684cb468c86575b0d362ac2164c64fe | test(integration): add AcademicPeriodsControllerTests                                                                            | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/acceptance-tests       | 70b6abe3b9012633e8565814e9a0e8ddafd9913d | test(acceptance): update US06                                                                                                    | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 586722df33b74ed70898bac5a23993064abac44e | Merge branch 'feature/enrollment-management' into feature/acceptance-tests                                                       | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/acceptance-tests       | bcef7ea949f705b2eaceed25fb04474372ef26ba | chore(build): update pom.xml (Java 21, Cucumber 8.13.0, test deps)                                                               | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/acceptance-tests       | 227e7454a54fa69135f906b85a6446eaf19c3a76 | test(acceptance): add EnrollmentSteps                                                                                            | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/acceptance-tests       | fd765b38c665e84d576eb2ac817a6cc17b915f84 | test(features): add US01–US14.feature files                                                                                      | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | d945b97e95b39893d1bdb62105e7c8d04b0b46a2 | refactor(enrollment): adapt StudentResource                                                                                      | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | e6a542ed81fce6651dd8f6b501acd706df056871 | refactor(enrollment): rename Controllers                                                                                         | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | cac68e7d4f4736e16f118ae2d23eee74c28865a3 | refactor(enrollment): update EnrollmentResourceFromEntityAssembler                                                               | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | eeb999e802dd4034a3748d4241813676f64ac0a1 | refactor(enrollment): update CreateEnrollmentCommandFromResourceAssembler                                                        | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 36d67acd5152cb5731c85c80f23fc19ceabdf356 | refactor(enrollment): update EnrollmentResource                                                                                  | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 113c9d7bb74b9c31befb8f4e8d834fbd4f008162 | refactor(enrollment): update CreateEnrollmentResource                                                                            | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | c5851bcc3ac3f6bf96a885a844e64b75ac8150f7 | refactor(enrollment): update AcademicPeriodResource                                                                              | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | 728414b041e75fcf83c20d95a1ca3d47027b5df5 | feat: update ClassSessionController                                                                                              | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | 9438a14e44b5f887e92fc705e08e9792ae39b602 | feat: add assemblers for Attendance and ClassSession Report                                                                      | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | 19828bb1e0cee748158c58a7f45b2f6e56588fb0 | feat: add AttendanceReportResource resource                                                                                      | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | 4a0a1c50d5719ac0b7637d72728110e0b3f40034 | feat: add ClassSessionReportResource resource                                                                                    | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | 1aab9900536ccaccd1be99bcf5c8443a008c76e6 | feat: add ClassSessionResource resource                                                                                          | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | cff2b543e4bb677c86c8fd240ceb8e28439f01ea | feat: add ExternalEnrollmentServiceForAttendance ACL                                                                             | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | 279165e0b41fbf73242ef1214aad478e78de0aaf | feat: add GetAttendanceRecordsByDniCourseAndDateRangeQuery query                                                                 | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | fb5445199085e5266bf58e3043eabe1c4d37d622 | feat: update ClassSessionQueryServiceImpl                                                                                        | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | e7825d7c798ba53b3ed0ef4f5d4f2c9e653cf735 | feat: update ClassSessionRepository                                                                                              | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | dca9ecb22c25ffbe911359110daecb91cff34fe5 | feat: update ClassSessionQueryService interface                                                                                  | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | 0f3ac13a40c780d2466122c51df875184bbb5d89 | feat: update ClassSession aggregate root                                                                                         | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | 016c47d210afc68488652411bcc2ccc40bb12e7e | feat: update AttendanceDraft value object                                                                                        | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | a594e7c4c4b734271a755eb7e84b425c5d027ac6 | feat: update AttendanceRecord entity                                                                                             | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | ad4d2aea661b8710db1f2f84b32c03782db3449b | chore(security): update WebSecurityConfiguration to allow payment routes                                                         | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | fe70109837d1df80764ba7ed4dfb8d4f6f312391 | feat(iam): add PaymentController for handling payment endpoints                                                                  | —           | 05/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/scheduling-management  | dd2ef70524e9c7a368716ab324c87fc2d4764945 | chore: remove unused items from scheduling                                                                                       | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/scheduling-management  | 961c0405079e2424eebfa7374a1306c527450a94 | feat: update scheduling components to adapt to backend changes                                                                   | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/scheduling-management  | 4f9cbd220fc2a53df61ef056440066e7464d4eec | chore: merge feature/iam-user into feature/scheduling-management                                                                 | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/scheduling-management  | fc760b1d04e65e4ce0da7e44eb03760ed1d20b4f | feat: fix bug of edit weekly schedule                                                                                            | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/scheduling-management  | d098ec23002688c36854f87ccbf736eef9b06c70 | feat: update endpoint of environments                                                                                            | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/scheduling-management  | 641f49191497dc87a498822b22c2053d0b3bbba7 | feat: update some component of schedule                                                                                          | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/scheduling-management  | dd2ef70524e9c7a368716ab324c87fc2d4764945 | eat: update weekly schedule modal and search component                                                                           | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/iam-user               | 5f6bf24a81826b504b8aa9047af1fb72a0b082d2 | refactor(iam): update login and sign-up components                                                                               | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/billing-management     | 9a4c214633337ce4e8a5caa64de6b72e1454d886 | feat(billing): add i18n in json files to payments and finances categories                                                        | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/billing-management     | d84360197a6b4e188ef32203e3f070acb4fc4783 | feat(billing): add payments component for post method in api                                                                     | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/billing-management     | b09070894bdaba9e1328fe9008560b5239d10737 | feat(billing): add currencies support for pen and usd                                                                            | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/billing-management     | 64ed39a47d05f8f62c888447e228455d193e7e42 | feat(billing): update expenses-page with filter by category type                                                                 | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/billing-management     | 7ed80fcbe9a873e9cb35362ec6e59a8756a38787 | feat(billing): add expense-table component with i18n, payment method and category type                                           | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/billing-management     | ec182cffa2055fada3667338d451423f49793abf | fix(billing): update expense-form.component.html component with better validations and i18n support                              | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/billing-management     | 02e0a1053f488c8df957b3516ab6c17e653e1280 | fix(billing): update payment-registration component with i18n support and new method to post in new api                          | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/billing-management     | 14dd5d6519b3de49466476cad4781eb270018638 | fix(billing): update payment.service.ts and financial-transaction.service.ts with methods for register and get alln              | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/billing-management     | d66460a49e5caf1cc68e6ce41de42562c010c53a | fix(billing): update student-status component with i18n in all columns                                                           | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/billing-management     | f6b83315849f11ad4c9d833a5e9cab4f3055308f | fix(billing): update environment.ts with local api                                                                               | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/billing-management     | ef79a3ec9e3dc4c4c051806f1f2ae91cb8d1b5d7 | fix(billing): update date-time.entity.ts to permit future dates                                                                  | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/billing-management     | fc900a6fb060991bb9d01cc780b070595c559a7f | fix(billing): update payment.entity.ts and financial-transaction.entity.ts with numeric id and improve constructor               | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/billing-management     | 12f214ae88af731ead9a6bb281db049a8eb5df74 | fix(billing): add assemblers for financial-transaction.entity.ts and payment.entity.tst                                          | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | c59bc26e66ff28e88688182dc625b24bd3169f63 | chore: remove unused items from course and classroom repository                                                                  | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | 2bff699dc78d9173e30941589872315d80b75d76 | docs: add JSDoc comments to weekly schedule files                                                                                | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | f1c7fdb71355fa0523714b0a3fd08b77a729bf99 | docs: add JSDoc comments to course files                                                                                         | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | 1a2ec0d5c71d4810f2978867ff9c17ca404ab8fa | docs: add JSDoc comments to classroom files                                                                                      | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | dad81b71217f8453ebe5040f8d8406ab530f8732 | chore: merge feature/iam-user into scheduling management                                                                         | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | 044499f197a92d8efdca81aed0355ffaf9877dd6 | feat(scheduling): add command and resource to update schedule id                                                                 | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | 054ee072247c8a383ac3bb844f3828849ad00a14 | feat(scheduling): update weekly schedule commands service interface, implement and controller                                    | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | 065f695e2aed037fd3f3cc71f6803e32a206cd8e | feat(scheduling): add method to update schedule                                                                                  | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | c5335fd178c6060ca11a0e2f72ce9b4d9d6ba446 | chore: changue configuration to access the page                                                                                  | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | 31400ad536d46acc53b5c84c578b988df9464542 | feat(scheduling): add schedule repository                                                                                        | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | b234f690e3f637831fd57932e1e3312425cf62f5 | feat(scheduling): add query to get schedules by teacher id                                                                       | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | 20fc2180b95693730cef97addd75efcdc04422f2 | feat(scheduling): add command to delete weekly schedule by id                                                                    | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | e478181e00c1d0608933113aa2c6e622817f238f | feat(scheduling): update weekly schedule command service interface and implement                                                 | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | 5f09709fc264d07acd7071ccb1209ac699e9915b | feat(scheduling): update weekly schedule command service interface and implement                                                 | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | bbd24a8eb71bfae0c3a255136b31474d572e58a4 | feat(scheduling): rename controllers of scheduling context                                                                       | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 82e44f03b10064ba26ff5def0a71d7cad87995a0 | feat(billing): add get method in FinancialTransactionsController to get all financial transactions                               | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 9a9b1ef8235855e29962451f4a7b8941904e86e1 | feat(billing): add FinancialTransactionQueryService interface and implementation                                                 | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 4ba9399719d21c17ec28924f175065ddc2a0aca4 | feat(billing): add query for get all transactions                                                                                | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 1ffd858de0c41a35ff5007ac301d2ff30966538d | feat(billing): include new categories in transaction aggregate                                                                   | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 280814c01026510db7531d22e9a09463d7311f1f | docs(iam): add JavaDoc comments to resource records and assemblers for clarity                                                   | —           | 04/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/billing-management     | b1c092d2dcac3abcb3e1ad8efa157abb97e5501d | Merge remote-tracking branch 'origin/feature/billing-management' into feature/billing-managemen                                  | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/billing-management     | 279b9c9e29204f55fbe02f506c6ad291d31e7056 | feat(iam): add guards, interceptor and service for authentication                                                                | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/billing-management     | 42fa110a90642e3cfa45a8b02ad30e45c80d7ff2 | feat(billing): add i18n support for new features                                                                                 | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/billing-management     | 47bd169c3a0836371ad569e55e638ef6ed1922ea | feat(iam): add guards, interceptor and service for authentication                                                                | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | 96879b660adcfae80e6427dcbe77202218d81849 | feat: update create class session resource                                                                                       | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | f26a81d31a605cb21446f107910dddd299c36ac4 | feat: update assemblers for class session                                                                                        | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | ebca8f179be5a43885f38c7db1e4200ecaa38e57 | feat: update class session resource                                                                                              | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | d319120d98cc1e0b687fc9e5ea4bb26392f3e044 | feat: update attendance record resource                                                                                          | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | ce7d0e69bd2a2dc8ddfa702b7cdc8275ffb85e6b | feat: update class session aggregate root                                                                                        | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | 8a9463f8c8743c5621961022268147281d176401 | feat: update attendance record entity                                                                                            | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | fb45d3e2a03e11fe3462c67aec9a585cdef88c95 | feat: update attendance draft value object                                                                                       | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | 0fb94a9656649c5fe1c7e2416a5b3b393dfe9788 | chore: fix conflicts                                                                                                             | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | 547ff4ec5668740b0578c851ce37f3fed0ac8680 | feat: add attendance draft value object                                                                                          | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/attendance-management  | 6a9ac52907b80d41db8c9c29bf392e170f2b80aa | feat: update attendance bounded context                                                                                          | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 1c99577bbd1c6d2d636cec429229bc6f1f51eddc | chore: fix conflicts before merge                                                                                                | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | d1a2c657f77efc1d7543a0d959511ae27caabcfb | Merge branch 'develop' into feature/iam-user                                                                                     | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | develop                        | 0f8ef09f03de25276e8ec36e9e2181332e3769b9 | merge: integrate feature/scheduling management into develop                                                                      | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | develop                        | f756a73e4582b1539237ecc02f9fea5a99907195 | merge: integrate feature/billing-management into develop                                                                         | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | develop                        | f820922c13e6bc7115def7402a5e99723b8c1292 | chore: create db/migration folder                                                                                                | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | ac5de50b3f91f17b5327dae80d7addb5eef243e1 | fix(iam): commments delete                                                                                                       | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | b5027f06005b709fd119a4c68303bb4636fc0df3 | feat(scheduling): add ExternalIamService in weekly schedule command service                                                      | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | 97f0e949df2bb1b6b6fa91d815749ee8330d3946 | feat(scheduling): refactor weekly schedule domain model                                                                          | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | f520ffea8e3d6420087932982c823e97e8482611 | feat(db): add foreign key constraints for data integrity of user and schedule                                                    | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | 45682304c99a0feecd4010be66dca64994e79030 | feat(iam): add methods of user account repository interface                                                                      | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | e053eff3fa5352ec7da956f2b8887707bbfe1d51 | feat(iam): add user account query service by name interface and implement                                                        | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | 971f79b21410aff235c1780c1c8fb9acfff8a5df | feat(scheduling): add resource assembler for schedule entities                                                                   | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | 3bd4ffa736da3fffeccc6d892b455cbb25b6ac49 | feat(scheduling): add schedule resource interface                                                                                | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | 25c3c15342613c45efbd16375e42bdbc1007a7ca | feat(scheduling): add resource interface for weekly schedule operations                                                          | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | bc16e2491dd4159adfe82f654d2164946fd6729e | feat(scheduling): add resource assembler for weekly schedule commands                                                            | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | 60c4f039a608572c8de1d89926efc04bc42d7f6b | feat(scheduling): add command to schedule weekly appointments                                                                    | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | 027471f2bc52bdc3ff8cd5afd78adcf46d11728f | feat(iam): add IAM context facade for interface abstraction                                                                      | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | 702b75ec20f66019093f314d91e01d786b9f88f7 | feat(iam): add IAM context facade for interface abstraction                                                                      | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | b34dd2cbc7cf66e49f794bddc89b34bf2566a4c3 | feat(iam): add query to retrieve teacher by full name                                                                            | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 1affcdcfc0c1d1253c2eb528a4fe7225a28b39ab | feat(scheduling): add external IAM service for outbound application scheduling                                                   | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 3a4facf35da7724b7f061449c9e232d144db36ff | feat(db): add foreign keys migration script V1_1_add_foreign_keys.sql                                                            | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | b9dbd6fae246fe9b5f26206b3c020e894301fe20 | refactor(enrollment): rename SchedulingContextFacade to WeeklySchedulesContextFacade                                             | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 1f96849fa71a0a7fe418fb841f67141a5d468d99 | feat(SignUpAdmin): add command, resource and assembler for administrator sign-up                                                 | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 0b3c30d280f67d63c1a71a0775c328b721aa6b64 | feat(Academy): implement update command and REST resources for Academy updates                                                   | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 48cb7120b8b70f60af1afa1d1cde05a237b2dc46 | feat(Academy): add RUC field and implement query services, controller, and resource layer                                        | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 4ca8e39cc156451a944ddb330ae8817a61d00bef | Merge remote-tracking branch 'origin/feature/scheduling-management' into feature/enrollment-management                           | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 573277fb50ef53181ca167e963e2e3788a6ff62d | feat(enrollment): add WeeklyScheduleId Value Object                                                                              | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | f948207db3afe033d5f74b1cf5c11f89ed147914 | feat(UserAccount): implement resource transformation and command service for account update                                      | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | f9e7999c4acaa19c588a4e122000a9e03497bd6e | docs(iam): add Swagger annotations for user account API endpoints                                                                | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | bf65a1acdc68f3fff3a4191c615847342571727a | feat(db): add foreign keys migration script V1_1_add_foreign_keys.sql                                                            | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 466258c99afbcdcc97e4942619dd6025a422390d | feat(enrollment): add Scheduling ACL implementation                                                                              | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | d4af0272c338018afcac4a2b5279a4a727518eba | refactor(enrollment): adapt EnrollmentResourceFromEntityAssembler to map weeklyScheduleId                                        | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 7ec45bc782cf379d7f89b19225b40a1c5e98ccfd | refactor(enrollment): adapt EnrollmentResource REST model to expose weeklyScheduleId                                             | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 2025bf6634f6d4517998f42540a4b5bbb04ccfa1 | refactor(enrollment): rename EnrollmentRepository query methods after attribute rename                                           | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | daf7ce075bdb9497d54b7eb96670ae43d73acedc | refactor(enrollment): adapt EnrollmentCommandServiceImpl to use ACL                                                              | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/iam-user               | 0a998bf04ec11f53144b85f73026f9a3ae2ec44e | feat(services): edit teacher and user services for backend                                                                       | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/iam-user               | 74c0076a14ca62f32979c0c3f323028a6ef2d8b0 | feat(layout): add main layout component                                                                                          | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/iam-user               | d7c73fee4bf25fde9d1ff11b17099340910b706f | chore(config): update app config and routes                                                                                      | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/iam-user               | 16e944f8ab0fb65c5aa85e4466e3d7e29d6fe7eb | chore(iam): update environment configurations with backend                                                                       | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/iam-user               | b7a4ff4fba05107184d393884cabc7c3a23124a1 | feat(auth-section): add authentication section component                                                                         | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/iam-user               | 0ad444f456bbf450b64151693ddc5b8ee532a28d | chore(i18n): update english translation files                                                                                    | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/iam-user               | 43e5fc84f379f8980911f2a8794a17ea38beac31 | feat(reset-password): implement reset password component and view                                                                | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/iam-user               | 67cdc2a6d43cc4653c47f8f0232ed22295dcd26e | feat(recover-password): implement recover password component and styless                                                         | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/iam-user               | 741f703918e3a18d5c13cb33f4470be228d04a0b | refactor(auth-model): move auth request/response models to iam-user/model                                                        | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/iam-user               | 114dd1f76ca7474a6bcac3d8362d4bac96db3955 | refactor(auth): move authentication-related services and specs to iam-user                                                       | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/iam-user               | cb1451c6d6498a91ebe3daff44c2abbb45908f9d | chore: fix admin and teacher authentication                                                                                      | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/iam-user               | 6adf546b09b0b1c6ccda769cd3f8584fcc8fbbdb | chore: fix conflicts schedulling                                                                                                 | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/iam-user               | 7a6827861a5a643981961820dd8cfa8616d8074b | feat(iam): add sign-in and sign-up request/response models                                                                       | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/iam-user               | ad84dd18832e95d3cd94b500c8fac790c3550edc | feat(iam): create authentication section component with tests and stylesg                                                        | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-app     | feature/iam-user               | 54758b18f3e906ef271c1e428853b8c55dd551a8 | feat(iam): add guards, interceptor and service for authentication                                                                | —           | 03/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | a9612a11187e2c838cea3c494816b1169c3ce5eb | feat(scheduling): add weekly schedule query service interface and implement                                                      | —           | 02/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | e7528cdc79985f76433a3420332fd34c51f4e86e | refactor(billing): restructure StudentInvoicesController to use student dni from path                                            | —           | 01/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 88cad2cf61f908aa8187a3c6bb81ae3e79afbc97 | merge: integrate feature/internal-enhancements into develop                                                                      | —           | 01/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 65f9b1c771530987c7fdaee5912d4ab8b515227b | chore(shared): remove server url from OpenApiConfiguration.java                                                                  | —           | 01/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | f93cf2df9bd727c1cc61cb206dc6b8e70bfab751 | feat(shared): add GlobalExceptionHandler for centralized exception handling                                                      | —           | 01/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | a08cf397c78fc3df896ab740d89f8fa4980173b9 | merge: integrate feature/billing-management into develop                                                                         | —           | 01/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 094928d66a871ba902acd8953668a6b2b44f2383 | merge: integrate feature/internal-enhancements into develop                                                                      | —           | 01/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 00e53e3cca6c9c417cf7f0eecf2eef63f0a6c2f7 | chore(db): add Flyway support for database migrations                                                                            | —           | 01/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | b826e8b054cc70b0433a2f87e9359476436954b2 | feat(billing): add POST endpoint to register expenses and store payment with transaction                                         | —           | 01/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 5913216f180dab284494cc5a7e25dd4c8f1af13a | feat(billing): add command service method to register expenses                                                                   | —           | 01/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 5d7ebf245bb3ae6817e2abde972c833d6a91c52a | feat(billing): add command to register expenses                                                                                  | —           | 01/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 516040c2fdcdd5cc277dd6b28994ab1df3f6ab29 | feat(billing): add POST endpoint to pay invoice and record payment with transaction                                              | —           | 01/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 03b2b76dd3362baf9d6ff220203afb81ce85dd5c | feat(billing): add command service method to pay invoices from financial transaction                                             | —           | 01/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | b9e516ea0f78bca44fe61270cc219f8cd37d5c14 | feat(billing): add command to mark invoices as paid                                                                              | —           | 01/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 4b450fc8f9e1ef74b64ca19b31a3c2531d7c053d | refactor(invoice): adapt aggregate to use ACL for student name retrieval                                                         | —           | 01/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 74c016598783f76594c32b4b0e21c2fbd9434a39 | feat(billing): add enrollment ACL implementation in application layer                                                            | —           | 01/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 7dee9102738fb365b1830e8095f22e439f47301e | feat(enrollments): add facade for ACL (anti-corruption layer)                                                                    | —           | 01/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 9bf1c4598361d3310b1c0942f8c4bb095f86595b | fix(openapi): enforce HTTPS server URL in Swagger docs to avoid mixed content errors                                             | —           | 01/07/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | development                    | 45786c5120b69c3bc665d830a6b134aa8063c96e | chore(release): prepare v1.1.0                                                                                                   | —           | 30/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 08fbd9723cda1fd30f827d79b07e0bc24d84b296 | feat(billing): add FinancialTransactions controller                                                                              | —           | 30/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 08a4792009916b2e9c9990ae2d357c9489af00f8 | feat(billing): add FinancialTransaction resources and assembler                                                                  | —           | 30/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 8e31c4343d612b6e978980858cc811b598ef1a8d | feat(billing): add FinancialTransaction command services                                                                         | —           | 30/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 7288661eefde8d2c30b5a18f1e6ccc2cd95f9fa3 | feat(billing): add FinancialTransaction aggregate                                                                                | —           | 30/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 5b9ef2e881b4dc08a7e0af3b8860f6183a6a184e | refactor(billing): decouple Payment entity from Invoice relationship                                                             | —           | 30/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | ba5749f33a6b8b40552ad28f314294d86e387c7c | refactor(billing): add student dni in invoice aggregate                                                                          | —           | 30/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | c357d24f686771093b344a5c21ee16506a0733f8 | refactor(billing): replace student ID with DNI in invoice query                                                                  | —           | 30/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 18e9019b55c31d5b04641a855308d21800875bf5 | refactor(billing): move dni value object to shared context                                                                       | —           | 30/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 5fa0c74192dba0993b91a460ed6333a62872cc1b | merge branch 'develop' into feature/enrollment-management                                                                        | —           | 30/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 6a18f71789a33f960b157236f8d861030f21cd1c | feat(db): add foreign keys migration script                                                                                      | —           | 30/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | e26d24a6d81d8d2350eeaadf48822298b96c8a5a | feat(flyway): add Flyway configuration for demy platform                                                                         | —           | 30/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | de5bad8e0ad1ae8aef1962379745fdb078203c8c | feat(enrollment): add AcademyId value object                                                                                     | —           | 30/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | a2785589f78015b425913a69b9134ab16762c806 | chore: fix conflicts                                                                                                             | —           | 29/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 515839fb02c68c5df868ca6695bf01d3459e8966 | chore: fix conflicts                                                                                                             | —           | 29/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 0975bada14daf12d89583640e812b2795c37c893 | chore(iam): delete comments                                                                                                      | —           | 29/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | develop                        | 95fd495c705e873de312dec994952420a9e68550 | merge: integrate feature/internal-enhancements into develop                                                                      | —           | 29/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | adb193b68e666abc9348fad99444d0fa19e58146 | feat(IAM): complete JWT authentication and authorization integration                                                             | —           | 29/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 02dc7785c446b51aaebcf504e8cba8bee0cffb1b | feat(IAM): integrate complete JWT security pipeline with custom UserDetails and filter                                           | —           | 29/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 297f635a780de73af0c8c2e1b8cfb492b9df05e1 | feat(IAM): implement JWT TokenService following clean architecture                                                               | —           | 29/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | ed7549d64dec6ba90226bc60c692d780eb68bb6d | refactor(IAM): replace static PasswordHasher with injected HashingService                                                        | —           | 29/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 3b0381fda0fd3fdd934bca1a48d01ea266d0321b | refactor(IAM): update controller in interfaces layer                                                                             | —           | 29/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | edef5eed0cc6105d0f595fd1e08e68642abebb33 | refactor(IAM): update assemblers in interfaces layer                                                                             | —           | 29/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 77f3d80061fa366404e2b5810b70bdc2ab41f177 | refactor(IAM): update resources in interfaces layer                                                                              | —           | 29/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 5670eaca1d79f0e4fed7e874b49931e9c9e1670e | refactor(IAM): create queries for user aggregate                                                                                 | —           | 29/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 1f5f7ea31d2b85ff9120cc7ba75cb066c4921aff | refactor(IAM): create commands for user aggregate                                                                                | —           | 29/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 89474262c7d78bb3b9e770bfea03dcf85b94084b | refactor(IAM): update UserAccountRepository interface                                                                            | —           | 29/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | cc5bcd4735157f879a1d1763d84cb675af0806cf | refactor(IAM): update UserAccountCommandService interface and implementation                                                     | —           | 29/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | dbbecaaa1f987c2db78fddcb26184eff36cd2437 | refactor(IAM): update UserAccountQueryService interface and implementation                                                       | —           | 29/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/iam-user               | 4ef0433cbf17de1545f6920d9bb2d68f14f28a54 | refactor: change 'resources' folder to 'valueobjects' in iam context                                                             | —           | 29/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 0df1fa27fd6731221b8b559dec85349c88418fc5 | build: update pom.xml                                                                                                            | —           | 29/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 4b096968511d77f4de57b2951a330141f18654b3 | build: change database name                                                                                                      | —           | 27/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | develop                        | 4940ec6e9b7845bcbc9b96dc7e7bce67fbbce587 | docs: update OpenApiConfiguration with more information                                                                          | —           | 20/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/scheduling-management  | 6d4cb744ccb6a3a866f67454ad127d5fe1153968 | feat(scheduling): add scheduling package and layer diagrams                                                                      | —           | 20/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 88c7960add2cbdab4edf6522e8c07fb13137677f | docs: update layers and package diagrams for enrollment context                                                                  | —           | 20/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | main                           | f542099e52ac221ab176d2efa11286e240c40915 | merge: integrate branch 'hotfix/cors-fix' into branch 'main'                                                                     | —           | 20/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/billing-management     | 5f09f294e1239b1418e731eb6eee9d819651d47e | build: add SwaggerConfig                                                                                                         | —           | 20/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | feature/enrollment-management  | 163f1f098e3d7b16605f9f495d1cd0b7f40bf5c0 | docs: add layers, package and class diagrams for enrollment context                                                              | —           | 20/06/2025   |
+| upc-pre-202510-1asi0729-4304-smartedu/demy-web-service | hotfix/cors-fix                | 05ed81e57ea1cd9f1b5bed02f8ae4bf7016c367d | Merge branch 'hotfix/cors-fix' of https://github.com/upc-pre-202501-1asi0729-4304-smartedu/demy-web-service into hotfix/cors-fix | —           | 20/06/2025   |
+
+</div>
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+- TS01: Implementar endpoint para registrar y gestionar matrículas (POST, PUT, DELETE /enrollments)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS01.png)
+
+- TS02: Implementar endpoint para consultar matrícula por ID (GET /enrollments/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS02.png)
+
+- TS03: Implementar endpoint para listar matrículas (GET /enrollments)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS03.png)
+
+- TS04: Implementar endpoint para consultar matrícula por DNI (GET /enrollments/dni/{dni)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS04.png)
+
+- TS05: Implementar endpoint para registrar y gestionar estudiantes (POST, PUT, DELETE /students)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS05.png)
+
+- TS06: Implementar endpoint para obtener estudiante por ID (GET /students/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS06.png)
+
+- TS07: Implementar endpoint para listar estudiantes (GET /students)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS07.png)
+
+- TS08: Implementar endpoint para registrar y gestionar periodos academicos (POST, PUT, DELETE /academic-periods)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS08.png)
+
+
+- TS10: Implementar endpoint para listar períodos académicos (GET /academic-periods)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS10.png)
+
+
+- TS12: Implementar un endpoint para consultar la asistencia de un alumno por DNI
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS12.png)
+
+
+- TS13: Implementar un endpoint para consultar la asistencia de un alumno en un curso
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS13.png)
+
+- TS14: Implementar endpoint para registrar y consultar transacciones financieras (GET, POST /financial-transactions)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS14.png)
+
+- TS15: Implementar endpoint para poder consultar los perfiles de usuarios Admin
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS15.png)
+
+- TS16: Implementar endpoint para poder editar los perfiles de admin
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS16.png)
+
+- TS17: Implementar endpoint para poder consultar los perfiles de usuarios Teacher
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS17.png)
+
+- TS18: Implementar endpoint para poder agregar los perfiles de usuarios teacher
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS18.png)
+
+- TS19: Implementar endpoint para poder editar los perfiles de teacher
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS19.png)
+
+
+- TS22: Implementar endpoints para registrar, actualizar y eliminar un curso (POST /courses, PUT /courses/{id}, DELETE /courses/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS22.png)
+
+- TS23: Implementar endpoints para obtener datos de aulas (GET /classrooms, GET /classrooms/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS23.png)
+
+- TS24: Implementar endpoints para registrar, actualizar y eliminar un aula (POST /classrooms, PUT /classrooms/{id}, DELETE /classrooms/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS24.png)
+
+- TS25: Implementar endpoints para obtener datos de horarios semanales (GET /weeklyschedules, GET /weeklyschedules/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS25.png)
+
+- TS26: Implementar endpoints para registrar, actualizar y eliminar un horario semanal (POST /weeklyschedules, PUT /weeklyschedules/{id}, DELETE /weeklyschedules/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Open_Source/TS26.png)
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+Para el sprint 4, se adaptó el frontend con el backend y se terminó los endpoints restantes.<br>
+Inicialmente se trabajó con MOCKAPI, pero para esta entrega se completó nuestro BACKEND y lo integramos con el FRONTEND,<br>
+dando así de baja nuestro MOCKAPI.
+
+Web Service:
+
+<div style="font-size:70%;">
+
+| Endpoint              | Operaciones | Parámetros         | URL                                                         | Response                                                                       | 
+|-----------------------|-------------|--------------------|-------------------------------------------------------------|--------------------------------------------------------------------------------|
+| Users                 | PUT         | {id}               | /api/v1/users/teachers/{id}                                 | Edita el perfil del teacher<br> con el id correspondiente                      |  
+| Users                 | DELETE      | {id}               | /api/v1/users/teachers/{id}                                 | Elimina el perfil del teacher<br> con el id correspondiente                    | 
+| Users                 | PUT         | No tiene           | /api/v1/users/reset-password                                | Restablece la contraseña                                                       |
+| Users                 | GET         | No tiene           | /api/v1/users/teachers                                      | Obtiene todos los perfiles<br> teachers                                        | 
+| Users                 | POST        | No tiene           | /api/v1/users/teachers                                      | Agrega un nuevo perfil teacher                                                 |
+| Users                 | POST        | No tiene           | /api/v1/users/admins/sign-up                                | Guarda el registro de un perfil admin                                          | 
+| Users                 | POST        | No tiene           | /api/v1/users/sign-in                                       | Guarda el inicio de sesión de un admin                                         |
+| Classrooms            | GET         | {classroomId}      | /api/v1/classrooms/{classroomId}                            | Obtiene un classroom por su ID                                                 |
+| Classrooms            | PUT         | {classroomId}      | /api/v1/classrooms/{classroomId}                            | Edita un classroom por su ID                                                   |
+| Classrooms            | GET         | No tiene           | /api/v1/classrooms                                          | Obtiene todos los classrooms                                                   |
+| Classrooms            | POST        | No tiene           | /api/v1/classrooms                                          | Crea un nuevo classroom                                                        |
+| Courses               | GET         | {courseId}         | /api/v1/courses/{courseId}                                  | Obtiene un curso por su ID                                                     |                                  
+| Courses               | PUT         | {courseId}         | /api/v1/courses/{courseId}                                  | Edita un curso por su ID                                                       |
+| Courses               | DELETE      | {courseId}         | /api/v1/courses/{courseId}                                  | Elimina un curso por su ID                                                     |
+| Courses               | GET         | No tiene           | /api/v1/courses                                             | Obtiene todos los cursos                                                       |
+| Courses               | POST        | No tiene           | /api/v1/courses                                             | Crea un nuevo curso                                                            |
+| Enrollment            | POST        | No tiene           | /api/v1/enrollments                                         | Crea una nueva matrícula                                                       |
+| Enrollment            | DELETE      | {enrollmentId}     | /api/v1/enrollments/{enrollmentId}                          | Elimina una matrícula por su Id                                                |
+| Enrollment            | GET         | No tiene           | /api/v1/enrollments                                         | Obtiene todas las matrículas                                                   |
+| Enrollment            | GET         | {studentDni}       | /api/v1/enrollments/student/dni/{dni}                       | Obtiene las matrículas de un estudiante por DNI                                |
+| Enrollment            | GET         | {studentId}        | /api/v1/enrollments/student/{studentId}                     | Obtiene las matrículas de un estudiante por Id                                 |
+| Enrollment            | GET         | {enrollmentId}     | /api/v1/enrollments/{enrollmentId}                          | Obtiene las matrículas por su ID                                               |
+| Academic Period       | DELETE      | {academicPeriodId} | /api/v1/academic-periods/{academicPeriodId}                 | Elimina un periodo académico  por su ID                                        |
+| Academic Period       | GET         | No tiene           | /api/v1/academic-periods                                    | Obtiene todos los periodos académicos                                          |
+| Academic Period       | POST        | No tiene           | /api/v1/academic-periods                                    | Guarda un periodo académico                                                    |
+| Academic Period       | PUT         | {academicPeriodId} | /api/v1/academic-periods/{academicPeriodId}                 | Edita un periodo académico                                                     |
+| Student               | DELETE      | {studentId}        | /api/v1/students/{studentId}                                | Elimina un estudiante                                                          |
+| Student               | GET         | No tiene           | /api/v1/students                                            | Obtiene todos los estudiantes                                                  |
+| Student               | GET         | {studentId}        | /api/v1/students/{studentId}                                | Obtiene un estudiante con el Id solicitado                                     |
+| Student               | GET         | {studentDni}       | /api/v1/students/{studentDni}                               | Obtiene un estudiante con el DNI solicitado                                    |
+| Student               | POST        | No tiene           | /api/v1/students                                            | Guarda un estudiante                                                           |
+| Student               | PUT         | No tiene           | /api/v1/students                                            | Edita un estudiante                                                            |
+| WeeklySchedules       | GET         | {weeklyScheduleId} | /api/v1/weekly-schedules/{weeklyScheduleId}                 | Obtiene un horario semanal por su ID                                           |
+| WeeklySchedules       | PUT         | {weeklyScheduleId} | /api/v1/weekly-schedules/{weeklyScheduleId}                 | Edita un horario semanal por su ID                                             |
+| WeeklySchedules       | GET         | No tiene           | /api/v1/weekly-schedules                                    | Obtiene todos los horarios semanales                                           |
+| WeeklySchedules       | POST        | No tiene           | /api/v1/weekly-schedules                                    | Crea un nuevo horario semanal                                                  |
+| WeeklySchedules       | POST        | {weeklyScheduleId} | /api/v1/weekly-schedules/{weeklyScheduleId}/schedules       | Agrega un nuevo horario al horario semanal                                     |
+| WeeklySchedules       | GET         | {teacherId}        | /api/v1/weekly-schedules/by-teacher/{teacherId}             | Obtiene los horarios semanales de un profesor por su teacherId                 |
+| WeeklySchedules       | PUT         | {scheduleId}       | /api/v1/weekly-schedules/schedules/{scheduleId}             | Edita un horario semanal por su scheduleId                                     |
+| WeeklySchedules       | DELETE      | {weeklyScheduleId} | /api/v1/weekly-schedules/{weeklyScheduleId}                 | Elimina un horario semanal por su weeklyScheduleId                             |
+| Invoices              | GET         | {dni}              | /api/v1/students/{dni}/invoices                             | Obtiene las facturas de un estudiante por su DNI                               |
+| Invoices              | POST        | {dni}              | /api/v1/students/{dni}/invoices                             | Guarda la factura de un estudiante por su DNI                                  |
+| FinancialTransactions | POST        | no tiene           | /api/v1/financial-transactions/expenses                     | Guarda los gastos de una transacción financiera                                |
+| FinancialTransactions | POST        | {invoiceId}        | /api/v1/financial-transactions/invoices/{invoiceId}/payment | Guarda el pago de un estudiante a su factura por su invoiceId                  |
+| FinancialTransactions | POST        | no tiene           | /api/v1/financial-transactions/                             | Guarda una transacción financiera                                              |
+| Class Sessions        | POST        | No tiene           | /api/v1/class-sessions                                      | Guarda el registro de asistencia una sesión clase                              |
+| Class Sessions        | GET         | No tiene           | /api/v1/class-sessions/report                               | Obtiene la asistencia de un estudiante por su CourseId, Dni y rango de fechas  |
+
+
+</div>
+
+A continuación se presenta capturas de los endpoints en ejecución:
+
+Users:<br>
+
+![Captura](./assets/screenshots/Add_New_Teacher_Profile.png)
+
+![Captura](./assets/screenshots/Admins-sign-in.jpg)
+
+![Captura](./assets/screenshots/Admins-sign-up.jpg)
+
+![Captura](./assets/screenshots/Delete_Teacher.png)
+
+![Captura](./assets/screenshots/Edit_Teacher.png)
+
+![Captura](./assets/screenshots/Get_Teacher_Profiles.png)
+
+![Captura](./assets/screenshots/Reset_Password.png)
+
+
+Enrollment: <br>
+
+![Captura](./assets/screenshots/CREATE%20ENROLLMENT.png)
+
+![Captura](./assets/screenshots/DELETE%20ACADEMIC%20PERIOD.png)
+
+![Captura](./assets/screenshots/DELETE%20ENROLLMENT.png)
+
+![Captura](./assets/screenshots/DELETE%20STUDENT.png)
+
+![Captura](./assets/screenshots/GET%20ALL%20ACADEMIC%20PERIODS.png)
+
+![Captura](./assets/screenshots/GET%20ALL%20ENROLLMENTS.png)
+
+![Captura](./assets/screenshots/GET%20ALL%20ENROLLMENTS%20BY%20STUDENT%20DNI.png)
+
+![Captura](./assets/screenshots/GET%20ALL%20ENROLLMENTS%20BY%20STUDENT%20ID.png)
+
+![Captura](./assets/screenshots/GET%20ALL%20STUDENTS.png)
+
+![Captura](./assets/screenshots/GET%20ENROLLMENT%20BY%20ID.png)
+
+![Captura](./assets/screenshots/GET%20STUDENT%20BY%20DNI%20.png)
+
+![Captura](./assets/screenshots/GET%20STUDENT%20BY%20ID.png )
+
+![Captura](./assets/screenshots/POST%20ACADEMIC-PERIODS.png)
+
+![Captura](./assets/screenshots/POST%20STUDENT.png)
+
+![Captura](./assets/screenshots/PUT%20ACADEMIC%20PERIOD.png)
+
+![Captura](./assets/screenshots/PUT%20STUDENT.png)
+
+Scheduling: <br>
+
+![Captura](./assets/screenshots/add-schedule-on-weekly.jpeg)
+
+![Captura](./assets/screenshots/get-all-classroom.jpeg)
+
+![Captura](./assets/screenshots/get-all-courses.jpeg)
+
+![Captura](./assets/screenshots/get-classroom-by-id.jpeg)
+
+![Captura](./assets/screenshots/get-course-by-id.jpeg)
+
+![Captura](./assets/screenshots/update-classroom-by-id.jpeg)
+
+![Captura](./assets/screenshots/update-course-by-id.jpeg)
+
+![Captura](./assets/screenshots/delete-weekly-schedule.jpg)
+
+![Captura](./assets/screenshots/put-weekly-schedule.jpg)
+
+![Captura](./assets/screenshots/get-weekly-byteacher.jpg)
+
+Attendance: <br>
+
+![Captura](./assets/screenshots/add-attendance-class-session.png)
+
+![Captura](./assets/screenshots/get-classsession-report.jpg)
+
+Invoices: <br>
+
+![Captura](./assets/screenshots/get-student-invoices.jpg)
+
+![Captura](./assets/screenshots/get-financial.jpg)
+
+![Captura](./assets/screenshots/post-financial-expenses.jpg)
+
+![Captura](./assets/screenshots/post-financial-payment.jpg)
+
+![Captura](./assets/screenshots/post-student-invoices.jpg)
+
+
+| Endpoint    | Commit Id |
+|-------------|-----------|
+| users       | f80c312   |
+| attendance  | 728414b   |
+| billing     | 82e44f0   |
+| schedule    | c59bc26   |
+| enrollment  | cac68e7   |
+
+Link del Repositorio del Web Services: https://github.com/upc-pre-202510-1asi0729-4304-smartedu/demy-web-service.git
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+**Pasos para el despliegue del backend en Railway:**
+
+1. Entrar a la pagina principal https://railway.com/
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/1.jpg)
+
+
+2. Iniciar sesión con github
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/2.jpg)
+
+
+3. Elegir un nuevo proyecto
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/3.jpg)
+
+
+4. Seleccionar el proyecto desde github
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/4.jpg)
+
+
+5. Esperar a que complete
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/5.jpg)
+
+
+6. Aparece activo por unos momentos
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/6.jpg)
+
+
+7. Pero fallará porque no encuentra la base de datos
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/7.jpg)
+
+
+8. Crea una instancia de la base de datos en mysql
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/8.jpg)
+
+
+9. Espera a que termine
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/9.jpg)
+
+
+10. Una vez iniciado, entrar a Variables y copiar los datos de: MYSQLHOST, MYSQLPORT, MYSQLDATABASE, MYSQLUSER y MYSQLPASSWORD
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/10.jpg)
+
+11. Asignar las variables de entorno a la instancia del backend, incluir SPRING_PROFILES_ACTIVE
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/11.jpg)
+
+
+12. Desplegar nuevamente
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/12.jpg)
+
+
+13. Completado y sin errores
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/13.jpg)
+
+
+14. Entramos a settings > networking > generate domain
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/14.jpg)
+
+
+15. Generamos la URL en el puerto 8080 e ingresamos
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/15.jpg)
+
+
+16. Visualizamos los endpoints
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/16.jpg)
+
+
+17. Funciona sin problemas
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/17.jpg)
+
+18. Asignar la variable de entorno STRIPE_KEY
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/18.jpg)
+
+**Autenticacion de la tarjeta en pagina Stripe:**
+![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/sprite.png)
+
+**Pagina swagger desplegado:**
+
+1. Bounded Iam: Bounded el cual contiene las funcionalidades con los datos de user teacher y admin
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/bounded_Iam.png)
+
+2. Bounded Attendance Managemet: Bounded el cual contiene las funcionalidades con los datos de student
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/bounded_Attendance.png)
+
+3. Bounded Billing Management: Bounded el cual contiene las funcionalidades con los datos de pagos
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/bounded_Billing.png)
+
+4. Bounded Enrollment Managemet: Bounded el cual contiene las funcionalidades con los datos de registro
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/bounded_Enrollment.png)
+
+5. Bounded Scheduling Managemet: Bounded el cual contiene las funcionalidades con los datos de cursos, horarios y ciclo académico.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Open_Source/bounded_Schedules.png)
+
+Link de video de presentación sobre el Web Application [VideoPresentacionWebApplication](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EfHlpt_8EgxDpWn1Pv1sbYMBtB8vWXqbcDADxPiToUtrDg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tuWFQv)
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+| Alumno                             | Actividad                             |
+|------------------------------------|---------------------------------------|
+| Crispin Ramos, Daniel Franco       | scheduling management                 |
+| Dominguez Vargas, Rafael Alexander | iam user (Sign up, Sign in)           |
+| Ramirez Mestanza, Salim Ignacio    | initial structure and billing context |
+| Sulca Gonzales, Paúl Fernando      | enrollment management                 |
+| Vilca Saboya, Diego Alejandro      | attendance management                 |
+
+![Captura de pantalla de los insights Sprint 4](./assets/screenshots/sprint4-insights-1.png)
+
+![Captura 2 de pantalla de los insights del Sprint 4](./assets/screenshots/sprint4-insights-2.png)
 
 ## 5.3. Validation Interviews
 
@@ -4933,7 +5652,7 @@ Aplicar un sistema de colores o etiquetas para diferenciar claramente los ingres
 
 ## 5.4. Video About-the-Product
 
-Enlace al video about-the-product: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/ESETwQAXHZFHofT6lFN0cY4Bs8m-TbRog2PpkGOtmfz0AA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2EJ5Ef)
+Enlace al video about-the-product: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EXml96CmIHlGlwlOFeeV6wYB7Ed6rmv6VlAjxt-4G3Xn-g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3YceWD)
 
 ## Conclusiones y Recomendaciones
 
@@ -4965,7 +5684,7 @@ Esto contribuirá a reducir la curva de aprendizaje y a mejorar la percepción d
 
 ## Video About-the-Team
 
-Enlace al video about the team: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/ETPH22Fqwp5DtSCn5WfOYXoBDIwqLqz-5Y6ETZqcxru8QQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uVQQLG)
+Enlace al video about the team: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EcC1kIJn-6tGnWcKHHXvfIIBglZeexMIal8yK1Apm1NOHA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7P59dB)
 
 # Bibliografía
 
@@ -4985,6 +5704,8 @@ Enlace del video de exposición TP1: [Ver en Microsoft Streams](https://upcedupe
 
 Enlace del video de exposición TB2: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EavAhMAvdHxBqUZ8lYmUUGcBiROiDz8zQeWy0WdRWmjBmw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6NSSnz)
 
+Enlace del video de exposición TF1: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/ESBbMZPs0iVJsmBHpXjLMvcBnFLj2T4bAu6IOgsL8MIkCQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=88nVKm)
+
 Enlace del repositorio en Github: [Ver en Github](https://github.com/upc-pre-202510-1asi0729-4304-smartedu/demy-report)
 
 Enlace a la landing page: [Abrir en el navegador](https://demy-academy.netlify.app/)
@@ -4992,3 +5713,13 @@ Enlace a la landing page: [Abrir en el navegador](https://demy-academy.netlify.a
 Enlace al frontend web application: [Abrir en el navegador](https://demy-web-app.netlify.app/)
 
 Enlace al backend web service: [Abrir en el navegador](https://demy-web-service-production.up.railway.app/swagger-ui/index.html)
+
+Credenciales de acceso para la aplicación:
+
+**Segmento objetivo: administradores**
+- Correo: juanperez@gmail.com
+- Contraseña: juanperez123
+
+**Segmento objetivo: profesores**
+- Correo: sebasmr@gmail.com
+- Contraseña: sebasmr123
