@@ -4398,6 +4398,30 @@ A continuación se presentará el sprint planning para esta entrega, donde defin
 | Sprint 4 Velocity               | 33                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Sum of Story Points             | 33                                                                                                                                                                                                                                                                                                                                                                                                              |
 
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+
+A continuación se presenta el artefacto LACX (Leadership-and-Collaboration Matrix) que ayudará a saber quién lidera y quién colabora en cada aspecto de este cuarto sprint.<br>
+Los aspectos que tomamos en cuenta para este tercer sprint fueron los features para el Backend Web Service y el Frontend Web Application, concluyendo su integración.
+
+<div style="font-size:70%;">
+
+| **Team Member** <br> Last Name, First Name | **GitHub Username**  | **IAM Context** <br> L/C | **Enrollment Context** <br> L/C | **Billing Context** <br> L/C | **Scheduling Context** <br> L/C | **Attendance Context** <br> L/C |
+|:------------------------------------------:|:--------------------:|:------------------------:|:-------------------------------:|:----------------------------:|:-------------------------------:|:-------------------------------:|
+|             **Crispin Daniel**             |      danielcr04      |            C             |                C                |              C               |                L                |                C                |
+|            **Dominguez Rafael**            |       Radv2005       |            L             |                C                |              C               |                C                |                C                |
+|             **Ramirez Salim**              |     salimramirez     |            C             |                C                |              L               |                C                |                C                |
+|               **Sulca Paúl**               |        Kyrubi        |            C             |                L                |              C               |                C                |                C                |
+|              **Vilca Diego**               |       diesoks        |            C             |                C                |              C               |                C                |                L                |
+
+</div>
+
+<div style="text-align: center; font-size:85%; margin-top: 0.5rem;">
+
+**Nota.** L = *Leader* (responsable principal del aspecto).  
+C = *Collaborator* (apoya el desarrollo del aspecto).
+
+</div>
+
 ## 5.3. Validation Interviews
 
 En esta sección, nos enfocamos en evaluar la usabilidad de la página web creada para optimizar la gestión de academias educativas en el país. Esta etapa fundamental consiste en realizar entrevistas con los usuarios principales: administrativos y profesores.
